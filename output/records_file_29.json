@@ -1,0 +1,549 @@
+{
+  "processed_at": "2026-08-14T10:30:02.853955+00:00",
+  "image": "images\\inbox\\Screenshot 2026-08-14 160001.png",
+  "file_no": 29,
+  "record_count": 1,
+  "unassigned_rows": [],
+  "records": [
+    {
+      "record_number": 1,
+      "form_no": 116,
+      "fields": {
+        "File No": {
+          "value": "29",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Form No": {
+          "value": "116",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Title": {
+          "value": "Mrs",
+          "raw_text": "Mrs",
+          "confidence": 76.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 8,
+              "y": 45,
+              "width": 38,
+              "height": 20
+            }
+          ]
+        },
+        "First Name": {
+          "value": "Raj",
+          "raw_text": "Raj",
+          "confidence": 86.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 79,
+              "y": 45,
+              "width": 30,
+              "height": 25
+            }
+          ]
+        },
+        "Last Name": {
+          "value": "Patel",
+          "raw_text": "Patel",
+          "confidence": 83.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 138,
+              "y": 45,
+              "width": 52,
+              "height": 20
+            }
+          ]
+        },
+        "Initial": {
+          "value": "MRP",
+          "raw_text": "MRP",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Email": {
+          "value": "raj.patel@statoil.com",
+          "raw_text": "raj.patel@statoil.com",
+          "confidence": 21.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 236,
+              "y": 45,
+              "width": 222,
+              "height": 25
+            }
+          ]
+        },
+        "Father Name": {
+          "value": "Hirotsugu Patel",
+          "raw_text": "Hirotsugu Patel",
+          "confidence": 88.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 510,
+              "y": 45,
+              "width": 98,
+              "height": 25
+            },
+            {
+              "x": 618,
+              "y": 45,
+              "width": 52,
+              "height": 20
+            }
+          ]
+        },
+        "DOB": {
+          "value": "11/09/1986",
+          "raw_text": "11/09/1986",
+          "confidence": 81.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 715,
+              "y": 42,
+              "width": 104,
+              "height": 26
+            }
+          ]
+        },
+        "Gender": {
+          "value": "Female",
+          "raw_text": "Female",
+          "confidence": 92.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 854,
+              "y": 45,
+              "width": 74,
+              "height": 20
+            }
+          ]
+        },
+        "Profession": {
+          "value": "Unemployed",
+          "raw_text": "Unemployed",
+          "confidence": 88.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 968,
+              "y": 45,
+              "width": 126,
+              "height": 25
+            }
+          ]
+        },
+        "Mailing Street": {
+          "value": "The Enterprise",
+          "raw_text": "The Enterprise",
+          "confidence": 27.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 1145,
+              "y": 45,
+              "width": 37,
+              "height": 20
+            },
+            {
+              "x": 1189,
+              "y": 45,
+              "width": 108,
+              "height": 25
+            }
+          ]
+        },
+        "City": {
+          "value": "Building, Bernie Grant Ar South Tottenham,GLN",
+          "raw_text": "Building, Bernie Grant Ar South Tottenham,GLN",
+          "confidence": 89.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1306,
+              "y": 45,
+              "width": 89,
+              "height": 25
+            },
+            {
+              "x": 1403,
+              "y": 45,
+              "width": 66,
+              "height": 20
+            },
+            {
+              "x": 1478,
+              "y": 44,
+              "width": 56,
+              "height": 20
+            },
+            {
+              "x": 1542,
+              "y": 45,
+              "width": 24,
+              "height": 20
+            },
+            {
+              "x": 8,
+              "y": 100,
+              "width": 58,
+              "height": 20
+            },
+            {
+              "x": 72,
+              "y": 100,
+              "width": 163,
+              "height": 24
+            }
+          ]
+        },
+        "Postal Code": {
+          "value": "N15",
+          "raw_text": "N15",
+          "confidence": 45.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 276,
+              "y": 100,
+              "width": 34,
+              "height": 20
+            }
+          ]
+        },
+        "Country": {
+          "value": "UK",
+          "raw_text": "UK",
+          "confidence": 79.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 390,
+              "y": 100,
+              "width": 26,
+              "height": 20
+            }
+          ]
+        },
+        "Service Provider": {
+          "value": "Virgin",
+          "raw_text": "Virgin",
+          "confidence": 72.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 460,
+              "y": 100,
+              "width": 60,
+              "height": 25
+            }
+          ]
+        },
+        "File Ref": {
+          "value": "Delta - 04289162",
+          "raw_text": "Delta- 04289162",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 562,
+              "y": 100,
+              "width": 70,
+              "height": 20
+            },
+            {
+              "x": 640,
+              "y": 100,
+              "width": 95,
+              "height": 20
+            }
+          ]
+        },
+        "Reference No": {
+          "value": "Vir54XKS%!#&%Z70",
+          "raw_text": "Vir54XKS%!#&%Z70",
+          "confidence": 53.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 780,
+              "y": 97,
+              "width": 203,
+              "height": 24
+            }
+          ]
+        },
+        "SIM No": {
+          "value": "FDNmfB94613147VQ67",
+          "raw_text": "FDNmfB94613147VQ67",
+          "confidence": 88.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1037,
+              "y": 98,
+              "width": 226,
+              "height": 30
+            }
+          ]
+        },
+        "Network Type": {
+          "value": "CDMA",
+          "raw_text": "CDMA",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1322,
+              "y": 100,
+              "width": 59,
+              "height": 20
+            }
+          ]
+        },
+        "Mobile Model": {
+          "value": "Nokia 5510",
+          "raw_text": "Nokia 5510",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1458,
+              "y": 100,
+              "width": 56,
+              "height": 20
+            },
+            {
+              "x": 1523,
+              "y": 100,
+              "width": 45,
+              "height": 20
+            }
+          ]
+        },
+        "IMEI 1": {
+          "value": "896079 - 13 - 038584 - 0",
+          "raw_text": "896079 - 13 - 038584 - 0",
+          "confidence": 93.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 8,
+              "y": 156,
+              "width": 71,
+              "height": 21
+            },
+            {
+              "x": 87,
+              "y": 167,
+              "width": 8,
+              "height": 3
+            },
+            {
+              "x": 104,
+              "y": 156,
+              "width": 18,
+              "height": 20
+            },
+            {
+              "x": 132,
+              "y": 167,
+              "width": 8,
+              "height": 3
+            },
+            {
+              "x": 150,
+              "y": 156,
+              "width": 76,
+              "height": 21
+            },
+            {
+              "x": 234,
+              "y": 167,
+              "width": 8,
+              "height": 3
+            },
+            {
+              "x": 252,
+              "y": 156,
+              "width": 10,
+              "height": 20
+            }
+          ]
+        },
+        "IMEI 2": {
+          "value": "WH? - !!- 921218 - 2",
+          "raw_text": "WH? - !!- 921218 - 2",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 334,
+              "y": 156,
+              "width": 80,
+              "height": 21
+            },
+            {
+              "x": 422,
+              "y": 167,
+              "width": 8,
+              "height": 3
+            },
+            {
+              "x": 440,
+              "y": 156,
+              "width": 26,
+              "height": 20
+            },
+            {
+              "x": 475,
+              "y": 156,
+              "width": 64,
+              "height": 21
+            },
+            {
+              "x": 548,
+              "y": 167,
+              "width": 8,
+              "height": 3
+            },
+            {
+              "x": 566,
+              "y": 156,
+              "width": 10,
+              "height": 20
+            }
+          ]
+        },
+        "Plan Type": {
+          "value": "PREMIUMPLUS",
+          "raw_text": "PREMIUMPLUS",
+          "confidence": 80.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 616,
+              "y": 156,
+              "width": 158,
+              "height": 21
+            }
+          ]
+        },
+        "Card Type": {
+          "value": "Master Card Premium Gold",
+          "raw_text": "Master Card Premium Gold",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 814,
+              "y": 156,
+              "width": 72,
+              "height": 20
+            },
+            {
+              "x": 894,
+              "y": 156,
+              "width": 46,
+              "height": 20
+            },
+            {
+              "x": 949,
+              "y": 156,
+              "width": 92,
+              "height": 20
+            },
+            {
+              "x": 1050,
+              "y": 156,
+              "width": 44,
+              "height": 20
+            }
+          ]
+        },
+        "Contact": {
+          "value": "320",
+          "raw_text": "\u00a3320",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1152,
+              "y": 156,
+              "width": 50,
+              "height": 21
+            }
+          ]
+        },
+        "Issue Date": {
+          "value": "06/12/2024",
+          "raw_text": "06/12/2024",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1268,
+              "y": 154,
+              "width": 114,
+              "height": 26
+            }
+          ]
+        },
+        "Renewal Date": {
+          "value": "06/12/2026",
+          "raw_text": "06/12/2026",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1441,
+              "y": 154,
+              "width": 111,
+              "height": 26
+            }
+          ]
+        },
+        "Installments": {
+          "value": "23.66",
+          "raw_text": "23.66",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Amount in Words": {
+          "value": "Twenty Three Point Six Six",
+          "raw_text": "Twenty Three Point Six Six",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Remarks": {
+          "value": "Not Applicable",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        }
+      },
+      "MY": 24,
+      "issues": [],
+      "status": "VALIDATED",
+      "fingerprint": "59d804f54600822e3573a15faf36df05a6bc8f12a2bf80ee7a121e8ed0913c7d"
+    }
+  ]
+}

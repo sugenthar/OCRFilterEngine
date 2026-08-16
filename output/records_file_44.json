@@ -1,0 +1,797 @@
+{
+  "processed_at": "2026-08-15T08:46:09.354908+00:00",
+  "image": "images\\inbox\\Screenshot 2026-08-15 141604.png",
+  "file_no": 44,
+  "ocr_variant": "C",
+  "image_quality": "Dimensions: 1408x247 | Brightness: 238.3 | Contrast: 54.8 | Blank: False",
+  "record_count": 1,
+  "unassigned_rows": [],
+  "records": [
+    {
+      "record_number": 1,
+      "form_no": 175,
+      "fields": {
+        "File No": {
+          "value": "44",
+          "raw_text": "",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "normalized_value": "44",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Form No": {
+          "value": "175",
+          "raw_text": "",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "normalized_value": "175",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Title": {
+          "value": "Miss",
+          "raw_text": "MISS",
+          "confidence": 73.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 21,
+              "y": 28,
+              "width": 44,
+              "height": 18
+            }
+          ],
+          "normalized_value": "Miss",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "First Name": {
+          "value": "Lisa",
+          "raw_text": "Lisa",
+          "confidence": 73.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 95,
+              "y": 28,
+              "width": 37,
+              "height": 18
+            }
+          ],
+          "normalized_value": "Lisa",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Last Name": {
+          "value": "Caleno",
+          "raw_text": "Caleno",
+          "confidence": 90.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 150,
+              "y": 28,
+              "width": 62,
+              "height": 18
+            }
+          ],
+          "normalized_value": "Caleno",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Initial": {
+          "value": "MLC",
+          "raw_text": "MLC",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "normalized_value": "MLC",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Email": {
+          "value": "lelia.greci@jurysinns.com",
+          "raw_text": "lelia.greci@jurysinns.com",
+          "confidence": 85.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 260,
+              "y": 28,
+              "width": 236,
+              "height": 23
+            }
+          ],
+          "normalized_value": "lelia.greci@jurysinns.com",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Father Name": {
+          "value": "Addy Caleno",
+          "raw_text": "AddyCaleno",
+          "confidence": 85.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 526,
+              "y": 28,
+              "width": 115,
+              "height": 23
+            }
+          ],
+          "normalized_value": "Addy Caleno",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "DOB": {
+          "value": "13/09/1986",
+          "raw_text": "13/09/1986",
+          "confidence": 77.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 677,
+              "y": 27,
+              "width": 95,
+              "height": 22
+            }
+          ],
+          "normalized_value": "13/09/1986",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Gender": {
+          "value": "Female",
+          "raw_text": "Female",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 807,
+              "y": 28,
+              "width": 66,
+              "height": 18
+            }
+          ],
+          "normalized_value": "Female",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Profession": {
+          "value": "Business",
+          "raw_text": "Business",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 898,
+              "y": 28,
+              "width": 81,
+              "height": 18
+            }
+          ],
+          "normalized_value": "Business",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Mailing Street": {
+          "value": "139 Kings Road",
+          "raw_text": "139 Kings Road",
+          "confidence": 20.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 1014,
+              "y": 28,
+              "width": 28,
+              "height": 18
+            },
+            {
+              "x": 1050,
+              "y": 28,
+              "width": 50,
+              "height": 23
+            },
+            {
+              "x": 1107,
+              "y": 28,
+              "width": 44,
+              "height": 18
+            }
+          ],
+          "normalized_value": "139 Kings Road",
+          "validation": "REVIEW",
+          "failure_reasons": [
+            "LOW_OCR_CONFIDENCE"
+          ],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "City": {
+          "value": "Arches Brighton, East Sussex",
+          "raw_text": "Arches Brighton, East Sussex",
+          "confidence": 84.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1159,
+              "y": 28,
+              "width": 63,
+              "height": 18
+            },
+            {
+              "x": 1253,
+              "y": 28,
+              "width": 83,
+              "height": 23
+            },
+            {
+              "x": 1343,
+              "y": 28,
+              "width": 39,
+              "height": 18
+            },
+            {
+              "x": 21,
+              "y": 78,
+              "width": 65,
+              "height": 18
+            }
+          ],
+          "normalized_value": "Arches Brighton, East Sussex",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Postal Code": {
+          "value": "BNI 2FN",
+          "raw_text": "BNI 2FN",
+          "confidence": 24.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 127,
+              "y": 78,
+              "width": 31,
+              "height": 18
+            },
+            {
+              "x": 166,
+              "y": 78,
+              "width": 34,
+              "height": 18
+            }
+          ],
+          "targeted_ocr": {
+            "attempted": true,
+            "result": "BN] 2FN",
+            "confidence": 58.5,
+            "decision": "NO_SAFE_CORRECTION"
+          },
+          "normalized_value": "BNI 2FN",
+          "validation": "REVIEW",
+          "failure_reasons": [
+            "LOW_OCR_CONFIDENCE"
+          ]
+        },
+        "Country": {
+          "value": "England",
+          "raw_text": "England",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 247,
+              "y": 78,
+              "width": 73,
+              "height": 23
+            }
+          ],
+          "normalized_value": "England",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Service Provider": {
+          "value": "Hutchison Whampoa",
+          "raw_text": "Hutchison",
+          "confidence": 93.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 368,
+              "y": 78,
+              "width": 89,
+              "height": 18
+            }
+          ],
+          "normalized_value": "Hutchison Whampoa",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "File Ref": {
+          "value": "Whampoa - Tango - 423916390",
+          "raw_text": "Whampoa Tango 423916390",
+          "confidence": 35.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 464,
+              "y": 78,
+              "width": 90,
+              "height": 23
+            },
+            {
+              "x": 595,
+              "y": 78,
+              "width": 53,
+              "height": 23
+            },
+            {
+              "x": 672,
+              "y": 78,
+              "width": 94,
+              "height": 18
+            }
+          ],
+          "normalized_value": "Whampoa - Tango - 423916390",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Reference No": {
+          "value": "HuWh\u00e9Inr+#!@#&z8405650",
+          "raw_text": "HuWh\u00e9Inr+#!@#&z8405650",
+          "confidence": 34.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 808,
+              "y": 78,
+              "width": 255,
+              "height": 23
+            }
+          ],
+          "targeted_ocr": {
+            "attempted": true,
+            "result": "HuWh\u00e9inr+#!@#&28405650",
+            "confidence": 53.0,
+            "decision": "NO_SAFE_CORRECTION"
+          },
+          "normalized_value": "HuWh\u00e9Inr+#!@#&z8405650",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "SIM No": {
+          "value": "DZNstG412141157BH76",
+          "raw_text": "DZNstG412141157BH76",
+          "confidence": 76.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1121,
+              "y": 78,
+              "width": 196,
+              "height": 18
+            }
+          ],
+          "normalized_value": "DZNstG412141157BH76",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Network Type": {
+          "value": "CDMA+CDMA",
+          "raw_text": "CDMA+CDMA",
+          "confidence": 90.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 22,
+              "y": 127,
+              "width": 116,
+              "height": 18
+            }
+          ],
+          "normalized_value": "CDMA+CDMA",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Mobile Model": {
+          "value": "",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": [],
+          "normalized_value": "",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "IMEI 1": {
+          "value": "CDMA+CDMA 1722 943826 - 52 - 988142 - 5",
+          "raw_text": "CDMA+CDMA 1722 943826 - 52 - 988142 - 5",
+          "confidence": 26.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 22,
+              "y": 127,
+              "width": 116,
+              "height": 18
+            },
+            {
+              "x": 177,
+              "y": 127,
+              "width": 43,
+              "height": 18
+            },
+            {
+              "x": 254,
+              "y": 127,
+              "width": 64,
+              "height": 18
+            },
+            {
+              "x": 326,
+              "y": 136,
+              "width": 7,
+              "height": 3
+            },
+            {
+              "x": 342,
+              "y": 127,
+              "width": 21,
+              "height": 18
+            },
+            {
+              "x": 370,
+              "y": 136,
+              "width": 7,
+              "height": 3
+            },
+            {
+              "x": 386,
+              "y": 127,
+              "width": 62,
+              "height": 18
+            },
+            {
+              "x": 456,
+              "y": 136,
+              "width": 7,
+              "height": 3
+            },
+            {
+              "x": 471,
+              "y": 127,
+              "width": 8,
+              "height": 18
+            }
+          ],
+          "targeted_ocr": {
+            "attempted": true,
+            "result": "CDMA+CDMA) = T722 943826 - 52 - 988142 - 5",
+            "confidence": 65.9,
+            "decision": "NO_SAFE_CORRECTION"
+          },
+          "normalized_value": "CDMA+CDMA 1722 943826 - 52 - 988142 - 5",
+          "validation": "REVIEW",
+          "failure_reasons": [
+            "LOW_OCR_CONFIDENCE",
+            "INVALID_IMEI1"
+          ]
+        },
+        "IMEI 2": {
+          "value": "l!#SS# - $? - 468976- 2",
+          "raw_text": "l!#SS# - $? - 468976- 2",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 528,
+              "y": 125,
+              "width": 59,
+              "height": 22
+            },
+            {
+              "x": 594,
+              "y": 136,
+              "width": 8,
+              "height": 3
+            },
+            {
+              "x": 611,
+              "y": 125,
+              "width": 19,
+              "height": 22
+            },
+            {
+              "x": 637,
+              "y": 136,
+              "width": 7,
+              "height": 3
+            },
+            {
+              "x": 653,
+              "y": 127,
+              "width": 79,
+              "height": 18
+            },
+            {
+              "x": 741,
+              "y": 127,
+              "width": 9,
+              "height": 18
+            }
+          ],
+          "targeted_ocr": {
+            "attempted": true,
+            "result": "'#SS# - $? - 468976 - 2",
+            "confidence": 77.29,
+            "decision": "NO_SAFE_CORRECTION"
+          },
+          "normalized_value": "l!#SS# - $? - 468976- 2",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "Plan Type": {
+          "value": "AlacartePack",
+          "raw_text": "AlacartePack",
+          "confidence": 57.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 795,
+              "y": 127,
+              "width": 142,
+              "height": 18
+            }
+          ],
+          "normalized_value": "AlacartePack",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Card Type": {
+          "value": "Master Card Silver",
+          "raw_text": "Master Card Silver",
+          "confidence": 90.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 977,
+              "y": 126,
+              "width": 62,
+              "height": 18
+            },
+            {
+              "x": 1047,
+              "y": 127,
+              "width": 41,
+              "height": 18
+            },
+            {
+              "x": 1095,
+              "y": 127,
+              "width": 54,
+              "height": 18
+            }
+          ],
+          "normalized_value": "Master Card Silver",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Contact": {
+          "value": "558",
+          "raw_text": "\u00a3558",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1201,
+              "y": 127,
+              "width": 44,
+              "height": 18
+            }
+          ],
+          "normalized_value": "558",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Issue Date": {
+          "value": "12/09/2020",
+          "raw_text": "12/09/2020",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 27,
+              "y": 175,
+              "width": 99,
+              "height": 22
+            }
+          ],
+          "normalized_value": "12/09/2020",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Renewal Date": {
+          "value": "12/09/2022",
+          "raw_text": "12/09/2022",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 183,
+              "y": 175,
+              "width": 100,
+              "height": 22
+            }
+          ],
+          "normalized_value": "12/09/2022",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Installments": {
+          "value": "33.58",
+          "raw_text": "33.58",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "normalized_value": "33.58",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Amount in Words": {
+          "value": "Thirty Three Point Five Eight",
+          "raw_text": "Thirty Three Point Five Eight",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "normalized_value": "Thirty Three Point Five Eight",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Remarks": {
+          "value": "Not Applicable",
+          "raw_text": "",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "normalized_value": "Not Applicable",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        }
+      },
+      "MY": 24,
+      "issues": [
+        {
+          "field": "Mailing Street",
+          "reason": "LOW_OCR_CONFIDENCE",
+          "detail": "OCR confidence 20.0 is below the automatic-acceptance threshold"
+        },
+        {
+          "field": "Postal Code",
+          "reason": "LOW_OCR_CONFIDENCE",
+          "detail": "OCR confidence 24.0 is below the automatic-acceptance threshold"
+        },
+        {
+          "field": "IMEI 1",
+          "reason": "LOW_OCR_CONFIDENCE",
+          "detail": "OCR confidence 26.0 is below the automatic-acceptance threshold"
+        },
+        {
+          "field": "IMEI 1",
+          "reason": "INVALID_IMEI1",
+          "detail": "IMEI 1 must contain exactly 15 digits"
+        }
+      ],
+      "status": "REVIEW_REQUIRED",
+      "fingerprint": "4c3f25b50f1ca3478b256b74ef5ab6e6aafd3029c2c2bbcd79319e2f4808d125"
+    }
+  ]
+}

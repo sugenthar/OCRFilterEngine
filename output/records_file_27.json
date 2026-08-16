@@ -1,0 +1,1996 @@
+{
+  "processed_at": "2026-08-14T09:12:18.505487+00:00",
+  "image": "images\\sample.png",
+  "file_no": 27,
+  "record_count": 4,
+  "unassigned_rows": [],
+  "records": [
+    {
+      "record_number": 1,
+      "form_no": 1522,
+      "fields": {
+        "File No": {
+          "value": "27",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Form No": {
+          "value": "1522",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Title": {
+          "value": "Ms",
+          "raw_text": "Ms.",
+          "confidence": 92.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 30,
+              "y": 19,
+              "width": 26,
+              "height": 16
+            }
+          ]
+        },
+        "First Name": {
+          "value": "Hillary",
+          "raw_text": "Hillary",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 76,
+              "y": 19,
+              "width": 53,
+              "height": 20
+            }
+          ]
+        },
+        "Last Name": {
+          "value": "Benton",
+          "raw_text": "Benton",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 136,
+              "y": 19,
+              "width": 56,
+              "height": 16
+            }
+          ]
+        },
+        "Initial": {
+          "value": "MHB",
+          "raw_text": "MHB",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Email": {
+          "value": "y@jisc.ac.uk",
+          "raw_text": "hilary@jisc.ac.uk",
+          "confidence": 38.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 223,
+              "y": 19,
+              "width": 138,
+              "height": 20
+            }
+          ]
+        },
+        "Father Name": {
+          "value": "Benton",
+          "raw_text": "Phy.D Benton",
+          "confidence": 41.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 386,
+              "y": 19,
+              "width": 43,
+              "height": 20
+            },
+            {
+              "x": 434,
+              "y": 19,
+              "width": 56,
+              "height": 16
+            }
+          ]
+        },
+        "DOB": {
+          "value": "17/03/1991",
+          "raw_text": "17/03/1991",
+          "confidence": 88.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 511,
+              "y": 17,
+              "width": 79,
+              "height": 20
+            }
+          ]
+        },
+        "Gender": {
+          "value": "Female",
+          "raw_text": "Female",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 611,
+              "y": 19,
+              "width": 59,
+              "height": 16
+            }
+          ]
+        },
+        "Profession": {
+          "value": "Service",
+          "raw_text": "Service",
+          "confidence": 92.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 692,
+              "y": 19,
+              "width": 60,
+              "height": 16
+            }
+          ]
+        },
+        "Mailing Street": {
+          "value": "OtleyRoad",
+          "raw_text": "OtleyRoad",
+          "confidence": 90.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 778,
+              "y": 19,
+              "width": 85,
+              "height": 20
+            }
+          ]
+        },
+        "City": {
+          "value": "Leeds, North Yorkshire",
+          "raw_text": "Leeds, North Yorkshire",
+          "confidence": 41.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 880,
+              "y": 19,
+              "width": 52,
+              "height": 18
+            },
+            {
+              "x": 937,
+              "y": 19,
+              "width": 44,
+              "height": 16
+            },
+            {
+              "x": 987,
+              "y": 19,
+              "width": 76,
+              "height": 16
+            }
+          ]
+        },
+        "Postal Code": {
+          "value": "S16 8AG",
+          "raw_text": "S16 8AG",
+          "confidence": 25.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 1094,
+              "y": 19,
+              "width": 35,
+              "height": 16
+            },
+            {
+              "x": 1134,
+              "y": 19,
+              "width": 30,
+              "height": 16
+            }
+          ]
+        },
+        "Country": {
+          "value": "England",
+          "raw_text": "England",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 30,
+              "y": 62,
+              "width": 64,
+              "height": 20
+            }
+          ]
+        },
+        "Service Provider": {
+          "value": "Vodafone",
+          "raw_text": "Vodafone",
+          "confidence": 87.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 130,
+              "y": 62,
+              "width": 74,
+              "height": 16
+            }
+          ]
+        },
+        "File Ref": {
+          "value": "Tango - 4616541",
+          "raw_text": "Tango 4616541",
+          "confidence": 56.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 228,
+              "y": 62,
+              "width": 47,
+              "height": 20
+            },
+            {
+              "x": 296,
+              "y": 62,
+              "width": 60,
+              "height": 16
+            }
+          ]
+        },
+        "Reference No": {
+          "value": "VfoneB4YT",
+          "raw_text": "VfoneB4YT!@##&T3",
+          "confidence": 45.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 396,
+              "y": 62,
+              "width": 166,
+              "height": 20
+            }
+          ]
+        },
+        "SIM No": {
+          "value": "JiVawB150239190I089",
+          "raw_text": "JiVawB150239190I089",
+          "confidence": 42.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 596,
+              "y": 62,
+              "width": 174,
+              "height": 17
+            }
+          ]
+        },
+        "Network Type": {
+          "value": "GSM",
+          "raw_text": "GSM",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 793,
+              "y": 62,
+              "width": 34,
+              "height": 17
+            }
+          ]
+        },
+        "Mobile Model": {
+          "value": "Siemens",
+          "raw_text": "Siemens",
+          "confidence": 82.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 863,
+              "y": 62,
+              "width": 69,
+              "height": 17
+            }
+          ]
+        },
+        "IMEI 1": {
+          "value": "60",
+          "raw_text": "MC60",
+          "confidence": 67.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 938,
+              "y": 62,
+              "width": 42,
+              "height": 17
+            }
+          ]
+        },
+        "IMEI 2": {
+          "value": "473871 - 33 - 751054 -6 - #!-521315-9",
+          "raw_text": "473871 - 33 - 751054 -6 - #!-521315-9",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 1027,
+              "y": 62,
+              "width": 54,
+              "height": 17
+            },
+            {
+              "x": 1087,
+              "y": 70,
+              "width": 6,
+              "height": 3
+            },
+            {
+              "x": 1100,
+              "y": 62,
+              "width": 18,
+              "height": 17
+            },
+            {
+              "x": 1126,
+              "y": 70,
+              "width": 6,
+              "height": 3
+            },
+            {
+              "x": 1140,
+              "y": 62,
+              "width": 56,
+              "height": 17
+            },
+            {
+              "x": 1201,
+              "y": 62,
+              "width": 23,
+              "height": 16
+            },
+            {
+              "x": 98,
+              "y": 113,
+              "width": 6,
+              "height": 3
+            },
+            {
+              "x": 112,
+              "y": 105,
+              "width": 114,
+              "height": 16
+            }
+          ]
+        },
+        "Plan Type": {
+          "value": "TurboCall",
+          "raw_text": "TurboCall",
+          "confidence": 44.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 256,
+              "y": 105,
+              "width": 82,
+              "height": 16
+            }
+          ]
+        },
+        "Card Type": {
+          "value": "MasterCardPremiumGold",
+          "raw_text": "MasterCardPremiumGold",
+          "confidence": 54.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 373,
+              "y": 105,
+              "width": 218,
+              "height": 16
+            }
+          ]
+        },
+        "Contact": {
+          "value": "580",
+          "raw_text": "\u20ac580",
+          "confidence": 5.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 632,
+              "y": 105,
+              "width": 40,
+              "height": 16
+            }
+          ]
+        },
+        "Issue Date": {
+          "value": "06/07/2020",
+          "raw_text": "06/07/2020",
+          "confidence": 77.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 718,
+              "y": 103,
+              "width": 90,
+              "height": 20
+            }
+          ]
+        },
+        "Renewal Date": {
+          "value": "06/01/2022",
+          "raw_text": "06/01/2022",
+          "confidence": 82.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 850,
+              "y": 103,
+              "width": 86,
+              "height": 20
+            }
+          ]
+        },
+        "Installments": {
+          "value": "34.49",
+          "raw_text": "34.49",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Amount in Words": {
+          "value": "Thirty Four Point Four Nine",
+          "raw_text": "Thirty Four Point Four Nine",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Remarks": {
+          "value": "Not Applicable",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        }
+      },
+      "MY": 24,
+      "issues": [],
+      "status": "VALIDATED",
+      "fingerprint": "a409a0e82bf6ea8bb8a092a9ff1f5a6c310b37b8dfdba48dfe7317f808d05113"
+    },
+    {
+      "record_number": 2,
+      "form_no": 1523,
+      "fields": {
+        "File No": {
+          "value": "27",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Form No": {
+          "value": "1523",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Title": {
+          "value": "Mr",
+          "raw_text": "Mr.",
+          "confidence": 92.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 30,
+              "y": 236,
+              "width": 23,
+              "height": 16
+            }
+          ]
+        },
+        "First Name": {
+          "value": "Kobie",
+          "raw_text": "Kobie",
+          "confidence": 84.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 74,
+              "y": 236,
+              "width": 44,
+              "height": 16
+            }
+          ]
+        },
+        "Last Name": {
+          "value": "Neita",
+          "raw_text": "Neita",
+          "confidence": 68.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 125,
+              "y": 236,
+              "width": 40,
+              "height": 16
+            }
+          ]
+        },
+        "Initial": {
+          "value": "MKN",
+          "raw_text": "MKN",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Email": {
+          "value": "kobie.neita@widderhoteLch",
+          "raw_text": "kobie.neita@widderhoteLch",
+          "confidence": 68.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 196,
+              "y": 236,
+              "width": 224,
+              "height": 20
+            }
+          ]
+        },
+        "Father Name": {
+          "value": "Ellen Neita",
+          "raw_text": "Ellen Neita",
+          "confidence": 6.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 457,
+              "y": 236,
+              "width": 39,
+              "height": 16
+            },
+            {
+              "x": 503,
+              "y": 236,
+              "width": 40,
+              "height": 16
+            }
+          ]
+        },
+        "DOB": {
+          "value": "14/08/1988",
+          "raw_text": "14/08/1988",
+          "confidence": 83.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 580,
+              "y": 233,
+              "width": 87,
+              "height": 20
+            }
+          ]
+        },
+        "Gender": {
+          "value": "Male",
+          "raw_text": "Male",
+          "confidence": 83.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 703,
+              "y": 236,
+              "width": 38,
+              "height": 16
+            }
+          ]
+        },
+        "Profession": {
+          "value": "Self Employed",
+          "raw_text": "Self Employed",
+          "confidence": 68.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 782,
+              "y": 235,
+              "width": 32,
+              "height": 16
+            },
+            {
+              "x": 818,
+              "y": 236,
+              "width": 78,
+              "height": 19
+            }
+          ]
+        },
+        "Mailing Street": {
+          "value": "Coxwold York",
+          "raw_text": "Coxwold York,North",
+          "confidence": 34.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 933,
+              "y": 235,
+              "width": 67,
+              "height": 16
+            },
+            {
+              "x": 1026,
+              "y": 236,
+              "width": 86,
+              "height": 18
+            }
+          ]
+        },
+        "City": {
+          "value": "North Yorkshire Yo6] 4AD",
+          "raw_text": "York,North Yorkshire Yo6] 4AD",
+          "confidence": 36.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 1026,
+              "y": 236,
+              "width": 86,
+              "height": 18
+            },
+            {
+              "x": 1116,
+              "y": 236,
+              "width": 76,
+              "height": 16
+            },
+            {
+              "x": 34,
+              "y": 278,
+              "width": 32,
+              "height": 16
+            },
+            {
+              "x": 73,
+              "y": 278,
+              "width": 32,
+              "height": 15
+            }
+          ]
+        },
+        "Postal Code": {
+          "value": "",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": []
+        },
+        "Country": {
+          "value": "England",
+          "raw_text": "England",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 152,
+              "y": 278,
+              "width": 64,
+              "height": 19
+            }
+          ]
+        },
+        "Service Provider": {
+          "value": "Orange",
+          "raw_text": "Orange",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 262,
+              "y": 278,
+              "width": 58,
+              "height": 19
+            }
+          ]
+        },
+        "File Ref": {
+          "value": "Foxtrot - 288262831",
+          "raw_text": "Foxtrot 288262831",
+          "confidence": 92.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 359,
+              "y": 278,
+              "width": 57,
+              "height": 16
+            },
+            {
+              "x": 437,
+              "y": 278,
+              "width": 83,
+              "height": 16
+            }
+          ]
+        },
+        "Reference No": {
+          "value": "ORN3IGK",
+          "raw_text": "ORN3IGK@E&!S+P421942",
+          "confidence": 37.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 560,
+              "y": 276,
+              "width": 193,
+              "height": 22
+            }
+          ]
+        },
+        "SIM No": {
+          "value": "YTAujW2223295806KM81",
+          "raw_text": "YTAujW2223295806KM81",
+          "confidence": 37.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 790,
+              "y": 278,
+              "width": 198,
+              "height": 20
+            }
+          ]
+        },
+        "Network Type": {
+          "value": "GSM",
+          "raw_text": "GSM",
+          "confidence": 77.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1018,
+              "y": 278,
+              "width": 34,
+              "height": 16
+            }
+          ]
+        },
+        "Mobile Model": {
+          "value": "Nokia 6610",
+          "raw_text": "Nokia 6610",
+          "confidence": 58.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1088,
+              "y": 278,
+              "width": 45,
+              "height": 16
+            },
+            {
+              "x": 1139,
+              "y": 278,
+              "width": 34,
+              "height": 16
+            }
+          ]
+        },
+        "IMEI 1": {
+          "value": "316803 - 51-554797-8",
+          "raw_text": "316803 - 51-554797-8",
+          "confidence": 47.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 35,
+              "y": 322,
+              "width": 54,
+              "height": 16
+            },
+            {
+              "x": 96,
+              "y": 329,
+              "width": 6,
+              "height": 3
+            },
+            {
+              "x": 109,
+              "y": 322,
+              "width": 122,
+              "height": 16
+            }
+          ]
+        },
+        "IMEI 2": {
+          "value": "1 - 995095 -2",
+          "raw_text": "- $1 - 995095 -2",
+          "confidence": 63.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 314,
+              "y": 329,
+              "width": 7,
+              "height": 3
+            },
+            {
+              "x": 329,
+              "y": 319,
+              "width": 13,
+              "height": 20
+            },
+            {
+              "x": 349,
+              "y": 329,
+              "width": 7,
+              "height": 3
+            },
+            {
+              "x": 363,
+              "y": 322,
+              "width": 57,
+              "height": 16
+            },
+            {
+              "x": 427,
+              "y": 322,
+              "width": 20,
+              "height": 16
+            }
+          ]
+        },
+        "Plan Type": {
+          "value": "Classic SMS",
+          "raw_text": "Classic SMS+",
+          "confidence": 91.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 504,
+              "y": 322,
+              "width": 56,
+              "height": 16
+            },
+            {
+              "x": 567,
+              "y": 322,
+              "width": 44,
+              "height": 16
+            }
+          ]
+        },
+        "Card Type": {
+          "value": "Master Card Gold",
+          "raw_text": "Master Card Gold",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 660,
+              "y": 322,
+              "width": 56,
+              "height": 15
+            },
+            {
+              "x": 722,
+              "y": 322,
+              "width": 36,
+              "height": 16
+            },
+            {
+              "x": 766,
+              "y": 322,
+              "width": 34,
+              "height": 16
+            }
+          ]
+        },
+        "Contact": {
+          "value": "336",
+          "raw_text": "\u00a3336",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 840,
+              "y": 322,
+              "width": 38,
+              "height": 16
+            }
+          ]
+        },
+        "Issue Date": {
+          "value": "26/12/2022",
+          "raw_text": "26/12/2022",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 940,
+              "y": 317,
+              "width": 88,
+              "height": 26
+            }
+          ]
+        },
+        "Renewal Date": {
+          "value": "26/06/2024",
+          "raw_text": "26/06/2024",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1077,
+              "y": 319,
+              "width": 90,
+              "height": 21
+            }
+          ]
+        },
+        "Installments": {
+          "value": "24.33",
+          "raw_text": "24.33",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Amount in Words": {
+          "value": "Twenty Four Point Three Three",
+          "raw_text": "Twenty Four Point Three Three",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Remarks": {
+          "value": "Not Applicable",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        }
+      },
+      "MY": 24,
+      "issues": [
+        {
+          "field": "Postal Code",
+          "reason": "missing / empty value"
+        },
+        {
+          "field": "Email",
+          "reason": "does not match an email pattern"
+        }
+      ],
+      "status": "REVIEW_REQUIRED",
+      "fingerprint": "2c985a48b172d2ffc11c9083c68b0bf02c88d9cb69f889725537ff4c99953304"
+    },
+    {
+      "record_number": 3,
+      "form_no": 1524,
+      "fields": {
+        "File No": {
+          "value": "27",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Form No": {
+          "value": "1524",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Title": {
+          "value": "Miss",
+          "raw_text": "MISS",
+          "confidence": 87.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 30,
+              "y": 450,
+              "width": 38,
+              "height": 17
+            }
+          ]
+        },
+        "First Name": {
+          "value": "Jimi",
+          "raw_text": "Jimi",
+          "confidence": 87.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 94,
+              "y": 450,
+              "width": 33,
+              "height": 16
+            }
+          ]
+        },
+        "Last Name": {
+          "value": "Blake",
+          "raw_text": "Blake",
+          "confidence": 90.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 149,
+              "y": 450,
+              "width": 43,
+              "height": 16
+            }
+          ]
+        },
+        "Initial": {
+          "value": "MJB",
+          "raw_text": "MJB",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Email": {
+          "value": "i@ed.ac.uk",
+          "raw_text": "jimi@ed.ac.uk",
+          "confidence": 54.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 218,
+              "y": 450,
+              "width": 114,
+              "height": 20
+            }
+          ]
+        },
+        "Father Name": {
+          "value": "Constantine Blake",
+          "raw_text": "Constantine Blake",
+          "confidence": 76.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 367,
+              "y": 450,
+              "width": 95,
+              "height": 17
+            },
+            {
+              "x": 469,
+              "y": 450,
+              "width": 44,
+              "height": 16
+            }
+          ]
+        },
+        "DOB": {
+          "value": "09/04/1985",
+          "raw_text": "09/04/1985",
+          "confidence": 90.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 534,
+              "y": 449,
+              "width": 90,
+              "height": 21
+            }
+          ]
+        },
+        "Gender": {
+          "value": "Female",
+          "raw_text": "Female",
+          "confidence": 94.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 656,
+              "y": 450,
+              "width": 58,
+              "height": 16
+            }
+          ]
+        },
+        "Profession": {
+          "value": "Others",
+          "raw_text": "Others",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 740,
+              "y": 450,
+              "width": 54,
+              "height": 17
+            }
+          ]
+        },
+        "Mailing Street": {
+          "value": "Aspire House 192 Skipton Road",
+          "raw_text": "Aspire House 192 Skipton Road",
+          "confidence": 48.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 814,
+              "y": 450,
+              "width": 52,
+              "height": 20
+            },
+            {
+              "x": 871,
+              "y": 450,
+              "width": 49,
+              "height": 16
+            },
+            {
+              "x": 926,
+              "y": 450,
+              "width": 24,
+              "height": 17
+            },
+            {
+              "x": 956,
+              "y": 450,
+              "width": 60,
+              "height": 21
+            },
+            {
+              "x": 1023,
+              "y": 450,
+              "width": 38,
+              "height": 16
+            }
+          ]
+        },
+        "City": {
+          "value": "Harrogate, North Yorkshire",
+          "raw_text": "Harrogate, North Yorkshire",
+          "confidence": 81.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1092,
+              "y": 450,
+              "width": 85,
+              "height": 20
+            },
+            {
+              "x": 1184,
+              "y": 450,
+              "width": 44,
+              "height": 16
+            },
+            {
+              "x": 30,
+              "y": 494,
+              "width": 75,
+              "height": 16
+            }
+          ]
+        },
+        "Postal Code": {
+          "value": "HG13E2Z",
+          "raw_text": "HG13E2Z",
+          "confidence": 43.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 136,
+              "y": 494,
+              "width": 62,
+              "height": 16
+            }
+          ]
+        },
+        "Country": {
+          "value": "UK",
+          "raw_text": "UK",
+          "confidence": 11.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 249,
+              "y": 494,
+              "width": 21,
+              "height": 16
+            }
+          ]
+        },
+        "Service Provider": {
+          "value": "Hutchison Whampoa",
+          "raw_text": "HutchisonWhampoa",
+          "confidence": 11.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 306,
+              "y": 494,
+              "width": 165,
+              "height": 19
+            }
+          ]
+        },
+        "File Ref": {
+          "value": "\u2018Foxtrot - 28010261",
+          "raw_text": "\u2018Foxtrot 28010261",
+          "confidence": 21.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 502,
+              "y": 494,
+              "width": 56,
+              "height": 16
+            },
+            {
+              "x": 578,
+              "y": 494,
+              "width": 69,
+              "height": 16
+            }
+          ]
+        },
+        "Reference No": {
+          "value": "HuWh6",
+          "raw_text": "HuWh6\u00e94D2%;%!;P1308831",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 678,
+              "y": 494,
+              "width": 198,
+              "height": 18
+            }
+          ]
+        },
+        "SIM No": {
+          "value": "CRDxuU3204766550\u00a584",
+          "raw_text": "CRDxuU3204766550\u00a584",
+          "confidence": 42.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 913,
+              "y": 494,
+              "width": 193,
+              "height": 16
+            }
+          ]
+        },
+        "Network Type": {
+          "value": "CDMA+GSM",
+          "raw_text": "CDMA+GSM",
+          "confidence": 84.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1132,
+              "y": 494,
+              "width": 90,
+              "height": 16
+            }
+          ]
+        },
+        "Mobile Model": {
+          "value": "Nokia 7210",
+          "raw_text": "Nokia 7210",
+          "confidence": 56.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 30,
+              "y": 538,
+              "width": 44,
+              "height": 16
+            },
+            {
+              "x": 80,
+              "y": 538,
+              "width": 34,
+              "height": 16
+            }
+          ]
+        },
+        "IMEI 1": {
+          "value": "202608 - 23 - 634756 - 1",
+          "raw_text": "202608 - 23 - 634756 - 1",
+          "confidence": 77.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 150,
+              "y": 538,
+              "width": 56,
+              "height": 16
+            },
+            {
+              "x": 214,
+              "y": 546,
+              "width": 8,
+              "height": 3
+            },
+            {
+              "x": 229,
+              "y": 538,
+              "width": 18,
+              "height": 16
+            },
+            {
+              "x": 254,
+              "y": 546,
+              "width": 7,
+              "height": 3
+            },
+            {
+              "x": 268,
+              "y": 538,
+              "width": 57,
+              "height": 16
+            },
+            {
+              "x": 332,
+              "y": 546,
+              "width": 6,
+              "height": 3
+            },
+            {
+              "x": 345,
+              "y": 538,
+              "width": 4,
+              "height": 15
+            }
+          ]
+        },
+        "IMEI 2": {
+          "value": "2%7%& - - 156677 - 8",
+          "raw_text": "+2%7%& - - 156677 - 8",
+          "confidence": 13.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 400,
+              "y": 538,
+              "width": 64,
+              "height": 16
+            },
+            {
+              "x": 470,
+              "y": 546,
+              "width": 6,
+              "height": 3
+            },
+            {
+              "x": 503,
+              "y": 546,
+              "width": 7,
+              "height": 3
+            },
+            {
+              "x": 515,
+              "y": 538,
+              "width": 54,
+              "height": 16
+            },
+            {
+              "x": 574,
+              "y": 546,
+              "width": 7,
+              "height": 3
+            },
+            {
+              "x": 588,
+              "y": 538,
+              "width": 8,
+              "height": 16
+            }
+          ]
+        },
+        "Plan Type": {
+          "value": "Classic SMS",
+          "raw_text": "Classic SMS+ \u2014\u2014-",
+          "confidence": 11.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 638,
+              "y": 538,
+              "width": 56,
+              "height": 16
+            },
+            {
+              "x": 701,
+              "y": 538,
+              "width": 44,
+              "height": 16
+            },
+            {
+              "x": 757,
+              "y": 536,
+              "width": 16,
+              "height": 24
+            }
+          ]
+        },
+        "Card Type": {
+          "value": "Visa Titanium-Plus",
+          "raw_text": "Visa Titanium-Plus",
+          "confidence": 54.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 775,
+              "y": 538,
+              "width": 32,
+              "height": 16
+            },
+            {
+              "x": 813,
+              "y": 538,
+              "width": 116,
+              "height": 16
+            }
+          ]
+        },
+        "Contact": {
+          "value": "507",
+          "raw_text": "\u00a3507",
+          "confidence": 86.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 968,
+              "y": 538,
+              "width": 38,
+              "height": 15
+            }
+          ]
+        },
+        "Issue Date": {
+          "value": "14/11/2023",
+          "raw_text": "14/11/2023",
+          "confidence": 58.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1042,
+              "y": 536,
+              "width": 82,
+              "height": 20
+            }
+          ]
+        },
+        "Renewal Date": {
+          "value": "14/07/2026",
+          "raw_text": "14/07/2026",
+          "confidence": 19.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 1160,
+              "y": 536,
+              "width": 86,
+              "height": 20
+            }
+          ]
+        },
+        "Installments": {
+          "value": "24.41",
+          "raw_text": "24.41",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Amount in Words": {
+          "value": "Twenty Four Point Four One",
+          "raw_text": "Twenty Four Point Four One",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Remarks": {
+          "value": "Not Applicable",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        }
+      },
+      "MY": 36,
+      "issues": [],
+      "status": "VALIDATED",
+      "fingerprint": "2c847a19afca64ed93ad487bf0089ed7c101e480b04dd70e8fe12328cd312e87"
+    },
+    {
+      "record_number": 4,
+      "form_no": 1525,
+      "fields": {
+        "File No": {
+          "value": "27",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Form No": {
+          "value": "1525",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Title": {
+          "value": "Mr",
+          "raw_text": "Mr",
+          "confidence": 69.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 30,
+              "y": 666,
+              "width": 22,
+              "height": 16
+            }
+          ]
+        },
+        "First Name": {
+          "value": "Alex",
+          "raw_text": "Alex",
+          "confidence": 69.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 81,
+              "y": 666,
+              "width": 35,
+              "height": 16
+            }
+          ]
+        },
+        "Last Name": {
+          "value": "Mccracken",
+          "raw_text": "Mccracken",
+          "confidence": 86.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 138,
+              "y": 666,
+              "width": 87,
+              "height": 16
+            }
+          ]
+        },
+        "Initial": {
+          "value": "MAM",
+          "raw_text": "MAM",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Email": {
+          "value": "x@nhs.net",
+          "raw_text": "alex@nhs.net",
+          "confidence": 80.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 260,
+              "y": 666,
+              "width": 110,
+              "height": 20
+            }
+          ]
+        },
+        "Father Name": {
+          "value": "Dimas Mccracken",
+          "raw_text": "Dimas Mccracken",
+          "confidence": 86.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 400,
+              "y": 666,
+              "width": 50,
+              "height": 16
+            },
+            {
+              "x": 456,
+              "y": 666,
+              "width": 88,
+              "height": 16
+            }
+          ]
+        },
+        "DOB": {
+          "value": "03/05/1982",
+          "raw_text": "03/05/1982",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 584,
+              "y": 664,
+              "width": 89,
+              "height": 20
+            }
+          ]
+        },
+        "Gender": {
+          "value": "Male",
+          "raw_text": "Male",
+          "confidence": 74.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 714,
+              "y": 666,
+              "width": 38,
+              "height": 16
+            }
+          ]
+        },
+        "Profession": {
+          "value": "ProFessional",
+          "raw_text": "ProFessional",
+          "confidence": 74.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 788,
+              "y": 666,
+              "width": 104,
+              "height": 16
+            }
+          ]
+        },
+        "Mailing Street": {
+          "value": "Building",
+          "raw_text": "Building",
+          "confidence": 84.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 928,
+              "y": 666,
+              "width": 64,
+              "height": 20
+            }
+          ]
+        },
+        "City": {
+          "value": "500, Abbey Park, Coventry, WMD",
+          "raw_text": "500, Abbey Park, Coventry, WMD",
+          "confidence": 73.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1000,
+              "y": 666,
+              "width": 32,
+              "height": 18
+            },
+            {
+              "x": 1037,
+              "y": 666,
+              "width": 50,
+              "height": 20
+            },
+            {
+              "x": 1092,
+              "y": 666,
+              "width": 40,
+              "height": 18
+            },
+            {
+              "x": 1154,
+              "y": 666,
+              "width": 74,
+              "height": 20
+            },
+            {
+              "x": 30,
+              "y": 710,
+              "width": 39,
+              "height": 16
+            }
+          ]
+        },
+        "Postal Code": {
+          "value": "CV82LY",
+          "raw_text": "CV82LY",
+          "confidence": 76.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 109,
+              "y": 710,
+              "width": 64,
+              "height": 16
+            }
+          ]
+        },
+        "Country": {
+          "value": "UK",
+          "raw_text": "UK",
+          "confidence": 10.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 214,
+              "y": 710,
+              "width": 22,
+              "height": 16
+            }
+          ]
+        },
+        "Service Provider": {
+          "value": "",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": []
+        },
+        "File Ref": {
+          "value": "",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": []
+        },
+        "Reference No": {
+          "value": "",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": []
+        },
+        "SIM No": {
+          "value": "",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": []
+        },
+        "Network Type": {
+          "value": "",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": []
+        },
+        "Mobile Model": {
+          "value": "",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": []
+        },
+        "IMEI 1": {
+          "value": "500, CV82LY",
+          "raw_text": "500, CV82LY",
+          "confidence": 76.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1000,
+              "y": 666,
+              "width": 32,
+              "height": 18
+            },
+            {
+              "x": 109,
+              "y": 710,
+              "width": 64,
+              "height": 16
+            }
+          ]
+        },
+        "IMEI 2": {
+          "value": "060669027 HuWh57Dp+$!++764566528 IVEkdC688070733DS72 6800 607198 - 24-653336-5 !%%SS!-!#-798797-7",
+          "raw_text": "- 060669027 HuWh57Dp+$!++764566528 IVEkdC688070733DS72 6800 607198 - 24-653336-5 !%%SS!-!#-798797-7",
+          "confidence": 18.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 529,
+              "y": 718,
+              "width": 7,
+              "height": 3
+            },
+            {
+              "x": 543,
+              "y": 710,
+              "width": 86,
+              "height": 16
+            },
+            {
+              "x": 680,
+              "y": 706,
+              "width": 214,
+              "height": 26
+            },
+            {
+              "x": 940,
+              "y": 710,
+              "width": 184,
+              "height": 16
+            },
+            {
+              "x": 81,
+              "y": 752,
+              "width": 38,
+              "height": 17
+            },
+            {
+              "x": 156,
+              "y": 752,
+              "width": 53,
+              "height": 17
+            },
+            {
+              "x": 216,
+              "y": 762,
+              "width": 6,
+              "height": 3
+            },
+            {
+              "x": 229,
+              "y": 752,
+              "width": 123,
+              "height": 17
+            },
+            {
+              "x": 389,
+              "y": 752,
+              "width": 194,
+              "height": 20
+            }
+          ]
+        },
+        "Plan Type": {
+          "value": "SMSPro",
+          "raw_text": "SMSPro",
+          "confidence": 18.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 624,
+              "y": 752,
+              "width": 68,
+              "height": 17
+            }
+          ]
+        },
+        "Card Type": {
+          "value": "MasterCard PremiumGold",
+          "raw_text": "MasterCard PremiumGold",
+          "confidence": 42.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 722,
+              "y": 752,
+              "width": 94,
+              "height": 17
+            },
+            {
+              "x": 823,
+              "y": 752,
+              "width": 108,
+              "height": 17
+            }
+          ]
+        },
+        "Contact": {
+          "value": "341",
+          "raw_text": "\u00a3341",
+          "confidence": 49.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 962,
+              "y": 752,
+              "width": 34,
+              "height": 17
+            }
+          ]
+        },
+        "Issue Date": {
+          "value": "18/02/2022",
+          "raw_text": "18/02/2022",
+          "confidence": 74.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1028,
+              "y": 752,
+              "width": 90,
+              "height": 20
+            }
+          ]
+        },
+        "Renewal Date": {
+          "value": "18/02/2022",
+          "raw_text": "18/02/2022",
+          "confidence": 74.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1153,
+              "y": 752,
+              "width": 88,
+              "height": 20
+            }
+          ]
+        },
+        "Installments": {
+          "value": "INVALID",
+          "raw_text": "INVALID",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Amount in Words": {
+          "value": "",
+          "raw_text": "",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Remarks": {
+          "value": "Not Applicable",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        }
+      },
+      "MY": 0,
+      "issues": [
+        {
+          "field": "Amount in Words",
+          "reason": "missing / empty value"
+        },
+        {
+          "field": "Installments",
+          "reason": "MY is zero; division was not performed"
+        },
+        {
+          "field": "Installments",
+          "reason": "invalid installment calculation"
+        },
+        {
+          "field": "Amount in Words",
+          "reason": "empty amount in words"
+        }
+      ],
+      "status": "REVIEW_REQUIRED",
+      "fingerprint": "e0cf89d00aeb780438ef05d39f51150538ee844a2e7bbbead50e8bfcb1b56844"
+    }
+  ]
+}

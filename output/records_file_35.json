@@ -1,0 +1,537 @@
+{
+  "processed_at": "2026-08-14T12:57:09.905906+00:00",
+  "image": "images\\inbox\\Screenshot 2026-08-14 182707.png",
+  "file_no": 35,
+  "record_count": 1,
+  "unassigned_rows": [],
+  "records": [
+    {
+      "record_number": 1,
+      "form_no": 140,
+      "fields": {
+        "File No": {
+          "value": "35",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Form No": {
+          "value": "140",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Title": {
+          "value": "Mr",
+          "raw_text": "Mr",
+          "confidence": 78.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 21,
+              "y": 18,
+              "width": 26,
+              "height": 20
+            }
+          ]
+        },
+        "First Name": {
+          "value": "lan",
+          "raw_text": "lan",
+          "confidence": 89.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 86,
+              "y": 18,
+              "width": 30,
+              "height": 20
+            }
+          ]
+        },
+        "Last Name": {
+          "value": "ONeill",
+          "raw_text": "ONeill",
+          "confidence": 72.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 144,
+              "y": 18,
+              "width": 67,
+              "height": 20
+            }
+          ]
+        },
+        "Initial": {
+          "value": "MLO",
+          "raw_text": "MLO",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Email": {
+          "value": "info@tiscali.co.uk",
+          "raw_text": "info@tiscali.co.uk",
+          "confidence": 42.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 258,
+              "y": 18,
+              "width": 182,
+              "height": 25
+            }
+          ]
+        },
+        "Father Name": {
+          "value": "Colette O Neill",
+          "raw_text": "Colette O Neill",
+          "confidence": 89.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 492,
+              "y": 18,
+              "width": 71,
+              "height": 20
+            },
+            {
+              "x": 572,
+              "y": 18,
+              "width": 13,
+              "height": 20
+            },
+            {
+              "x": 594,
+              "y": 18,
+              "width": 46,
+              "height": 20
+            }
+          ]
+        },
+        "DOB": {
+          "value": "04/06/1984",
+          "raw_text": "04/06/1984",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 692,
+              "y": 15,
+              "width": 116,
+              "height": 26
+            }
+          ]
+        },
+        "Gender": {
+          "value": "Male",
+          "raw_text": "Male",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 868,
+              "y": 16,
+              "width": 48,
+              "height": 30
+            }
+          ]
+        },
+        "Profession": {
+          "value": "Fixed Income",
+          "raw_text": "Fixed Income",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 975,
+              "y": 18,
+              "width": 53,
+              "height": 20
+            },
+            {
+              "x": 1038,
+              "y": 18,
+              "width": 74,
+              "height": 20
+            }
+          ]
+        },
+        "Mailing Street": {
+          "value": "35 Oakenbrow",
+          "raw_text": "35 Oakenbrow",
+          "confidence": 91.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1163,
+              "y": 18,
+              "width": 23,
+              "height": 20
+            },
+            {
+              "x": 1196,
+              "y": 18,
+              "width": 116,
+              "height": 20
+            }
+          ]
+        },
+        "City": {
+          "value": "Road, Sway Lymington Hampshire, SEA",
+          "raw_text": "Road, Sway Lymington Hampshire, SEA",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1320,
+              "y": 18,
+              "width": 55,
+              "height": 22
+            },
+            {
+              "x": 1384,
+              "y": 18,
+              "width": 55,
+              "height": 26
+            },
+            {
+              "x": 1447,
+              "y": 18,
+              "width": 108,
+              "height": 25
+            },
+            {
+              "x": 21,
+              "y": 74,
+              "width": 116,
+              "height": 26
+            },
+            {
+              "x": 144,
+              "y": 74,
+              "width": 40,
+              "height": 20
+            }
+          ]
+        },
+        "Postal Code": {
+          "value": "SO416DY",
+          "raw_text": "SO416DY",
+          "confidence": 83.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 243,
+              "y": 74,
+              "width": 94,
+              "height": 20
+            }
+          ]
+        },
+        "Country": {
+          "value": "UK",
+          "raw_text": "UK",
+          "confidence": 81.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 376,
+              "y": 74,
+              "width": 28,
+              "height": 20
+            }
+          ]
+        },
+        "Service Provider": {
+          "value": "Virgin",
+          "raw_text": "Virgin",
+          "confidence": 77.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 441,
+              "y": 74,
+              "width": 59,
+              "height": 25
+            }
+          ]
+        },
+        "File Ref": {
+          "value": "Delta - 8754392",
+          "raw_text": "Delta- 8754392",
+          "confidence": 61.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 541,
+              "y": 74,
+              "width": 70,
+              "height": 20
+            },
+            {
+              "x": 620,
+              "y": 74,
+              "width": 86,
+              "height": 21
+            }
+          ]
+        },
+        "Reference No": {
+          "value": "Vir8lot:?#&!@I70",
+          "raw_text": "Vir8lot:?#&!@I70",
+          "confidence": 48.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 752,
+              "y": 74,
+              "width": 174,
+              "height": 26
+            }
+          ]
+        },
+        "SIM No": {
+          "value": "RDPxkZ870914635JZ74",
+          "raw_text": "RDPxkZ870914635JZ74",
+          "confidence": 84.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 986,
+              "y": 72,
+              "width": 236,
+              "height": 30
+            }
+          ]
+        },
+        "Network Type": {
+          "value": "CDMA+CDMA",
+          "raw_text": "CDMA+CDMA",
+          "confidence": 89.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1281,
+              "y": 74,
+              "width": 131,
+              "height": 20
+            }
+          ]
+        },
+        "Mobile Model": {
+          "value": "Nokia 6620",
+          "raw_text": "Nokia 6620",
+          "confidence": 75.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1459,
+              "y": 74,
+              "width": 57,
+              "height": 20
+            },
+            {
+              "x": 1524,
+              "y": 74,
+              "width": 46,
+              "height": 21
+            }
+          ]
+        },
+        "IMEI 1": {
+          "value": "070394 - 16 -745226 - 6",
+          "raw_text": "070394 - 16 -745226 - 6",
+          "confidence": 90.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 21,
+              "y": 129,
+              "width": 72,
+              "height": 20
+            },
+            {
+              "x": 102,
+              "y": 140,
+              "width": 8,
+              "height": 3
+            },
+            {
+              "x": 119,
+              "y": 129,
+              "width": 18,
+              "height": 20
+            },
+            {
+              "x": 146,
+              "y": 128,
+              "width": 82,
+              "height": 21
+            },
+            {
+              "x": 236,
+              "y": 140,
+              "width": 9,
+              "height": 3
+            },
+            {
+              "x": 253,
+              "y": 129,
+              "width": 11,
+              "height": 20
+            }
+          ]
+        },
+        "IMEI 2": {
+          "value": "%2*%2@ - $* - 367635-5",
+          "raw_text": "%2*%2@ - $* - 367635-5",
+          "confidence": 46.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 334,
+              "y": 127,
+              "width": 84,
+              "height": 28
+            },
+            {
+              "x": 428,
+              "y": 140,
+              "width": 8,
+              "height": 3
+            },
+            {
+              "x": 446,
+              "y": 126,
+              "width": 21,
+              "height": 24
+            },
+            {
+              "x": 475,
+              "y": 140,
+              "width": 8,
+              "height": 3
+            },
+            {
+              "x": 493,
+              "y": 128,
+              "width": 108,
+              "height": 21
+            }
+          ]
+        },
+        "Plan Type": {
+          "value": "SMSPro",
+          "raw_text": "SMSPro",
+          "confidence": 29.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 653,
+              "y": 128,
+              "width": 86,
+              "height": 21
+            }
+          ]
+        },
+        "Card Type": {
+          "value": "Master Card Gold",
+          "raw_text": "Master Card Gold",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 792,
+              "y": 129,
+              "width": 71,
+              "height": 20
+            },
+            {
+              "x": 872,
+              "y": 129,
+              "width": 46,
+              "height": 20
+            },
+            {
+              "x": 927,
+              "y": 129,
+              "width": 44,
+              "height": 20
+            }
+          ]
+        },
+        "Contact": {
+          "value": "943",
+          "raw_text": "\u00a3943",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1037,
+              "y": 129,
+              "width": 49,
+              "height": 20
+            }
+          ]
+        },
+        "Issue Date": {
+          "value": "04/01/2023",
+          "raw_text": "04/01/2023",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1152,
+              "y": 126,
+              "width": 113,
+              "height": 26
+            }
+          ]
+        },
+        "Renewal Date": {
+          "value": "04/01/2024",
+          "raw_text": "04/01/2024",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1318,
+              "y": 126,
+              "width": 116,
+              "height": 26
+            }
+          ]
+        },
+        "Installments": {
+          "value": "88.91",
+          "raw_text": "88.91",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Amount in Words": {
+          "value": "Eighty Eight Point Nine One",
+          "raw_text": "Eighty Eight Point Nine One",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Remarks": {
+          "value": "Not Applicable",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        }
+      },
+      "MY": 12,
+      "issues": [],
+      "status": "VALIDATED",
+      "fingerprint": "da0bb0513a3cf702d6e35f0396eaec0d2ac1fd3f178b14f5220274790f0a2951"
+    }
+  ]
+}

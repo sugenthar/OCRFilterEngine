@@ -1,0 +1,507 @@
+{
+  "processed_at": "2026-08-14T11:32:46.116510+00:00",
+  "image": "images\\inbox\\Screenshot 2026-08-14 170243.png",
+  "file_no": 32,
+  "record_count": 1,
+  "unassigned_rows": [],
+  "records": [
+    {
+      "record_number": 1,
+      "form_no": 128,
+      "fields": {
+        "File No": {
+          "value": "32",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Form No": {
+          "value": "128",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Title": {
+          "value": "Mr",
+          "raw_text": "MR",
+          "confidence": 92.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 14,
+              "y": 10,
+              "width": 34,
+              "height": 20
+            }
+          ]
+        },
+        "First Name": {
+          "value": "Maggie",
+          "raw_text": "Maggie",
+          "confidence": 92.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 93,
+              "y": 10,
+              "width": 80,
+              "height": 26
+            }
+          ]
+        },
+        "Last Name": {
+          "value": "Grand",
+          "raw_text": "Grand",
+          "confidence": 75.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 218,
+              "y": 10,
+              "width": 68,
+              "height": 21
+            }
+          ]
+        },
+        "Initial": {
+          "value": "MMG",
+          "raw_text": "MMG",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Email": {
+          "value": "mgrand@belfastcitymarathon.org",
+          "raw_text": "mgrand@belfastcitymarathon.org",
+          "confidence": 75.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 331,
+              "y": 10,
+              "width": 390,
+              "height": 26
+            }
+          ]
+        },
+        "Father Name": {
+          "value": "Jade Grand",
+          "raw_text": "Jade Grand",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 780,
+              "y": 10,
+              "width": 54,
+              "height": 20
+            },
+            {
+              "x": 844,
+              "y": 10,
+              "width": 68,
+              "height": 21
+            }
+          ]
+        },
+        "DOB": {
+          "value": "17/05/1984",
+          "raw_text": "17/05/1984",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 969,
+              "y": 8,
+              "width": 120,
+              "height": 27
+            }
+          ]
+        },
+        "Gender": {
+          "value": "Male",
+          "raw_text": "Male",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1156,
+              "y": 8,
+              "width": 54,
+              "height": 31
+            }
+          ]
+        },
+        "Profession": {
+          "value": "Fixed Income",
+          "raw_text": "Fixed Income",
+          "confidence": 78.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1274,
+              "y": 10,
+              "width": 60,
+              "height": 20
+            },
+            {
+              "x": 1344,
+              "y": 10,
+              "width": 82,
+              "height": 20
+            }
+          ]
+        },
+        "Mailing Street": {
+          "value": "Moddershall",
+          "raw_text": "Moddershall",
+          "confidence": 72.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1478,
+              "y": 10,
+              "width": 142,
+              "height": 20
+            }
+          ]
+        },
+        "City": {
+          "value": "Stone, Staffordshire",
+          "raw_text": "Stone, Staffordshire",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1630,
+              "y": 10,
+              "width": 72,
+              "height": 25
+            },
+            {
+              "x": 14,
+              "y": 72,
+              "width": 150,
+              "height": 22
+            }
+          ]
+        },
+        "Postal Code": {
+          "value": "S115 8TG",
+          "raw_text": "S115 8TG",
+          "confidence": 17.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 202,
+              "y": 72,
+              "width": 48,
+              "height": 22
+            },
+            {
+              "x": 260,
+              "y": 72,
+              "width": 42,
+              "height": 22
+            }
+          ]
+        },
+        "Country": {
+          "value": "England",
+          "raw_text": "England",
+          "confidence": 90.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 382,
+              "y": 72,
+              "width": 92,
+              "height": 28
+            }
+          ]
+        },
+        "Service Provider": {
+          "value": "O2",
+          "raw_text": "02",
+          "confidence": 89.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 524,
+              "y": 72,
+              "width": 29,
+              "height": 22
+            }
+          ]
+        },
+        "File Ref": {
+          "value": "Charlie - 2408427",
+          "raw_text": "Charlie 2408427",
+          "confidence": 93.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 626,
+              "y": 72,
+              "width": 82,
+              "height": 22
+            },
+            {
+              "x": 736,
+              "y": 72,
+              "width": 96,
+              "height": 22
+            }
+          ]
+        },
+        "Reference No": {
+          "value": "O26lik!+@!!q5013",
+          "raw_text": "O26lik!+@!!q5013",
+          "confidence": 82.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 898,
+              "y": 72,
+              "width": 192,
+              "height": 28
+            }
+          ]
+        },
+        "SIM No": {
+          "value": "GBCu0B013717111P275",
+          "raw_text": "GBCu0B013717111P275",
+          "confidence": 56.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1164,
+              "y": 72,
+              "width": 244,
+              "height": 22
+            }
+          ]
+        },
+        "Network Type": {
+          "value": "GSM",
+          "raw_text": "GSM",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1490,
+              "y": 72,
+              "width": 48,
+              "height": 22
+            }
+          ]
+        },
+        "Mobile Model": {
+          "value": "Siemens $75",
+          "raw_text": "Siemens $75",
+          "confidence": 94.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1603,
+              "y": 72,
+              "width": 99,
+              "height": 22
+            },
+            {
+              "x": 1711,
+              "y": 72,
+              "width": 41,
+              "height": 22
+            }
+          ]
+        },
+        "IMEI 1": {
+          "value": "309032 -35-003063-3",
+          "raw_text": "309032 -35-003063-3",
+          "confidence": 68.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 14,
+              "y": 132,
+              "width": 82,
+              "height": 22
+            },
+            {
+              "x": 106,
+              "y": 132,
+              "width": 199,
+              "height": 22
+            }
+          ]
+        },
+        "IMEI 2": {
+          "value": "+%!?%& - 2% - 748714 - 4",
+          "raw_text": "+%!?%& - 2% - 748714 - 4",
+          "confidence": 22.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 348,
+              "y": 132,
+              "width": 86,
+              "height": 22
+            },
+            {
+              "x": 444,
+              "y": 144,
+              "width": 10,
+              "height": 4
+            },
+            {
+              "x": 460,
+              "y": 132,
+              "width": 30,
+              "height": 22
+            },
+            {
+              "x": 501,
+              "y": 144,
+              "width": 10,
+              "height": 4
+            },
+            {
+              "x": 519,
+              "y": 132,
+              "width": 78,
+              "height": 22
+            },
+            {
+              "x": 606,
+              "y": 144,
+              "width": 10,
+              "height": 4
+            },
+            {
+              "x": 626,
+              "y": 133,
+              "width": 13,
+              "height": 22
+            }
+          ]
+        },
+        "Plan Type": {
+          "value": "Ultra Plus",
+          "raw_text": "Ultra Plus",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 711,
+              "y": 133,
+              "width": 55,
+              "height": 22
+            },
+            {
+              "x": 776,
+              "y": 133,
+              "width": 48,
+              "height": 22
+            }
+          ]
+        },
+        "Card Type": {
+          "value": "Master Card PremiumGold",
+          "raw_text": "Master Card PremiumGold",
+          "confidence": 91.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 890,
+              "y": 133,
+              "width": 78,
+              "height": 22
+            },
+            {
+              "x": 978,
+              "y": 132,
+              "width": 50,
+              "height": 22
+            },
+            {
+              "x": 1039,
+              "y": 132,
+              "width": 156,
+              "height": 22
+            }
+          ]
+        },
+        "Contact": {
+          "value": "349",
+          "raw_text": "\u00a3349",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1282,
+              "y": 132,
+              "width": 56,
+              "height": 22
+            }
+          ]
+        },
+        "Issue Date": {
+          "value": "26/01/2022",
+          "raw_text": "26/01/2022",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1417,
+              "y": 130,
+              "width": 124,
+              "height": 28
+            }
+          ]
+        },
+        "Renewal Date": {
+          "value": "26/07/2023",
+          "raw_text": "26/07/2023",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1627,
+              "y": 130,
+              "width": 128,
+              "height": 28
+            }
+          ]
+        },
+        "Installments": {
+          "value": "39.41",
+          "raw_text": "39.41",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Amount in Words": {
+          "value": "Thirty Nine Point Four One",
+          "raw_text": "Thirty Nine Point Four One",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Remarks": {
+          "value": "Not Applicable",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        }
+      },
+      "MY": 12,
+      "issues": [],
+      "status": "VALIDATED",
+      "fingerprint": "3d9f99531ddd9dfeb9fdc3f5973c16c2ac76a41dfce058c5e2972b1db7ee3ea6"
+    }
+  ]
+}

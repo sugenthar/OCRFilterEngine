@@ -1,0 +1,487 @@
+{
+  "processed_at": "2026-08-14T07:26:35.211239+00:00",
+  "image": "images\\inbox\\Screenshot 2026-08-14 125627.png",
+  "file_no": 26,
+  "record_count": 1,
+  "unassigned_rows": [],
+  "records": [
+    {
+      "record_number": 1,
+      "form_no": 1521,
+      "fields": {
+        "File No": {
+          "value": "26",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Form No": {
+          "value": "1521",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Title": {
+          "value": "Ms",
+          "raw_text": "Ms.",
+          "confidence": 74.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 26,
+              "y": 33,
+              "width": 36,
+              "height": 21
+            }
+          ]
+        },
+        "First Name": {
+          "value": "Stephen",
+          "raw_text": "Stephen",
+          "confidence": 74.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 114,
+              "y": 32,
+              "width": 92,
+              "height": 28
+            }
+          ]
+        },
+        "Last Name": {
+          "value": "",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": []
+        },
+        "Initial": {
+          "value": "MS",
+          "raw_text": "MS",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Email": {
+          "value": "Sawreyssawrey@hilton.com",
+          "raw_text": "Sawreyssawrey@hilton.com",
+          "confidence": 61.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 258,
+              "y": 33,
+              "width": 326,
+              "height": 27
+            }
+          ]
+        },
+        "Father Name": {
+          "value": "Kumar Sawrey",
+          "raw_text": "Kumar Sawrey",
+          "confidence": 47.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 630,
+              "y": 33,
+              "width": 74,
+              "height": 21
+            },
+            {
+              "x": 714,
+              "y": 32,
+              "width": 85,
+              "height": 28
+            }
+          ]
+        },
+        "DOB": {
+          "value": "01/05/1989",
+          "raw_text": "01/05/1989",
+          "confidence": 75.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 843,
+              "y": 30,
+              "width": 122,
+              "height": 28
+            }
+          ]
+        },
+        "Gender": {
+          "value": "Female",
+          "raw_text": "Female",
+          "confidence": 85.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1016,
+              "y": 33,
+              "width": 83,
+              "height": 21
+            }
+          ]
+        },
+        "Profession": {
+          "value": "Services",
+          "raw_text": "Services",
+          "confidence": 90.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1144,
+              "y": 32,
+              "width": 99,
+              "height": 22
+            }
+          ]
+        },
+        "Mailing Street": {
+          "value": "Elvey Lane Pluckley Ashford",
+          "raw_text": "Elvey Lane Pluckley Ashford,Kent",
+          "confidence": 54.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1287,
+              "y": 33,
+              "width": 60,
+              "height": 27
+            },
+            {
+              "x": 1356,
+              "y": 33,
+              "width": 54,
+              "height": 21
+            },
+            {
+              "x": 1420,
+              "y": 33,
+              "width": 98,
+              "height": 27
+            },
+            {
+              "x": 1525,
+              "y": 33,
+              "width": 148,
+              "height": 25
+            }
+          ]
+        },
+        "City": {
+          "value": "Kent",
+          "raw_text": "Ashford,Kent",
+          "confidence": 92.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1525,
+              "y": 33,
+              "width": 148,
+              "height": 25
+            }
+          ]
+        },
+        "Postal Code": {
+          "value": "TN270SU",
+          "raw_text": "TN270SU",
+          "confidence": 66.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 24,
+              "y": 94,
+              "width": 108,
+              "height": 21
+            }
+          ]
+        },
+        "Country": {
+          "value": "England",
+          "raw_text": "England",
+          "confidence": 80.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 169,
+              "y": 94,
+              "width": 91,
+              "height": 28
+            }
+          ]
+        },
+        "Service Provider": {
+          "value": "Hutchison Whampoa",
+          "raw_text": "Hutchison",
+          "confidence": 24.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 313,
+              "y": 94,
+              "width": 112,
+              "height": 21
+            }
+          ]
+        },
+        "File Ref": {
+          "value": "Whampoa - Foxtrot - 1910073",
+          "raw_text": "Whampoa Foxtrot 1910073",
+          "confidence": 24.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 435,
+              "y": 94,
+              "width": 112,
+              "height": 28
+            },
+            {
+              "x": 592,
+              "y": 94,
+              "width": 82,
+              "height": 21
+            },
+            {
+              "x": 701,
+              "y": 94,
+              "width": 85,
+              "height": 21
+            }
+          ]
+        },
+        "Reference No": {
+          "value": "HuWh28aW1",
+          "raw_text": "HuWh28aW1/%*;E07551203",
+          "confidence": 43.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 825,
+              "y": 91,
+              "width": 299,
+              "height": 28
+            }
+          ]
+        },
+        "SIM No": {
+          "value": "UNZcuR303217823PU89",
+          "raw_text": "UNZcuR303217823PU89_",
+          "confidence": 23.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 1162,
+              "y": 94,
+              "width": 269,
+              "height": 21
+            }
+          ]
+        },
+        "Network Type": {
+          "value": "GSM",
+          "raw_text": "GSM",
+          "confidence": 93.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1476,
+              "y": 94,
+              "width": 47,
+              "height": 21
+            }
+          ]
+        },
+        "Mobile Model": {
+          "value": "Nokia 5250",
+          "raw_text": "Nokia 5250",
+          "confidence": 92.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1562,
+              "y": 94,
+              "width": 64,
+              "height": 21
+            },
+            {
+              "x": 1635,
+              "y": 94,
+              "width": 54,
+              "height": 21
+            }
+          ]
+        },
+        "IMEI 1": {
+          "value": "160952 - 22-287711-4",
+          "raw_text": "160952 - 22-287711-4",
+          "confidence": 76.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 25,
+              "y": 156,
+              "width": 77,
+              "height": 21
+            },
+            {
+              "x": 111,
+              "y": 168,
+              "width": 9,
+              "height": 3
+            },
+            {
+              "x": 130,
+              "y": 156,
+              "width": 167,
+              "height": 21
+            }
+          ]
+        },
+        "IMEI 2": {
+          "value": "I+S![- $!- 953560-1",
+          "raw_text": "\u2014|I+S![- $!- 953560-1",
+          "confidence": 6.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 350,
+              "y": 154,
+              "width": 72,
+              "height": 25
+            },
+            {
+              "x": 432,
+              "y": 154,
+              "width": 37,
+              "height": 25
+            },
+            {
+              "x": 480,
+              "y": 156,
+              "width": 115,
+              "height": 21
+            }
+          ]
+        },
+        "Plan Type": {
+          "value": "Economy Plus",
+          "raw_text": "Economy Plus",
+          "confidence": 14.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 628,
+              "y": 156,
+              "width": 104,
+              "height": 27
+            },
+            {
+              "x": 740,
+              "y": 156,
+              "width": 49,
+              "height": 21
+            }
+          ]
+        },
+        "Card Type": {
+          "value": "MasterTitanium Plus",
+          "raw_text": "MasterTitanium Plus",
+          "confidence": 46.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 833,
+              "y": 156,
+              "width": 178,
+              "height": 21
+            },
+            {
+              "x": 1020,
+              "y": 156,
+              "width": 48,
+              "height": 21
+            }
+          ]
+        },
+        "Contact": {
+          "value": "759",
+          "raw_text": "\u00a3759",
+          "confidence": 75.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1119,
+              "y": 156,
+              "width": 55,
+              "height": 21
+            }
+          ]
+        },
+        "Issue Date": {
+          "value": "12/05/2022",
+          "raw_text": "12/05/2022",
+          "confidence": 93.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1231,
+              "y": 154,
+              "width": 127,
+              "height": 27
+            }
+          ]
+        },
+        "Renewal Date": {
+          "value": "12/05/2023",
+          "raw_text": "12/05/2023",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1415,
+              "y": 154,
+              "width": 127,
+              "height": 27
+            }
+          ]
+        },
+        "Installments": {
+          "value": "73.58",
+          "raw_text": "73.58",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Amount in Words": {
+          "value": "Seventy Three Point Five Eight",
+          "raw_text": "Seventy Three Point Five Eight",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Remarks": {
+          "value": "Not Applicable",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        }
+      },
+      "MY": 12,
+      "issues": [
+        {
+          "field": "Last Name",
+          "reason": "missing / empty value"
+        }
+      ],
+      "status": "REVIEW_REQUIRED",
+      "fingerprint": "56f162b46a184a247afeea0b6cb3ba300f633acdf01d0edfbae4a3663065cd8f"
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "processed_at": "2026-08-14T11:12:36.621725+00:00",
+  "image": "images\\inbox\\Screenshot 2026-08-14 164233.png",
+  "file_no": 31,
+  "record_count": 1,
+  "unassigned_rows": [],
+  "records": [
+    {
+      "record_number": 1,
+      "form_no": 124,
+      "fields": {
+        "File No": {
+          "value": "31",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Form No": {
+          "value": "124",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Title": {
+          "value": "Mrs",
+          "raw_text": "Mrs",
+          "confidence": 56.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 13,
+              "y": 26,
+              "width": 38,
+              "height": 20
+            }
+          ]
+        },
+        "First Name": {
+          "value": "Marietla",
+          "raw_text": "Marietla",
+          "confidence": 29.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 96,
+              "y": 26,
+              "width": 86,
+              "height": 20
+            }
+          ]
+        },
+        "Last Name": {
+          "value": "Maidman",
+          "raw_text": "Maidman",
+          "confidence": 70.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 215,
+              "y": 26,
+              "width": 93,
+              "height": 20
+            }
+          ]
+        },
+        "Initial": {
+          "value": "MMM",
+          "raw_text": "MMM",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Email": {
+          "value": "mmaidman@gmail.com",
+          "raw_text": "mmaidman@gmail.com",
+          "confidence": 59.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 356,
+              "y": 26,
+              "width": 244,
+              "height": 25
+            }
+          ]
+        },
+        "Father Name": {
+          "value": "Tido Maidman",
+          "raw_text": "TidoMaidman",
+          "confidence": 59.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 645,
+              "y": 26,
+              "width": 144,
+              "height": 20
+            }
+          ]
+        },
+        "DOB": {
+          "value": "21/10/1965",
+          "raw_text": "21/10/1965",
+          "confidence": 90.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 829,
+              "y": 23,
+              "width": 103,
+              "height": 26
+            }
+          ]
+        },
+        "Gender": {
+          "value": "Female",
+          "raw_text": "female",
+          "confidence": 84.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 972,
+              "y": 26,
+              "width": 71,
+              "height": 20
+            }
+          ]
+        },
+        "Profession": {
+          "value": "Professional",
+          "raw_text": "ProFessional",
+          "confidence": 81.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1077,
+              "y": 26,
+              "width": 133,
+              "height": 20
+            }
+          ]
+        },
+        "Mailing Street": {
+          "value": "Bowhill",
+          "raw_text": "Bowhill",
+          "confidence": 75.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1250,
+              "y": 26,
+              "width": 76,
+              "height": 20
+            }
+          ]
+        },
+        "City": {
+          "value": "Selkirk, Midlothian",
+          "raw_text": "Selkirk, Midlothian",
+          "confidence": 82.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1365,
+              "y": 26,
+              "width": 78,
+              "height": 24
+            },
+            {
+              "x": 1452,
+              "y": 26,
+              "width": 108,
+              "height": 20
+            }
+          ]
+        },
+        "Postal Code": {
+          "value": "TD7 5ET",
+          "raw_text": "TD7 5ET",
+          "confidence": 88.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 12,
+              "y": 81,
+              "width": 37,
+              "height": 20
+            },
+            {
+              "x": 57,
+              "y": 81,
+              "width": 36,
+              "height": 20
+            }
+          ]
+        },
+        "Country": {
+          "value": "Scotland",
+          "raw_text": "Scotland",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 145,
+              "y": 80,
+              "width": 90,
+              "height": 20
+            }
+          ]
+        },
+        "Service Provider": {
+          "value": "Vodafone",
+          "raw_text": "Vodafone",
+          "confidence": 86.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 280,
+              "y": 81,
+              "width": 94,
+              "height": 20
+            }
+          ]
+        },
+        "File Ref": {
+          "value": "Delta - 756131572",
+          "raw_text": "Delta 756131572",
+          "confidence": 59.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 416,
+              "y": 81,
+              "width": 52,
+              "height": 20
+            },
+            {
+              "x": 494,
+              "y": 80,
+              "width": 102,
+              "height": 20
+            }
+          ]
+        },
+        "Reference No": {
+          "value": "Vfone80XDS!%#%S00",
+          "raw_text": "Vfone80XDS!%#%S00",
+          "confidence": 34.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 634,
+              "y": 78,
+              "width": 218,
+              "height": 24
+            }
+          ]
+        },
+        "SIM No": {
+          "value": "NZUbmX791689806MN82",
+          "raw_text": "NZUbmX791689806MN82",
+          "confidence": 75.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 900,
+              "y": 80,
+              "width": 254,
+              "height": 20
+            }
+          ]
+        },
+        "Network Type": {
+          "value": "CDMA+GSM",
+          "raw_text": "CDMA+GSM",
+          "confidence": 77.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1198,
+              "y": 80,
+              "width": 115,
+              "height": 20
+            }
+          ]
+        },
+        "Mobile Model": {
+          "value": "Siemens ST60",
+          "raw_text": "Siemens ST60",
+          "confidence": 83.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1360,
+              "y": 80,
+              "width": 90,
+              "height": 20
+            },
+            {
+              "x": 1457,
+              "y": 80,
+              "width": 49,
+              "height": 20
+            }
+          ]
+        },
+        "IMEI 1": {
+          "value": "449194 - 61- 851128-1",
+          "raw_text": "449194 - 61- 851128-1",
+          "confidence": 53.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 13,
+              "y": 136,
+              "width": 69,
+              "height": 20
+            },
+            {
+              "x": 90,
+              "y": 148,
+              "width": 8,
+              "height": 3
+            },
+            {
+              "x": 108,
+              "y": 137,
+              "width": 36,
+              "height": 20
+            },
+            {
+              "x": 153,
+              "y": 137,
+              "width": 96,
+              "height": 20
+            }
+          ]
+        },
+        "IMEI 2": {
+          "value": "*&@*#-&$-368105-6",
+          "raw_text": "*&@*#-&$-368105-6",
+          "confidence": 21.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 303,
+              "y": 134,
+              "width": 260,
+              "height": 28
+            }
+          ]
+        },
+        "Plan Type": {
+          "value": "UltraPlus",
+          "raw_text": "UltraPlus",
+          "confidence": 34.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 610,
+              "y": 137,
+              "width": 102,
+              "height": 20
+            }
+          ]
+        },
+        "Card Type": {
+          "value": "MasterCard PremiumGold",
+          "raw_text": "MasterCard PremiumGold",
+          "confidence": 40.0,
+          "needs_review": true,
+          "coordinates": [
+            {
+              "x": 758,
+              "y": 137,
+              "width": 126,
+              "height": 20
+            },
+            {
+              "x": 893,
+              "y": 137,
+              "width": 144,
+              "height": 20
+            }
+          ]
+        },
+        "Contact": {
+          "value": "533",
+          "raw_text": "\u00a3533",
+          "confidence": 52.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1091,
+              "y": 136,
+              "width": 50,
+              "height": 21
+            }
+          ]
+        },
+        "Issue Date": {
+          "value": "10/12/2024",
+          "raw_text": "10/12/2024",
+          "confidence": 90.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1199,
+              "y": 134,
+              "width": 110,
+              "height": 26
+            }
+          ]
+        },
+        "Renewal Date": {
+          "value": "10/12/2025",
+          "raw_text": "10/12/2025",
+          "confidence": 58.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1355,
+              "y": 134,
+              "width": 108,
+              "height": 26
+            }
+          ]
+        },
+        "Installments": {
+          "value": "54.74",
+          "raw_text": "54.74",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Amount in Words": {
+          "value": "Fifty Four Point Seven Four",
+          "raw_text": "Fifty Four Point Seven Four",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": []
+        },
+        "Remarks": {
+          "value": "Not Applicable",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": []
+        }
+      },
+      "MY": 12,
+      "issues": [],
+      "status": "VALIDATED",
+      "fingerprint": "fbe880d0ac9747040d58e0cbc9d4ccbe5f13f3a7d0505f9a92f105396677d2c8"
+    }
+  ]
+}
