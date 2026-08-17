@@ -1,0 +1,187 @@
+================================================================================
+DATA ENTRY AUTOMATION - PROJECT PLAN & WORKFLOW DOCUMENTATION
+================================================================================
+
+run command = python run_pipeline.py --watch
+
+1. PROJECT OVERVIEW
+--------------------------------------------------------------------------------
+The Data Entry Automation System is an end-to-end Python & AutoHotkey (AHK v2)
+solution designed to process form images sequentially, extract 31 structured fields 
+using Tesseract OCR, calculate financial installments, validate extracted data, 
+persist global state across batches, and generate native Windows desktop app entry scripts.
+
+Key Characteristics:
+  - 31 Required Fields extracted per record.
+  - Variable Records per Image (dynamically grouped by title/name start rows).
+  - Sequence Safety: Form No and File No strictly increment without collisions.
+  - Data Integrity: Full verification & review tagging before AHK execution.
+  - Non-Destructive AHK: Automated entry via hotkeys (F6-F9) without auto-submitting.
+
+
+2. SYSTEM ARCHITECTURE & DATA FLOW WORKFLOW
+--------------------------------------------------------------------------------
+           +---------------------------------------------------+
+           |                  IMAGES / INBOX                   |
+           +---------------------------------------------------+
+                                     |
+                                     v
+           +---------------------------------------------------+
+           | watch_inbox() [Latency ~1s, Stability Validation] |
+           +---------------------------------------------------+
+                                     |
+                                     v
+           +---------------------------------------------------+
+           |   PyTesseract OCR + group_rows_into_records()    |
+           +---------------------------------------------------+
+                                     |
+                                     v
+           +---------------------------------------------------+
+           | StateStore Allocation (Unique File No & Form No) |
+           +---------------------------------------------------+
+                                     |
+                                     v
+           +---------------------------------------------------+
+           |   extract_record() -> 31 Field Pattern Matching   |
+           +---------------------------------------------------+
+                                     |
+                                     v
+           +---------------------------------------------------+
+           |  calculate_fields() [MY, Installment, Words]      |
+           +---------------------------------------------------+
+                                     |
+                                     v
+           +---------------------------------------------------+
+           |     validate_record() -> VALIDATED / REVIEW       |
+           +---------------------------------------------------+
+                                     |
+                                     v
+           +---------------------------------------------------+
+           |  Output JSONs + Archive Image + Generate AHK v2   |
+           +---------------------------------------------------+
+
+
+3. MODULE RESPONSIBILITIES
+--------------------------------------------------------------------------------
+1. run_pipeline.py
+   - Entry point supporting CLI modes: --watch (continuous inbox watcher) and --once <image>.
+   - Monitors images/inbox for stable images (.png, .jpg, .jpeg, .bmp, .webp).
+   - Coordinates extraction, calculation, validation, logging, state storing, and AHK generation.
+   - Moves processed files from images/inbox to images/archive automatically.
+
+2. state_store.py (SQLite: output/pipeline_state.db)
+   - Guarantees persistent global counters: next_form_no and next_file_no.
+   - Prevents duplicate image processing using SHA256 image hashes.
+   - Performs collision-free form_no and file_no allocations using database-backed uniqueness loops.
+
+3. field_extractor.py
+   - Invokes Tesseract OCR with --psm 6 to retrieve bounding box coordinates and confidences.
+   - Groups OCR word tokens into visual rows based on Y-coordinate alignment.
+   - Filters visual noise while preserving all text.
+   - Groups rows into discrete records based on title start markers (Mr, Mrs, Ms, Miss, Dr, Prof, Major General, etc.).
+
+4. extract_fields.py
+   - Extracts all 31 fields using spatial coordinates, token positions, and regex pattern matching.
+   - Implements robust OCR cleanup:
+       * Date cleaning: Fixes OCR digit errors (e.g., o1/09/2023 -> 01/09/2023).
+       * Email TLD repair: Fixes missing domain dots (e.g., user@domaincom -> user@domain.com).
+       * Artifact stripping: Skips leading em-dashes (—) or symbols before titles.
+       * Multi-word splitting: Handles merged name tokens cleanly into First Name & Last Name.
+
+5. calculations.py & amount_words.py
+   - Derives initials from Title, First Name, and Last Name.
+   - Computes Months (MY) between Issue Date and Renewal Date.
+   - Calculates Installment: (Contact Amount / Months) + 10.33 rounded to 2 decimal places.
+   - Converts installment numbers into formal English text (e.g., 20.33 -> "Twenty Point Three Three").
+
+6. validator.py
+   - Validates each record against strict rules:
+       * All 31 fields must be non-empty.
+       * Valid email regex format.
+       * Valid DD/MM/YYYY date formats for DOB, Issue Date, Renewal Date.
+       * Gender must be "Male" or "Female".
+       * Contact must be numeric.
+       * Initial must be 2 to 4 uppercase letters.
+       * Installments and Amount in Words must be validly calculated.
+   - Classifies clean records as "VALIDATED" and questionable records as "REVIEW_REQUIRED".
+
+7. generate_ahk.py
+   - Builds native Windows desktop application automation scripts targeting AutoHotkey v2.0.
+   - Maps validated records to hotkeys (F6 -> Record 1, F7 -> Record 2, F8 -> Record 3, F9 -> Record 4).
+   - Implements active window focus checks, tooltips, key delays (25ms), and field tabbing (Tabs 1-30, no Tab after 31).
+   - Binds ESC key to immediately exit script execution.
+
+
+4. THE 31 EXTRACTED FIELDS
+--------------------------------------------------------------------------------
+ 1. File No           12. Mailing Street     23. IMEI 2
+ 2. Form No           13. City               24. Plan Type
+ 3. Title             14. Postal Code        25. Card Type
+ 4. First Name        15. Country            26. Contact
+ 5. Last Name         16. Service Provider   27. Issue Date
+ 6. Initial           17. File Ref           28. Renewal Date
+ 7. Email             18. Reference No       29. Installments
+ 8. Father Name       19. SIM No             30. Amount in Words
+ 9. DOB               20. Network Type       31. Remarks
+10. Gender            21. Mobile Model
+11. Profession        22. IMEI 1
+
+
+5. OUTPUT FILE STRUCTURE & PERSISTENCE
+--------------------------------------------------------------------------------
+Output Directory: output/
+  - pipeline_state.db       : SQLite state database for persistent sequences & hashes.
+  - pipeline.log            : Comprehensive execution log with timestamps.
+  - structured_data.json    : Latest processed batch result with raw coordinates & confidence.
+  - successful_records.json : Filtered list of VALIDATED records for the latest batch.
+  - review.json             : Filtered list of REVIEW_REQUIRED records needing manual check.
+  - failed_records.json     : Details of any image processing failure.
+  - records_file_<FileNo>.json : Permanent archive of extracted JSON per processed File No.
+  - data_entry.ahk          : Generated AutoHotkey v2 script for native desktop data entry.
+
+
+6. FILE & FORM NUMBERING RULES
+--------------------------------------------------------------------------------
+- Starting File No: 28 (default, configurable via --file-no)
+- Starting Form No: 110 (default, configurable via --starting-form-no)
+- Every image increases the Form No by 1 (or sequentially per record).
+- Every 4 images increases the File No by 1.
+- Form No continues sequentially across all images.
+- Use separate AutoHotkey hotkeys for each record (F6..F9, F10..F12).
+
+Example:
+  Image 1 -> File No 28, Form No 110
+  Image 2 -> File No 28, Form No 111
+  Image 3 -> File No 28, Form No 112
+  Image 4 -> File No 28, Form No 113
+  Image 5 -> File No 29, Form No 114
+  Image 6 -> File No 29, Form No 115
+  Image 7 -> File No 29, Form No 116
+  Image 8 -> File No 29, Form No 117
+
+
+7. OPERATING PROCEDURES (HOW TO RUN)
+--------------------------------------------------------------------------------
+A. Watch Mode (Continuous Processing):
+   1. Run the watcher command:
+        python run_pipeline.py --watch
+   2. Drop form images (.png, .jpg, etc.) into the `images/inbox/` folder.
+   3. The script detects new stable images, processes them, generates `output/data_entry.ahk`, 
+      and moves processed images to `images/archive/`.
+
+B. Single Image Mode (Immediate Processing):
+   Run:
+        python run_pipeline.py --once images/sample.png
+
+C. Reset Sequence Counters (Optional):
+   Run:
+        python run_pipeline.py --reset --file-no 28 --starting-form-no 110
+
+D. Windows Desktop Data Entry via AutoHotkey:
+   1. Install AutoHotkey v2.0 (if not already installed).
+   2. Double-click `output/data_entry.ahk`.
+   3. Open your target Windows Desktop Data Entry Application.
+   4. Click cursor into the first input field (File No).
+   5. Press F6 (Record 1), F7 (Record 2), F8 (Record 3), or F9 (Record 4) to automatically type.
+   6. Press ESC at any time to immediately stop data entry.
+================================================================================

@@ -1,0 +1,4013 @@
+{
+  "source_image": "images\\sample.png",
+  "row_y_tolerance": 15,
+  "low_confidence_threshold": 50.0,
+  "useful_row_count": 12,
+  "record_count": 4,
+  "unassigned_rows": [],
+  "records": [
+    {
+      "record_number": 1,
+      "rows": [
+        {
+          "y": 13,
+          "text": "Ms. Hillary Benton \u2014 hilary@jisc.ac.uk Phy.DBenton 17/03/1991 Female Service OtleyRoad Leeds,North Yorkshire LS16 8AG",
+          "words": [
+            {
+              "text": "Ms.",
+              "x": 30,
+              "y": 19,
+              "width": 26,
+              "height": 16,
+              "confidence": 90.0,
+              "needs_review": false
+            },
+            {
+              "text": "Hillary",
+              "x": 77,
+              "y": 19,
+              "width": 52,
+              "height": 19,
+              "confidence": 8.0,
+              "needs_review": true
+            },
+            {
+              "text": "Benton",
+              "x": 136,
+              "y": 19,
+              "width": 55,
+              "height": 16,
+              "confidence": 8.0,
+              "needs_review": true
+            },
+            {
+              "text": "\u2014",
+              "x": 203,
+              "y": 13,
+              "width": 11,
+              "height": 30,
+              "confidence": 33.0,
+              "needs_review": true
+            },
+            {
+              "text": "hilary@jisc.ac.uk",
+              "x": 223,
+              "y": 19,
+              "width": 138,
+              "height": 19,
+              "confidence": 33.0,
+              "needs_review": true
+            },
+            {
+              "text": "Phy.DBenton",
+              "x": 386,
+              "y": 19,
+              "width": 105,
+              "height": 19,
+              "confidence": 84.0,
+              "needs_review": false
+            },
+            {
+              "text": "17/03/1991",
+              "x": 511,
+              "y": 17,
+              "width": 79,
+              "height": 20,
+              "confidence": 90.0,
+              "needs_review": false
+            },
+            {
+              "text": "Female",
+              "x": 611,
+              "y": 19,
+              "width": 59,
+              "height": 16,
+              "confidence": 94.0,
+              "needs_review": false
+            },
+            {
+              "text": "Service",
+              "x": 692,
+              "y": 19,
+              "width": 59,
+              "height": 16,
+              "confidence": 83.0,
+              "needs_review": false
+            },
+            {
+              "text": "OtleyRoad",
+              "x": 778,
+              "y": 19,
+              "width": 85,
+              "height": 19,
+              "confidence": 83.0,
+              "needs_review": false
+            },
+            {
+              "text": "Leeds,North",
+              "x": 880,
+              "y": 19,
+              "width": 101,
+              "height": 17,
+              "confidence": 88.0,
+              "needs_review": false
+            },
+            {
+              "text": "Yorkshire",
+              "x": 987,
+              "y": 19,
+              "width": 75,
+              "height": 16,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "LS16",
+              "x": 1094,
+              "y": 19,
+              "width": 35,
+              "height": 16,
+              "confidence": 39.0,
+              "needs_review": true
+            },
+            {
+              "text": "8AG",
+              "x": 1135,
+              "y": 19,
+              "width": 30,
+              "height": 16,
+              "confidence": 91.0,
+              "needs_review": false
+            }
+          ]
+        },
+        {
+          "y": 62,
+          "text": "England Vodafone Tango - 4616541 VfoneBAYT!H@##&T3 JIVawB1502391301089 GSM Siemens MC60 473871 - 33 - 751054 - 6",
+          "words": [
+            {
+              "text": "England",
+              "x": 30,
+              "y": 62,
+              "width": 64,
+              "height": 20,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "Vodafone",
+              "x": 130,
+              "y": 62,
+              "width": 73,
+              "height": 16,
+              "confidence": 77.0,
+              "needs_review": false
+            },
+            {
+              "text": "Tango",
+              "x": 228,
+              "y": 62,
+              "width": 47,
+              "height": 20,
+              "confidence": 0.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 282,
+              "y": 71,
+              "width": 6,
+              "height": 2,
+              "confidence": 0.0,
+              "needs_review": true
+            },
+            {
+              "text": "4616541",
+              "x": 296,
+              "y": 62,
+              "width": 60,
+              "height": 16,
+              "confidence": 32.0,
+              "needs_review": true
+            },
+            {
+              "text": "VfoneBAYT!H@##&T3",
+              "x": 396,
+              "y": 62,
+              "width": 165,
+              "height": 20,
+              "confidence": 15.0,
+              "needs_review": true
+            },
+            {
+              "text": "JIVawB1502391301089",
+              "x": 596,
+              "y": 62,
+              "width": 175,
+              "height": 16,
+              "confidence": 27.0,
+              "needs_review": true
+            },
+            {
+              "text": "GSM",
+              "x": 793,
+              "y": 62,
+              "width": 33,
+              "height": 16,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "Siemens",
+              "x": 863,
+              "y": 62,
+              "width": 69,
+              "height": 16,
+              "confidence": 63.0,
+              "needs_review": false
+            },
+            {
+              "text": "MC60",
+              "x": 938,
+              "y": 62,
+              "width": 43,
+              "height": 16,
+              "confidence": 45.0,
+              "needs_review": true
+            },
+            {
+              "text": "473871",
+              "x": 1027,
+              "y": 62,
+              "width": 54,
+              "height": 16,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 1087,
+              "y": 71,
+              "width": 7,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "33",
+              "x": 1101,
+              "y": 62,
+              "width": 18,
+              "height": 16,
+              "confidence": 85.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 1126,
+              "y": 71,
+              "width": 6,
+              "height": 2,
+              "confidence": 85.0,
+              "needs_review": false
+            },
+            {
+              "text": "751054",
+              "x": 1140,
+              "y": 62,
+              "width": 55,
+              "height": 16,
+              "confidence": 84.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 1201,
+              "y": 71,
+              "width": 8,
+              "height": 2,
+              "confidence": 84.0,
+              "needs_review": false
+            },
+            {
+              "text": "6",
+              "x": 1216,
+              "y": 62,
+              "width": 8,
+              "height": 16,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ]
+        },
+        {
+          "y": 103,
+          "text": "P@SS - #!-521315-9 TurboCall Master CardPremiumGold \u00a3580 06/07/2020 \u2014_-06/01/2022",
+          "words": [
+            {
+              "text": "P@SS",
+              "x": 35,
+              "y": 103,
+              "width": 56,
+              "height": 22,
+              "confidence": 34.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 98,
+              "y": 113,
+              "width": 6,
+              "height": 3,
+              "confidence": 60.0,
+              "needs_review": false
+            },
+            {
+              "text": "#!-521315-9",
+              "x": 112,
+              "y": 105,
+              "width": 113,
+              "height": 16,
+              "confidence": 60.0,
+              "needs_review": false
+            },
+            {
+              "text": "TurboCall",
+              "x": 256,
+              "y": 105,
+              "width": 81,
+              "height": 16,
+              "confidence": 50.0,
+              "needs_review": false
+            },
+            {
+              "text": "Master",
+              "x": 373,
+              "y": 106,
+              "width": 55,
+              "height": 15,
+              "confidence": 3.0,
+              "needs_review": true
+            },
+            {
+              "text": "CardPremiumGold",
+              "x": 434,
+              "y": 105,
+              "width": 157,
+              "height": 16,
+              "confidence": 3.0,
+              "needs_review": true
+            },
+            {
+              "text": "\u00a3580",
+              "x": 632,
+              "y": 105,
+              "width": 39,
+              "height": 16,
+              "confidence": 57.0,
+              "needs_review": false
+            },
+            {
+              "text": "06/07/2020",
+              "x": 718,
+              "y": 103,
+              "width": 89,
+              "height": 20,
+              "confidence": 26.0,
+              "needs_review": true
+            },
+            {
+              "text": "\u2014_-06/01/2022",
+              "x": 849,
+              "y": 103,
+              "width": 87,
+              "height": 20,
+              "confidence": 0.0,
+              "needs_review": true
+            }
+          ]
+        }
+      ],
+      "source_text": "Ms. Hillary Benton \u2014 hilary@jisc.ac.uk Phy.DBenton 17/03/1991 Female Service OtleyRoad Leeds,North Yorkshire LS16 8AG\nEngland Vodafone Tango - 4616541 VfoneBAYT!H@##&T3 JIVawB1502391301089 GSM Siemens MC60 473871 - 33 - 751054 - 6\nP@SS - #!-521315-9 TurboCall Master CardPremiumGold \u00a3580 06/07/2020 \u2014_-06/01/2022",
+      "source_fields": {
+        "title": {
+          "raw_text": "Ms.",
+          "words": [
+            {
+              "text": "Ms.",
+              "x": 30,
+              "y": 19,
+              "width": 26,
+              "height": 16,
+              "confidence": 90.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 90.0,
+          "needs_review": false
+        },
+        "first_name": {
+          "raw_text": "Hillary",
+          "words": [
+            {
+              "text": "Hillary",
+              "x": 77,
+              "y": 19,
+              "width": 52,
+              "height": 19,
+              "confidence": 8.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 8.0,
+          "needs_review": true
+        },
+        "last_name": {
+          "raw_text": "Benton",
+          "words": [
+            {
+              "text": "Benton",
+              "x": 136,
+              "y": 19,
+              "width": 55,
+              "height": 16,
+              "confidence": 8.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 8.0,
+          "needs_review": true
+        },
+        "email": {
+          "raw_text": "\u2014 hilary@jisc.ac.uk",
+          "words": [
+            {
+              "text": "\u2014",
+              "x": 203,
+              "y": 13,
+              "width": 11,
+              "height": 30,
+              "confidence": 33.0,
+              "needs_review": true
+            },
+            {
+              "text": "hilary@jisc.ac.uk",
+              "x": 223,
+              "y": 19,
+              "width": 138,
+              "height": 19,
+              "confidence": 33.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 33.0,
+          "needs_review": true
+        },
+        "father_name": {
+          "raw_text": "Phy.DBenton",
+          "words": [
+            {
+              "text": "Phy.DBenton",
+              "x": 386,
+              "y": 19,
+              "width": 105,
+              "height": 19,
+              "confidence": 84.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 84.0,
+          "needs_review": false
+        },
+        "dob": {
+          "raw_text": "17/03/1991",
+          "words": [
+            {
+              "text": "17/03/1991",
+              "x": 511,
+              "y": 17,
+              "width": 79,
+              "height": 20,
+              "confidence": 90.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 90.0,
+          "needs_review": false
+        },
+        "gender": {
+          "raw_text": "Female",
+          "words": [
+            {
+              "text": "Female",
+              "x": 611,
+              "y": 19,
+              "width": 59,
+              "height": 16,
+              "confidence": 94.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 94.0,
+          "needs_review": false
+        },
+        "profession": {
+          "raw_text": "Service",
+          "words": [
+            {
+              "text": "Service",
+              "x": 692,
+              "y": 19,
+              "width": 59,
+              "height": 16,
+              "confidence": 83.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 83.0,
+          "needs_review": false
+        },
+        "mailing_street": {
+          "raw_text": "OtleyRoad",
+          "words": [
+            {
+              "text": "OtleyRoad",
+              "x": 778,
+              "y": 19,
+              "width": 85,
+              "height": 19,
+              "confidence": 83.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 83.0,
+          "needs_review": false
+        },
+        "city": {
+          "raw_text": "Leeds,North Yorkshire",
+          "words": [
+            {
+              "text": "Leeds,North",
+              "x": 880,
+              "y": 19,
+              "width": 101,
+              "height": 17,
+              "confidence": 88.0,
+              "needs_review": false
+            },
+            {
+              "text": "Yorkshire",
+              "x": 987,
+              "y": 19,
+              "width": 75,
+              "height": 16,
+              "confidence": 89.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 88.0,
+          "needs_review": false
+        },
+        "postal_code": {
+          "raw_text": "LS16 8AG",
+          "words": [
+            {
+              "text": "LS16",
+              "x": 1094,
+              "y": 19,
+              "width": 35,
+              "height": 16,
+              "confidence": 39.0,
+              "needs_review": true
+            },
+            {
+              "text": "8AG",
+              "x": 1135,
+              "y": 19,
+              "width": 30,
+              "height": 16,
+              "confidence": 91.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 39.0,
+          "needs_review": true
+        },
+        "country": {
+          "raw_text": "England",
+          "words": [
+            {
+              "text": "England",
+              "x": 30,
+              "y": 62,
+              "width": 64,
+              "height": 20,
+              "confidence": 92.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 92.0,
+          "needs_review": false
+        },
+        "service_provider": {
+          "raw_text": "Vodafone",
+          "words": [
+            {
+              "text": "Vodafone",
+              "x": 130,
+              "y": 62,
+              "width": 73,
+              "height": 16,
+              "confidence": 77.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 77.0,
+          "needs_review": false
+        },
+        "file_ref": {
+          "raw_text": "Tango - 4616541",
+          "words": [
+            {
+              "text": "Tango",
+              "x": 228,
+              "y": 62,
+              "width": 47,
+              "height": 20,
+              "confidence": 0.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 282,
+              "y": 71,
+              "width": 6,
+              "height": 2,
+              "confidence": 0.0,
+              "needs_review": true
+            },
+            {
+              "text": "4616541",
+              "x": 296,
+              "y": 62,
+              "width": 60,
+              "height": 16,
+              "confidence": 32.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 0.0,
+          "needs_review": true
+        },
+        "reference_no": {
+          "raw_text": "VfoneBAYT!H@##&T3",
+          "words": [
+            {
+              "text": "VfoneBAYT!H@##&T3",
+              "x": 396,
+              "y": 62,
+              "width": 165,
+              "height": 20,
+              "confidence": 15.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 15.0,
+          "needs_review": true
+        },
+        "sim_no": {
+          "raw_text": "JIVawB1502391301089",
+          "words": [
+            {
+              "text": "JIVawB1502391301089",
+              "x": 596,
+              "y": 62,
+              "width": 175,
+              "height": 16,
+              "confidence": 27.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 27.0,
+          "needs_review": true
+        },
+        "network_type": {
+          "raw_text": "GSM",
+          "words": [
+            {
+              "text": "GSM",
+              "x": 793,
+              "y": 62,
+              "width": 33,
+              "height": 16,
+              "confidence": 95.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 95.0,
+          "needs_review": false
+        },
+        "mobile_model": {
+          "raw_text": "Siemens MC60",
+          "words": [
+            {
+              "text": "Siemens",
+              "x": 863,
+              "y": 62,
+              "width": 69,
+              "height": 16,
+              "confidence": 63.0,
+              "needs_review": false
+            },
+            {
+              "text": "MC60",
+              "x": 938,
+              "y": 62,
+              "width": 43,
+              "height": 16,
+              "confidence": 45.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 45.0,
+          "needs_review": true
+        },
+        "imei_1": {
+          "raw_text": "473871 - 33 - 751054 - 6",
+          "words": [
+            {
+              "text": "473871",
+              "x": 1027,
+              "y": 62,
+              "width": 54,
+              "height": 16,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 1087,
+              "y": 71,
+              "width": 7,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "33",
+              "x": 1101,
+              "y": 62,
+              "width": 18,
+              "height": 16,
+              "confidence": 85.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 1126,
+              "y": 71,
+              "width": 6,
+              "height": 2,
+              "confidence": 85.0,
+              "needs_review": false
+            },
+            {
+              "text": "751054",
+              "x": 1140,
+              "y": 62,
+              "width": 55,
+              "height": 16,
+              "confidence": 84.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 1201,
+              "y": 71,
+              "width": 8,
+              "height": 2,
+              "confidence": 84.0,
+              "needs_review": false
+            },
+            {
+              "text": "6",
+              "x": 1216,
+              "y": 62,
+              "width": 8,
+              "height": 16,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 84.0,
+          "needs_review": false
+        },
+        "imei_2": {
+          "raw_text": "P@SS - #!-521315-9",
+          "words": [
+            {
+              "text": "P@SS",
+              "x": 35,
+              "y": 103,
+              "width": 56,
+              "height": 22,
+              "confidence": 34.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 98,
+              "y": 113,
+              "width": 6,
+              "height": 3,
+              "confidence": 60.0,
+              "needs_review": false
+            },
+            {
+              "text": "#!-521315-9",
+              "x": 112,
+              "y": 105,
+              "width": 113,
+              "height": 16,
+              "confidence": 60.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 34.0,
+          "needs_review": true
+        },
+        "plan_type": {
+          "raw_text": "TurboCall",
+          "words": [
+            {
+              "text": "TurboCall",
+              "x": 256,
+              "y": 105,
+              "width": 81,
+              "height": 16,
+              "confidence": 50.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 50.0,
+          "needs_review": false
+        },
+        "card_type": {
+          "raw_text": "Master CardPremiumGold",
+          "words": [
+            {
+              "text": "Master",
+              "x": 373,
+              "y": 106,
+              "width": 55,
+              "height": 15,
+              "confidence": 3.0,
+              "needs_review": true
+            },
+            {
+              "text": "CardPremiumGold",
+              "x": 434,
+              "y": 105,
+              "width": 157,
+              "height": 16,
+              "confidence": 3.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 3.0,
+          "needs_review": true
+        },
+        "contact": {
+          "raw_text": "\u00a3580",
+          "words": [
+            {
+              "text": "\u00a3580",
+              "x": 632,
+              "y": 105,
+              "width": 39,
+              "height": 16,
+              "confidence": 57.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 57.0,
+          "needs_review": false
+        },
+        "issue_date": {
+          "raw_text": "06/07/2020",
+          "words": [
+            {
+              "text": "06/07/2020",
+              "x": 718,
+              "y": 103,
+              "width": 89,
+              "height": 20,
+              "confidence": 26.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 26.0,
+          "needs_review": true
+        },
+        "renewal_date": {
+          "raw_text": "\u2014_-06/01/2022",
+          "words": [
+            {
+              "text": "\u2014_-06/01/2022",
+              "x": 849,
+              "y": 103,
+              "width": 87,
+              "height": 20,
+              "confidence": 0.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 0.0,
+          "needs_review": true
+        }
+      }
+    },
+    {
+      "record_number": 2,
+      "rows": [
+        {
+          "y": 229,
+          "text": "Mr. Kobie Neita kobie.neita@widderhotelch Ellen Neita 14/08/1788 + = Male Self Employed Coxwold York,North Yorkshire",
+          "words": [
+            {
+              "text": "Mr.",
+              "x": 30,
+              "y": 236,
+              "width": 23,
+              "height": 15,
+              "confidence": 90.0,
+              "needs_review": false
+            },
+            {
+              "text": "Kobie",
+              "x": 74,
+              "y": 236,
+              "width": 44,
+              "height": 15,
+              "confidence": 31.0,
+              "needs_review": true
+            },
+            {
+              "text": "Neita",
+              "x": 125,
+              "y": 236,
+              "width": 40,
+              "height": 15,
+              "confidence": 31.0,
+              "needs_review": true
+            },
+            {
+              "text": "kobie.neita@widderhotelch",
+              "x": 197,
+              "y": 236,
+              "width": 223,
+              "height": 19,
+              "confidence": 43.0,
+              "needs_review": true
+            },
+            {
+              "text": "Ellen",
+              "x": 457,
+              "y": 236,
+              "width": 39,
+              "height": 15,
+              "confidence": 69.0,
+              "needs_review": false
+            },
+            {
+              "text": "Neita",
+              "x": 503,
+              "y": 236,
+              "width": 40,
+              "height": 15,
+              "confidence": 69.0,
+              "needs_review": false
+            },
+            {
+              "text": "14/08/1788",
+              "x": 580,
+              "y": 233,
+              "width": 87,
+              "height": 20,
+              "confidence": 69.0,
+              "needs_review": false
+            },
+            {
+              "text": "+",
+              "x": 681,
+              "y": 229,
+              "width": 3,
+              "height": 30,
+              "confidence": 54.0,
+              "needs_review": false
+            },
+            {
+              "text": "=",
+              "x": 688,
+              "y": 229,
+              "width": 11,
+              "height": 30,
+              "confidence": 57.0,
+              "needs_review": false
+            },
+            {
+              "text": "Male",
+              "x": 703,
+              "y": 236,
+              "width": 38,
+              "height": 15,
+              "confidence": 57.0,
+              "needs_review": false
+            },
+            {
+              "text": "Self",
+              "x": 782,
+              "y": 235,
+              "width": 31,
+              "height": 16,
+              "confidence": 29.0,
+              "needs_review": true
+            },
+            {
+              "text": "Employed",
+              "x": 819,
+              "y": 236,
+              "width": 77,
+              "height": 19,
+              "confidence": 29.0,
+              "needs_review": true
+            },
+            {
+              "text": "Coxwold",
+              "x": 933,
+              "y": 235,
+              "width": 67,
+              "height": 16,
+              "confidence": 58.0,
+              "needs_review": false
+            },
+            {
+              "text": "York,North",
+              "x": 1026,
+              "y": 236,
+              "width": 85,
+              "height": 17,
+              "confidence": 24.0,
+              "needs_review": true
+            },
+            {
+              "text": "Yorkshire",
+              "x": 1116,
+              "y": 236,
+              "width": 76,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ]
+        },
+        {
+          "y": 272,
+          "text": "Yob! 4AD England Orange Foxtrot - 288262831 ORN3PGK@E!S+P421942 \u2014 YTAujW2223295806KM81 GSM Nokia 6610",
+          "words": [
+            {
+              "text": "Yob!",
+              "x": 35,
+              "y": 278,
+              "width": 31,
+              "height": 15,
+              "confidence": 43.0,
+              "needs_review": true
+            },
+            {
+              "text": "4AD",
+              "x": 73,
+              "y": 278,
+              "width": 32,
+              "height": 15,
+              "confidence": 88.0,
+              "needs_review": false
+            },
+            {
+              "text": "England",
+              "x": 152,
+              "y": 278,
+              "width": 64,
+              "height": 19,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Orange",
+              "x": 262,
+              "y": 278,
+              "width": 57,
+              "height": 19,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Foxtrot",
+              "x": 359,
+              "y": 278,
+              "width": 57,
+              "height": 15,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 423,
+              "y": 286,
+              "width": 7,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "288262831",
+              "x": 437,
+              "y": 278,
+              "width": 83,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "ORN3PGK@E!S+P421942",
+              "x": 561,
+              "y": 276,
+              "width": 192,
+              "height": 21,
+              "confidence": 31.0,
+              "needs_review": true
+            },
+            {
+              "text": "\u2014",
+              "x": 772,
+              "y": 272,
+              "width": 10,
+              "height": 30,
+              "confidence": 4.0,
+              "needs_review": true
+            },
+            {
+              "text": "YTAujW2223295806KM81",
+              "x": 790,
+              "y": 278,
+              "width": 197,
+              "height": 19,
+              "confidence": 49.0,
+              "needs_review": true
+            },
+            {
+              "text": "GSM",
+              "x": 1018,
+              "y": 278,
+              "width": 34,
+              "height": 15,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "Nokia",
+              "x": 1088,
+              "y": 278,
+              "width": 45,
+              "height": 15,
+              "confidence": 70.0,
+              "needs_review": false
+            },
+            {
+              "text": "6610",
+              "x": 1139,
+              "y": 278,
+              "width": 34,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ]
+        },
+        {
+          "y": 315,
+          "text": "316803 - 51- 554797-8 \u2014|&ll*? - $!- 995095 -2 Classic SMS+ Master Card Gold \u00a3336 26/12/2022 26/06/2024",
+          "words": [
+            {
+              "text": "316803",
+              "x": 35,
+              "y": 322,
+              "width": 54,
+              "height": 15,
+              "confidence": 66.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 95,
+              "y": 329,
+              "width": 7,
+              "height": 3,
+              "confidence": 72.0,
+              "needs_review": false
+            },
+            {
+              "text": "51-",
+              "x": 109,
+              "y": 322,
+              "width": 28,
+              "height": 15,
+              "confidence": 15.0,
+              "needs_review": true
+            },
+            {
+              "text": "554797-8",
+              "x": 144,
+              "y": 322,
+              "width": 87,
+              "height": 15,
+              "confidence": 15.0,
+              "needs_review": true
+            },
+            {
+              "text": "\u2014|&ll*?",
+              "x": 268,
+              "y": 319,
+              "width": 40,
+              "height": 19,
+              "confidence": 5.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 314,
+              "y": 329,
+              "width": 7,
+              "height": 3,
+              "confidence": 47.0,
+              "needs_review": true
+            },
+            {
+              "text": "$!-",
+              "x": 329,
+              "y": 319,
+              "width": 27,
+              "height": 19,
+              "confidence": 71.0,
+              "needs_review": false
+            },
+            {
+              "text": "995095",
+              "x": 363,
+              "y": 322,
+              "width": 57,
+              "height": 15,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "-2",
+              "x": 427,
+              "y": 322,
+              "width": 20,
+              "height": 15,
+              "confidence": 73.0,
+              "needs_review": false
+            },
+            {
+              "text": "Classic",
+              "x": 504,
+              "y": 322,
+              "width": 56,
+              "height": 15,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "SMS+",
+              "x": 567,
+              "y": 322,
+              "width": 43,
+              "height": 15,
+              "confidence": 91.0,
+              "needs_review": false
+            },
+            {
+              "text": "Master",
+              "x": 661,
+              "y": 322,
+              "width": 55,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Card",
+              "x": 722,
+              "y": 322,
+              "width": 36,
+              "height": 15,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "Gold",
+              "x": 766,
+              "y": 322,
+              "width": 33,
+              "height": 15,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "\u00a3336",
+              "x": 841,
+              "y": 322,
+              "width": 38,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "26/12/2022",
+              "x": 940,
+              "y": 315,
+              "width": 87,
+              "height": 32,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "26/06/2024",
+              "x": 1077,
+              "y": 319,
+              "width": 90,
+              "height": 21,
+              "confidence": 94.0,
+              "needs_review": false
+            }
+          ]
+        }
+      ],
+      "source_text": "Mr. Kobie Neita kobie.neita@widderhotelch Ellen Neita 14/08/1788 + = Male Self Employed Coxwold York,North Yorkshire\nYob! 4AD England Orange Foxtrot - 288262831 ORN3PGK@E!S+P421942 \u2014 YTAujW2223295806KM81 GSM Nokia 6610\n316803 - 51- 554797-8 \u2014|&ll*? - $!- 995095 -2 Classic SMS+ Master Card Gold \u00a3336 26/12/2022 26/06/2024",
+      "source_fields": {
+        "title": {
+          "raw_text": "Mr.",
+          "words": [
+            {
+              "text": "Mr.",
+              "x": 30,
+              "y": 236,
+              "width": 23,
+              "height": 15,
+              "confidence": 90.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 90.0,
+          "needs_review": false
+        },
+        "first_name": {
+          "raw_text": "Kobie",
+          "words": [
+            {
+              "text": "Kobie",
+              "x": 74,
+              "y": 236,
+              "width": 44,
+              "height": 15,
+              "confidence": 31.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 31.0,
+          "needs_review": true
+        },
+        "last_name": {
+          "raw_text": "Neita",
+          "words": [
+            {
+              "text": "Neita",
+              "x": 125,
+              "y": 236,
+              "width": 40,
+              "height": 15,
+              "confidence": 31.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 31.0,
+          "needs_review": true
+        },
+        "email": {
+          "raw_text": "kobie.neita@widderhotelch",
+          "words": [
+            {
+              "text": "kobie.neita@widderhotelch",
+              "x": 197,
+              "y": 236,
+              "width": 223,
+              "height": 19,
+              "confidence": 43.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 43.0,
+          "needs_review": true
+        },
+        "father_name": {
+          "raw_text": "Ellen",
+          "words": [
+            {
+              "text": "Ellen",
+              "x": 457,
+              "y": 236,
+              "width": 39,
+              "height": 15,
+              "confidence": 69.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 69.0,
+          "needs_review": false
+        },
+        "dob": {
+          "raw_text": "Neita",
+          "words": [
+            {
+              "text": "Neita",
+              "x": 503,
+              "y": 236,
+              "width": 40,
+              "height": 15,
+              "confidence": 69.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 69.0,
+          "needs_review": false
+        },
+        "gender": {
+          "raw_text": "14/08/1788",
+          "words": [
+            {
+              "text": "14/08/1788",
+              "x": 580,
+              "y": 233,
+              "width": 87,
+              "height": 20,
+              "confidence": 69.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 69.0,
+          "needs_review": false
+        },
+        "profession": {
+          "raw_text": "+ = Male",
+          "words": [
+            {
+              "text": "+",
+              "x": 681,
+              "y": 229,
+              "width": 3,
+              "height": 30,
+              "confidence": 54.0,
+              "needs_review": false
+            },
+            {
+              "text": "=",
+              "x": 688,
+              "y": 229,
+              "width": 11,
+              "height": 30,
+              "confidence": 57.0,
+              "needs_review": false
+            },
+            {
+              "text": "Male",
+              "x": 703,
+              "y": 236,
+              "width": 38,
+              "height": 15,
+              "confidence": 57.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 54.0,
+          "needs_review": false
+        },
+        "mailing_street": {
+          "raw_text": "Self Employed",
+          "words": [
+            {
+              "text": "Self",
+              "x": 782,
+              "y": 235,
+              "width": 31,
+              "height": 16,
+              "confidence": 29.0,
+              "needs_review": true
+            },
+            {
+              "text": "Employed",
+              "x": 819,
+              "y": 236,
+              "width": 77,
+              "height": 19,
+              "confidence": 29.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 29.0,
+          "needs_review": true
+        },
+        "city": {
+          "raw_text": "Coxwold York,North",
+          "words": [
+            {
+              "text": "Coxwold",
+              "x": 933,
+              "y": 235,
+              "width": 67,
+              "height": 16,
+              "confidence": 58.0,
+              "needs_review": false
+            },
+            {
+              "text": "York,North",
+              "x": 1026,
+              "y": 236,
+              "width": 85,
+              "height": 17,
+              "confidence": 24.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 24.0,
+          "needs_review": true
+        },
+        "postal_code": {
+          "raw_text": "Yorkshire",
+          "words": [
+            {
+              "text": "Yorkshire",
+              "x": 1116,
+              "y": 236,
+              "width": 76,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 96.0,
+          "needs_review": false
+        },
+        "country": {
+          "raw_text": "Yob! 4AD",
+          "words": [
+            {
+              "text": "Yob!",
+              "x": 35,
+              "y": 278,
+              "width": 31,
+              "height": 15,
+              "confidence": 43.0,
+              "needs_review": true
+            },
+            {
+              "text": "4AD",
+              "x": 73,
+              "y": 278,
+              "width": 32,
+              "height": 15,
+              "confidence": 88.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 43.0,
+          "needs_review": true
+        },
+        "service_provider": {
+          "raw_text": "England",
+          "words": [
+            {
+              "text": "England",
+              "x": 152,
+              "y": 278,
+              "width": 64,
+              "height": 19,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 96.0,
+          "needs_review": false
+        },
+        "file_ref": {
+          "raw_text": "Orange",
+          "words": [
+            {
+              "text": "Orange",
+              "x": 262,
+              "y": 278,
+              "width": 57,
+              "height": 19,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 96.0,
+          "needs_review": false
+        },
+        "reference_no": {
+          "raw_text": "Foxtrot - 288262831",
+          "words": [
+            {
+              "text": "Foxtrot",
+              "x": 359,
+              "y": 278,
+              "width": 57,
+              "height": 15,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 423,
+              "y": 286,
+              "width": 7,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "288262831",
+              "x": 437,
+              "y": 278,
+              "width": 83,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 92.0,
+          "needs_review": false
+        },
+        "sim_no": {
+          "raw_text": "ORN3PGK@E!S+P421942 \u2014",
+          "words": [
+            {
+              "text": "ORN3PGK@E!S+P421942",
+              "x": 561,
+              "y": 276,
+              "width": 192,
+              "height": 21,
+              "confidence": 31.0,
+              "needs_review": true
+            },
+            {
+              "text": "\u2014",
+              "x": 772,
+              "y": 272,
+              "width": 10,
+              "height": 30,
+              "confidence": 4.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 4.0,
+          "needs_review": true
+        },
+        "network_type": {
+          "raw_text": "",
+          "words": [],
+          "min_confidence": null,
+          "needs_review": true
+        },
+        "mobile_model": {
+          "raw_text": "YTAujW2223295806KM81",
+          "words": [
+            {
+              "text": "YTAujW2223295806KM81",
+              "x": 790,
+              "y": 278,
+              "width": 197,
+              "height": 19,
+              "confidence": 49.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 49.0,
+          "needs_review": true
+        },
+        "imei_1": {
+          "raw_text": "GSM Nokia 6610",
+          "words": [
+            {
+              "text": "GSM",
+              "x": 1018,
+              "y": 278,
+              "width": 34,
+              "height": 15,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "Nokia",
+              "x": 1088,
+              "y": 278,
+              "width": 45,
+              "height": 15,
+              "confidence": 70.0,
+              "needs_review": false
+            },
+            {
+              "text": "6610",
+              "x": 1139,
+              "y": 278,
+              "width": 34,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 70.0,
+          "needs_review": false
+        },
+        "imei_2": {
+          "raw_text": "316803 - 51- 554797-8",
+          "words": [
+            {
+              "text": "316803",
+              "x": 35,
+              "y": 322,
+              "width": 54,
+              "height": 15,
+              "confidence": 66.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 95,
+              "y": 329,
+              "width": 7,
+              "height": 3,
+              "confidence": 72.0,
+              "needs_review": false
+            },
+            {
+              "text": "51-",
+              "x": 109,
+              "y": 322,
+              "width": 28,
+              "height": 15,
+              "confidence": 15.0,
+              "needs_review": true
+            },
+            {
+              "text": "554797-8",
+              "x": 144,
+              "y": 322,
+              "width": 87,
+              "height": 15,
+              "confidence": 15.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 15.0,
+          "needs_review": true
+        },
+        "plan_type": {
+          "raw_text": "\u2014|&ll*? - $!-",
+          "words": [
+            {
+              "text": "\u2014|&ll*?",
+              "x": 268,
+              "y": 319,
+              "width": 40,
+              "height": 19,
+              "confidence": 5.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 314,
+              "y": 329,
+              "width": 7,
+              "height": 3,
+              "confidence": 47.0,
+              "needs_review": true
+            },
+            {
+              "text": "$!-",
+              "x": 329,
+              "y": 319,
+              "width": 27,
+              "height": 19,
+              "confidence": 71.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 5.0,
+          "needs_review": true
+        },
+        "card_type": {
+          "raw_text": "995095 -2 Classic SMS+",
+          "words": [
+            {
+              "text": "995095",
+              "x": 363,
+              "y": 322,
+              "width": 57,
+              "height": 15,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "-2",
+              "x": 427,
+              "y": 322,
+              "width": 20,
+              "height": 15,
+              "confidence": 73.0,
+              "needs_review": false
+            },
+            {
+              "text": "Classic",
+              "x": 504,
+              "y": 322,
+              "width": 56,
+              "height": 15,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "SMS+",
+              "x": 567,
+              "y": 322,
+              "width": 43,
+              "height": 15,
+              "confidence": 91.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 73.0,
+          "needs_review": false
+        },
+        "contact": {
+          "raw_text": "Master",
+          "words": [
+            {
+              "text": "Master",
+              "x": 661,
+              "y": 322,
+              "width": 55,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 96.0,
+          "needs_review": false
+        },
+        "issue_date": {
+          "raw_text": "Card Gold",
+          "words": [
+            {
+              "text": "Card",
+              "x": 722,
+              "y": 322,
+              "width": 36,
+              "height": 15,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "Gold",
+              "x": 766,
+              "y": 322,
+              "width": 33,
+              "height": 15,
+              "confidence": 95.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 95.0,
+          "needs_review": false
+        },
+        "renewal_date": {
+          "raw_text": "\u00a3336 26/12/2022 26/06/2024",
+          "words": [
+            {
+              "text": "\u00a3336",
+              "x": 841,
+              "y": 322,
+              "width": 38,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "26/12/2022",
+              "x": 940,
+              "y": 315,
+              "width": 87,
+              "height": 32,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "26/06/2024",
+              "x": 1077,
+              "y": 319,
+              "width": 90,
+              "height": 21,
+              "confidence": 94.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 94.0,
+          "needs_review": false
+        }
+      }
+    },
+    {
+      "record_number": 3,
+      "rows": [
+        {
+          "y": 445,
+          "text": "MISS Jimi Blake jimi@ed.ac.uk \u00a9 Constantine Blake 09/04/1985 Female Others Aspire House 192 Skipton Road Harrogate, North",
+          "words": [
+            {
+              "text": "MISS",
+              "x": 30,
+              "y": 450,
+              "width": 38,
+              "height": 17,
+              "confidence": 84.0,
+              "needs_review": false
+            },
+            {
+              "text": "Jimi",
+              "x": 94,
+              "y": 451,
+              "width": 33,
+              "height": 16,
+              "confidence": 84.0,
+              "needs_review": false
+            },
+            {
+              "text": "Blake",
+              "x": 149,
+              "y": 451,
+              "width": 43,
+              "height": 16,
+              "confidence": 64.0,
+              "needs_review": false
+            },
+            {
+              "text": "jimi@ed.ac.uk",
+              "x": 218,
+              "y": 451,
+              "width": 114,
+              "height": 20,
+              "confidence": 64.0,
+              "needs_review": false
+            },
+            {
+              "text": "\u00a9",
+              "x": 348,
+              "y": 445,
+              "width": 8,
+              "height": 30,
+              "confidence": 28.0,
+              "needs_review": true
+            },
+            {
+              "text": "Constantine",
+              "x": 367,
+              "y": 450,
+              "width": 95,
+              "height": 17,
+              "confidence": 80.0,
+              "needs_review": false
+            },
+            {
+              "text": "Blake",
+              "x": 469,
+              "y": 451,
+              "width": 44,
+              "height": 16,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "09/04/1985",
+              "x": 534,
+              "y": 449,
+              "width": 89,
+              "height": 21,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "Female",
+              "x": 656,
+              "y": 451,
+              "width": 58,
+              "height": 16,
+              "confidence": 85.0,
+              "needs_review": false
+            },
+            {
+              "text": "Others",
+              "x": 739,
+              "y": 450,
+              "width": 54,
+              "height": 17,
+              "confidence": 94.0,
+              "needs_review": false
+            },
+            {
+              "text": "Aspire",
+              "x": 814,
+              "y": 451,
+              "width": 51,
+              "height": 20,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "House",
+              "x": 871,
+              "y": 451,
+              "width": 49,
+              "height": 16,
+              "confidence": 79.0,
+              "needs_review": false
+            },
+            {
+              "text": "192",
+              "x": 926,
+              "y": 450,
+              "width": 24,
+              "height": 17,
+              "confidence": 77.0,
+              "needs_review": false
+            },
+            {
+              "text": "Skipton",
+              "x": 956,
+              "y": 450,
+              "width": 60,
+              "height": 21,
+              "confidence": 77.0,
+              "needs_review": false
+            },
+            {
+              "text": "Road",
+              "x": 1023,
+              "y": 451,
+              "width": 38,
+              "height": 16,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "Harrogate,",
+              "x": 1093,
+              "y": 451,
+              "width": 84,
+              "height": 20,
+              "confidence": 26.0,
+              "needs_review": true
+            },
+            {
+              "text": "North",
+              "x": 1185,
+              "y": 451,
+              "width": 43,
+              "height": 16,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ]
+        },
+        {
+          "y": 490,
+          "text": "Yorkshire HG13EZ UK = Hutchison Whampoa =\u2018 Foxtrot - 28010261 = HuWh\u00e94D2%;%!;P1308831 = CRDxuU3204766550Y84 CDMA+GSM",
+          "words": [
+            {
+              "text": "Yorkshire",
+              "x": 30,
+              "y": 494,
+              "width": 74,
+              "height": 16,
+              "confidence": 41.0,
+              "needs_review": true
+            },
+            {
+              "text": "HG13EZ",
+              "x": 136,
+              "y": 494,
+              "width": 62,
+              "height": 16,
+              "confidence": 41.0,
+              "needs_review": true
+            },
+            {
+              "text": "UK",
+              "x": 249,
+              "y": 494,
+              "width": 21,
+              "height": 16,
+              "confidence": 88.0,
+              "needs_review": false
+            },
+            {
+              "text": "=",
+              "x": 287,
+              "y": 490,
+              "width": 12,
+              "height": 28,
+              "confidence": 19.0,
+              "needs_review": true
+            },
+            {
+              "text": "Hutchison",
+              "x": 306,
+              "y": 494,
+              "width": 79,
+              "height": 16,
+              "confidence": 58.0,
+              "needs_review": false
+            },
+            {
+              "text": "Whampoa",
+              "x": 391,
+              "y": 494,
+              "width": 79,
+              "height": 19,
+              "confidence": 44.0,
+              "needs_review": true
+            },
+            {
+              "text": "=\u2018",
+              "x": 482,
+              "y": 490,
+              "width": 15,
+              "height": 28,
+              "confidence": 35.0,
+              "needs_review": true
+            },
+            {
+              "text": "Foxtrot",
+              "x": 502,
+              "y": 494,
+              "width": 56,
+              "height": 16,
+              "confidence": 69.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 564,
+              "y": 502,
+              "width": 7,
+              "height": 3,
+              "confidence": 69.0,
+              "needs_review": false
+            },
+            {
+              "text": "28010261",
+              "x": 578,
+              "y": 494,
+              "width": 69,
+              "height": 16,
+              "confidence": 60.0,
+              "needs_review": false
+            },
+            {
+              "text": "=",
+              "x": 667,
+              "y": 490,
+              "width": 8,
+              "height": 28,
+              "confidence": 48.0,
+              "needs_review": true
+            },
+            {
+              "text": "HuWh\u00e94D2%;%!;P1308831",
+              "x": 679,
+              "y": 494,
+              "width": 198,
+              "height": 18,
+              "confidence": 32.0,
+              "needs_review": true
+            },
+            {
+              "text": "=",
+              "x": 900,
+              "y": 490,
+              "width": 8,
+              "height": 28,
+              "confidence": 33.0,
+              "needs_review": true
+            },
+            {
+              "text": "CRDxuU3204766550Y84",
+              "x": 913,
+              "y": 494,
+              "width": 193,
+              "height": 16,
+              "confidence": 30.0,
+              "needs_review": true
+            },
+            {
+              "text": "CDMA+GSM",
+              "x": 1132,
+              "y": 494,
+              "width": 89,
+              "height": 16,
+              "confidence": 78.0,
+              "needs_review": false
+            }
+          ]
+        },
+        {
+          "y": 536,
+          "text": "Nokia 7210 202608 - 23 - 634956 -1 +?2K7%E& - +| - 156677 - 8 Classic SMS+ \u2014_\u2018Visa Titanium-Plus \u00a3507 14/11/2023 14/07/2026",
+          "words": [
+            {
+              "text": "Nokia",
+              "x": 30,
+              "y": 538,
+              "width": 44,
+              "height": 15,
+              "confidence": 91.0,
+              "needs_review": false
+            },
+            {
+              "text": "7210",
+              "x": 80,
+              "y": 538,
+              "width": 34,
+              "height": 15,
+              "confidence": 69.0,
+              "needs_review": false
+            },
+            {
+              "text": "202608",
+              "x": 151,
+              "y": 538,
+              "width": 56,
+              "height": 15,
+              "confidence": 48.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 214,
+              "y": 546,
+              "width": 8,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "23",
+              "x": 229,
+              "y": 538,
+              "width": 18,
+              "height": 15,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 254,
+              "y": 546,
+              "width": 7,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "634956",
+              "x": 268,
+              "y": 538,
+              "width": 57,
+              "height": 15,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "-1",
+              "x": 332,
+              "y": 538,
+              "width": 18,
+              "height": 15,
+              "confidence": 75.0,
+              "needs_review": false
+            },
+            {
+              "text": "+?2K7%E&",
+              "x": 401,
+              "y": 538,
+              "width": 63,
+              "height": 15,
+              "confidence": 0.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 471,
+              "y": 546,
+              "width": 6,
+              "height": 2,
+              "confidence": 83.0,
+              "needs_review": false
+            },
+            {
+              "text": "+|",
+              "x": 484,
+              "y": 536,
+              "width": 12,
+              "height": 18,
+              "confidence": 87.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 503,
+              "y": 546,
+              "width": 7,
+              "height": 2,
+              "confidence": 79.0,
+              "needs_review": false
+            },
+            {
+              "text": "156677",
+              "x": 515,
+              "y": 538,
+              "width": 53,
+              "height": 15,
+              "confidence": 79.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 574,
+              "y": 546,
+              "width": 7,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "8",
+              "x": 588,
+              "y": 538,
+              "width": 8,
+              "height": 15,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "Classic",
+              "x": 638,
+              "y": 538,
+              "width": 55,
+              "height": 15,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "SMS+",
+              "x": 701,
+              "y": 538,
+              "width": 43,
+              "height": 15,
+              "confidence": 68.0,
+              "needs_review": false
+            },
+            {
+              "text": "\u2014_\u2018Visa",
+              "x": 775,
+              "y": 538,
+              "width": 32,
+              "height": 15,
+              "confidence": 8.0,
+              "needs_review": true
+            },
+            {
+              "text": "Titanium-Plus",
+              "x": 813,
+              "y": 538,
+              "width": 116,
+              "height": 15,
+              "confidence": 52.0,
+              "needs_review": false
+            },
+            {
+              "text": "\u00a3507",
+              "x": 968,
+              "y": 538,
+              "width": 38,
+              "height": 15,
+              "confidence": 65.0,
+              "needs_review": false
+            },
+            {
+              "text": "14/11/2023",
+              "x": 1042,
+              "y": 536,
+              "width": 82,
+              "height": 20,
+              "confidence": 37.0,
+              "needs_review": true
+            },
+            {
+              "text": "14/07/2026",
+              "x": 1161,
+              "y": 536,
+              "width": 86,
+              "height": 20,
+              "confidence": 30.0,
+              "needs_review": true
+            }
+          ]
+        }
+      ],
+      "source_text": "MISS Jimi Blake jimi@ed.ac.uk \u00a9 Constantine Blake 09/04/1985 Female Others Aspire House 192 Skipton Road Harrogate, North\nYorkshire HG13EZ UK = Hutchison Whampoa =\u2018 Foxtrot - 28010261 = HuWh\u00e94D2%;%!;P1308831 = CRDxuU3204766550Y84 CDMA+GSM\nNokia 7210 202608 - 23 - 634956 -1 +?2K7%E& - +| - 156677 - 8 Classic SMS+ \u2014_\u2018Visa Titanium-Plus \u00a3507 14/11/2023 14/07/2026",
+      "source_fields": {
+        "title": {
+          "raw_text": "MISS",
+          "words": [
+            {
+              "text": "MISS",
+              "x": 30,
+              "y": 450,
+              "width": 38,
+              "height": 17,
+              "confidence": 84.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 84.0,
+          "needs_review": false
+        },
+        "first_name": {
+          "raw_text": "Jimi",
+          "words": [
+            {
+              "text": "Jimi",
+              "x": 94,
+              "y": 451,
+              "width": 33,
+              "height": 16,
+              "confidence": 84.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 84.0,
+          "needs_review": false
+        },
+        "last_name": {
+          "raw_text": "Blake",
+          "words": [
+            {
+              "text": "Blake",
+              "x": 149,
+              "y": 451,
+              "width": 43,
+              "height": 16,
+              "confidence": 64.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 64.0,
+          "needs_review": false
+        },
+        "email": {
+          "raw_text": "jimi@ed.ac.uk \u00a9",
+          "words": [
+            {
+              "text": "jimi@ed.ac.uk",
+              "x": 218,
+              "y": 451,
+              "width": 114,
+              "height": 20,
+              "confidence": 64.0,
+              "needs_review": false
+            },
+            {
+              "text": "\u00a9",
+              "x": 348,
+              "y": 445,
+              "width": 8,
+              "height": 30,
+              "confidence": 28.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 28.0,
+          "needs_review": true
+        },
+        "father_name": {
+          "raw_text": "Constantine Blake",
+          "words": [
+            {
+              "text": "Constantine",
+              "x": 367,
+              "y": 450,
+              "width": 95,
+              "height": 17,
+              "confidence": 80.0,
+              "needs_review": false
+            },
+            {
+              "text": "Blake",
+              "x": 469,
+              "y": 451,
+              "width": 44,
+              "height": 16,
+              "confidence": 92.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 80.0,
+          "needs_review": false
+        },
+        "dob": {
+          "raw_text": "09/04/1985",
+          "words": [
+            {
+              "text": "09/04/1985",
+              "x": 534,
+              "y": 449,
+              "width": 89,
+              "height": 21,
+              "confidence": 92.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 92.0,
+          "needs_review": false
+        },
+        "gender": {
+          "raw_text": "",
+          "words": [],
+          "min_confidence": null,
+          "needs_review": true
+        },
+        "profession": {
+          "raw_text": "Female Others",
+          "words": [
+            {
+              "text": "Female",
+              "x": 656,
+              "y": 451,
+              "width": 58,
+              "height": 16,
+              "confidence": 85.0,
+              "needs_review": false
+            },
+            {
+              "text": "Others",
+              "x": 739,
+              "y": 450,
+              "width": 54,
+              "height": 17,
+              "confidence": 94.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 85.0,
+          "needs_review": false
+        },
+        "mailing_street": {
+          "raw_text": "Aspire",
+          "words": [
+            {
+              "text": "Aspire",
+              "x": 814,
+              "y": 451,
+              "width": 51,
+              "height": 20,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 96.0,
+          "needs_review": false
+        },
+        "city": {
+          "raw_text": "House 192 Skipton Road",
+          "words": [
+            {
+              "text": "House",
+              "x": 871,
+              "y": 451,
+              "width": 49,
+              "height": 16,
+              "confidence": 79.0,
+              "needs_review": false
+            },
+            {
+              "text": "192",
+              "x": 926,
+              "y": 450,
+              "width": 24,
+              "height": 17,
+              "confidence": 77.0,
+              "needs_review": false
+            },
+            {
+              "text": "Skipton",
+              "x": 956,
+              "y": 450,
+              "width": 60,
+              "height": 21,
+              "confidence": 77.0,
+              "needs_review": false
+            },
+            {
+              "text": "Road",
+              "x": 1023,
+              "y": 451,
+              "width": 38,
+              "height": 16,
+              "confidence": 93.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 77.0,
+          "needs_review": false
+        },
+        "postal_code": {
+          "raw_text": "Harrogate, North",
+          "words": [
+            {
+              "text": "Harrogate,",
+              "x": 1093,
+              "y": 451,
+              "width": 84,
+              "height": 20,
+              "confidence": 26.0,
+              "needs_review": true
+            },
+            {
+              "text": "North",
+              "x": 1185,
+              "y": 451,
+              "width": 43,
+              "height": 16,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 26.0,
+          "needs_review": true
+        },
+        "country": {
+          "raw_text": "Yorkshire",
+          "words": [
+            {
+              "text": "Yorkshire",
+              "x": 30,
+              "y": 494,
+              "width": 74,
+              "height": 16,
+              "confidence": 41.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 41.0,
+          "needs_review": true
+        },
+        "service_provider": {
+          "raw_text": "HG13EZ",
+          "words": [
+            {
+              "text": "HG13EZ",
+              "x": 136,
+              "y": 494,
+              "width": 62,
+              "height": 16,
+              "confidence": 41.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 41.0,
+          "needs_review": true
+        },
+        "file_ref": {
+          "raw_text": "UK = Hutchison",
+          "words": [
+            {
+              "text": "UK",
+              "x": 249,
+              "y": 494,
+              "width": 21,
+              "height": 16,
+              "confidence": 88.0,
+              "needs_review": false
+            },
+            {
+              "text": "=",
+              "x": 287,
+              "y": 490,
+              "width": 12,
+              "height": 28,
+              "confidence": 19.0,
+              "needs_review": true
+            },
+            {
+              "text": "Hutchison",
+              "x": 306,
+              "y": 494,
+              "width": 79,
+              "height": 16,
+              "confidence": 58.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 19.0,
+          "needs_review": true
+        },
+        "reference_no": {
+          "raw_text": "Whampoa =\u2018 Foxtrot -",
+          "words": [
+            {
+              "text": "Whampoa",
+              "x": 391,
+              "y": 494,
+              "width": 79,
+              "height": 19,
+              "confidence": 44.0,
+              "needs_review": true
+            },
+            {
+              "text": "=\u2018",
+              "x": 482,
+              "y": 490,
+              "width": 15,
+              "height": 28,
+              "confidence": 35.0,
+              "needs_review": true
+            },
+            {
+              "text": "Foxtrot",
+              "x": 502,
+              "y": 494,
+              "width": 56,
+              "height": 16,
+              "confidence": 69.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 564,
+              "y": 502,
+              "width": 7,
+              "height": 3,
+              "confidence": 69.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 35.0,
+          "needs_review": true
+        },
+        "sim_no": {
+          "raw_text": "28010261 = HuWh\u00e94D2%;%!;P1308831",
+          "words": [
+            {
+              "text": "28010261",
+              "x": 578,
+              "y": 494,
+              "width": 69,
+              "height": 16,
+              "confidence": 60.0,
+              "needs_review": false
+            },
+            {
+              "text": "=",
+              "x": 667,
+              "y": 490,
+              "width": 8,
+              "height": 28,
+              "confidence": 48.0,
+              "needs_review": true
+            },
+            {
+              "text": "HuWh\u00e94D2%;%!;P1308831",
+              "x": 679,
+              "y": 494,
+              "width": 198,
+              "height": 18,
+              "confidence": 32.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 32.0,
+          "needs_review": true
+        },
+        "network_type": {
+          "raw_text": "",
+          "words": [],
+          "min_confidence": null,
+          "needs_review": true
+        },
+        "mobile_model": {
+          "raw_text": "= CRDxuU3204766550Y84",
+          "words": [
+            {
+              "text": "=",
+              "x": 900,
+              "y": 490,
+              "width": 8,
+              "height": 28,
+              "confidence": 33.0,
+              "needs_review": true
+            },
+            {
+              "text": "CRDxuU3204766550Y84",
+              "x": 913,
+              "y": 494,
+              "width": 193,
+              "height": 16,
+              "confidence": 30.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 30.0,
+          "needs_review": true
+        },
+        "imei_1": {
+          "raw_text": "CDMA+GSM",
+          "words": [
+            {
+              "text": "CDMA+GSM",
+              "x": 1132,
+              "y": 494,
+              "width": 89,
+              "height": 16,
+              "confidence": 78.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 78.0,
+          "needs_review": false
+        },
+        "imei_2": {
+          "raw_text": "Nokia 7210 202608 - 23",
+          "words": [
+            {
+              "text": "Nokia",
+              "x": 30,
+              "y": 538,
+              "width": 44,
+              "height": 15,
+              "confidence": 91.0,
+              "needs_review": false
+            },
+            {
+              "text": "7210",
+              "x": 80,
+              "y": 538,
+              "width": 34,
+              "height": 15,
+              "confidence": 69.0,
+              "needs_review": false
+            },
+            {
+              "text": "202608",
+              "x": 151,
+              "y": 538,
+              "width": 56,
+              "height": 15,
+              "confidence": 48.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 214,
+              "y": 546,
+              "width": 8,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "23",
+              "x": 229,
+              "y": 538,
+              "width": 18,
+              "height": 15,
+              "confidence": 93.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 48.0,
+          "needs_review": true
+        },
+        "plan_type": {
+          "raw_text": "- 634956 -1",
+          "words": [
+            {
+              "text": "-",
+              "x": 254,
+              "y": 546,
+              "width": 7,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "634956",
+              "x": 268,
+              "y": 538,
+              "width": 57,
+              "height": 15,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "-1",
+              "x": 332,
+              "y": 538,
+              "width": 18,
+              "height": 15,
+              "confidence": 75.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 75.0,
+          "needs_review": false
+        },
+        "card_type": {
+          "raw_text": "+?2K7%E& - +| - 156677 - 8",
+          "words": [
+            {
+              "text": "+?2K7%E&",
+              "x": 401,
+              "y": 538,
+              "width": 63,
+              "height": 15,
+              "confidence": 0.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 471,
+              "y": 546,
+              "width": 6,
+              "height": 2,
+              "confidence": 83.0,
+              "needs_review": false
+            },
+            {
+              "text": "+|",
+              "x": 484,
+              "y": 536,
+              "width": 12,
+              "height": 18,
+              "confidence": 87.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 503,
+              "y": 546,
+              "width": 7,
+              "height": 2,
+              "confidence": 79.0,
+              "needs_review": false
+            },
+            {
+              "text": "156677",
+              "x": 515,
+              "y": 538,
+              "width": 53,
+              "height": 15,
+              "confidence": 79.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 574,
+              "y": 546,
+              "width": 7,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "8",
+              "x": 588,
+              "y": 538,
+              "width": 8,
+              "height": 15,
+              "confidence": 92.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 0.0,
+          "needs_review": true
+        },
+        "contact": {
+          "raw_text": "Classic",
+          "words": [
+            {
+              "text": "Classic",
+              "x": 638,
+              "y": 538,
+              "width": 55,
+              "height": 15,
+              "confidence": 92.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 92.0,
+          "needs_review": false
+        },
+        "issue_date": {
+          "raw_text": "SMS+ \u2014_\u2018Visa",
+          "words": [
+            {
+              "text": "SMS+",
+              "x": 701,
+              "y": 538,
+              "width": 43,
+              "height": 15,
+              "confidence": 68.0,
+              "needs_review": false
+            },
+            {
+              "text": "\u2014_\u2018Visa",
+              "x": 775,
+              "y": 538,
+              "width": 32,
+              "height": 15,
+              "confidence": 8.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 8.0,
+          "needs_review": true
+        },
+        "renewal_date": {
+          "raw_text": "Titanium-Plus \u00a3507 14/11/2023 14/07/2026",
+          "words": [
+            {
+              "text": "Titanium-Plus",
+              "x": 813,
+              "y": 538,
+              "width": 116,
+              "height": 15,
+              "confidence": 52.0,
+              "needs_review": false
+            },
+            {
+              "text": "\u00a3507",
+              "x": 968,
+              "y": 538,
+              "width": 38,
+              "height": 15,
+              "confidence": 65.0,
+              "needs_review": false
+            },
+            {
+              "text": "14/11/2023",
+              "x": 1042,
+              "y": 536,
+              "width": 82,
+              "height": 20,
+              "confidence": 37.0,
+              "needs_review": true
+            },
+            {
+              "text": "14/07/2026",
+              "x": 1161,
+              "y": 536,
+              "width": 86,
+              "height": 20,
+              "confidence": 30.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 30.0,
+          "needs_review": true
+        }
+      }
+    },
+    {
+      "record_number": 4,
+      "rows": [
+        {
+          "y": 664,
+          "text": "Mr Alex Mccracken alex@nhs.net DimasMccracken 03/05/1982 Male _\u2014ProFessional \u2014_Building 500, Abbey Park, Coventry,",
+          "words": [
+            {
+              "text": "Mr",
+              "x": 30,
+              "y": 667,
+              "width": 21,
+              "height": 15,
+              "confidence": 76.0,
+              "needs_review": false
+            },
+            {
+              "text": "Alex",
+              "x": 81,
+              "y": 667,
+              "width": 35,
+              "height": 15,
+              "confidence": 76.0,
+              "needs_review": false
+            },
+            {
+              "text": "Mccracken",
+              "x": 138,
+              "y": 667,
+              "width": 87,
+              "height": 15,
+              "confidence": 74.0,
+              "needs_review": false
+            },
+            {
+              "text": "alex@nhs.net",
+              "x": 261,
+              "y": 667,
+              "width": 109,
+              "height": 19,
+              "confidence": 17.0,
+              "needs_review": true
+            },
+            {
+              "text": "DimasMccracken",
+              "x": 401,
+              "y": 667,
+              "width": 142,
+              "height": 15,
+              "confidence": 17.0,
+              "needs_review": true
+            },
+            {
+              "text": "03/05/1982",
+              "x": 584,
+              "y": 664,
+              "width": 89,
+              "height": 20,
+              "confidence": 43.0,
+              "needs_review": true
+            },
+            {
+              "text": "Male",
+              "x": 714,
+              "y": 667,
+              "width": 38,
+              "height": 15,
+              "confidence": 54.0,
+              "needs_review": false
+            },
+            {
+              "text": "_\u2014ProFessional",
+              "x": 788,
+              "y": 667,
+              "width": 104,
+              "height": 15,
+              "confidence": 11.0,
+              "needs_review": true
+            },
+            {
+              "text": "\u2014_Building",
+              "x": 928,
+              "y": 667,
+              "width": 64,
+              "height": 19,
+              "confidence": 19.0,
+              "needs_review": true
+            },
+            {
+              "text": "500,",
+              "x": 1000,
+              "y": 667,
+              "width": 31,
+              "height": 17,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "Abbey",
+              "x": 1037,
+              "y": 667,
+              "width": 49,
+              "height": 19,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "Park,",
+              "x": 1092,
+              "y": 667,
+              "width": 40,
+              "height": 17,
+              "confidence": 88.0,
+              "needs_review": false
+            },
+            {
+              "text": "Coventry,",
+              "x": 1154,
+              "y": 667,
+              "width": 73,
+              "height": 19,
+              "confidence": 88.0,
+              "needs_review": false
+            }
+          ]
+        },
+        {
+          "y": 704,
+          "text": "WMD = =CV82LY = UKs Hutchison Whampoa __\u2014\u2018Foxtrot - 060669027 HuWh570p+$!++764566528 IVEkd0688070733DS72 CDMA",
+          "words": [
+            {
+              "text": "WMD",
+              "x": 30,
+              "y": 710,
+              "width": 38,
+              "height": 16,
+              "confidence": 51.0,
+              "needs_review": false
+            },
+            {
+              "text": "=",
+              "x": 88,
+              "y": 706,
+              "width": 4,
+              "height": 29,
+              "confidence": 39.0,
+              "needs_review": true
+            },
+            {
+              "text": "=CV82LY",
+              "x": 109,
+              "y": 710,
+              "width": 64,
+              "height": 16,
+              "confidence": 35.0,
+              "needs_review": true
+            },
+            {
+              "text": "=",
+              "x": 195,
+              "y": 706,
+              "width": 15,
+              "height": 29,
+              "confidence": 12.0,
+              "needs_review": true
+            },
+            {
+              "text": "UKs",
+              "x": 214,
+              "y": 710,
+              "width": 21,
+              "height": 16,
+              "confidence": 0.0,
+              "needs_review": true
+            },
+            {
+              "text": "Hutchison",
+              "x": 266,
+              "y": 706,
+              "width": 79,
+              "height": 29,
+              "confidence": 69.0,
+              "needs_review": false
+            },
+            {
+              "text": "Whampoa",
+              "x": 357,
+              "y": 710,
+              "width": 71,
+              "height": 19,
+              "confidence": 73.0,
+              "needs_review": false
+            },
+            {
+              "text": "__\u2014\u2018Foxtrot",
+              "x": 466,
+              "y": 710,
+              "width": 56,
+              "height": 16,
+              "confidence": 40.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 529,
+              "y": 718,
+              "width": 7,
+              "height": 3,
+              "confidence": 90.0,
+              "needs_review": false
+            },
+            {
+              "text": "060669027",
+              "x": 543,
+              "y": 710,
+              "width": 86,
+              "height": 16,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "HuWh570p+$!++764566528",
+              "x": 679,
+              "y": 704,
+              "width": 214,
+              "height": 31,
+              "confidence": 19.0,
+              "needs_review": true
+            },
+            {
+              "text": "IVEkd0688070733DS72",
+              "x": 940,
+              "y": 710,
+              "width": 183,
+              "height": 16,
+              "confidence": 48.0,
+              "needs_review": true
+            },
+            {
+              "text": "CDMA",
+              "x": 1170,
+              "y": 710,
+              "width": 45,
+              "height": 16,
+              "confidence": 92.0,
+              "needs_review": false
+            }
+          ]
+        },
+        {
+          "y": 751,
+          "text": "Nokia 6800 607198 - 24- 853336-5 !%%SSI-!#-798797-7 SMSPro MasterCard PremiumGold \u20ac341 18/02/2022 18/02/2022",
+          "words": [
+            {
+              "text": "Nokia",
+              "x": 30,
+              "y": 753,
+              "width": 44,
+              "height": 16,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "6800",
+              "x": 81,
+              "y": 753,
+              "width": 38,
+              "height": 16,
+              "confidence": 94.0,
+              "needs_review": false
+            },
+            {
+              "text": "607198",
+              "x": 156,
+              "y": 753,
+              "width": 53,
+              "height": 16,
+              "confidence": 70.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 216,
+              "y": 762,
+              "width": 6,
+              "height": 2,
+              "confidence": 86.0,
+              "needs_review": false
+            },
+            {
+              "text": "24-",
+              "x": 229,
+              "y": 753,
+              "width": 31,
+              "height": 16,
+              "confidence": 54.0,
+              "needs_review": false
+            },
+            {
+              "text": "853336-5",
+              "x": 267,
+              "y": 753,
+              "width": 85,
+              "height": 16,
+              "confidence": 54.0,
+              "needs_review": false
+            },
+            {
+              "text": "!%%SSI-!#-798797-7",
+              "x": 389,
+              "y": 751,
+              "width": 194,
+              "height": 20,
+              "confidence": 11.0,
+              "needs_review": true
+            },
+            {
+              "text": "SMSPro",
+              "x": 624,
+              "y": 753,
+              "width": 68,
+              "height": 16,
+              "confidence": 62.0,
+              "needs_review": false
+            },
+            {
+              "text": "MasterCard",
+              "x": 722,
+              "y": 753,
+              "width": 94,
+              "height": 16,
+              "confidence": 7.0,
+              "needs_review": true
+            },
+            {
+              "text": "PremiumGold",
+              "x": 823,
+              "y": 753,
+              "width": 108,
+              "height": 16,
+              "confidence": 7.0,
+              "needs_review": true
+            },
+            {
+              "text": "\u20ac341",
+              "x": 962,
+              "y": 753,
+              "width": 34,
+              "height": 16,
+              "confidence": 85.0,
+              "needs_review": false
+            },
+            {
+              "text": "18/02/2022",
+              "x": 1028,
+              "y": 752,
+              "width": 89,
+              "height": 20,
+              "confidence": 81.0,
+              "needs_review": false
+            },
+            {
+              "text": "18/02/2022",
+              "x": 1153,
+              "y": 752,
+              "width": 88,
+              "height": 20,
+              "confidence": 61.0,
+              "needs_review": false
+            }
+          ]
+        }
+      ],
+      "source_text": "Mr Alex Mccracken alex@nhs.net DimasMccracken 03/05/1982 Male _\u2014ProFessional \u2014_Building 500, Abbey Park, Coventry,\nWMD = =CV82LY = UKs Hutchison Whampoa __\u2014\u2018Foxtrot - 060669027 HuWh570p+$!++764566528 IVEkd0688070733DS72 CDMA\nNokia 6800 607198 - 24- 853336-5 !%%SSI-!#-798797-7 SMSPro MasterCard PremiumGold \u20ac341 18/02/2022 18/02/2022",
+      "source_fields": {
+        "title": {
+          "raw_text": "Mr",
+          "words": [
+            {
+              "text": "Mr",
+              "x": 30,
+              "y": 667,
+              "width": 21,
+              "height": 15,
+              "confidence": 76.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 76.0,
+          "needs_review": false
+        },
+        "first_name": {
+          "raw_text": "Alex",
+          "words": [
+            {
+              "text": "Alex",
+              "x": 81,
+              "y": 667,
+              "width": 35,
+              "height": 15,
+              "confidence": 76.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 76.0,
+          "needs_review": false
+        },
+        "last_name": {
+          "raw_text": "Mccracken",
+          "words": [
+            {
+              "text": "Mccracken",
+              "x": 138,
+              "y": 667,
+              "width": 87,
+              "height": 15,
+              "confidence": 74.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 74.0,
+          "needs_review": false
+        },
+        "email": {
+          "raw_text": "alex@nhs.net",
+          "words": [
+            {
+              "text": "alex@nhs.net",
+              "x": 261,
+              "y": 667,
+              "width": 109,
+              "height": 19,
+              "confidence": 17.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 17.0,
+          "needs_review": true
+        },
+        "father_name": {
+          "raw_text": "DimasMccracken",
+          "words": [
+            {
+              "text": "DimasMccracken",
+              "x": 401,
+              "y": 667,
+              "width": 142,
+              "height": 15,
+              "confidence": 17.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 17.0,
+          "needs_review": true
+        },
+        "dob": {
+          "raw_text": "",
+          "words": [],
+          "min_confidence": null,
+          "needs_review": true
+        },
+        "gender": {
+          "raw_text": "03/05/1982",
+          "words": [
+            {
+              "text": "03/05/1982",
+              "x": 584,
+              "y": 664,
+              "width": 89,
+              "height": 20,
+              "confidence": 43.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 43.0,
+          "needs_review": true
+        },
+        "profession": {
+          "raw_text": "Male",
+          "words": [
+            {
+              "text": "Male",
+              "x": 714,
+              "y": 667,
+              "width": 38,
+              "height": 15,
+              "confidence": 54.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 54.0,
+          "needs_review": false
+        },
+        "mailing_street": {
+          "raw_text": "_\u2014ProFessional",
+          "words": [
+            {
+              "text": "_\u2014ProFessional",
+              "x": 788,
+              "y": 667,
+              "width": 104,
+              "height": 15,
+              "confidence": 11.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 11.0,
+          "needs_review": true
+        },
+        "city": {
+          "raw_text": "\u2014_Building 500, Abbey",
+          "words": [
+            {
+              "text": "\u2014_Building",
+              "x": 928,
+              "y": 667,
+              "width": 64,
+              "height": 19,
+              "confidence": 19.0,
+              "needs_review": true
+            },
+            {
+              "text": "500,",
+              "x": 1000,
+              "y": 667,
+              "width": 31,
+              "height": 17,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "Abbey",
+              "x": 1037,
+              "y": 667,
+              "width": 49,
+              "height": 19,
+              "confidence": 89.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 19.0,
+          "needs_review": true
+        },
+        "postal_code": {
+          "raw_text": "Park, Coventry,",
+          "words": [
+            {
+              "text": "Park,",
+              "x": 1092,
+              "y": 667,
+              "width": 40,
+              "height": 17,
+              "confidence": 88.0,
+              "needs_review": false
+            },
+            {
+              "text": "Coventry,",
+              "x": 1154,
+              "y": 667,
+              "width": 73,
+              "height": 19,
+              "confidence": 88.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 88.0,
+          "needs_review": false
+        },
+        "country": {
+          "raw_text": "WMD =",
+          "words": [
+            {
+              "text": "WMD",
+              "x": 30,
+              "y": 710,
+              "width": 38,
+              "height": 16,
+              "confidence": 51.0,
+              "needs_review": false
+            },
+            {
+              "text": "=",
+              "x": 88,
+              "y": 706,
+              "width": 4,
+              "height": 29,
+              "confidence": 39.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 39.0,
+          "needs_review": true
+        },
+        "service_provider": {
+          "raw_text": "=CV82LY =",
+          "words": [
+            {
+              "text": "=CV82LY",
+              "x": 109,
+              "y": 710,
+              "width": 64,
+              "height": 16,
+              "confidence": 35.0,
+              "needs_review": true
+            },
+            {
+              "text": "=",
+              "x": 195,
+              "y": 706,
+              "width": 15,
+              "height": 29,
+              "confidence": 12.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 12.0,
+          "needs_review": true
+        },
+        "file_ref": {
+          "raw_text": "UKs Hutchison",
+          "words": [
+            {
+              "text": "UKs",
+              "x": 214,
+              "y": 710,
+              "width": 21,
+              "height": 16,
+              "confidence": 0.0,
+              "needs_review": true
+            },
+            {
+              "text": "Hutchison",
+              "x": 266,
+              "y": 706,
+              "width": 79,
+              "height": 29,
+              "confidence": 69.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 0.0,
+          "needs_review": true
+        },
+        "reference_no": {
+          "raw_text": "Whampoa __\u2014\u2018Foxtrot -",
+          "words": [
+            {
+              "text": "Whampoa",
+              "x": 357,
+              "y": 710,
+              "width": 71,
+              "height": 19,
+              "confidence": 73.0,
+              "needs_review": false
+            },
+            {
+              "text": "__\u2014\u2018Foxtrot",
+              "x": 466,
+              "y": 710,
+              "width": 56,
+              "height": 16,
+              "confidence": 40.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 529,
+              "y": 718,
+              "width": 7,
+              "height": 3,
+              "confidence": 90.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 40.0,
+          "needs_review": true
+        },
+        "sim_no": {
+          "raw_text": "060669027",
+          "words": [
+            {
+              "text": "060669027",
+              "x": 543,
+              "y": 710,
+              "width": 86,
+              "height": 16,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 96.0,
+          "needs_review": false
+        },
+        "network_type": {
+          "raw_text": "HuWh570p+$!++764566528",
+          "words": [
+            {
+              "text": "HuWh570p+$!++764566528",
+              "x": 679,
+              "y": 704,
+              "width": 214,
+              "height": 31,
+              "confidence": 19.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 19.0,
+          "needs_review": true
+        },
+        "mobile_model": {
+          "raw_text": "",
+          "words": [],
+          "min_confidence": null,
+          "needs_review": true
+        },
+        "imei_1": {
+          "raw_text": "IVEkd0688070733DS72 CDMA",
+          "words": [
+            {
+              "text": "IVEkd0688070733DS72",
+              "x": 940,
+              "y": 710,
+              "width": 183,
+              "height": 16,
+              "confidence": 48.0,
+              "needs_review": true
+            },
+            {
+              "text": "CDMA",
+              "x": 1170,
+              "y": 710,
+              "width": 45,
+              "height": 16,
+              "confidence": 92.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 48.0,
+          "needs_review": true
+        },
+        "imei_2": {
+          "raw_text": "Nokia 6800 607198 -",
+          "words": [
+            {
+              "text": "Nokia",
+              "x": 30,
+              "y": 753,
+              "width": 44,
+              "height": 16,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "6800",
+              "x": 81,
+              "y": 753,
+              "width": 38,
+              "height": 16,
+              "confidence": 94.0,
+              "needs_review": false
+            },
+            {
+              "text": "607198",
+              "x": 156,
+              "y": 753,
+              "width": 53,
+              "height": 16,
+              "confidence": 70.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 216,
+              "y": 762,
+              "width": 6,
+              "height": 2,
+              "confidence": 86.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 70.0,
+          "needs_review": false
+        },
+        "plan_type": {
+          "raw_text": "24- 853336-5",
+          "words": [
+            {
+              "text": "24-",
+              "x": 229,
+              "y": 753,
+              "width": 31,
+              "height": 16,
+              "confidence": 54.0,
+              "needs_review": false
+            },
+            {
+              "text": "853336-5",
+              "x": 267,
+              "y": 753,
+              "width": 85,
+              "height": 16,
+              "confidence": 54.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 54.0,
+          "needs_review": false
+        },
+        "card_type": {
+          "raw_text": "!%%SSI-!#-798797-7",
+          "words": [
+            {
+              "text": "!%%SSI-!#-798797-7",
+              "x": 389,
+              "y": 751,
+              "width": 194,
+              "height": 20,
+              "confidence": 11.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 11.0,
+          "needs_review": true
+        },
+        "contact": {
+          "raw_text": "SMSPro",
+          "words": [
+            {
+              "text": "SMSPro",
+              "x": 624,
+              "y": 753,
+              "width": 68,
+              "height": 16,
+              "confidence": 62.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 62.0,
+          "needs_review": false
+        },
+        "issue_date": {
+          "raw_text": "MasterCard",
+          "words": [
+            {
+              "text": "MasterCard",
+              "x": 722,
+              "y": 753,
+              "width": 94,
+              "height": 16,
+              "confidence": 7.0,
+              "needs_review": true
+            }
+          ],
+          "min_confidence": 7.0,
+          "needs_review": true
+        },
+        "renewal_date": {
+          "raw_text": "PremiumGold \u20ac341 18/02/2022 18/02/2022",
+          "words": [
+            {
+              "text": "PremiumGold",
+              "x": 823,
+              "y": 753,
+              "width": 108,
+              "height": 16,
+              "confidence": 7.0,
+              "needs_review": true
+            },
+            {
+              "text": "\u20ac341",
+              "x": 962,
+              "y": 753,
+              "width": 34,
+              "height": 16,
+              "confidence": 85.0,
+              "needs_review": false
+            },
+            {
+              "text": "18/02/2022",
+              "x": 1028,
+              "y": 752,
+              "width": 89,
+              "height": 20,
+              "confidence": 81.0,
+              "needs_review": false
+            },
+            {
+              "text": "18/02/2022",
+              "x": 1153,
+              "y": 752,
+              "width": 88,
+              "height": 20,
+              "confidence": 61.0,
+              "needs_review": false
+            }
+          ],
+          "min_confidence": 7.0,
+          "needs_review": true
+        }
+      }
+    }
+  ]
+}
