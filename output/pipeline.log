@@ -2669,3 +2669,489 @@ when serializing dict item 'records'
 2026-08-15 15:11:29,808 INFO Processed Screenshot 2026-08-15 151116.png (File No 28): {'VALIDATED': 0, 'REVIEW_REQUIRED': 1, 'FAILED': 0}
 2026-08-15 15:11:29,808 INFO Processing completed: Screenshot 2026-08-15 151116.png
 2026-08-15 15:31:06,190 INFO Watcher stopped safely.
+2026-08-17 12:43:02,144 INFO StateStore active | Form No: max=114, next=115 | File No: max=28, next=28
+2026-08-17 12:43:43,787 INFO Operator selected new daily numbering configuration
+2026-08-17 12:44:39,942 INFO New daily numbering configuration confirmed: File No=145 Starting Form No=574
+2026-08-17 12:44:39,945 INFO Watching images\inbox for new images (.png, .jpg, .jpeg, .bmp, .webp). Polling latency ~1s. Ctrl+C to stop.
+2026-08-17 12:44:39,948 INFO Image detected: Screenshot 2026-08-15 153414.png (size: 330228 bytes)
+2026-08-17 12:44:39,948 INFO IMAGE STABILITY CHECK: Screenshot 2026-08-15 153414.png (SIZE=330228)
+2026-08-17 12:44:40,518 INFO IMAGE DECODE OK: Screenshot 2026-08-15 153414.png
+2026-08-17 12:44:40,519 INFO Image ready: Screenshot 2026-08-15 153414.png (file stable and readable)
+2026-08-17 12:44:40,520 INFO Processing started: Screenshot 2026-08-15 153414.png
+2026-08-17 12:44:44,166 INFO OCR variant A on Screenshot 2026-08-15 153414.png: records=4 mean_confidence=68.8
+2026-08-17 12:44:45,408 INFO OCR variant B on Screenshot 2026-08-15 153414.png: records=4 mean_confidence=68.8
+2026-08-17 12:44:46,786 INFO OCR variant C on Screenshot 2026-08-15 153414.png: records=4 mean_confidence=66.0
+2026-08-17 12:44:46,786 INFO Selected OCR variant B for Screenshot 2026-08-15 153414.png
+2026-08-17 12:44:46,864 INFO FIELD REGION: Record=1 Field=Card Type Label='Card' Label bbox={'x': 930, 'y': 138, 'width': 37, 'height': 16} Value region={'x': 974, 'y': 138, 'width': 132, 'height': 16} Region confidence=0.95
+2026-08-17 12:44:46,865 INFO FIELD OWNERSHIP: Record=1 Field=Mobile Model Tokens='1722'
+2026-08-17 12:44:46,865 INFO FIELD OWNERSHIP: Record=1 Field=IMEI 1 Tokens='943826 - 52 - 988142 -5'
+2026-08-17 12:44:46,910 INFO TARGETED OCR START: Record=1 Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20}
+2026-08-17 12:44:47,084 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=3x_contrast PSM=7 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=91.0
+2026-08-17 12:44:47,244 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=3x_contrast PSM=8 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=22.0
+2026-08-17 12:44:47,414 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=3x_contrast PSM=6 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=91.0
+2026-08-17 12:44:47,575 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=3x_contrast PSM=13 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=22.0
+2026-08-17 12:44:47,756 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=4x_contrast PSM=7 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=90.0
+2026-08-17 12:44:47,917 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=4x_contrast PSM=8 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=28.0
+2026-08-17 12:44:48,083 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=4x_contrast PSM=6 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=90.0
+2026-08-17 12:44:48,241 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=4x_contrast PSM=13 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=28.0
+2026-08-17 12:44:48,396 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=4x_otsu PSM=7 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=88.0
+2026-08-17 12:44:48,554 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=4x_otsu PSM=8 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=0.0
+2026-08-17 12:44:48,712 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=4x_otsu PSM=6 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=88.0
+2026-08-17 12:44:48,855 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=4x_otsu PSM=13 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=0.0
+2026-08-17 12:44:49,020 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=3x_adaptive PSM=7 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=92.0
+2026-08-17 12:44:49,177 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=3x_adaptive PSM=8 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=21.0
+2026-08-17 12:44:49,333 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=3x_adaptive PSM=6 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=92.0
+2026-08-17 12:44:49,493 INFO TARGETED OCR: Field=Email Region={'x': 241, 'y': 52, 'width': 209, 'height': 20} Variant=3x_adaptive PSM=13 Whitelist=False Result='lelia.greci@jurysinns.com' Candidate='lelia.greci@jurysinns.com' Valid=True Conf=21.0
+2026-08-17 12:44:49,501 INFO TARGETED OCR ACCEPTED: Record=1 Field=Email Value='lelia.greci@jurysinns.com' Conf=61.7 Decision=ACCEPTED_CONSENSUS
+2026-08-17 12:44:49,501 INFO TARGETED OCR START: Record=1 Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19}
+2026-08-17 12:44:49,667 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_contrast PSM=7 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=95.8
+2026-08-17 12:44:49,858 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_contrast PSM=7 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:50,052 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_contrast PSM=8 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=89.5
+2026-08-17 12:44:50,222 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_contrast PSM=8 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:50,405 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_contrast PSM=6 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=95.8
+2026-08-17 12:44:50,593 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_contrast PSM=6 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:50,750 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_contrast PSM=13 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=89.5
+2026-08-17 12:44:50,912 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_contrast PSM=13 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:51,069 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_contrast PSM=7 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=95.8
+2026-08-17 12:44:51,230 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_contrast PSM=7 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:51,394 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_contrast PSM=8 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=89.8
+2026-08-17 12:44:51,601 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_contrast PSM=8 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:51,756 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_contrast PSM=6 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=95.8
+2026-08-17 12:44:51,912 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_contrast PSM=6 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:52,068 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_contrast PSM=13 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=89.8
+2026-08-17 12:44:52,228 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_contrast PSM=13 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:52,382 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_otsu PSM=7 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=96.0
+2026-08-17 12:44:52,527 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_otsu PSM=7 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:52,675 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_otsu PSM=8 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=89.0
+2026-08-17 12:44:52,820 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_otsu PSM=8 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:52,965 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_otsu PSM=6 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=96.0
+2026-08-17 12:44:53,119 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_otsu PSM=6 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:53,263 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_otsu PSM=13 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=89.0
+2026-08-17 12:44:53,409 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=4x_otsu PSM=13 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:53,567 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_adaptive PSM=7 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=96.0
+2026-08-17 12:44:53,729 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_adaptive PSM=7 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:53,888 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_adaptive PSM=8 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=88.5
+2026-08-17 12:44:54,046 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_adaptive PSM=8 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:54,205 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_adaptive PSM=6 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=96.0
+2026-08-17 12:44:54,370 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_adaptive PSM=6 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:54,526 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_adaptive PSM=13 Whitelist=False Result='139 Kings Road Arches' Candidate='139 Kings Road Arches' Valid=True Conf=88.5
+2026-08-17 12:44:54,681 INFO TARGETED OCR: Field=Mailing Street Region={'x': 902, 'y': 52, 'width': 183, 'height': 19} Variant=3x_adaptive PSM=13 Whitelist=True Result='139KingsRoadArches' Candidate='139KingsRoadArches' Valid=True Conf=0.0
+2026-08-17 12:44:54,682 INFO TARGETED OCR ACCEPTED: Record=1 Field=Mailing Street Value='139 Kings Road Arches' Conf=92.5 Decision=ACCEPTED_CONSENSUS
+2026-08-17 12:44:54,682 INFO TARGETED OCR START: Record=1 Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20}
+2026-08-17 12:44:54,851 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=3x_contrast PSM=7 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=95.0
+2026-08-17 12:44:55,019 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=3x_contrast PSM=8 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=93.5
+2026-08-17 12:44:55,178 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=3x_contrast PSM=6 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=95.0
+2026-08-17 12:44:55,323 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=3x_contrast PSM=13 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=93.5
+2026-08-17 12:44:55,509 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=4x_contrast PSM=7 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=95.5
+2026-08-17 12:44:55,678 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=4x_contrast PSM=8 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=93.0
+2026-08-17 12:44:55,876 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=4x_contrast PSM=6 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=95.5
+2026-08-17 12:44:56,072 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=4x_contrast PSM=13 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=93.0
+2026-08-17 12:44:56,245 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=4x_otsu PSM=7 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=95.5
+2026-08-17 12:44:56,390 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=4x_otsu PSM=8 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=93.5
+2026-08-17 12:44:56,544 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=4x_otsu PSM=6 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=95.5
+2026-08-17 12:44:56,688 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=4x_otsu PSM=13 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=93.5
+2026-08-17 12:44:56,850 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=3x_adaptive PSM=7 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=96.0
+2026-08-17 12:44:56,999 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=3x_adaptive PSM=8 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=92.0
+2026-08-17 12:44:57,160 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=3x_adaptive PSM=6 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=96.0
+2026-08-17 12:44:57,318 INFO TARGETED OCR: Field=Service Provider Region={'x': 335, 'y': 95, 'width': 164, 'height': 20} Variant=3x_adaptive PSM=13 Whitelist=False Result='Hutchison Whampoa' Candidate='Hutchison Whampoa' Valid=True Conf=92.0
+2026-08-17 12:44:57,320 INFO TARGETED OCR ACCEPTED: Record=1 Field=Service Provider Value='Hutchison Whampoa' Conf=94.2 Decision=ACCEPTED_CONSENSUS
+2026-08-17 12:44:57,321 INFO TARGETED OCR START: Record=1 Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20}
+2026-08-17 12:44:57,533 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=3x_contrast PSM=7 Whitelist=False Result='HuWhéinr+#!@#&28405650' Candidate='HuWhéinr+#!@#&28405650' Valid=True Conf=25.0
+2026-08-17 12:44:57,723 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=3x_contrast PSM=8 Whitelist=False Result='‘HuWhéinr+#1@#628405650' Candidate='‘HuWhéinr+#1@#628405650' Valid=True Conf=42.0
+2026-08-17 12:44:57,899 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=3x_contrast PSM=6 Whitelist=False Result='HuWhéinr+#!@#&28405650' Candidate='HuWhéinr+#!@#&28405650' Valid=True Conf=25.0
+2026-08-17 12:44:58,071 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=3x_contrast PSM=13 Whitelist=False Result='‘HuWhéinr+#1@#628405650' Candidate='‘HuWhéinr+#1@#628405650' Valid=True Conf=42.0
+2026-08-17 12:44:58,274 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=4x_contrast PSM=7 Whitelist=False Result='HuWhéinr+#!@#&z8405650' Candidate='HuWhéinr+#!@#&z8405650' Valid=True Conf=31.0
+2026-08-17 12:44:58,513 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=4x_contrast PSM=8 Whitelist=False Result='‘HuWhéinr+#1@#628405650' Candidate='‘HuWhéinr+#1@#628405650' Valid=True Conf=48.0
+2026-08-17 12:44:58,716 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=4x_contrast PSM=6 Whitelist=False Result='HuWhéinr+#!@#&z8405650' Candidate='HuWhéinr+#!@#&z8405650' Valid=True Conf=31.0
+2026-08-17 12:44:58,898 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=4x_contrast PSM=13 Whitelist=False Result='‘HuWhéinr+#1@#628405650' Candidate='‘HuWhéinr+#1@#628405650' Valid=True Conf=48.0
+2026-08-17 12:44:59,071 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=4x_otsu PSM=7 Whitelist=False Result='HuWhéinr+#!@#&28405650' Candidate='HuWhéinr+#!@#&28405650' Valid=True Conf=22.0
+2026-08-17 12:44:59,215 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=4x_otsu PSM=8 Whitelist=False Result='‘HuWhéinr+#1@#628405650' Candidate='‘HuWhéinr+#1@#628405650' Valid=True Conf=35.0
+2026-08-17 12:44:59,365 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=4x_otsu PSM=6 Whitelist=False Result='HuWhéinr+#!@#&28405650' Candidate='HuWhéinr+#!@#&28405650' Valid=True Conf=22.0
+2026-08-17 12:44:59,508 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=4x_otsu PSM=13 Whitelist=False Result='‘HuWhéinr+#1@#628405650' Candidate='‘HuWhéinr+#1@#628405650' Valid=True Conf=35.0
+2026-08-17 12:44:59,702 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=3x_adaptive PSM=7 Whitelist=False Result='HuWhéinr+#!@#&28405650' Candidate='HuWhéinr+#!@#&28405650' Valid=True Conf=60.0
+2026-08-17 12:44:59,898 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=3x_adaptive PSM=8 Whitelist=False Result='‘HuWhéinr+#1@#628405650' Candidate='‘HuWhéinr+#1@#628405650' Valid=True Conf=30.0
+2026-08-17 12:45:00,094 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=3x_adaptive PSM=6 Whitelist=False Result='HuWhéinr+#!@#&28405650' Candidate='HuWhéinr+#!@#&28405650' Valid=True Conf=60.0
+2026-08-17 12:45:00,265 INFO TARGETED OCR: Field=Reference No Region={'x': 721, 'y': 94, 'width': 224, 'height': 20} Variant=3x_adaptive PSM=13 Whitelist=False Result='‘HuWhéinr+#1@#628405650' Candidate='‘HuWhéinr+#1@#628405650' Valid=True Conf=30.0
+2026-08-17 12:45:00,266 INFO TARGETED OCR ACCEPTED: Record=1 Field=Reference No Value='‘HuWhéinr+#1@#628405650' Conf=38.8 Decision=ACCEPTED_CONSENSUS
+2026-08-17 12:45:00,267 WARNING RECORD 1 FIELD Postal Code | raw='' normalized='' confidence=0.0 validation=REVIEW reasons=MISSING_REQUIRED_FIELD,FIELD_REGION_NOT_LOCATED targeted={'attempted': False, 'decision': 'FIELD_REGION_NOT_LOCATED'}
+2026-08-17 12:45:00,267 WARNING RECORD 1 FIELD Network Type | raw='' normalized='' confidence=0.0 validation=REVIEW reasons=FIELD_REGION_NOT_LOCATED targeted={'attempted': False, 'decision': 'FIELD_REGION_NOT_LOCATED'}
+2026-08-17 12:45:00,267 WARNING RECORD 1 STATUS: REVIEW_REQUIRED
+2026-08-17 12:45:00,336 INFO FIELD REGION: Record=2 Field=Profession Label='Professional' Label bbox={'x': 762, 'y': 268, 'width': 100, 'height': 16} Value region={'x': 892, 'y': 268, 'width': 106, 'height': 16} Region confidence=0.95
+2026-08-17 12:45:00,336 INFO FIELD REGION: Record=2 Field=Mailing Street Label='Street' Label bbox={'x': 1005, 'y': 268, 'width': 49, 'height': 16} Value region={'x': 1060, 'y': 268, 'width': 143, 'height': 16} Region confidence=0.95
+2026-08-17 12:45:00,336 INFO FIELD OWNERSHIP: Record=2 Field=Mobile Model Tokens='Siemens AP7S'
+2026-08-17 12:45:00,337 INFO FIELD OWNERSHIP: Record=2 Field=IMEI 1 Tokens='13194] - 77 - 169646-1'
+2026-08-17 12:45:00,337 INFO TARGETED OCR START: Record=2 Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15}
+2026-08-17 12:45:00,503 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=3x_contrast PSM=7 Whitelist=False Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:00,654 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=3x_contrast PSM=7 Whitelist=True Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:00,792 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=3x_contrast PSM=8 Whitelist=False Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:00,930 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=3x_contrast PSM=8 Whitelist=True Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:01,072 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=3x_contrast PSM=6 Whitelist=False Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:01,217 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=3x_contrast PSM=6 Whitelist=True Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:01,356 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=3x_contrast PSM=13 Whitelist=False Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:01,493 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=3x_contrast PSM=13 Whitelist=True Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:01,656 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=4x_contrast PSM=7 Whitelist=False Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:01,808 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=4x_contrast PSM=7 Whitelist=True Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:01,977 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=4x_contrast PSM=8 Whitelist=False Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:02,154 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=4x_contrast PSM=8 Whitelist=True Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:02,291 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=4x_contrast PSM=6 Whitelist=False Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:02,459 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=4x_contrast PSM=6 Whitelist=True Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:02,612 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=4x_contrast PSM=13 Whitelist=False Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:02,765 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=4x_contrast PSM=13 Whitelist=True Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:02,939 INFO TARGETED OCR: Field=Last Name Region={'x': 130, 'y': 268, 'width': 54, 'height': 15} Variant=4x_otsu PSM=7 Whitelist=False Result='Breese' Candidate='Breese' Valid=True Conf=96.0
+2026-08-17 12:45:03,020 INFO Watcher stopped safely.
+2026-08-17 12:47:32,367 INFO StateStore active | Form No: max=575, next=576 | File No: max=28, next=145
+2026-08-17 12:47:40,206 INFO Operator selected new daily numbering configuration
+2026-08-17 12:48:02,393 WARNING New numbering configuration rejected: File No 145 already exists. Choose a different File No.
+2026-08-17 12:48:17,349 WARNING New numbering configuration rejected: File No 145 already exists. Choose a different File No.
+2026-08-17 12:48:24,877 WARNING New numbering configuration rejected: File No 145 already exists. Choose a different File No.
+2026-08-17 12:48:33,311 WARNING New numbering configuration rejected: File No 145 already exists. Choose a different File No.
+2026-08-17 12:48:46,121 WARNING New numbering configuration rejected: File No 145 already exists. Choose a different File No.
+2026-08-17 12:48:49,279 INFO Watcher stopped safely.
+2026-08-17 12:48:51,903 INFO StateStore active | Form No: max=575, next=576 | File No: max=28, next=145
+2026-08-17 12:48:57,357 INFO Daily startup session initialized: continuing existing numbering state
+2026-08-17 12:48:57,358 INFO Active File No: 145 | Next Form No: 576
+2026-08-17 12:48:57,358 INFO Watching images\inbox for new images (.png, .jpg, .jpeg, .bmp, .webp). Polling latency ~1s. Ctrl+C to stop.
+2026-08-17 12:51:25,490 INFO Image detected: Screenshot 2026-08-17 125124.png (size: 31226 bytes)
+2026-08-17 12:51:25,491 INFO IMAGE STABILITY CHECK: Screenshot 2026-08-17 125124.png (SIZE=31226)
+2026-08-17 12:51:26,036 INFO IMAGE DECODE OK: Screenshot 2026-08-17 125124.png
+2026-08-17 12:51:26,037 INFO Image ready: Screenshot 2026-08-17 125124.png (file stable and readable)
+2026-08-17 12:51:26,037 INFO Processing started: Screenshot 2026-08-17 125124.png
+2026-08-17 12:51:26,634 INFO OCR variant A on Screenshot 2026-08-17 125124.png: records=1 mean_confidence=75.8
+2026-08-17 12:51:27,093 INFO OCR variant B on Screenshot 2026-08-17 125124.png: records=1 mean_confidence=66.3
+2026-08-17 12:51:27,576 INFO OCR variant C on Screenshot 2026-08-17 125124.png: records=1 mean_confidence=72.3
+2026-08-17 12:51:27,576 INFO Selected OCR variant A for Screenshot 2026-08-17 125124.png
+2026-08-17 12:51:27,645 INFO FIELD REGION: Record=1 Field=Profession Label='Professional' Label bbox={'x': 761, 'y': 35, 'width': 92, 'height': 15} Value region={'x': 873, 'y': 35, 'width': 91, 'height': 18} Region confidence=0.95
+2026-08-17 12:51:27,646 INFO FIELD REGION: Record=1 Field=Mailing Street Label='Street,' Label bbox={'x': 970, 'y': 32, 'width': 48, 'height': 23} Value region={'x': 1028, 'y': 32, 'width': 100, 'height': 23} Region confidence=0.95
+2026-08-17 12:51:27,646 INFO FIELD OWNERSHIP: Record=1 Field=Mobile Model Tokens='SiemensU15'
+2026-08-17 12:51:27,646 INFO FIELD OWNERSHIP: Record=1 Field=IMEI 1 Tokens='030594 - 49 - 434291-3'
+2026-08-17 12:51:27,651 INFO TARGETED OCR START: Record=1 Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14}
+2026-08-17 12:51:27,842 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=3x_contrast PSM=7 Whitelist=False Result='CDMA' Candidate='CDMA' Valid=True Conf=96.0
+2026-08-17 12:51:28,143 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=3x_contrast PSM=8 Whitelist=False Result='CDMA.' Candidate='CDMA.' Valid=True Conf=63.0
+2026-08-17 12:51:28,409 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=3x_contrast PSM=6 Whitelist=False Result='CDMA' Candidate='CDMA' Valid=True Conf=96.0
+2026-08-17 12:51:28,598 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=3x_contrast PSM=13 Whitelist=False Result='CDMA.' Candidate='CDMA.' Valid=True Conf=63.0
+2026-08-17 12:51:28,782 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=4x_contrast PSM=7 Whitelist=False Result='CDMA' Candidate='CDMA' Valid=True Conf=96.0
+2026-08-17 12:51:28,944 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=4x_contrast PSM=8 Whitelist=False Result='CDMA.' Candidate='CDMA.' Valid=True Conf=68.0
+2026-08-17 12:51:29,087 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=4x_contrast PSM=6 Whitelist=False Result='CDMA' Candidate='CDMA' Valid=True Conf=96.0
+2026-08-17 12:51:29,232 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=4x_contrast PSM=13 Whitelist=False Result='CDMA.' Candidate='CDMA.' Valid=True Conf=68.0
+2026-08-17 12:51:29,399 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=4x_otsu PSM=7 Whitelist=False Result='CDMA' Candidate='CDMA' Valid=True Conf=95.0
+2026-08-17 12:51:29,545 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=4x_otsu PSM=8 Whitelist=False Result='CDMA.' Candidate='CDMA.' Valid=True Conf=62.0
+2026-08-17 12:51:29,752 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=4x_otsu PSM=6 Whitelist=False Result='CDMA' Candidate='CDMA' Valid=True Conf=95.0
+2026-08-17 12:51:29,983 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=4x_otsu PSM=13 Whitelist=False Result='CDMA.' Candidate='CDMA.' Valid=True Conf=62.0
+2026-08-17 12:51:30,203 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=3x_adaptive PSM=7 Whitelist=False Result='CDMA' Candidate='CDMA' Valid=True Conf=96.0
+2026-08-17 12:51:30,354 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=3x_adaptive PSM=8 Whitelist=False Result='CDMA.' Candidate='CDMA.' Valid=True Conf=56.0
+2026-08-17 12:51:30,504 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=3x_adaptive PSM=6 Whitelist=False Result='CDMA' Candidate='CDMA' Valid=True Conf=96.0
+2026-08-17 12:51:30,670 INFO TARGETED OCR: Field=Network Type Region={'x': 737, 'y': 75, 'width': 42, 'height': 14} Variant=3x_adaptive PSM=13 Whitelist=False Result='CDMA.' Candidate='CDMA.' Valid=True Conf=56.0
+2026-08-17 12:51:30,672 INFO TARGETED OCR ACCEPTED: Record=1 Field=Network Type Value='CDMA' Conf=95.8 Decision=ACCEPTED_CONSENSUS
+2026-08-17 12:51:30,673 INFO TARGETED OCR START: Record=1 Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15}
+2026-08-17 12:51:30,912 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=3x_contrast PSM=7 Whitelist=False Result='SiemensU15' Candidate='SiemensU15' Valid=True Conf=54.0
+2026-08-17 12:51:31,142 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=3x_contrast PSM=8 Whitelist=False Result='‘SiemensUI5.' Candidate='‘SiemensUI5.' Valid=True Conf=2.0
+2026-08-17 12:51:31,366 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=3x_contrast PSM=6 Whitelist=False Result='SiemensU15' Candidate='SiemensU15' Valid=True Conf=54.0
+2026-08-17 12:51:31,524 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=3x_contrast PSM=13 Whitelist=False Result='‘SiemensUI5.' Candidate='‘SiemensUI5.' Valid=True Conf=2.0
+2026-08-17 12:51:31,671 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=4x_contrast PSM=7 Whitelist=False Result='SiemensUI15' Candidate='SiemensUI15' Valid=True Conf=29.0
+2026-08-17 12:51:31,822 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=4x_contrast PSM=8 Whitelist=False Result='‘SiemensUI5.' Candidate='‘SiemensUI5.' Valid=True Conf=15.0
+2026-08-17 12:51:32,013 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=4x_contrast PSM=6 Whitelist=False Result='SiemensUI15' Candidate='SiemensUI15' Valid=True Conf=29.0
+2026-08-17 12:51:32,231 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=4x_contrast PSM=13 Whitelist=False Result='‘SiemensUI5.' Candidate='‘SiemensUI5.' Valid=True Conf=15.0
+2026-08-17 12:51:32,436 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=4x_otsu PSM=7 Whitelist=False Result='SiemensU15' Candidate='SiemensU15' Valid=True Conf=48.0
+2026-08-17 12:51:32,704 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=4x_otsu PSM=8 Whitelist=False Result='‘SiemensUI5.' Candidate='‘SiemensUI5.' Valid=True Conf=13.0
+2026-08-17 12:51:32,902 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=4x_otsu PSM=6 Whitelist=False Result='SiemensU15' Candidate='SiemensU15' Valid=True Conf=48.0
+2026-08-17 12:51:33,089 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=4x_otsu PSM=13 Whitelist=False Result='‘SiemensUI5.' Candidate='‘SiemensUI5.' Valid=True Conf=13.0
+2026-08-17 12:51:33,360 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=3x_adaptive PSM=7 Whitelist=False Result='SiemensU15' Candidate='SiemensU15' Valid=True Conf=80.0
+2026-08-17 12:51:33,604 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=3x_adaptive PSM=8 Whitelist=False Result='‘SiemensUI5.' Candidate='‘SiemensUI5.' Valid=True Conf=0.0
+2026-08-17 12:51:33,774 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=3x_adaptive PSM=6 Whitelist=False Result='SiemensU15' Candidate='SiemensU15' Valid=True Conf=80.0
+2026-08-17 12:51:33,924 INFO TARGETED OCR: Field=Mobile Model Region={'x': 811, 'y': 75, 'width': 87, 'height': 15} Variant=3x_adaptive PSM=13 Whitelist=False Result='‘SiemensUI5.' Candidate='‘SiemensUI5.' Valid=True Conf=0.0
+2026-08-17 12:51:33,924 INFO TARGETED OCR ACCEPTED: Record=1 Field=Mobile Model Value='‘SiemensUI5.' Conf=10.0 Decision=ACCEPTED_CONSENSUS
+2026-08-17 12:51:33,925 INFO TARGETED OCR START: Record=1 Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14}
+2026-08-17 12:51:34,086 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=3x_contrast PSM=7 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=91.5
+2026-08-17 12:51:34,231 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=3x_contrast PSM=8 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=87.5
+2026-08-17 12:51:34,381 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=3x_contrast PSM=6 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=91.5
+2026-08-17 12:51:34,656 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=3x_contrast PSM=13 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=87.5
+2026-08-17 12:51:34,931 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=4x_contrast PSM=7 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=91.5
+2026-08-17 12:51:35,160 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=4x_contrast PSM=8 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=89.0
+2026-08-17 12:51:35,334 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=4x_contrast PSM=6 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=91.5
+2026-08-17 12:51:35,524 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=4x_contrast PSM=13 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=89.0
+2026-08-17 12:51:35,736 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=4x_otsu PSM=7 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=92.0
+2026-08-17 12:51:35,996 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=4x_otsu PSM=8 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=83.0
+2026-08-17 12:51:36,248 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=4x_otsu PSM=6 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=92.0
+2026-08-17 12:51:36,423 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=4x_otsu PSM=13 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=83.0
+2026-08-17 12:51:36,596 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=3x_adaptive PSM=7 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=92.0
+2026-08-17 12:51:36,774 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=3x_adaptive PSM=8 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=87.0
+2026-08-17 12:51:36,991 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=3x_adaptive PSM=6 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=92.0
+2026-08-17 12:51:37,217 INFO TARGETED OCR: Field=Card Type Region={'x': 430, 'y': 114, 'width': 139, 'height': 14} Variant=3x_adaptive PSM=13 Whitelist=False Result='Visa Titanium-Plus' Candidate='Visa Titanium-Plus' Valid=True Conf=87.0
+2026-08-17 12:51:37,218 INFO TARGETED OCR ACCEPTED: Record=1 Field=Card Type Value='Visa Titanium-Plus' Conf=89.2 Decision=ACCEPTED_CONSENSUS
+2026-08-17 12:51:37,218 WARNING RECORD 1 FIELD Service Provider | raw='' normalized='' confidence=0.0 validation=REVIEW reasons=FIELD_REGION_NOT_LOCATED targeted={'attempted': False, 'decision': 'FIELD_REGION_NOT_LOCATED'}
+2026-08-17 12:51:37,219 WARNING RECORD 1 FIELD Mobile Model | raw='‘SiemensUI5.' normalized='‘SiemensUI5.' confidence=10.0 validation=REVIEW reasons=LOW_OCR_CONFIDENCE targeted={'attempted': True, 'decision': 'ACCEPTED_CONSENSUS', 'value': '‘SiemensUI5.', 'raw_text': '‘SiemensUI5.', 'confidence': 10.0, 'votes': 8, 'tokens': [{'text': '‘SiemensUI5.', 'x': 811, 'y': 75, 'width': 87, 'height': 14, 'confidence': 15.0, 'needs_review': False}], 'runs': [{'variant': '3x_contrast', 'psm': 7, 'whitelist': False, 'raw_text': 'SiemensU15', 'cleaned': 'SiemensU15', 'confidence': 54.0, 'is_valid': True}, {'variant': '3x_contrast', 'psm': 8, 'whitelist': False, 'raw_text': '‘SiemensUI5.', 'cleaned': '‘SiemensUI5.', 'confidence': 2.0, 'is_valid': True}, {'variant': '3x_contrast', 'psm': 6, 'whitelist': False, 'raw_text': 'SiemensU15', 'cleaned': 'SiemensU15', 'confidence': 54.0, 'is_valid': True}, {'variant': '3x_contrast', 'psm': 13, 'whitelist': False, 'raw_text': '‘SiemensUI5.', 'cleaned': '‘SiemensUI5.', 'confidence': 2.0, 'is_valid': True}, {'variant': '4x_contrast', 'psm': 7, 'whitelist': False, 'raw_text': 'SiemensUI15', 'cleaned': 'SiemensUI15', 'confidence': 29.0, 'is_valid': True}, {'variant': '4x_contrast', 'psm': 8, 'whitelist': False, 'raw_text': '‘SiemensUI5.', 'cleaned': '‘SiemensUI5.', 'confidence': 15.0, 'is_valid': True}, {'variant': '4x_contrast', 'psm': 6, 'whitelist': False, 'raw_text': 'SiemensUI15', 'cleaned': 'SiemensUI15', 'confidence': 29.0, 'is_valid': True}, {'variant': '4x_contrast', 'psm': 13, 'whitelist': False, 'raw_text': '‘SiemensUI5.', 'cleaned': '‘SiemensUI5.', 'confidence': 15.0, 'is_valid': True}, {'variant': '4x_otsu', 'psm': 7, 'whitelist': False, 'raw_text': 'SiemensU15', 'cleaned': 'SiemensU15', 'confidence': 48.0, 'is_valid': True}, {'variant': '4x_otsu', 'psm': 8, 'whitelist': False, 'raw_text': '‘SiemensUI5.', 'cleaned': '‘SiemensUI5.', 'confidence': 13.0, 'is_valid': True}, {'variant': '4x_otsu', 'psm': 6, 'whitelist': False, 'raw_text': 'SiemensU15', 'cleaned': 'SiemensU15', 'confidence': 48.0, 'is_valid': True}, {'variant': '4x_otsu', 'psm': 13, 'whitelist': False, 'raw_text': '‘SiemensUI5.', 'cleaned': '‘SiemensUI5.', 'confidence': 13.0, 'is_valid': True}, {'variant': '3x_adaptive', 'psm': 7, 'whitelist': False, 'raw_text': 'SiemensU15', 'cleaned': 'SiemensU15', 'confidence': 80.0, 'is_valid': True}, {'variant': '3x_adaptive', 'psm': 8, 'whitelist': False, 'raw_text': '‘SiemensUI5.', 'cleaned': '‘SiemensUI5.', 'confidence': 0.0, 'is_valid': True}, {'variant': '3x_adaptive', 'psm': 6, 'whitelist': False, 'raw_text': 'SiemensU15', 'cleaned': 'SiemensU15', 'confidence': 80.0, 'is_valid': True}, {'variant': '3x_adaptive', 'psm': 13, 'whitelist': False, 'raw_text': '‘SiemensUI5.', 'cleaned': '‘SiemensUI5.', 'confidence': 0.0, 'is_valid': True}]}
+2026-08-17 12:51:37,219 WARNING RECORD 1 STATUS: REVIEW_REQUIRED
+2026-08-17 12:51:37,244 INFO Processed Screenshot 2026-08-17 125124.png (File No 145): {'VALIDATED': 0, 'REVIEW_REQUIRED': 1, 'FAILED': 0}
+2026-08-17 12:51:37,244 INFO Processing completed: Screenshot 2026-08-17 125124.png
+2026-08-17 12:55:04,040 INFO Watcher stopped safely.
+2026-08-17 13:08:54,437 INFO StateStore active | Form No: max=576, next=577 | File No: max=145, next=145
+2026-08-17 13:08:58,830 INFO Daily startup session initialized: continuing existing numbering state
+2026-08-17 13:08:58,832 INFO Active File No: 145 | Next Form No: 577
+2026-08-17 13:08:58,833 INFO Watching images\inbox for new images (.png, .jpg, .jpeg, .bmp, .webp). Polling latency ~1s. Ctrl+C to stop.
+2026-08-17 13:12:04,003 INFO Image detected: Screenshot 2026-08-17 131203.png (size: 30961 bytes)
+2026-08-17 13:12:04,004 INFO IMAGE STABILITY CHECK: Screenshot 2026-08-17 131203.png (SIZE=30961)
+2026-08-17 13:12:04,569 INFO IMAGE DECODE OK: Screenshot 2026-08-17 131203.png
+2026-08-17 13:12:04,569 INFO Image ready: Screenshot 2026-08-17 131203.png (file stable and readable)
+2026-08-17 13:12:04,570 INFO Processing started: Screenshot 2026-08-17 131203.png
+2026-08-17 13:12:05,318 INFO OCR variant A on Screenshot 2026-08-17 131203.png: records=1 mean_confidence=78.2
+2026-08-17 13:12:06,027 INFO OCR variant B on Screenshot 2026-08-17 131203.png: records=1 mean_confidence=70.0
+2026-08-17 13:12:06,521 INFO OCR variant C on Screenshot 2026-08-17 131203.png: records=1 mean_confidence=79.0
+2026-08-17 13:12:06,522 INFO Selected OCR variant C for Screenshot 2026-08-17 131203.png
+2026-08-17 13:12:06,611 INFO FIELD OWNERSHIP: Record=1 Field=Mobile Model Tokens='Nokia'
+2026-08-17 13:12:06,611 INFO FIELD OWNERSHIP: Record=1 Field=IMEI 1 Tokens='35101 726542 - 57 - 321289-0'
+2026-08-17 13:12:06,619 INFO TARGETED OCR START: Record=1 Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15}
+2026-08-17 13:12:06,812 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_contrast PSM=7 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:06,982 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_contrast PSM=7 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:07,157 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_contrast PSM=8 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:07,525 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_contrast PSM=8 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:07,763 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_contrast PSM=6 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:08,033 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_contrast PSM=6 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:08,199 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_contrast PSM=13 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:08,367 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_contrast PSM=13 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:08,526 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_contrast PSM=7 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:08,671 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_contrast PSM=7 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:08,811 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_contrast PSM=8 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:08,961 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_contrast PSM=8 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:09,106 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_contrast PSM=6 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:09,335 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_contrast PSM=6 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:09,510 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_contrast PSM=13 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:09,699 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_contrast PSM=13 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:09,903 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_otsu PSM=7 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:10,063 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_otsu PSM=7 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:10,208 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_otsu PSM=8 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:10,380 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_otsu PSM=8 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:10,533 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_otsu PSM=6 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:10,685 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_otsu PSM=6 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:10,840 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_otsu PSM=13 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:11,011 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=4x_otsu PSM=13 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:11,177 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_adaptive PSM=7 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:11,341 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_adaptive PSM=7 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:11,516 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_adaptive PSM=8 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:11,659 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_adaptive PSM=8 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:11,837 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_adaptive PSM=6 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:11,996 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_adaptive PSM=6 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:12,131 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_adaptive PSM=13 Whitelist=False Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:12,285 INFO TARGETED OCR: Field=First Name Region={'x': 86, 'y': 21, 'width': 56, 'height': 15} Variant=3x_adaptive PSM=13 Whitelist=True Result='Patricia' Candidate='Patricia' Valid=True Conf=96.0
+2026-08-17 13:12:12,287 INFO TARGETED OCR ACCEPTED: Record=1 Field=First Name Value='Patricia' Conf=96.0 Decision=ACCEPTED_CONSENSUS
+2026-08-17 13:12:12,288 INFO TARGETED OCR START: Record=1 Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14}
+2026-08-17 13:12:12,438 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=3x_contrast PSM=7 Whitelist=False Result='02' Candidate='02' Valid=True Conf=96.0
+2026-08-17 13:12:12,577 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=3x_contrast PSM=8 Whitelist=False Result='02' Candidate='02' Valid=True Conf=87.0
+2026-08-17 13:12:12,712 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=3x_contrast PSM=6 Whitelist=False Result='02' Candidate='02' Valid=True Conf=96.0
+2026-08-17 13:12:12,846 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=3x_contrast PSM=13 Whitelist=False Result='02' Candidate='02' Valid=True Conf=87.0
+2026-08-17 13:12:12,992 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=4x_contrast PSM=7 Whitelist=False Result='02' Candidate='02' Valid=True Conf=96.0
+2026-08-17 13:12:13,127 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=4x_contrast PSM=8 Whitelist=False Result='02' Candidate='02' Valid=True Conf=86.0
+2026-08-17 13:12:13,267 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=4x_contrast PSM=6 Whitelist=False Result='02' Candidate='02' Valid=True Conf=96.0
+2026-08-17 13:12:13,404 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=4x_contrast PSM=13 Whitelist=False Result='02' Candidate='02' Valid=True Conf=86.0
+2026-08-17 13:12:13,542 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=4x_otsu PSM=7 Whitelist=False Result='02' Candidate='02' Valid=True Conf=95.0
+2026-08-17 13:12:13,683 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=4x_otsu PSM=8 Whitelist=False Result='02' Candidate='02' Valid=True Conf=89.0
+2026-08-17 13:12:13,822 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=4x_otsu PSM=6 Whitelist=False Result='02' Candidate='02' Valid=True Conf=95.0
+2026-08-17 13:12:13,964 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=4x_otsu PSM=13 Whitelist=False Result='02' Candidate='02' Valid=True Conf=89.0
+2026-08-17 13:12:14,149 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=3x_adaptive PSM=7 Whitelist=False Result='02' Candidate='02' Valid=True Conf=96.0
+2026-08-17 13:12:14,362 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=3x_adaptive PSM=8 Whitelist=False Result='02' Candidate='02' Valid=True Conf=85.0
+2026-08-17 13:12:14,845 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=3x_adaptive PSM=6 Whitelist=False Result='02' Candidate='02' Valid=True Conf=96.0
+2026-08-17 13:12:15,485 INFO TARGETED OCR: Field=Service Provider Region={'x': 350, 'y': 61, 'width': 18, 'height': 14} Variant=3x_adaptive PSM=13 Whitelist=False Result='02' Candidate='02' Valid=True Conf=85.0
+2026-08-17 13:12:15,486 INFO TARGETED OCR ACCEPTED: Record=1 Field=Service Provider Value='02' Conf=91.2 Decision=ACCEPTED_CONSENSUS
+2026-08-17 13:12:15,486 INFO TARGETED OCR START: Record=1 Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14}
+2026-08-17 13:12:15,739 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=3x_contrast PSM=7 Whitelist=False Result='O2371H&:7#&:R481' Candidate='O2371H&:7#&:R481' Valid=True Conf=67.0
+2026-08-17 13:12:16,133 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=3x_contrast PSM=8 Whitelist=False Result='(O2371H&:7#6:R481' Candidate='(O2371H&:7#6:R481' Valid=True Conf=0.0
+2026-08-17 13:12:16,462 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=3x_contrast PSM=6 Whitelist=False Result='O2371H&:7#&:R481' Candidate='O2371H&:7#&:R481' Valid=True Conf=67.0
+2026-08-17 13:12:16,795 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=3x_contrast PSM=13 Whitelist=False Result='(O2371H&:7#6:R481' Candidate='(O2371H&:7#6:R481' Valid=True Conf=0.0
+2026-08-17 13:12:17,122 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=4x_contrast PSM=7 Whitelist=False Result='O2371H&:7#&:R481' Candidate='O2371H&:7#&:R481' Valid=True Conf=66.0
+2026-08-17 13:12:17,406 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=4x_contrast PSM=8 Whitelist=False Result='(O2371H&:7#6:R481' Candidate='(O2371H&:7#6:R481' Valid=True Conf=0.0
+2026-08-17 13:12:17,614 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=4x_contrast PSM=6 Whitelist=False Result='O2371H&:7#&:R481' Candidate='O2371H&:7#&:R481' Valid=True Conf=66.0
+2026-08-17 13:12:17,813 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=4x_contrast PSM=13 Whitelist=False Result='(O2371H&:7#6:R481' Candidate='(O2371H&:7#6:R481' Valid=True Conf=0.0
+2026-08-17 13:12:17,991 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=4x_otsu PSM=7 Whitelist=False Result='O2371H&:7# &:R481' Candidate='O2371H&:7# &:R481' Valid=True Conf=34.0
+2026-08-17 13:12:18,169 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=4x_otsu PSM=8 Whitelist=False Result='(O2371H&:7#6:R481' Candidate='(O2371H&:7#6:R481' Valid=True Conf=0.0
+2026-08-17 13:12:18,534 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=4x_otsu PSM=6 Whitelist=False Result='O2371H&:7# &:R481' Candidate='O2371H&:7# &:R481' Valid=True Conf=34.0
+2026-08-17 13:12:18,768 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=4x_otsu PSM=13 Whitelist=False Result='(O2371H&:7#6:R481' Candidate='(O2371H&:7#6:R481' Valid=True Conf=0.0
+2026-08-17 13:12:19,068 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=3x_adaptive PSM=7 Whitelist=False Result='O2371H&:7#&:R481' Candidate='O2371H&:7#&:R481' Valid=True Conf=75.0
+2026-08-17 13:12:19,216 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=3x_adaptive PSM=8 Whitelist=False Result='O23 71H&:7#6:R481' Candidate='O23 71H&:7#6:R481' Valid=True Conf=0.0
+2026-08-17 13:12:19,364 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=3x_adaptive PSM=6 Whitelist=False Result='O2371H&:7#&:R481' Candidate='O2371H&:7#&:R481' Valid=True Conf=75.0
+2026-08-17 13:12:19,538 INFO TARGETED OCR: Field=SIM No Region={'x': 544, 'y': 61, 'width': 134, 'height': 14} Variant=3x_adaptive PSM=13 Whitelist=False Result='O23 71H&:7#6:R481' Candidate='O23 71H&:7#6:R481' Valid=True Conf=0.0
+2026-08-17 13:12:19,539 INFO TARGETED OCR ACCEPTED: Record=1 Field=SIM No Value='O2371H&:7#&:R481' Conf=69.3 Decision=ACCEPTED_CONSENSUS
+2026-08-17 13:12:19,539 INFO TARGETED OCR START: Record=1 Field=IMEI 1 Region={'x': 26, 'y': 100, 'width': 221, 'height': 15}
+2026-08-17 13:12:19,759 INFO IMEI1 TOKENS: included token='35101' bbox={'x': 26, 'y': 100, 'width': 36, 'height': 14}
+2026-08-17 13:12:19,760 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 67, 'y': 100, 'width': 53, 'height': 14}
+2026-08-17 13:12:19,760 INFO IMEI1 TOKENS: included token='-' bbox={'x': 125, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:19,760 INFO IMEI1 TOKENS: included token='57' bbox={'x': 138, 'y': 100, 'width': 15, 'height': 14}
+2026-08-17 13:12:19,760 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:19,760 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 173, 'y': 100, 'width': 49, 'height': 14}
+2026-08-17 13:12:19,761 INFO IMEI1 TOKENS: included token='-' bbox={'x': 227, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:19,761 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:19,761 INFO IMEI1 NUMERIC PASS: Variant=3x_contrast PSM=7 Whitelist=False Raw='35101 726542 - 57 - 321289 - 0' Candidate='35101726542573212890' Valid=False Conf=87.1
+2026-08-17 13:12:19,923 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 221, 'height': 14}
+2026-08-17 13:12:19,923 INFO IMEI1 NUMERIC PASS: Variant=3x_contrast PSM=7 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:20,088 INFO IMEI1 TOKENS: included token='35101' bbox={'x': 26, 'y': 100, 'width': 35, 'height': 14}
+2026-08-17 13:12:20,088 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 69, 'y': 94, 'width': 48, 'height': 27}
+2026-08-17 13:12:20,089 INFO IMEI1 TOKENS: included token='-' bbox={'x': 125, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:20,089 INFO IMEI1 TOKENS: included token='57' bbox={'x': 139, 'y': 100, 'width': 14, 'height': 14}
+2026-08-17 13:12:20,089 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:20,089 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 175, 'y': 100, 'width': 46, 'height': 14}
+2026-08-17 13:12:20,090 INFO IMEI1 TOKENS: included token='-' bbox={'x': 227, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:20,090 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:20,090 INFO IMEI1 NUMERIC PASS: Variant=3x_contrast PSM=8 Whitelist=False Raw='35101 726542 - 57 - 321289 - 0' Candidate='35101726542573212890' Valid=False Conf=86.7
+2026-08-17 13:12:20,280 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 221, 'height': 14}
+2026-08-17 13:12:20,281 INFO IMEI1 NUMERIC PASS: Variant=3x_contrast PSM=8 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:20,493 INFO IMEI1 TOKENS: included token='35101' bbox={'x': 26, 'y': 100, 'width': 36, 'height': 14}
+2026-08-17 13:12:20,494 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 67, 'y': 100, 'width': 53, 'height': 14}
+2026-08-17 13:12:20,494 INFO IMEI1 TOKENS: included token='-' bbox={'x': 125, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:20,494 INFO IMEI1 TOKENS: included token='57' bbox={'x': 138, 'y': 100, 'width': 15, 'height': 14}
+2026-08-17 13:12:20,494 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:20,494 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 173, 'y': 100, 'width': 49, 'height': 14}
+2026-08-17 13:12:20,495 INFO IMEI1 TOKENS: included token='-' bbox={'x': 227, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:20,495 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:20,495 INFO IMEI1 NUMERIC PASS: Variant=3x_contrast PSM=6 Whitelist=False Raw='35101 726542 - 57 - 321289 - 0' Candidate='35101726542573212890' Valid=False Conf=87.1
+2026-08-17 13:12:20,700 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 221, 'height': 14}
+2026-08-17 13:12:20,700 INFO IMEI1 NUMERIC PASS: Variant=3x_contrast PSM=6 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:20,920 INFO IMEI1 TOKENS: included token='35101' bbox={'x': 26, 'y': 100, 'width': 35, 'height': 14}
+2026-08-17 13:12:20,921 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 69, 'y': 94, 'width': 48, 'height': 27}
+2026-08-17 13:12:20,921 INFO IMEI1 TOKENS: included token='-' bbox={'x': 125, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:20,921 INFO IMEI1 TOKENS: included token='57' bbox={'x': 139, 'y': 100, 'width': 14, 'height': 14}
+2026-08-17 13:12:20,922 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:20,922 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 175, 'y': 100, 'width': 46, 'height': 14}
+2026-08-17 13:12:20,922 INFO IMEI1 TOKENS: included token='-' bbox={'x': 227, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:20,922 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:20,923 INFO IMEI1 NUMERIC PASS: Variant=3x_contrast PSM=13 Whitelist=False Raw='35101 726542 - 57 - 321289 - 0' Candidate='35101726542573212890' Valid=False Conf=86.7
+2026-08-17 13:12:21,142 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 221, 'height': 14}
+2026-08-17 13:12:21,142 INFO IMEI1 NUMERIC PASS: Variant=3x_contrast PSM=13 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:21,319 INFO IMEI1 TOKENS: included token='35101' bbox={'x': 26, 'y': 100, 'width': 36, 'height': 14}
+2026-08-17 13:12:21,319 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 67, 'y': 100, 'width': 52, 'height': 14}
+2026-08-17 13:12:21,319 INFO IMEI1 TOKENS: included token='-' bbox={'x': 125, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:21,319 INFO IMEI1 TOKENS: included token='57' bbox={'x': 138, 'y': 100, 'width': 16, 'height': 14}
+2026-08-17 13:12:21,320 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:21,320 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 173, 'y': 100, 'width': 48, 'height': 14}
+2026-08-17 13:12:21,320 INFO IMEI1 TOKENS: included token='-' bbox={'x': 227, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:21,320 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:21,320 INFO IMEI1 NUMERIC PASS: Variant=4x_contrast PSM=7 Whitelist=False Raw='35101 726542 - 57 - 321289 - 0' Candidate='35101726542573212890' Valid=False Conf=88.4
+2026-08-17 13:12:21,502 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 222, 'height': 14}
+2026-08-17 13:12:21,502 INFO IMEI1 NUMERIC PASS: Variant=4x_contrast PSM=7 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:21,794 INFO IMEI1 TOKENS: included token='35101' bbox={'x': 26, 'y': 100, 'width': 35, 'height': 14}
+2026-08-17 13:12:21,794 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 70, 'y': 94, 'width': 47, 'height': 27}
+2026-08-17 13:12:21,794 INFO IMEI1 TOKENS: included token='-' bbox={'x': 126, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:21,795 INFO IMEI1 TOKENS: included token='57' bbox={'x': 139, 'y': 100, 'width': 14, 'height': 14}
+2026-08-17 13:12:21,795 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:21,795 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 175, 'y': 100, 'width': 46, 'height': 14}
+2026-08-17 13:12:21,795 INFO IMEI1 TOKENS: included token='-' bbox={'x': 227, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:21,795 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:21,796 INFO IMEI1 NUMERIC PASS: Variant=4x_contrast PSM=8 Whitelist=False Raw='35101 726542 - 57 - 321289 - 0' Candidate='35101726542573212890' Valid=False Conf=87.6
+2026-08-17 13:12:22,013 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 222, 'height': 14}
+2026-08-17 13:12:22,013 INFO IMEI1 NUMERIC PASS: Variant=4x_contrast PSM=8 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:22,219 INFO IMEI1 TOKENS: included token='35101' bbox={'x': 26, 'y': 100, 'width': 36, 'height': 14}
+2026-08-17 13:12:22,219 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 67, 'y': 100, 'width': 52, 'height': 14}
+2026-08-17 13:12:22,219 INFO IMEI1 TOKENS: included token='-' bbox={'x': 125, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:22,219 INFO IMEI1 TOKENS: included token='57' bbox={'x': 138, 'y': 100, 'width': 16, 'height': 14}
+2026-08-17 13:12:22,220 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:22,220 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 173, 'y': 100, 'width': 48, 'height': 14}
+2026-08-17 13:12:22,220 INFO IMEI1 TOKENS: included token='-' bbox={'x': 227, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:22,220 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:22,220 INFO IMEI1 NUMERIC PASS: Variant=4x_contrast PSM=6 Whitelist=False Raw='35101 726542 - 57 - 321289 - 0' Candidate='35101726542573212890' Valid=False Conf=88.4
+2026-08-17 13:12:22,452 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 222, 'height': 14}
+2026-08-17 13:12:22,452 INFO IMEI1 NUMERIC PASS: Variant=4x_contrast PSM=6 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:22,631 INFO IMEI1 TOKENS: included token='35101' bbox={'x': 26, 'y': 100, 'width': 35, 'height': 14}
+2026-08-17 13:12:22,631 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 70, 'y': 94, 'width': 47, 'height': 27}
+2026-08-17 13:12:22,631 INFO IMEI1 TOKENS: included token='-' bbox={'x': 126, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:22,631 INFO IMEI1 TOKENS: included token='57' bbox={'x': 139, 'y': 100, 'width': 14, 'height': 14}
+2026-08-17 13:12:22,631 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:22,632 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 175, 'y': 100, 'width': 46, 'height': 14}
+2026-08-17 13:12:22,632 INFO IMEI1 TOKENS: included token='-' bbox={'x': 227, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:22,632 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:22,632 INFO IMEI1 NUMERIC PASS: Variant=4x_contrast PSM=13 Whitelist=False Raw='35101 726542 - 57 - 321289 - 0' Candidate='35101726542573212890' Valid=False Conf=87.6
+2026-08-17 13:12:22,797 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 222, 'height': 14}
+2026-08-17 13:12:22,797 INFO IMEI1 NUMERIC PASS: Variant=4x_contrast PSM=13 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:22,969 INFO IMEI1 TOKENS: included token='35101' bbox={'x': 26, 'y': 100, 'width': 36, 'height': 14}
+2026-08-17 13:12:22,970 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 67, 'y': 100, 'width': 52, 'height': 14}
+2026-08-17 13:12:22,970 INFO IMEI1 TOKENS: included token='-' bbox={'x': 125, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:22,970 INFO IMEI1 TOKENS: included token='57' bbox={'x': 138, 'y': 100, 'width': 15, 'height': 14}
+2026-08-17 13:12:22,971 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:22,971 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 173, 'y': 100, 'width': 48, 'height': 14}
+2026-08-17 13:12:22,971 INFO IMEI1 TOKENS: included token='-' bbox={'x': 227, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:22,972 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:22,972 INFO IMEI1 NUMERIC PASS: Variant=4x_otsu PSM=7 Whitelist=False Raw='35101 726542 - 57 - 321289 - 0' Candidate='35101726542573212890' Valid=False Conf=86.5
+2026-08-17 13:12:23,143 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 221, 'height': 14}
+2026-08-17 13:12:23,143 INFO IMEI1 NUMERIC PASS: Variant=4x_otsu PSM=7 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:23,321 INFO IMEI1 TOKENS: included token='3510' bbox={'x': 26, 'y': 100, 'width': 31, 'height': 14}
+2026-08-17 13:12:23,321 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 70, 'y': 100, 'width': 47, 'height': 14}
+2026-08-17 13:12:23,321 INFO IMEI1 TOKENS: included token='-' bbox={'x': 126, 'y': 108, 'width': 5, 'height': 2}
+2026-08-17 13:12:23,321 INFO IMEI1 TOKENS: included token='57' bbox={'x': 139, 'y': 100, 'width': 14, 'height': 14}
+2026-08-17 13:12:23,321 INFO IMEI1 TOKENS: included token='-' bbox={'x': 162, 'y': 108, 'width': 4, 'height': 2}
+2026-08-17 13:12:23,322 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 175, 'y': 100, 'width': 46, 'height': 14}
+2026-08-17 13:12:23,322 INFO IMEI1 TOKENS: included token='-' bbox={'x': 229, 'y': 108, 'width': 4, 'height': 2}
+2026-08-17 13:12:23,322 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 6, 'height': 14}
+2026-08-17 13:12:23,322 INFO IMEI1 NUMERIC PASS: Variant=4x_otsu PSM=8 Whitelist=False Raw='3510 726542 - 57 - 321289 - 0' Candidate='3510726542573212890' Valid=False Conf=86.7
+2026-08-17 13:12:23,563 INFO IMEI1 TOKENS: included token='3510726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 221, 'height': 14}
+2026-08-17 13:12:23,564 INFO IMEI1 NUMERIC PASS: Variant=4x_otsu PSM=8 Whitelist=True Raw='3510726542-57-321289-0' Candidate='3510726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:23,743 INFO IMEI1 TOKENS: included token='35101' bbox={'x': 26, 'y': 100, 'width': 36, 'height': 14}
+2026-08-17 13:12:23,743 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 67, 'y': 100, 'width': 52, 'height': 14}
+2026-08-17 13:12:23,743 INFO IMEI1 TOKENS: included token='-' bbox={'x': 125, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:23,743 INFO IMEI1 TOKENS: included token='57' bbox={'x': 138, 'y': 100, 'width': 15, 'height': 14}
+2026-08-17 13:12:23,743 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:23,743 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 173, 'y': 100, 'width': 48, 'height': 14}
+2026-08-17 13:12:23,744 INFO IMEI1 TOKENS: included token='-' bbox={'x': 227, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:23,744 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:23,744 INFO IMEI1 NUMERIC PASS: Variant=4x_otsu PSM=6 Whitelist=False Raw='35101 726542 - 57 - 321289 - 0' Candidate='35101726542573212890' Valid=False Conf=86.5
+2026-08-17 13:12:23,994 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 221, 'height': 14}
+2026-08-17 13:12:23,994 INFO IMEI1 NUMERIC PASS: Variant=4x_otsu PSM=6 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:24,158 INFO IMEI1 TOKENS: included token='3510' bbox={'x': 26, 'y': 100, 'width': 31, 'height': 14}
+2026-08-17 13:12:24,158 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 70, 'y': 100, 'width': 47, 'height': 14}
+2026-08-17 13:12:24,158 INFO IMEI1 TOKENS: included token='-' bbox={'x': 126, 'y': 108, 'width': 5, 'height': 2}
+2026-08-17 13:12:24,159 INFO IMEI1 TOKENS: included token='57' bbox={'x': 139, 'y': 100, 'width': 14, 'height': 14}
+2026-08-17 13:12:24,159 INFO IMEI1 TOKENS: included token='-' bbox={'x': 162, 'y': 108, 'width': 4, 'height': 2}
+2026-08-17 13:12:24,159 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 175, 'y': 100, 'width': 46, 'height': 14}
+2026-08-17 13:12:24,160 INFO IMEI1 TOKENS: included token='-' bbox={'x': 229, 'y': 108, 'width': 4, 'height': 2}
+2026-08-17 13:12:24,160 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 6, 'height': 14}
+2026-08-17 13:12:24,160 INFO IMEI1 NUMERIC PASS: Variant=4x_otsu PSM=13 Whitelist=False Raw='3510 726542 - 57 - 321289 - 0' Candidate='3510726542573212890' Valid=False Conf=86.7
+2026-08-17 13:12:24,324 INFO IMEI1 TOKENS: included token='3510726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 221, 'height': 14}
+2026-08-17 13:12:24,324 INFO IMEI1 NUMERIC PASS: Variant=4x_otsu PSM=13 Whitelist=True Raw='3510726542-57-321289-0' Candidate='3510726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:24,508 INFO IMEI1 TOKENS: included token='35101' bbox={'x': 26, 'y': 100, 'width': 36, 'height': 14}
+2026-08-17 13:12:24,509 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 67, 'y': 100, 'width': 52, 'height': 14}
+2026-08-17 13:12:24,509 INFO IMEI1 TOKENS: included token='-' bbox={'x': 125, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:24,509 INFO IMEI1 TOKENS: included token='57' bbox={'x': 138, 'y': 100, 'width': 15, 'height': 14}
+2026-08-17 13:12:24,510 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:24,510 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 173, 'y': 100, 'width': 48, 'height': 14}
+2026-08-17 13:12:24,510 INFO IMEI1 TOKENS: included token='-' bbox={'x': 227, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:24,510 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:24,510 INFO IMEI1 NUMERIC PASS: Variant=3x_adaptive PSM=7 Whitelist=False Raw='35101 726542 - 57 - 321289 - 0' Candidate='35101726542573212890' Valid=False Conf=88.6
+2026-08-17 13:12:24,686 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 221, 'height': 14}
+2026-08-17 13:12:24,687 INFO IMEI1 NUMERIC PASS: Variant=3x_adaptive PSM=7 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:24,856 INFO IMEI1 TOKENS: excluded model token='3510i' bbox={'x': 26, 'y': 100, 'width': 36, 'height': 14}
+2026-08-17 13:12:24,856 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 69, 'y': 100, 'width': 48, 'height': 14}
+2026-08-17 13:12:24,856 INFO IMEI1 TOKENS: included token='-' bbox={'x': 126, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:24,857 INFO IMEI1 TOKENS: included token='57' bbox={'x': 139, 'y': 100, 'width': 14, 'height': 14}
+2026-08-17 13:12:24,857 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:24,857 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 175, 'y': 100, 'width': 46, 'height': 14}
+2026-08-17 13:12:24,857 INFO IMEI1 TOKENS: included token='-' bbox={'x': 229, 'y': 108, 'width': 4, 'height': 2}
+2026-08-17 13:12:24,858 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:24,858 INFO IMEI1 NUMERIC PASS: Variant=3x_adaptive PSM=8 Whitelist=False Raw='3510i 726542 - 57 - 321289 - 0' Candidate='726542573212890' Valid=True Conf=80.6
+2026-08-17 13:12:25,018 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 221, 'height': 14}
+2026-08-17 13:12:25,018 INFO IMEI1 NUMERIC PASS: Variant=3x_adaptive PSM=8 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:25,188 INFO IMEI1 TOKENS: included token='35101' bbox={'x': 26, 'y': 100, 'width': 36, 'height': 14}
+2026-08-17 13:12:25,189 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 67, 'y': 100, 'width': 52, 'height': 14}
+2026-08-17 13:12:25,189 INFO IMEI1 TOKENS: included token='-' bbox={'x': 125, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:25,189 INFO IMEI1 TOKENS: included token='57' bbox={'x': 138, 'y': 100, 'width': 15, 'height': 14}
+2026-08-17 13:12:25,189 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:25,189 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 173, 'y': 100, 'width': 48, 'height': 14}
+2026-08-17 13:12:25,190 INFO IMEI1 TOKENS: included token='-' bbox={'x': 227, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:25,190 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:25,190 INFO IMEI1 NUMERIC PASS: Variant=3x_adaptive PSM=6 Whitelist=False Raw='35101 726542 - 57 - 321289 - 0' Candidate='35101726542573212890' Valid=False Conf=88.6
+2026-08-17 13:12:25,365 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 221, 'height': 14}
+2026-08-17 13:12:25,366 INFO IMEI1 NUMERIC PASS: Variant=3x_adaptive PSM=6 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:25,538 INFO IMEI1 TOKENS: excluded model token='3510i' bbox={'x': 26, 'y': 100, 'width': 36, 'height': 14}
+2026-08-17 13:12:25,538 INFO IMEI1 TOKENS: included token='726542' bbox={'x': 69, 'y': 100, 'width': 48, 'height': 14}
+2026-08-17 13:12:25,539 INFO IMEI1 TOKENS: included token='-' bbox={'x': 126, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:25,539 INFO IMEI1 TOKENS: included token='57' bbox={'x': 139, 'y': 100, 'width': 14, 'height': 14}
+2026-08-17 13:12:25,539 INFO IMEI1 TOKENS: included token='-' bbox={'x': 160, 'y': 108, 'width': 6, 'height': 2}
+2026-08-17 13:12:25,539 INFO IMEI1 TOKENS: included token='321289' bbox={'x': 175, 'y': 100, 'width': 46, 'height': 14}
+2026-08-17 13:12:25,539 INFO IMEI1 TOKENS: included token='-' bbox={'x': 229, 'y': 108, 'width': 4, 'height': 2}
+2026-08-17 13:12:25,539 INFO IMEI1 TOKENS: included token='0' bbox={'x': 240, 'y': 100, 'width': 7, 'height': 14}
+2026-08-17 13:12:25,539 INFO IMEI1 NUMERIC PASS: Variant=3x_adaptive PSM=13 Whitelist=False Raw='3510i 726542 - 57 - 321289 - 0' Candidate='726542573212890' Valid=True Conf=80.6
+2026-08-17 13:12:25,706 INFO IMEI1 TOKENS: included token='35101726542-57-321289-0' bbox={'x': 26, 'y': 100, 'width': 221, 'height': 14}
+2026-08-17 13:12:25,707 INFO IMEI1 NUMERIC PASS: Variant=3x_adaptive PSM=13 Whitelist=True Raw='35101726542-57-321289-0' Candidate='35101726542573212890' Valid=False Conf=0.0
+2026-08-17 13:12:25,707 INFO IMEI1 CONSENSUS: Candidate=726542573212890 Support=2 MeanConfidence=80.6 Decision=ACCEPTED_STRICT_IMEI
+2026-08-17 13:12:25,708 INFO TARGETED OCR ACCEPTED: Record=1 Field=IMEI 1 Value='726542573212890' Conf=80.6 Decision=ACCEPTED_STRICT_IMEI
+2026-08-17 13:12:25,709 WARNING RECORD 1 FIELD Last Name | raw='' normalized='' confidence=0.0 validation=REVIEW reasons=MISSING_REQUIRED_FIELD,FIELD_REGION_NOT_LOCATED targeted={'attempted': False, 'decision': 'FIELD_REGION_NOT_LOCATED'}
+2026-08-17 13:12:25,709 WARNING RECORD 1 FIELD Postal Code | raw='' normalized='' confidence=0.0 validation=REVIEW reasons=MISSING_REQUIRED_FIELD,FIELD_REGION_NOT_LOCATED targeted={'attempted': False, 'decision': 'FIELD_REGION_NOT_LOCATED'}
+2026-08-17 13:12:25,709 WARNING RECORD 1 FIELD Reference No | raw='' normalized='' confidence=0.0 validation=REVIEW reasons=FIELD_REGION_NOT_LOCATED targeted={'attempted': False, 'decision': 'FIELD_REGION_NOT_LOCATED'}
+2026-08-17 13:12:25,709 WARNING RECORD 1 STATUS: REVIEW_REQUIRED
+2026-08-17 13:12:25,739 INFO Processed Screenshot 2026-08-17 131203.png (File No 145): {'VALIDATED': 0, 'REVIEW_REQUIRED': 1, 'FAILED': 0}
+2026-08-17 13:12:25,740 INFO Processing completed: Screenshot 2026-08-17 131203.png
+2026-08-17 13:14:03,945 INFO Watcher stopped safely.

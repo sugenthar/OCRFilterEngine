@@ -1,20 +1,20 @@
 {
-  "image": "images\\inbox\\Screenshot 2026-08-15 151116.png",
-  "file_no": 28,
+  "image": "images\\inbox\\Screenshot 2026-08-17 131203.png",
+  "file_no": 145,
   "records": [
     {
       "record_number": 1,
-      "form_no": 114,
+      "form_no": 577,
       "fields": {
         "File No": {
-          "value": "28",
+          "value": "145",
           "raw_text": "",
           "confidence": 100.0,
           "needs_review": false,
           "coordinates": [],
           "source_tokens": [],
           "variant": "standard",
-          "normalized_value": "28",
+          "normalized_value": "145",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -23,14 +23,14 @@
           }
         },
         "Form No": {
-          "value": "114",
+          "value": "577",
           "raw_text": "",
           "confidence": 100.0,
           "needs_review": false,
           "coordinates": [],
           "source_tokens": [],
           "variant": "standard",
-          "normalized_value": "114",
+          "normalized_value": "577",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -39,26 +39,26 @@
           }
         },
         "Title": {
-          "value": "Miss",
-          "raw_text": "MISS",
-          "confidence": 67.0,
+          "value": "Mr",
+          "raw_text": "Mr",
+          "confidence": 96.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 45,
-              "y": 27,
-              "width": 44,
-              "height": 18
+              "x": 26,
+              "y": 21,
+              "width": 19,
+              "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "MISS",
-              "x": 45,
-              "y": 27,
-              "width": 44,
-              "height": 18,
-              "confidence": 67.0,
+              "text": "Mr",
+              "x": 26,
+              "y": 21,
+              "width": 19,
+              "height": 14,
+              "confidence": 96.0,
               "needs_review": false
             }
           ],
@@ -66,34 +66,34 @@
           "field_region": {
             "field_name": "Title",
             "region": {
-              "x": 45,
-              "y": 27,
-              "width": 44,
-              "height": 18
+              "x": 26,
+              "y": 21,
+              "width": 19,
+              "height": 14
             },
             "bbox": {
-              "x": 45,
-              "y": 27,
-              "width": 44,
-              "height": 18
+              "x": 26,
+              "y": 21,
+              "width": 19,
+              "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 45,
-              "y": 27,
-              "width": 44,
-              "height": 18
+              "x": 26,
+              "y": 21,
+              "width": 19,
+              "height": 14
             },
             "anchor_bbox": {
-              "x": 45,
-              "y": 27,
-              "width": 44,
-              "height": 18
+              "x": 26,
+              "y": 21,
+              "width": 19,
+              "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "Miss",
+          "normalized_value": "Mr",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -102,26 +102,26 @@
           }
         },
         "First Name": {
-          "value": "Lisa",
-          "raw_text": "Lisa",
-          "confidence": 67.0,
+          "value": "Patricia",
+          "raw_text": "Patricia",
+          "confidence": 96.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 118,
-              "y": 27,
-              "width": 37,
-              "height": 18
+              "x": 86,
+              "y": 21,
+              "width": 56,
+              "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "Lisa",
-              "x": 118,
-              "y": 27,
-              "width": 37,
-              "height": 18,
-              "confidence": 67.0,
+              "text": "Patricia",
+              "x": 86,
+              "y": 21,
+              "width": 56,
+              "height": 14,
+              "confidence": 96.0,
               "needs_review": false
             }
           ],
@@ -129,516 +129,29 @@
           "field_region": {
             "field_name": "First Name",
             "region": {
-              "x": 118,
-              "y": 27,
-              "width": 37,
-              "height": 18
+              "x": 86,
+              "y": 21,
+              "width": 56,
+              "height": 15
             },
             "bbox": {
-              "x": 118,
-              "y": 27,
-              "width": 37,
-              "height": 18
+              "x": 86,
+              "y": 21,
+              "width": 56,
+              "height": 15
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 118,
-              "y": 27,
-              "width": 37,
-              "height": 18
+              "x": 86,
+              "y": 21,
+              "width": 56,
+              "height": 15
             },
             "anchor_bbox": {
-              "x": 118,
-              "y": 27,
-              "width": 37,
-              "height": 18
-            },
-            "confidence": 0.7,
-            "source": "token_span"
-          },
-          "normalized_value": "Lisa",
-          "validation": "PASS",
-          "failure_reasons": [],
-          "targeted_ocr": {
-            "attempted": false,
-            "decision": "NOT_REQUIRED"
-          }
-        },
-        "Last Name": {
-          "value": "Caleno",
-          "raw_text": "Caleno",
-          "confidence": 92.0,
-          "needs_review": false,
-          "coordinates": [
-            {
-              "x": 174,
-              "y": 27,
-              "width": 62,
-              "height": 18
-            }
-          ],
-          "source_tokens": [
-            {
-              "text": "Caleno",
-              "x": 174,
-              "y": 27,
-              "width": 62,
-              "height": 18,
-              "confidence": 92.0,
-              "needs_review": false
-            }
-          ],
-          "variant": "standard",
-          "field_region": {
-            "field_name": "Last Name",
-            "region": {
-              "x": 174,
-              "y": 27,
-              "width": 62,
-              "height": 18
-            },
-            "bbox": {
-              "x": 174,
-              "y": 27,
-              "width": 62,
-              "height": 18
-            },
-            "anchor_label": "",
-            "anchor_coordinates": {
-              "x": 174,
-              "y": 27,
-              "width": 62,
-              "height": 18
-            },
-            "anchor_bbox": {
-              "x": 174,
-              "y": 27,
-              "width": 62,
-              "height": 18
-            },
-            "confidence": 0.7,
-            "source": "token_span"
-          },
-          "normalized_value": "Caleno",
-          "validation": "PASS",
-          "failure_reasons": [],
-          "targeted_ocr": {
-            "attempted": false,
-            "decision": "NOT_REQUIRED"
-          }
-        },
-        "Initial": {
-          "value": "MLC",
-          "raw_text": "MLC",
-          "confidence": 100.0,
-          "needs_review": false,
-          "coordinates": [],
-          "source_tokens": [],
-          "variant": "standard",
-          "normalized_value": "MLC",
-          "validation": "PASS",
-          "failure_reasons": [],
-          "targeted_ocr": {
-            "attempted": false,
-            "decision": "NOT_REQUIRED"
-          }
-        },
-        "Email": {
-          "value": "lelia.greci@jurysinns.com",
-          "raw_text": "lelia.greci@jurysinns.com",
-          "confidence": 90.0,
-          "needs_review": false,
-          "coordinates": [
-            {
-              "x": 284,
-              "y": 27,
-              "width": 236,
-              "height": 23
-            }
-          ],
-          "source_tokens": [
-            {
-              "text": "lelia.greci@jurysinns.com",
-              "x": 284,
-              "y": 27,
-              "width": 236,
-              "height": 23,
-              "confidence": 90.0,
-              "needs_review": false
-            }
-          ],
-          "variant": "standard",
-          "field_region": {
-            "field_name": "Email",
-            "region": {
-              "x": 284,
-              "y": 27,
-              "width": 236,
-              "height": 23
-            },
-            "bbox": {
-              "x": 284,
-              "y": 27,
-              "width": 236,
-              "height": 23
-            },
-            "anchor_label": "",
-            "anchor_coordinates": {
-              "x": 284,
-              "y": 27,
-              "width": 236,
-              "height": 23
-            },
-            "anchor_bbox": {
-              "x": 284,
-              "y": 27,
-              "width": 236,
-              "height": 23
-            },
-            "confidence": 0.7,
-            "source": "token_span"
-          },
-          "normalized_value": "lelia.greci@jurysinns.com",
-          "validation": "PASS",
-          "failure_reasons": [],
-          "targeted_ocr": {
-            "attempted": false,
-            "decision": "NOT_REQUIRED"
-          }
-        },
-        "Father Name": {
-          "value": "Addy Caleno",
-          "raw_text": "AddyCaleno",
-          "confidence": 81.0,
-          "needs_review": false,
-          "coordinates": [
-            {
-              "x": 550,
-              "y": 27,
-              "width": 115,
-              "height": 23
-            }
-          ],
-          "source_tokens": [
-            {
-              "text": "AddyCaleno",
-              "x": 550,
-              "y": 27,
-              "width": 115,
-              "height": 23,
-              "confidence": 81.0,
-              "needs_review": false
-            }
-          ],
-          "variant": "standard",
-          "field_region": {
-            "field_name": "Father Name",
-            "region": {
-              "x": 550,
-              "y": 27,
-              "width": 115,
-              "height": 23
-            },
-            "bbox": {
-              "x": 550,
-              "y": 27,
-              "width": 115,
-              "height": 23
-            },
-            "anchor_label": "",
-            "anchor_coordinates": {
-              "x": 550,
-              "y": 27,
-              "width": 115,
-              "height": 23
-            },
-            "anchor_bbox": {
-              "x": 550,
-              "y": 27,
-              "width": 115,
-              "height": 23
-            },
-            "confidence": 0.7,
-            "source": "token_span"
-          },
-          "normalized_value": "Addy Caleno",
-          "validation": "PASS",
-          "failure_reasons": [],
-          "targeted_ocr": {
-            "attempted": false,
-            "decision": "NOT_REQUIRED"
-          }
-        },
-        "DOB": {
-          "value": "13/09/1986",
-          "raw_text": "13/09/1986",
-          "confidence": 94.0,
-          "needs_review": false,
-          "coordinates": [
-            {
-              "x": 701,
-              "y": 26,
-              "width": 96,
-              "height": 22
-            }
-          ],
-          "source_tokens": [
-            {
-              "text": "13/09/1986",
-              "x": 701,
-              "y": 26,
-              "width": 96,
-              "height": 22,
-              "confidence": 94.0,
-              "needs_review": false
-            }
-          ],
-          "variant": "standard",
-          "field_region": {
-            "field_name": "DOB",
-            "region": {
-              "x": 701,
-              "y": 26,
-              "width": 96,
-              "height": 22
-            },
-            "bbox": {
-              "x": 701,
-              "y": 26,
-              "width": 96,
-              "height": 22
-            },
-            "anchor_label": "",
-            "anchor_coordinates": {
-              "x": 701,
-              "y": 26,
-              "width": 96,
-              "height": 22
-            },
-            "anchor_bbox": {
-              "x": 701,
-              "y": 26,
-              "width": 96,
-              "height": 22
-            },
-            "confidence": 0.7,
-            "source": "token_span"
-          },
-          "normalized_value": "13/09/1986",
-          "validation": "PASS",
-          "failure_reasons": [],
-          "targeted_ocr": {
-            "attempted": false,
-            "decision": "NOT_REQUIRED"
-          }
-        },
-        "Gender": {
-          "value": "Female",
-          "raw_text": "Female",
-          "confidence": 95.0,
-          "needs_review": false,
-          "coordinates": [
-            {
-              "x": 831,
-              "y": 27,
-              "width": 66,
-              "height": 18
-            }
-          ],
-          "source_tokens": [
-            {
-              "text": "Female",
-              "x": 831,
-              "y": 27,
-              "width": 66,
-              "height": 18,
-              "confidence": 95.0,
-              "needs_review": false
-            }
-          ],
-          "variant": "standard",
-          "field_region": {
-            "field_name": "Gender",
-            "region": {
-              "x": 831,
-              "y": 27,
-              "width": 66,
-              "height": 18
-            },
-            "bbox": {
-              "x": 831,
-              "y": 27,
-              "width": 66,
-              "height": 18
-            },
-            "anchor_label": "",
-            "anchor_coordinates": {
-              "x": 831,
-              "y": 27,
-              "width": 66,
-              "height": 18
-            },
-            "anchor_bbox": {
-              "x": 831,
-              "y": 27,
-              "width": 66,
-              "height": 18
-            },
-            "confidence": 0.7,
-            "source": "token_span"
-          },
-          "normalized_value": "Female",
-          "validation": "PASS",
-          "failure_reasons": [],
-          "targeted_ocr": {
-            "attempted": false,
-            "decision": "NOT_REQUIRED"
-          }
-        },
-        "Profession": {
-          "value": "Business",
-          "raw_text": "Business",
-          "confidence": 94.0,
-          "needs_review": false,
-          "coordinates": [
-            {
-              "x": 922,
-              "y": 27,
-              "width": 81,
-              "height": 18
-            }
-          ],
-          "source_tokens": [
-            {
-              "text": "Business",
-              "x": 922,
-              "y": 27,
-              "width": 81,
-              "height": 18,
-              "confidence": 94.0,
-              "needs_review": false
-            }
-          ],
-          "variant": "standard",
-          "field_region": {
-            "field_name": "Profession",
-            "region": {
-              "x": 922,
-              "y": 27,
-              "width": 81,
-              "height": 18
-            },
-            "bbox": {
-              "x": 922,
-              "y": 27,
-              "width": 81,
-              "height": 18
-            },
-            "anchor_label": "",
-            "anchor_coordinates": {
-              "x": 922,
-              "y": 27,
-              "width": 81,
-              "height": 18
-            },
-            "anchor_bbox": {
-              "x": 922,
-              "y": 27,
-              "width": 81,
-              "height": 18
-            },
-            "confidence": 0.7,
-            "source": "token_span"
-          },
-          "normalized_value": "Business",
-          "validation": "PASS",
-          "failure_reasons": [],
-          "targeted_ocr": {
-            "attempted": false,
-            "decision": "NOT_REQUIRED"
-          }
-        },
-        "Mailing Street": {
-          "value": "139 Kings Road",
-          "raw_text": "139 Kings Road",
-          "confidence": 93.95,
-          "needs_review": false,
-          "coordinates": [
-            {
-              "x": 1038,
-              "y": 27,
-              "width": 28,
-              "height": 18
-            },
-            {
-              "x": 1074,
-              "y": 27,
-              "width": 49,
-              "height": 23
-            },
-            {
-              "x": 1131,
-              "y": 27,
-              "width": 44,
-              "height": 18
-            }
-          ],
-          "source_tokens": [
-            {
-              "text": "139",
-              "x": 1038,
-              "y": 27,
-              "width": 28,
-              "height": 18,
-              "confidence": 96.0,
-              "needs_review": false
-            },
-            {
-              "text": "Kings",
-              "x": 1074,
-              "y": 27,
-              "width": 49,
-              "height": 23,
-              "confidence": 96.0,
-              "needs_review": false
-            },
-            {
-              "text": "Road",
-              "x": 1131,
-              "y": 27,
-              "width": 44,
-              "height": 18,
-              "confidence": 96.0,
-              "needs_review": false
-            }
-          ],
-          "variant": "standard",
-          "field_region": {
-            "field_name": "Mailing Street",
-            "region": {
-              "x": 1038,
-              "y": 27,
-              "width": 137,
-              "height": 23
-            },
-            "bbox": {
-              "x": 1038,
-              "y": 27,
-              "width": 137,
-              "height": 23
-            },
-            "anchor_label": "",
-            "anchor_coordinates": {
-              "x": 1038,
-              "y": 27,
-              "width": 137,
-              "height": 23
-            },
-            "anchor_bbox": {
-              "x": 1038,
-              "y": 27,
-              "width": 137,
-              "height": 23
+              "x": 86,
+              "y": 21,
+              "width": 56,
+              "height": 15
             },
             "confidence": 0.7,
             "source": "token_span"
@@ -646,35 +159,17 @@
           "targeted_ocr": {
             "attempted": true,
             "decision": "ACCEPTED_CONSENSUS",
-            "value": "139 Kings Road",
-            "raw_text": "139 Kings Road",
-            "confidence": 93.95,
-            "votes": 14,
+            "value": "Patricia",
+            "raw_text": "Patricia",
+            "confidence": 96.0,
+            "votes": 32,
             "tokens": [
               {
-                "text": "139",
-                "x": 1038,
-                "y": 27,
-                "width": 28,
-                "height": 18,
-                "confidence": 96.0,
-                "needs_review": false
-              },
-              {
-                "text": "Kings",
-                "x": 1074,
-                "y": 27,
-                "width": 49,
-                "height": 23,
-                "confidence": 96.0,
-                "needs_review": false
-              },
-              {
-                "text": "Road",
-                "x": 1131,
-                "y": 27,
-                "width": 44,
-                "height": 18,
+                "text": "Patricia",
+                "x": 86,
+                "y": 21,
+                "width": 56,
+                "height": 14,
                 "confidence": 96.0,
                 "needs_review": false
               }
@@ -684,8 +179,8 @@
                 "variant": "3x_contrast",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
                 "confidence": 96.0,
                 "is_valid": true
               },
@@ -693,35 +188,35 @@
                 "variant": "3x_contrast",
                 "psm": 7,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_contrast",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
-                "confidence": 90.67,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_contrast",
                 "psm": 8,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_contrast",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
                 "confidence": 96.0,
                 "is_valid": true
               },
@@ -729,107 +224,107 @@
                 "variant": "3x_contrast",
                 "psm": 6,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_contrast",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
-                "confidence": 90.67,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_contrast",
                 "psm": 13,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
-                "confidence": 95.67,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 7,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
-                "confidence": 92.67,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 8,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
-                "confidence": 95.67,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 6,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
-                "confidence": 92.67,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 13,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_otsu",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
                 "confidence": 96.0,
                 "is_valid": true
               },
@@ -837,35 +332,35 @@
                 "variant": "4x_otsu",
                 "psm": 7,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_otsu",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "139 Kings Read",
-                "cleaned": "139 Kings Read",
-                "confidence": 92.67,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_otsu",
                 "psm": 8,
                 "whitelist": true,
-                "raw_text": "139KingsRead",
-                "cleaned": "139KingsRead",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_otsu",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
                 "confidence": 96.0,
                 "is_valid": true
               },
@@ -873,238 +368,696 @@
                 "variant": "4x_otsu",
                 "psm": 6,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_otsu",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "139 Kings Read",
-                "cleaned": "139 Kings Read",
-                "confidence": 92.67,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_otsu",
                 "psm": 13,
                 "whitelist": true,
-                "raw_text": "139KingsRead",
-                "cleaned": "139KingsRead",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
-                "confidence": 95.67,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 7,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
-                "confidence": 91.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 8,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
-                "confidence": 95.67,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 6,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "139 Kings Road",
-                "cleaned": "139 Kings Road",
-                "confidence": 91.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 13,
                 "whitelist": true,
-                "raw_text": "139KingsRoad",
-                "cleaned": "139KingsRoad",
-                "confidence": 0.0,
+                "raw_text": "Patricia",
+                "cleaned": "Patricia",
+                "confidence": 96.0,
                 "is_valid": true
               }
             ]
           },
-          "normalized_value": "139 Kings Road",
+          "normalized_value": "Patricia",
           "validation": "PASS",
           "failure_reasons": []
         },
-        "City": {
-          "value": "Arches Brighton, East Sussex BNI 2FN",
-          "raw_text": "Arches Brighton, East Sussex BNI 2FN",
-          "confidence": 74.67,
+        "Last Name": {
+          "value": "",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "FIELD_REGION_NOT_LOCATED"
+          },
+          "normalized_value": "",
+          "validation": "REVIEW",
+          "failure_reasons": [
+            "MISSING_REQUIRED_FIELD",
+            "FIELD_REGION_NOT_LOCATED"
+          ]
+        },
+        "Initial": {
+          "value": "MP",
+          "raw_text": "MP",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "MP",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Email": {
+          "value": "Burrellmembership@scotmid.co.uk",
+          "raw_text": "Burrellmembership@scotmid.co.uk",
+          "confidence": 65.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 1183,
-              "y": 27,
-              "width": 63,
-              "height": 18
-            },
-            {
-              "x": 1277,
-              "y": 27,
-              "width": 83,
-              "height": 23
-            },
-            {
-              "x": 1367,
-              "y": 27,
-              "width": 39,
-              "height": 18
-            },
-            {
-              "x": 45,
-              "y": 77,
-              "width": 64,
-              "height": 18
-            },
-            {
-              "x": 151,
-              "y": 77,
-              "width": 31,
-              "height": 18
-            },
-            {
-              "x": 189,
-              "y": 77,
-              "width": 35,
+              "x": 166,
+              "y": 21,
+              "width": 261,
               "height": 18
             }
           ],
           "source_tokens": [
             {
-              "text": "Arches",
-              "x": 1183,
-              "y": 27,
-              "width": 63,
+              "text": "Burrellmembership@scotmid.co.uk",
+              "x": 166,
+              "y": 21,
+              "width": 261,
+              "height": 18,
+              "confidence": 65.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Email",
+            "region": {
+              "x": 166,
+              "y": 21,
+              "width": 261,
+              "height": 18
+            },
+            "bbox": {
+              "x": 166,
+              "y": 21,
+              "width": 261,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 166,
+              "y": 21,
+              "width": 261,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 166,
+              "y": 21,
+              "width": 261,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Burrellmembership@scotmid.co.uk",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Father Name": {
+          "value": "Reese Burrell",
+          "raw_text": "Reese Burrell",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 433,
+              "y": 21,
+              "width": 43,
+              "height": 15
+            },
+            {
+              "x": 482,
+              "y": 21,
+              "width": 52,
+              "height": 15
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Reese",
+              "x": 433,
+              "y": 21,
+              "width": 43,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Burrell",
+              "x": 482,
+              "y": 21,
+              "width": 52,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Father Name",
+            "region": {
+              "x": 433,
+              "y": 21,
+              "width": 101,
+              "height": 15
+            },
+            "bbox": {
+              "x": 433,
+              "y": 21,
+              "width": 101,
+              "height": 15
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 433,
+              "y": 21,
+              "width": 101,
+              "height": 15
+            },
+            "anchor_bbox": {
+              "x": 433,
+              "y": 21,
+              "width": 101,
+              "height": 15
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Reese Burrell",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "DOB": {
+          "value": "11/06/1988",
+          "raw_text": "11/06/1988",
+          "confidence": 94.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 543,
+              "y": 20,
+              "width": 75,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "11/06/1988",
+              "x": 543,
+              "y": 20,
+              "width": 75,
+              "height": 18,
+              "confidence": 94.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "DOB",
+            "region": {
+              "x": 543,
+              "y": 20,
+              "width": 75,
+              "height": 18
+            },
+            "bbox": {
+              "x": 543,
+              "y": 20,
+              "width": 75,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 543,
+              "y": 20,
+              "width": 75,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 543,
+              "y": 20,
+              "width": 75,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "11/06/1988",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Gender": {
+          "value": "Male",
+          "raw_text": "Male",
+          "confidence": 94.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 629,
+              "y": 21,
+              "width": 34,
+              "height": 15
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Male",
+              "x": 629,
+              "y": 21,
+              "width": 34,
+              "height": 15,
+              "confidence": 94.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Gender",
+            "region": {
+              "x": 629,
+              "y": 21,
+              "width": 34,
+              "height": 15
+            },
+            "bbox": {
+              "x": 629,
+              "y": 21,
+              "width": 34,
+              "height": 15
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 629,
+              "y": 21,
+              "width": 34,
+              "height": 15
+            },
+            "anchor_bbox": {
+              "x": 629,
+              "y": 21,
+              "width": 34,
+              "height": 15
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Male",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Profession": {
+          "value": "Fixed Income",
+          "raw_text": "Fixed Income",
+          "confidence": 94.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 669,
+              "y": 21,
+              "width": 39,
+              "height": 15
+            },
+            {
+              "x": 714,
+              "y": 21,
+              "width": 53,
+              "height": 15
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Fixed",
+              "x": 669,
+              "y": 21,
+              "width": 39,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Income",
+              "x": 714,
+              "y": 21,
+              "width": 53,
+              "height": 15,
+              "confidence": 92.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Profession",
+            "region": {
+              "x": 669,
+              "y": 21,
+              "width": 98,
+              "height": 15
+            },
+            "bbox": {
+              "x": 669,
+              "y": 21,
+              "width": 98,
+              "height": 15
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 669,
+              "y": 21,
+              "width": 98,
+              "height": 15
+            },
+            "anchor_bbox": {
+              "x": 669,
+              "y": 21,
+              "width": 98,
+              "height": 15
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Fixed Income",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Mailing Street": {
+          "value": "Whitemanns Green",
+          "raw_text": "Whitemanns Green",
+          "confidence": 93.5,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 772,
+              "y": 21,
+              "width": 91,
+              "height": 15
+            },
+            {
+              "x": 870,
+              "y": 21,
+              "width": 42,
+              "height": 15
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Whitemanns",
+              "x": 772,
+              "y": 21,
+              "width": 91,
+              "height": 15,
+              "confidence": 91.0,
+              "needs_review": false
+            },
+            {
+              "text": "Green",
+              "x": 870,
+              "y": 21,
+              "width": 42,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Mailing Street",
+            "region": {
+              "x": 772,
+              "y": 21,
+              "width": 140,
+              "height": 15
+            },
+            "bbox": {
+              "x": 772,
+              "y": 21,
+              "width": 140,
+              "height": 15
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 772,
+              "y": 21,
+              "width": 140,
+              "height": 15
+            },
+            "anchor_bbox": {
+              "x": 772,
+              "y": 21,
+              "width": 140,
+              "height": 15
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Whitemanns Green",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "City": {
+          "value": "Cuckfield, West Sussex Haywards Heath,SEA I-RHI75HX",
+          "raw_text": "Cuckfield, West Sussex Haywards Heath,SEA I-RHI75HX",
+          "confidence": 70.33,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 918,
+              "y": 21,
+              "width": 72,
+              "height": 17
+            },
+            {
+              "x": 995,
+              "y": 21,
+              "width": 35,
+              "height": 15
+            },
+            {
+              "x": 1036,
+              "y": 21,
+              "width": 52,
+              "height": 15
+            },
+            {
+              "x": 26,
+              "y": 61,
+              "width": 72,
+              "height": 18
+            },
+            {
+              "x": 104,
+              "y": 61,
+              "width": 80,
+              "height": 17
+            },
+            {
+              "x": 217,
+              "y": 61,
+              "width": 81,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Cuckfield,",
+              "x": 918,
+              "y": 21,
+              "width": 72,
+              "height": 17,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "West",
+              "x": 995,
+              "y": 21,
+              "width": 35,
+              "height": 15,
+              "confidence": 97.0,
+              "needs_review": false
+            },
+            {
+              "text": "Sussex",
+              "x": 1036,
+              "y": 21,
+              "width": 52,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Haywards",
+              "x": 26,
+              "y": 61,
+              "width": 72,
               "height": 18,
               "confidence": 93.0,
               "needs_review": false
             },
             {
-              "text": "Brighton,",
-              "x": 1277,
-              "y": 27,
-              "width": 83,
-              "height": 23,
-              "confidence": 84.0,
-              "needs_review": false
-            },
-            {
-              "text": "East",
-              "x": 1367,
-              "y": 27,
-              "width": 39,
-              "height": 18,
-              "confidence": 96.0,
-              "needs_review": false
-            },
-            {
-              "text": "Sussex",
-              "x": 45,
-              "y": 77,
-              "width": 64,
-              "height": 18,
-              "confidence": 88.0,
-              "needs_review": false
-            },
-            {
-              "text": "BNI",
-              "x": 151,
-              "y": 77,
-              "width": 31,
-              "height": 18,
-              "confidence": 25.0,
+              "text": "Heath,SEA",
+              "x": 104,
+              "y": 61,
+              "width": 80,
+              "height": 17,
+              "confidence": 20.0,
               "needs_review": true
             },
             {
-              "text": "2FN",
-              "x": 189,
-              "y": 77,
-              "width": 35,
-              "height": 18,
-              "confidence": 62.0,
-              "needs_review": false
+              "text": "I-RHI75HX",
+              "x": 217,
+              "y": 61,
+              "width": 81,
+              "height": 14,
+              "confidence": 20.0,
+              "needs_review": true
             }
           ],
           "variant": "standard",
           "field_region": {
             "field_name": "City",
             "region": {
-              "x": 45,
-              "y": 27,
-              "width": 1361,
-              "height": 68
+              "x": 26,
+              "y": 21,
+              "width": 1062,
+              "height": 58
             },
             "bbox": {
-              "x": 45,
-              "y": 27,
-              "width": 1361,
-              "height": 68
+              "x": 26,
+              "y": 21,
+              "width": 1062,
+              "height": 58
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 45,
-              "y": 27,
-              "width": 1361,
-              "height": 68
+              "x": 26,
+              "y": 21,
+              "width": 1062,
+              "height": 58
             },
             "anchor_bbox": {
-              "x": 45,
-              "y": 27,
-              "width": 1361,
-              "height": 68
+              "x": 26,
+              "y": 21,
+              "width": 1062,
+              "height": 58
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "Arches Brighton, East Sussex BNI 2FN",
+          "normalized_value": "Cuckfield, West Sussex Haywards Heath,SEA I-RHI75HX",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -1132,25 +1085,25 @@
           ]
         },
         "Country": {
-          "value": "England",
-          "raw_text": "England",
+          "value": "UK",
+          "raw_text": "UK",
           "confidence": 96.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 272,
-              "y": 77,
-              "width": 72,
-              "height": 23
+              "x": 313,
+              "y": 61,
+              "width": 19,
+              "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "England",
-              "x": 272,
-              "y": 77,
-              "width": 72,
-              "height": 23,
+              "text": "UK",
+              "x": 313,
+              "y": 61,
+              "width": 19,
+              "height": 14,
               "confidence": 96.0,
               "needs_review": false
             }
@@ -1159,34 +1112,34 @@
           "field_region": {
             "field_name": "Country",
             "region": {
-              "x": 272,
-              "y": 77,
-              "width": 72,
-              "height": 23
+              "x": 313,
+              "y": 61,
+              "width": 19,
+              "height": 14
             },
             "bbox": {
-              "x": 272,
-              "y": 77,
-              "width": 72,
-              "height": 23
+              "x": 313,
+              "y": 61,
+              "width": 19,
+              "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 272,
-              "y": 77,
-              "width": 72,
-              "height": 23
+              "x": 313,
+              "y": 61,
+              "width": 19,
+              "height": 14
             },
             "anchor_bbox": {
-              "x": 272,
-              "y": 77,
-              "width": 72,
-              "height": 23
+              "x": 313,
+              "y": 61,
+              "width": 19,
+              "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "England",
+          "normalized_value": "UK",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -1195,26 +1148,26 @@
           }
         },
         "Service Provider": {
-          "value": "Hutchison Whampoa",
-          "raw_text": "Hutchison",
-          "confidence": 90.0,
+          "value": "02",
+          "raw_text": "02",
+          "confidence": 91.25,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 392,
-              "y": 77,
-              "width": 89,
-              "height": 18
+              "x": 350,
+              "y": 61,
+              "width": 19,
+              "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "Hutchison",
-              "x": 392,
-              "y": 77,
-              "width": 89,
-              "height": 18,
-              "confidence": 90.0,
+              "text": "02",
+              "x": 350,
+              "y": 61,
+              "width": 19,
+              "height": 14,
+              "confidence": 96.0,
               "needs_review": false
             }
           ],
@@ -1222,92 +1175,238 @@
           "field_region": {
             "field_name": "Service Provider",
             "region": {
-              "x": 392,
-              "y": 77,
-              "width": 89,
-              "height": 18
+              "x": 350,
+              "y": 61,
+              "width": 18,
+              "height": 14
             },
             "bbox": {
-              "x": 392,
-              "y": 77,
-              "width": 89,
-              "height": 18
+              "x": 350,
+              "y": 61,
+              "width": 18,
+              "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 392,
-              "y": 77,
-              "width": 89,
-              "height": 18
+              "x": 350,
+              "y": 61,
+              "width": 18,
+              "height": 14
             },
             "anchor_bbox": {
-              "x": 392,
-              "y": 77,
-              "width": 89,
-              "height": 18
+              "x": 350,
+              "y": 61,
+              "width": 18,
+              "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "Hutchison Whampoa",
-          "validation": "PASS",
-          "failure_reasons": [],
           "targeted_ocr": {
-            "attempted": false,
-            "decision": "NOT_REQUIRED"
-          }
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "02",
+            "raw_text": "02",
+            "confidence": 91.25,
+            "votes": 16,
+            "tokens": [
+              {
+                "text": "02",
+                "x": 350,
+                "y": 61,
+                "width": 19,
+                "height": 14,
+                "confidence": 96.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 87.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 87.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 86.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 86.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 95.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 89.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 95.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 89.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 85.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 85.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "02",
+          "validation": "PASS",
+          "failure_reasons": []
         },
         "File Ref": {
-          "value": "Whampoa - Tango - 423916390",
-          "raw_text": "Whampoa Tango 423916390",
-          "confidence": 82.67,
+          "value": "Alpha - 65446050",
+          "raw_text": "Alpha- 65446050",
+          "confidence": 91.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 488,
-              "y": 77,
-              "width": 90,
-              "height": 23
-            },
-            {
-              "x": 619,
-              "y": 77,
-              "width": 53,
-              "height": 23
-            },
-            {
-              "x": 696,
-              "y": 77,
-              "width": 94,
+              "x": 387,
+              "y": 61,
+              "width": 54,
               "height": 18
+            },
+            {
+              "x": 448,
+              "y": 61,
+              "width": 71,
+              "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "Whampoa",
-              "x": 488,
-              "y": 77,
-              "width": 90,
-              "height": 23,
-              "confidence": 84.0,
-              "needs_review": false
-            },
-            {
-              "text": "Tango",
-              "x": 619,
-              "y": 77,
-              "width": 53,
-              "height": 23,
-              "confidence": 93.0,
-              "needs_review": false
-            },
-            {
-              "text": "423916390",
-              "x": 696,
-              "y": 77,
-              "width": 94,
+              "text": "Alpha-",
+              "x": 387,
+              "y": 61,
+              "width": 54,
               "height": 18,
-              "confidence": 71.0,
+              "confidence": 90.0,
+              "needs_review": false
+            },
+            {
+              "text": "65446050",
+              "x": 448,
+              "y": 61,
+              "width": 71,
+              "height": 14,
+              "confidence": 92.0,
               "needs_review": false
             }
           ],
@@ -1315,34 +1414,34 @@
           "field_region": {
             "field_name": "File Ref",
             "region": {
-              "x": 488,
-              "y": 77,
-              "width": 302,
-              "height": 23
+              "x": 387,
+              "y": 61,
+              "width": 132,
+              "height": 18
             },
             "bbox": {
-              "x": 488,
-              "y": 77,
-              "width": 302,
-              "height": 23
+              "x": 387,
+              "y": 61,
+              "width": 132,
+              "height": 18
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 488,
-              "y": 77,
-              "width": 302,
-              "height": 23
+              "x": 387,
+              "y": 61,
+              "width": 132,
+              "height": 18
             },
             "anchor_bbox": {
-              "x": 488,
-              "y": 77,
-              "width": 302,
-              "height": 23
+              "x": 387,
+              "y": 61,
+              "width": 132,
+              "height": 18
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "Whampoa - Tango - 423916390",
+          "normalized_value": "Alpha - 65446050",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -1351,89 +1450,44 @@
           }
         },
         "Reference No": {
-          "value": "HuWh\u00e9inr+#!@#&28405650",
-          "raw_text": "HuWh\u00e9inr+#!@#&28405650",
-          "confidence": 64.0,
-          "needs_review": false,
-          "coordinates": [
-            {
-              "x": 832,
-              "y": 77,
-              "width": 255,
-              "height": 23
-            }
-          ],
-          "source_tokens": [
-            {
-              "text": "HuWh\u00e9inr+#!@#&28405650",
-              "x": 832,
-              "y": 77,
-              "width": 255,
-              "height": 23,
-              "confidence": 64.0,
-              "needs_review": false
-            }
-          ],
+          "value": "",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": [],
+          "source_tokens": [],
           "variant": "standard",
-          "field_region": {
-            "field_name": "Reference No",
-            "region": {
-              "x": 832,
-              "y": 77,
-              "width": 255,
-              "height": 23
-            },
-            "bbox": {
-              "x": 832,
-              "y": 77,
-              "width": 255,
-              "height": 23
-            },
-            "anchor_label": "",
-            "anchor_coordinates": {
-              "x": 832,
-              "y": 77,
-              "width": 255,
-              "height": 23
-            },
-            "anchor_bbox": {
-              "x": 832,
-              "y": 77,
-              "width": 255,
-              "height": 23
-            },
-            "confidence": 0.7,
-            "source": "token_span"
-          },
-          "normalized_value": "HuWh\u00e9inr+#!@#&28405650",
-          "validation": "PASS",
-          "failure_reasons": [],
           "targeted_ocr": {
             "attempted": false,
-            "decision": "NOT_REQUIRED"
-          }
+            "decision": "FIELD_REGION_NOT_LOCATED"
+          },
+          "normalized_value": "",
+          "validation": "REVIEW",
+          "failure_reasons": [
+            "FIELD_REGION_NOT_LOCATED"
+          ]
         },
         "SIM No": {
-          "value": "DZNstG412141157BH76",
-          "raw_text": "DZNstG412141157BH76",
-          "confidence": 78.0,
+          "value": "O2371H&:7#&:R481",
+          "raw_text": "O2371H&:7#&:R481",
+          "confidence": 69.33,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 1145,
-              "y": 77,
-              "width": 196,
-              "height": 18
+              "x": 544,
+              "y": 61,
+              "width": 134,
+              "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "DZNstG412141157BH76",
-              "x": 1145,
-              "y": 77,
-              "width": 196,
-              "height": 18,
-              "confidence": 78.0,
+              "text": "O2371H&:7#&:R481",
+              "x": 544,
+              "y": 61,
+              "width": 134,
+              "height": 14,
+              "confidence": 75.0,
               "needs_review": false
             }
           ],
@@ -1441,62 +1495,223 @@
           "field_region": {
             "field_name": "SIM No",
             "region": {
-              "x": 1145,
-              "y": 77,
-              "width": 196,
-              "height": 18
+              "x": 544,
+              "y": 61,
+              "width": 134,
+              "height": 14
             },
             "bbox": {
-              "x": 1145,
-              "y": 77,
-              "width": 196,
-              "height": 18
+              "x": 544,
+              "y": 61,
+              "width": 134,
+              "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 1145,
-              "y": 77,
-              "width": 196,
-              "height": 18
+              "x": 544,
+              "y": 61,
+              "width": 134,
+              "height": 14
             },
             "anchor_bbox": {
-              "x": 1145,
-              "y": 77,
-              "width": 196,
-              "height": 18
+              "x": 544,
+              "y": 61,
+              "width": 134,
+              "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "DZNstG412141157BH76",
-          "validation": "PASS",
-          "failure_reasons": [],
           "targeted_ocr": {
-            "attempted": false,
-            "decision": "NOT_REQUIRED"
-          }
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "O2371H&:7#&:R481",
+            "raw_text": "O2371H&:7#&:R481",
+            "confidence": 69.33,
+            "votes": 6,
+            "tokens": [
+              {
+                "text": "O2371H&:7#&:R481",
+                "x": 544,
+                "y": 61,
+                "width": 134,
+                "height": 14,
+                "confidence": 75.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "O2371H&:7#&:R481",
+                "cleaned": "O2371H&:7#&:R481",
+                "confidence": 67.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "(O2371H&:7#6:R481",
+                "cleaned": "(O2371H&:7#6:R481",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "O2371H&:7#&:R481",
+                "cleaned": "O2371H&:7#&:R481",
+                "confidence": 67.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "(O2371H&:7#6:R481",
+                "cleaned": "(O2371H&:7#6:R481",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "O2371H&:7#&:R481",
+                "cleaned": "O2371H&:7#&:R481",
+                "confidence": 66.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "(O2371H&:7#6:R481",
+                "cleaned": "(O2371H&:7#6:R481",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "O2371H&:7#&:R481",
+                "cleaned": "O2371H&:7#&:R481",
+                "confidence": 66.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "(O2371H&:7#6:R481",
+                "cleaned": "(O2371H&:7#6:R481",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "O2371H&:7# &:R481",
+                "cleaned": "O2371H&:7# &:R481",
+                "confidence": 34.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "(O2371H&:7#6:R481",
+                "cleaned": "(O2371H&:7#6:R481",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "O2371H&:7# &:R481",
+                "cleaned": "O2371H&:7# &:R481",
+                "confidence": 34.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "(O2371H&:7#6:R481",
+                "cleaned": "(O2371H&:7#6:R481",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "O2371H&:7#&:R481",
+                "cleaned": "O2371H&:7#&:R481",
+                "confidence": 75.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "O23 71H&:7#6:R481",
+                "cleaned": "O23 71H&:7#6:R481",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "O2371H&:7#&:R481",
+                "cleaned": "O2371H&:7#&:R481",
+                "confidence": 75.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "O23 71H&:7#6:R481",
+                "cleaned": "O23 71H&:7#6:R481",
+                "confidence": 0.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "O2371H&:7#&:R481",
+          "validation": "PASS",
+          "failure_reasons": []
         },
         "Network Type": {
-          "value": "CDMA+CDMA",
-          "raw_text": "CDMA+CDMA",
-          "confidence": 62.0,
+          "value": "CDMA+GSM",
+          "raw_text": "CDMA+GSM",
+          "confidence": 72.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 45,
-              "y": 126,
-              "width": 117,
-              "height": 18
+              "x": 868,
+              "y": 61,
+              "width": 82,
+              "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "CDMA+CDMA",
-              "x": 45,
-              "y": 126,
-              "width": 117,
-              "height": 18,
-              "confidence": 62.0,
+              "text": "CDMA+GSM",
+              "x": 868,
+              "y": 61,
+              "width": 82,
+              "height": 14,
+              "confidence": 72.0,
               "needs_review": false
             }
           ],
@@ -1504,34 +1719,34 @@
           "field_region": {
             "field_name": "Network Type",
             "region": {
-              "x": 45,
-              "y": 126,
-              "width": 117,
-              "height": 18
+              "x": 868,
+              "y": 61,
+              "width": 82,
+              "height": 14
             },
             "bbox": {
-              "x": 45,
-              "y": 126,
-              "width": 117,
-              "height": 18
+              "x": 868,
+              "y": 61,
+              "width": 82,
+              "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 45,
-              "y": 126,
-              "width": 117,
-              "height": 18
+              "x": 868,
+              "y": 61,
+              "width": 82,
+              "height": 14
             },
             "anchor_bbox": {
-              "x": 45,
-              "y": 126,
-              "width": 117,
-              "height": 18
+              "x": 868,
+              "y": 61,
+              "width": 82,
+              "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "CDMA+CDMA",
+          "normalized_value": "CDMA+GSM",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -1540,26 +1755,26 @@
           }
         },
         "Mobile Model": {
-          "value": "T722",
-          "raw_text": "T722",
-          "confidence": 79.0,
+          "value": "Nokia",
+          "raw_text": "Nokia",
+          "confidence": 96.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 201,
-              "y": 126,
-              "width": 43,
-              "height": 18
+              "x": 957,
+              "y": 61,
+              "width": 41,
+              "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "T722",
-              "x": 201,
-              "y": 126,
-              "width": 43,
-              "height": 18,
-              "confidence": 88.0,
+              "text": "Nokia",
+              "x": 957,
+              "y": 61,
+              "width": 41,
+              "height": 14,
+              "confidence": 96.0,
               "needs_review": false
             }
           ],
@@ -1567,313 +1782,152 @@
           "field_region": {
             "field_name": "Mobile Model",
             "region": {
-              "x": 201,
-              "y": 126,
-              "width": 43,
-              "height": 18
+              "x": 957,
+              "y": 61,
+              "width": 41,
+              "height": 14
             },
             "bbox": {
-              "x": 201,
-              "y": 126,
-              "width": 43,
-              "height": 18
+              "x": 957,
+              "y": 61,
+              "width": 41,
+              "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 201,
-              "y": 126,
-              "width": 43,
-              "height": 18
+              "x": 957,
+              "y": 61,
+              "width": 41,
+              "height": 14
             },
             "anchor_bbox": {
-              "x": 201,
-              "y": 126,
-              "width": 43,
-              "height": 18
+              "x": 957,
+              "y": 61,
+              "width": 41,
+              "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "targeted_ocr": {
-            "attempted": true,
-            "decision": "ACCEPTED_CONSENSUS",
-            "value": "T722",
-            "raw_text": "T722",
-            "confidence": 79.0,
-            "votes": 8,
-            "tokens": [
-              {
-                "text": "T722",
-                "x": 201,
-                "y": 126,
-                "width": 43,
-                "height": 18,
-                "confidence": 88.0,
-                "needs_review": false
-              }
-            ],
-            "runs": [
-              {
-                "variant": "3x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "T722",
-                "cleaned": "T722",
-                "confidence": 69.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "1122,",
-                "cleaned": "1122,",
-                "confidence": 50.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "T722",
-                "cleaned": "T722",
-                "confidence": 69.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "1122,",
-                "cleaned": "1122,",
-                "confidence": 50.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "T722",
-                "cleaned": "T722",
-                "confidence": 80.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "1122",
-                "cleaned": "1122",
-                "confidence": 49.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "T722",
-                "cleaned": "T722",
-                "confidence": 80.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "1122",
-                "cleaned": "1122",
-                "confidence": 49.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "T722",
-                "cleaned": "T722",
-                "confidence": 79.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "T7122",
-                "cleaned": "T7122",
-                "confidence": 40.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "T722",
-                "cleaned": "T722",
-                "confidence": 79.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "T7122",
-                "cleaned": "T7122",
-                "confidence": 40.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "T722",
-                "cleaned": "T722",
-                "confidence": 88.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "1722",
-                "cleaned": "1722",
-                "confidence": 51.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "T722",
-                "cleaned": "T722",
-                "confidence": 88.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "1722",
-                "cleaned": "1722",
-                "confidence": 51.0,
-                "is_valid": true
-              }
-            ]
-          },
-          "normalized_value": "T722",
+          "normalized_value": "Nokia",
           "validation": "PASS",
-          "failure_reasons": []
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
         },
         "IMEI 1": {
-          "value": "943826529881425",
-          "raw_text": "943826 - 52 - 988142 - 5",
-          "confidence": 84.35,
+          "value": "726542573212890",
+          "raw_text": "3510i 726542 - 57 - 321289 - 0",
+          "confidence": 80.62,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 278,
-              "y": 126,
-              "width": 64,
-              "height": 18
+              "x": 69,
+              "y": 100,
+              "width": 48,
+              "height": 14
             },
             {
-              "x": 350,
-              "y": 136,
-              "width": 8,
-              "height": 3
+              "x": 126,
+              "y": 108,
+              "width": 6,
+              "height": 2
             },
             {
-              "x": 366,
-              "y": 126,
-              "width": 21,
-              "height": 18
+              "x": 139,
+              "y": 100,
+              "width": 14,
+              "height": 14
             },
             {
-              "x": 394,
-              "y": 136,
-              "width": 8,
-              "height": 3
+              "x": 160,
+              "y": 108,
+              "width": 6,
+              "height": 2
             },
             {
-              "x": 410,
-              "y": 126,
-              "width": 63,
-              "height": 18
+              "x": 175,
+              "y": 100,
+              "width": 46,
+              "height": 14
             },
             {
-              "x": 480,
-              "y": 136,
-              "width": 8,
-              "height": 3
+              "x": 229,
+              "y": 108,
+              "width": 4,
+              "height": 2
             },
             {
-              "x": 495,
-              "y": 126,
-              "width": 8,
-              "height": 18
+              "x": 240,
+              "y": 100,
+              "width": 7,
+              "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "943826",
-              "x": 278,
-              "y": 126,
-              "width": 64,
-              "height": 18,
-              "confidence": 93.0,
-              "needs_review": false
-            },
-            {
-              "text": "-",
-              "x": 350,
-              "y": 136,
-              "width": 8,
-              "height": 3,
-              "confidence": 91.0,
-              "needs_review": false
-            },
-            {
-              "text": "52",
-              "x": 366,
-              "y": 126,
-              "width": 21,
-              "height": 18,
-              "confidence": 91.0,
-              "needs_review": false
-            },
-            {
-              "text": "-",
-              "x": 394,
-              "y": 136,
-              "width": 8,
-              "height": 3,
+              "text": "726542",
+              "x": 69,
+              "y": 100,
+              "width": 48,
+              "height": 14,
               "confidence": 90.0,
               "needs_review": false
             },
             {
-              "text": "988142",
-              "x": 410,
-              "y": 126,
-              "width": 63,
-              "height": 18,
-              "confidence": 93.0,
-              "needs_review": false
-            },
-            {
               "text": "-",
-              "x": 480,
-              "y": 136,
-              "width": 8,
-              "height": 3,
+              "x": 126,
+              "y": 108,
+              "width": 6,
+              "height": 2,
               "confidence": 90.0,
               "needs_review": false
             },
             {
-              "text": "5",
-              "x": 495,
-              "y": 126,
-              "width": 8,
-              "height": 18,
+              "text": "57",
+              "x": 139,
+              "y": 100,
+              "width": 14,
+              "height": 14,
               "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 160,
+              "y": 108,
+              "width": 6,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "321289",
+              "x": 175,
+              "y": 100,
+              "width": 46,
+              "height": 14,
+              "confidence": 85.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 229,
+              "y": 108,
+              "width": 4,
+              "height": 2,
+              "confidence": 85.0,
+              "needs_review": false
+            },
+            {
+              "text": "0",
+              "x": 240,
+              "y": 100,
+              "width": 7,
+              "height": 14,
+              "confidence": 94.0,
               "needs_review": false
             }
           ],
@@ -1881,29 +1935,29 @@
           "field_region": {
             "field_name": "IMEI 1",
             "region": {
-              "x": 278,
-              "y": 126,
-              "width": 226,
-              "height": 18
+              "x": 26,
+              "y": 100,
+              "width": 221,
+              "height": 15
             },
             "bbox": {
-              "x": 278,
-              "y": 126,
-              "width": 226,
-              "height": 18
+              "x": 26,
+              "y": 100,
+              "width": 221,
+              "height": 15
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 278,
-              "y": 126,
-              "width": 226,
-              "height": 18
+              "x": 26,
+              "y": 100,
+              "width": 221,
+              "height": 15
             },
             "anchor_bbox": {
-              "x": 278,
-              "y": 126,
-              "width": 226,
-              "height": 18
+              "x": 26,
+              "y": 100,
+              "width": 221,
+              "height": 15
             },
             "confidence": 0.7,
             "source": "token_span"
@@ -1911,72 +1965,72 @@
           "targeted_ocr": {
             "attempted": true,
             "decision": "ACCEPTED_STRICT_IMEI",
-            "value": "943826529881425",
-            "raw_text": "943826 - 52 - 988142 - 5",
-            "confidence": 84.35,
-            "votes": 32,
+            "value": "726542573212890",
+            "raw_text": "3510i 726542 - 57 - 321289 - 0",
+            "confidence": 80.62,
+            "votes": 2,
             "tokens": [
               {
-                "text": "943826",
-                "x": 278,
-                "y": 126,
-                "width": 64,
-                "height": 18,
-                "confidence": 93.0,
-                "needs_review": false
-              },
-              {
-                "text": "-",
-                "x": 350,
-                "y": 136,
-                "width": 8,
-                "height": 3,
-                "confidence": 91.0,
-                "needs_review": false
-              },
-              {
-                "text": "52",
-                "x": 366,
-                "y": 126,
-                "width": 21,
-                "height": 18,
-                "confidence": 91.0,
-                "needs_review": false
-              },
-              {
-                "text": "-",
-                "x": 394,
-                "y": 136,
-                "width": 8,
-                "height": 3,
+                "text": "726542",
+                "x": 69,
+                "y": 100,
+                "width": 48,
+                "height": 14,
                 "confidence": 90.0,
                 "needs_review": false
               },
               {
-                "text": "988142",
-                "x": 410,
-                "y": 126,
-                "width": 63,
-                "height": 18,
-                "confidence": 93.0,
-                "needs_review": false
-              },
-              {
                 "text": "-",
-                "x": 480,
-                "y": 136,
-                "width": 8,
-                "height": 3,
+                "x": 126,
+                "y": 108,
+                "width": 6,
+                "height": 2,
                 "confidence": 90.0,
                 "needs_review": false
               },
               {
-                "text": "5",
-                "x": 495,
-                "y": 126,
-                "width": 8,
-                "height": 18,
+                "text": "57",
+                "x": 139,
+                "y": 100,
+                "width": 14,
+                "height": 14,
                 "confidence": 92.0,
+                "needs_review": false
+              },
+              {
+                "text": "-",
+                "x": 160,
+                "y": 108,
+                "width": 6,
+                "height": 2,
+                "confidence": 92.0,
+                "needs_review": false
+              },
+              {
+                "text": "321289",
+                "x": 175,
+                "y": 100,
+                "width": 46,
+                "height": 14,
+                "confidence": 85.0,
+                "needs_review": false
+              },
+              {
+                "text": "-",
+                "x": 229,
+                "y": 108,
+                "width": 4,
+                "height": 2,
+                "confidence": 85.0,
+                "needs_review": false
+              },
+              {
+                "text": "0",
+                "x": 240,
+                "y": 100,
+                "width": 7,
+                "height": 14,
+                "confidence": 94.0,
                 "needs_review": false
               }
             ],
@@ -1985,407 +2039,407 @@
                 "variant": "3x_contrast",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 - 5",
-                "cleaned": "943826529881425",
-                "confidence": 84.43,
-                "is_valid": true
+                "raw_text": "35101 726542 - 57 - 321289 - 0",
+                "cleaned": "35101726542573212890",
+                "confidence": 87.12,
+                "is_valid": false
               },
               {
                 "variant": "3x_contrast",
                 "psm": 7,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "3x_contrast",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 -5",
-                "cleaned": "943826529881425",
-                "confidence": 81.33,
-                "is_valid": true
+                "raw_text": "35101 726542 - 57 - 321289 - 0",
+                "cleaned": "35101726542573212890",
+                "confidence": 86.71,
+                "is_valid": false
               },
               {
                 "variant": "3x_contrast",
                 "psm": 8,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "3x_contrast",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 - 5",
-                "cleaned": "943826529881425",
-                "confidence": 84.43,
-                "is_valid": true
+                "raw_text": "35101 726542 - 57 - 321289 - 0",
+                "cleaned": "35101726542573212890",
+                "confidence": 87.12,
+                "is_valid": false
               },
               {
                 "variant": "3x_contrast",
                 "psm": 6,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "3x_contrast",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 -5",
-                "cleaned": "943826529881425",
-                "confidence": 81.33,
-                "is_valid": true
+                "raw_text": "35101 726542 - 57 - 321289 - 0",
+                "cleaned": "35101726542573212890",
+                "confidence": 86.71,
+                "is_valid": false
               },
               {
                 "variant": "3x_contrast",
                 "psm": 13,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "4x_contrast",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 - 5",
-                "cleaned": "943826529881425",
-                "confidence": 91.43,
-                "is_valid": true
+                "raw_text": "35101 726542 - 57 - 321289 - 0",
+                "cleaned": "35101726542573212890",
+                "confidence": 88.38,
+                "is_valid": false
               },
               {
                 "variant": "4x_contrast",
                 "psm": 7,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "4x_contrast",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 -5",
-                "cleaned": "943826529881425",
-                "confidence": 80.0,
-                "is_valid": true
+                "raw_text": "35101 726542 - 57 - 321289 - 0",
+                "cleaned": "35101726542573212890",
+                "confidence": 87.57,
+                "is_valid": false
               },
               {
                 "variant": "4x_contrast",
                 "psm": 8,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "4x_contrast",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 - 5",
-                "cleaned": "943826529881425",
-                "confidence": 91.43,
-                "is_valid": true
+                "raw_text": "35101 726542 - 57 - 321289 - 0",
+                "cleaned": "35101726542573212890",
+                "confidence": 88.38,
+                "is_valid": false
               },
               {
                 "variant": "4x_contrast",
                 "psm": 6,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "4x_contrast",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 -5",
-                "cleaned": "943826529881425",
-                "confidence": 80.0,
-                "is_valid": true
+                "raw_text": "35101 726542 - 57 - 321289 - 0",
+                "cleaned": "35101726542573212890",
+                "confidence": 87.57,
+                "is_valid": false
               },
               {
                 "variant": "4x_contrast",
                 "psm": 13,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "4x_otsu",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 - 5",
-                "cleaned": "943826529881425",
-                "confidence": 91.29,
-                "is_valid": true
+                "raw_text": "35101 726542 - 57 - 321289 - 0",
+                "cleaned": "35101726542573212890",
+                "confidence": 86.5,
+                "is_valid": false
               },
               {
                 "variant": "4x_otsu",
                 "psm": 7,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "4x_otsu",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 - 5",
-                "cleaned": "943826529881425",
-                "confidence": 72.86,
-                "is_valid": true
+                "raw_text": "3510 726542 - 57 - 321289 - 0",
+                "cleaned": "3510726542573212890",
+                "confidence": 86.71,
+                "is_valid": false
               },
               {
                 "variant": "4x_otsu",
                 "psm": 8,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "3510726542-57-321289-0",
+                "cleaned": "3510726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "4x_otsu",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 - 5",
-                "cleaned": "943826529881425",
-                "confidence": 91.29,
-                "is_valid": true
+                "raw_text": "35101 726542 - 57 - 321289 - 0",
+                "cleaned": "35101726542573212890",
+                "confidence": 86.5,
+                "is_valid": false
               },
               {
                 "variant": "4x_otsu",
                 "psm": 6,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "4x_otsu",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 - 5",
-                "cleaned": "943826529881425",
-                "confidence": 72.86,
-                "is_valid": true
+                "raw_text": "3510 726542 - 57 - 321289 - 0",
+                "cleaned": "3510726542573212890",
+                "confidence": 86.71,
+                "is_valid": false
               },
               {
                 "variant": "4x_otsu",
                 "psm": 13,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "3510726542-57-321289-0",
+                "cleaned": "3510726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 - 5",
-                "cleaned": "943826529881425",
-                "confidence": 89.0,
-                "is_valid": true
+                "raw_text": "35101 726542 - 57 - 321289 - 0",
+                "cleaned": "35101726542573212890",
+                "confidence": 88.62,
+                "is_valid": false
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 7,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 - 5",
-                "cleaned": "943826529881425",
-                "confidence": 84.43,
+                "raw_text": "3510i 726542 - 57 - 321289 - 0",
+                "cleaned": "726542573212890",
+                "confidence": 80.62,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 8,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 - 5",
-                "cleaned": "943826529881425",
-                "confidence": 89.0,
-                "is_valid": true
+                "raw_text": "35101 726542 - 57 - 321289 - 0",
+                "cleaned": "35101726542573212890",
+                "confidence": 88.62,
+                "is_valid": false
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 6,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "943826 - 52 - 988142 - 5",
-                "cleaned": "943826529881425",
-                "confidence": 84.43,
+                "raw_text": "3510i 726542 - 57 - 321289 - 0",
+                "cleaned": "726542573212890",
+                "confidence": 80.62,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 13,
                 "whitelist": true,
-                "raw_text": "943826-52-988142-5",
-                "cleaned": "943826529881425",
+                "raw_text": "35101726542-57-321289-0",
+                "cleaned": "35101726542573212890",
                 "confidence": 0.0,
-                "is_valid": true
+                "is_valid": false
               }
             ]
           },
-          "normalized_value": "943826529881425",
+          "normalized_value": "726542573212890",
           "validation": "PASS",
           "failure_reasons": []
         },
         "IMEI 2": {
-          "value": "IWSS# - $? - 468976 - 2",
-          "raw_text": "IWSS# - $? - 468976 - 2",
-          "confidence": 75.07,
+          "value": "+!?!* - !| - 121206 - 1",
+          "raw_text": "+!?!* - !| - 121206 - 1",
+          "confidence": 66.14,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 553,
-              "y": 124,
-              "width": 221,
-              "height": 22
+              "x": 281,
+              "y": 99,
+              "width": 35,
+              "height": 17
             },
             {
-              "x": 618,
-              "y": 117,
-              "width": 9,
-              "height": 34
+              "x": 321,
+              "y": 108,
+              "width": 6,
+              "height": 2
             },
             {
-              "x": 635,
-              "y": 117,
-              "width": 20,
-              "height": 34
+              "x": 334,
+              "y": 99,
+              "width": 7,
+              "height": 17
             },
             {
-              "x": 663,
-              "y": 117,
-              "width": 9,
-              "height": 34
+              "x": 347,
+              "y": 108,
+              "width": 6,
+              "height": 2
             },
             {
-              "x": 680,
-              "y": 124,
-              "width": 60,
-              "height": 22
+              "x": 360,
+              "y": 100,
+              "width": 46,
+              "height": 15
             },
             {
-              "x": 748,
-              "y": 117,
-              "width": 12,
-              "height": 34
+              "x": 411,
+              "y": 108,
+              "width": 6,
+              "height": 2
             },
             {
-              "x": 765,
-              "y": 117,
-              "width": 14,
-              "height": 34
+              "x": 424,
+              "y": 100,
+              "width": 5,
+              "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "IWSS#",
-              "x": 553,
-              "y": 124,
-              "width": 221,
-              "height": 22,
-              "confidence": 26.0,
-              "needs_review": false
+              "text": "+!?!*",
+              "x": 281,
+              "y": 99,
+              "width": 35,
+              "height": 17,
+              "confidence": 1.0,
+              "needs_review": true
             },
             {
               "text": "-",
-              "x": 618,
-              "y": 117,
-              "width": 9,
-              "height": 34,
-              "confidence": 86.0,
-              "needs_review": false
-            },
-            {
-              "text": "$?",
-              "x": 635,
-              "y": 117,
-              "width": 20,
-              "height": 34,
+              "x": 321,
+              "y": 108,
+              "width": 6,
+              "height": 2,
               "confidence": 85.0,
               "needs_review": false
             },
             {
-              "text": "-",
-              "x": 663,
-              "y": 117,
-              "width": 9,
-              "height": 34,
-              "confidence": 90.0,
-              "needs_review": false
-            },
-            {
-              "text": "468976",
-              "x": 680,
-              "y": 124,
-              "width": 60,
-              "height": 22,
-              "confidence": 82.0,
-              "needs_review": false
+              "text": "!|",
+              "x": 334,
+              "y": 99,
+              "width": 7,
+              "height": 17,
+              "confidence": 35.0,
+              "needs_review": true
             },
             {
               "text": "-",
-              "x": 748,
-              "y": 117,
-              "width": 12,
-              "height": 34,
-              "confidence": 80.0,
+              "x": 347,
+              "y": 108,
+              "width": 6,
+              "height": 2,
+              "confidence": 92.0,
               "needs_review": false
             },
             {
-              "text": "2",
-              "x": 765,
-              "y": 117,
-              "width": 14,
-              "height": 34,
-              "confidence": 80.0,
+              "text": "121206",
+              "x": 360,
+              "y": 100,
+              "width": 46,
+              "height": 15,
+              "confidence": 62.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 411,
+              "y": 108,
+              "width": 6,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "1",
+              "x": 424,
+              "y": 100,
+              "width": 5,
+              "height": 14,
+              "confidence": 96.0,
               "needs_review": false
             }
           ],
@@ -2393,277 +2447,77 @@
           "field_region": {
             "field_name": "IMEI 2",
             "region": {
-              "x": 553,
-              "y": 123,
-              "width": 221,
-              "height": 22
+              "x": 281,
+              "y": 99,
+              "width": 148,
+              "height": 17
             },
             "bbox": {
-              "x": 553,
-              "y": 123,
-              "width": 221,
-              "height": 22
+              "x": 281,
+              "y": 99,
+              "width": 148,
+              "height": 17
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 553,
-              "y": 123,
-              "width": 221,
-              "height": 22
+              "x": 281,
+              "y": 99,
+              "width": 148,
+              "height": 17
             },
             "anchor_bbox": {
-              "x": 553,
-              "y": 123,
-              "width": 221,
-              "height": 22
+              "x": 281,
+              "y": 99,
+              "width": 148,
+              "height": 17
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "targeted_ocr": {
-            "attempted": true,
-            "decision": "ACCEPTED_CONSENSUS",
-            "value": "IWSS# - $? - 468976 - 2",
-            "raw_text": "IWSS# - $? - 468976 - 2",
-            "confidence": 75.07,
-            "votes": 4,
-            "tokens": [
-              {
-                "text": "IWSS#",
-                "x": 553,
-                "y": 124,
-                "width": 221,
-                "height": 22,
-                "confidence": 26.0,
-                "needs_review": false
-              },
-              {
-                "text": "-",
-                "x": 618,
-                "y": 117,
-                "width": 9,
-                "height": 34,
-                "confidence": 86.0,
-                "needs_review": false
-              },
-              {
-                "text": "$?",
-                "x": 635,
-                "y": 117,
-                "width": 20,
-                "height": 34,
-                "confidence": 85.0,
-                "needs_review": false
-              },
-              {
-                "text": "-",
-                "x": 663,
-                "y": 117,
-                "width": 9,
-                "height": 34,
-                "confidence": 90.0,
-                "needs_review": false
-              },
-              {
-                "text": "468976",
-                "x": 680,
-                "y": 124,
-                "width": 60,
-                "height": 22,
-                "confidence": 82.0,
-                "needs_review": false
-              },
-              {
-                "text": "-",
-                "x": 748,
-                "y": 117,
-                "width": 12,
-                "height": 34,
-                "confidence": 80.0,
-                "needs_review": false
-              },
-              {
-                "text": "2",
-                "x": 765,
-                "y": 117,
-                "width": 14,
-                "height": 34,
-                "confidence": 80.0,
-                "needs_review": false
-              }
-            ],
-            "runs": [
-              {
-                "variant": "3x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "'#SS# - $? - 468976 - 2",
-                "cleaned": "'#SS# - $? - 468976 - 2",
-                "confidence": 90.17,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "IWSS# - $? - 468976 - 2",
-                "cleaned": "IWSS# - $? - 468976 - 2",
-                "confidence": 75.57,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "'#SS# - $? - 468976 - 2",
-                "cleaned": "'#SS# - $? - 468976 - 2",
-                "confidence": 90.17,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "IWSS# - $? - 468976 - 2",
-                "cleaned": "IWSS# - $? - 468976 - 2",
-                "confidence": 75.57,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "\"SSH - $? - 468976 - 2",
-                "cleaned": "\"SSH - $? - 468976 - 2",
-                "confidence": 91.17,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "IWSS# - $? - 468976 - 2",
-                "cleaned": "IWSS# - $? - 468976 - 2",
-                "confidence": 74.57,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "\"SSH - $? - 468976 - 2",
-                "cleaned": "\"SSH - $? - 468976 - 2",
-                "confidence": 91.17,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "IWSS# - $? - 468976 - 2",
-                "cleaned": "IWSS# - $? - 468976 - 2",
-                "confidence": 74.57,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "\"4SS# - $? - 468976 - 2",
-                "cleaned": "\"4SS# - $? - 468976 - 2",
-                "confidence": 90.17,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "I#SS# - $? - 468976 - 2",
-                "cleaned": "I#SS# - $? - 468976 - 2",
-                "confidence": 81.5,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "\"4SS# - $? - 468976 - 2",
-                "cleaned": "\"4SS# - $? - 468976 - 2",
-                "confidence": 90.17,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "I#SS# - $? - 468976 - 2",
-                "cleaned": "I#SS# - $? - 468976 - 2",
-                "confidence": 81.5,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "!W#SS# - $? - 468976 - 2",
-                "cleaned": "!W#SS# - $? - 468976 - 2",
-                "confidence": 90.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "IMSS# - $? - 468976 - 2",
-                "cleaned": "IMSS# - $? - 468976 - 2",
-                "confidence": 77.71,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "!W#SS# - $? - 468976 - 2",
-                "cleaned": "!W#SS# - $? - 468976 - 2",
-                "confidence": 90.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "IMSS# - $? - 468976 - 2",
-                "cleaned": "IMSS# - $? - 468976 - 2",
-                "confidence": 77.71,
-                "is_valid": true
-              }
-            ]
-          },
-          "normalized_value": "IWSS# - $? - 468976 - 2",
+          "normalized_value": "+!?!* - !| - 121206 - 1",
           "validation": "PASS",
-          "failure_reasons": []
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
         },
         "Plan Type": {
-          "value": "AlacartePack",
-          "raw_text": "AlacartePack",
-          "confidence": 80.0,
+          "value": "Economy Plus",
+          "raw_text": "Economy Plus",
+          "confidence": 96.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 819,
-              "y": 126,
-              "width": 142,
+              "x": 435,
+              "y": 100,
+              "width": 66,
               "height": 18
+            },
+            {
+              "x": 506,
+              "y": 100,
+              "width": 31,
+              "height": 15
             }
           ],
           "source_tokens": [
             {
-              "text": "AlacartePack",
-              "x": 819,
-              "y": 126,
-              "width": 142,
+              "text": "Economy",
+              "x": 435,
+              "y": 100,
+              "width": 66,
               "height": 18,
-              "confidence": 80.0,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Plus",
+              "x": 506,
+              "y": 100,
+              "width": 31,
+              "height": 15,
+              "confidence": 96.0,
               "needs_review": false
             }
           ],
@@ -2671,34 +2525,34 @@
           "field_region": {
             "field_name": "Plan Type",
             "region": {
-              "x": 819,
-              "y": 126,
-              "width": 142,
+              "x": 435,
+              "y": 100,
+              "width": 102,
               "height": 18
             },
             "bbox": {
-              "x": 819,
-              "y": 126,
-              "width": 142,
+              "x": 435,
+              "y": 100,
+              "width": 102,
               "height": 18
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 819,
-              "y": 126,
-              "width": 142,
+              "x": 435,
+              "y": 100,
+              "width": 102,
               "height": 18
             },
             "anchor_bbox": {
-              "x": 819,
-              "y": 126,
-              "width": 142,
+              "x": 435,
+              "y": 100,
+              "width": 102,
               "height": 18
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "AlacartePack",
+          "normalized_value": "Economy Plus",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -2707,56 +2561,56 @@
           }
         },
         "Card Type": {
-          "value": "Master Card Silver",
-          "raw_text": "Master Card Silver",
-          "confidence": 92.0,
+          "value": "Visa Gold CreditCard",
+          "raw_text": "Visa Gold CreditCard",
+          "confidence": 93.67,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 1001,
-              "y": 126,
-              "width": 63,
-              "height": 18
+              "x": 542,
+              "y": 100,
+              "width": 30,
+              "height": 15
             },
             {
-              "x": 1070,
-              "y": 126,
-              "width": 42,
-              "height": 18
+              "x": 578,
+              "y": 100,
+              "width": 32,
+              "height": 15
             },
             {
-              "x": 1119,
-              "y": 126,
-              "width": 54,
-              "height": 18
+              "x": 617,
+              "y": 100,
+              "width": 77,
+              "height": 15
             }
           ],
           "source_tokens": [
             {
-              "text": "Master",
-              "x": 1001,
-              "y": 126,
-              "width": 63,
-              "height": 18,
-              "confidence": 84.0,
-              "needs_review": false
-            },
-            {
-              "text": "Card",
-              "x": 1070,
-              "y": 126,
-              "width": 42,
-              "height": 18,
+              "text": "Visa",
+              "x": 542,
+              "y": 100,
+              "width": 30,
+              "height": 15,
               "confidence": 96.0,
               "needs_review": false
             },
             {
-              "text": "Silver",
-              "x": 1119,
-              "y": 126,
-              "width": 54,
-              "height": 18,
-              "confidence": 96.0,
+              "text": "Gold",
+              "x": 578,
+              "y": 100,
+              "width": 32,
+              "height": 15,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "CreditCard",
+              "x": 617,
+              "y": 100,
+              "width": 77,
+              "height": 15,
+              "confidence": 92.0,
               "needs_review": false
             }
           ],
@@ -2764,34 +2618,34 @@
           "field_region": {
             "field_name": "Card Type",
             "region": {
-              "x": 1119,
-              "y": 126,
-              "width": 151,
-              "height": 18
+              "x": 542,
+              "y": 100,
+              "width": 152,
+              "height": 15
             },
             "bbox": {
-              "x": 1119,
-              "y": 126,
-              "width": 151,
-              "height": 18
+              "x": 542,
+              "y": 100,
+              "width": 152,
+              "height": 15
             },
-            "anchor_label": "Card",
+            "anchor_label": "",
             "anchor_coordinates": {
-              "x": 1070,
-              "y": 126,
-              "width": 42,
-              "height": 18
+              "x": 542,
+              "y": 100,
+              "width": 152,
+              "height": 15
             },
             "anchor_bbox": {
-              "x": 1070,
-              "y": 126,
-              "width": 42,
-              "height": 18
+              "x": 542,
+              "y": 100,
+              "width": 152,
+              "height": 15
             },
-            "confidence": 0.95,
-            "source": "label_right"
+            "confidence": 0.7,
+            "source": "token_span"
           },
-          "normalized_value": "Master Card Silver",
+          "normalized_value": "Visa Gold CreditCard",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -2800,26 +2654,26 @@
           }
         },
         "Contact": {
-          "value": "558",
-          "raw_text": "\u00a3558",
-          "confidence": 95.0,
+          "value": "515",
+          "raw_text": "\u00a3515",
+          "confidence": 96.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 1225,
-              "y": 126,
-              "width": 45,
-              "height": 18
+              "x": 700,
+              "y": 100,
+              "width": 33,
+              "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "\u00a3558",
-              "x": 1225,
-              "y": 126,
-              "width": 45,
-              "height": 18,
-              "confidence": 95.0,
+              "text": "\u00a3515",
+              "x": 700,
+              "y": 100,
+              "width": 33,
+              "height": 14,
+              "confidence": 96.0,
               "needs_review": false
             }
           ],
@@ -2827,34 +2681,34 @@
           "field_region": {
             "field_name": "Contact",
             "region": {
-              "x": 1225,
-              "y": 126,
-              "width": 45,
-              "height": 18
+              "x": 700,
+              "y": 100,
+              "width": 33,
+              "height": 14
             },
             "bbox": {
-              "x": 1225,
-              "y": 126,
-              "width": 45,
-              "height": 18
+              "x": 700,
+              "y": 100,
+              "width": 33,
+              "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 1225,
-              "y": 126,
-              "width": 45,
-              "height": 18
+              "x": 700,
+              "y": 100,
+              "width": 33,
+              "height": 14
             },
             "anchor_bbox": {
-              "x": 1225,
-              "y": 126,
-              "width": 45,
-              "height": 18
+              "x": 700,
+              "y": 100,
+              "width": 33,
+              "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "558",
+          "normalized_value": "515",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -2863,25 +2717,25 @@
           }
         },
         "Issue Date": {
-          "value": "12/09/2020",
-          "raw_text": "12/09/2020",
+          "value": "04/08/2023",
+          "raw_text": "04/08/2023",
           "confidence": 96.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 51,
-              "y": 174,
-              "width": 99,
-              "height": 22
+              "x": 743,
+              "y": 99,
+              "width": 85,
+              "height": 18
             }
           ],
           "source_tokens": [
             {
-              "text": "12/09/2020",
-              "x": 51,
-              "y": 174,
-              "width": 99,
-              "height": 22,
+              "text": "04/08/2023",
+              "x": 743,
+              "y": 99,
+              "width": 85,
+              "height": 18,
               "confidence": 96.0,
               "needs_review": false
             }
@@ -2890,34 +2744,34 @@
           "field_region": {
             "field_name": "Issue Date",
             "region": {
-              "x": 51,
-              "y": 174,
-              "width": 99,
-              "height": 22
+              "x": 743,
+              "y": 99,
+              "width": 85,
+              "height": 18
             },
             "bbox": {
-              "x": 51,
-              "y": 174,
-              "width": 99,
-              "height": 22
+              "x": 743,
+              "y": 99,
+              "width": 85,
+              "height": 18
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 51,
-              "y": 174,
-              "width": 99,
-              "height": 22
+              "x": 743,
+              "y": 99,
+              "width": 85,
+              "height": 18
             },
             "anchor_bbox": {
-              "x": 51,
-              "y": 174,
-              "width": 99,
-              "height": 22
+              "x": 743,
+              "y": 99,
+              "width": 85,
+              "height": 18
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "12/09/2020",
+          "normalized_value": "04/08/2023",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -2926,26 +2780,26 @@
           }
         },
         "Renewal Date": {
-          "value": "12/09/2022",
-          "raw_text": "12/09/2022",
-          "confidence": 96.0,
+          "value": "04/08/2026",
+          "raw_text": "04/08/2026",
+          "confidence": 92.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 207,
-              "y": 174,
-              "width": 100,
-              "height": 22
+              "x": 839,
+              "y": 99,
+              "width": 84,
+              "height": 17
             }
           ],
           "source_tokens": [
             {
-              "text": "12/09/2022",
-              "x": 207,
-              "y": 174,
-              "width": 100,
-              "height": 22,
-              "confidence": 96.0,
+              "text": "04/08/2026",
+              "x": 839,
+              "y": 99,
+              "width": 84,
+              "height": 17,
+              "confidence": 92.0,
               "needs_review": false
             }
           ],
@@ -2953,34 +2807,34 @@
           "field_region": {
             "field_name": "Renewal Date",
             "region": {
-              "x": 207,
-              "y": 174,
-              "width": 100,
-              "height": 22
+              "x": 839,
+              "y": 99,
+              "width": 84,
+              "height": 17
             },
             "bbox": {
-              "x": 207,
-              "y": 174,
-              "width": 100,
-              "height": 22
+              "x": 839,
+              "y": 99,
+              "width": 84,
+              "height": 17
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 207,
-              "y": 174,
-              "width": 100,
-              "height": 22
+              "x": 839,
+              "y": 99,
+              "width": 84,
+              "height": 17
             },
             "anchor_bbox": {
-              "x": 207,
-              "y": 174,
-              "width": 100,
-              "height": 22
+              "x": 839,
+              "y": 99,
+              "width": 84,
+              "height": 17
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "12/09/2022",
+          "normalized_value": "04/08/2026",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -2989,14 +2843,14 @@
           }
         },
         "Installments": {
-          "value": "33.58",
-          "raw_text": "33.58",
+          "value": "24.63",
+          "raw_text": "24.63",
           "confidence": 100.0,
           "needs_review": false,
           "coordinates": [],
           "source_tokens": [],
           "variant": "standard",
-          "normalized_value": "33.58",
+          "normalized_value": "24.63",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -3005,14 +2859,14 @@
           }
         },
         "Amount in Words": {
-          "value": "Thirty Three Point Five Eight",
-          "raw_text": "Thirty Three Point Five Eight",
+          "value": "Twenty Four Point Six Three",
+          "raw_text": "Twenty Four Point Six Three",
           "confidence": 100.0,
           "needs_review": false,
           "coordinates": [],
           "source_tokens": [],
           "variant": "standard",
-          "normalized_value": "Thirty Three Point Five Eight",
+          "normalized_value": "Twenty Four Point Six Three",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -3037,8 +2891,14 @@
           }
         }
       },
-      "MY": 24,
+      "MY": 36,
       "issues": [
+        {
+          "field": "Last Name",
+          "reason": "MISSING_REQUIRED_FIELD",
+          "severity": "FATAL",
+          "detail": "Last Name is empty"
+        },
         {
           "field": "Postal Code",
           "reason": "MISSING_REQUIRED_FIELD",
@@ -3046,13 +2906,23 @@
           "detail": "Postal Code is empty"
         },
         {
+          "field": "Last Name",
+          "reason": "FIELD_REGION_NOT_LOCATED",
+          "detail": "No field region was located for Last Name; broad scanning is forbidden."
+        },
+        {
           "field": "Postal Code",
           "reason": "FIELD_REGION_NOT_LOCATED",
           "detail": "No field region was located for Postal Code; broad scanning is forbidden."
+        },
+        {
+          "field": "Reference No",
+          "reason": "FIELD_REGION_NOT_LOCATED",
+          "detail": "No field region was located for Reference No; broad scanning is forbidden."
         }
       ],
       "status": "REVIEW_REQUIRED",
-      "fingerprint": "9cd6aa18229831c301a9c475246ebd66bbcf11b9024ea7202b131e89579cbe98"
+      "fingerprint": "a8f0c2afc6a4e8d25f18724b5df5914102133eb487e5de6ea2df252630e7f0c0"
     }
   ]
 }
