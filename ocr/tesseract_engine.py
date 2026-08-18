@@ -37,8 +37,13 @@ class TesseractEngine:
         psm: int = 6,
         oem: int = 3,
         custom_config: str = "",
+        coordinate_scale: float = 1.0,
     ) -> Tuple[List[OCRToken], float]:
-        """Execute OCR with the specified preprocessing variant and extract structured tokens."""
+        """Execute OCR and map token coordinates to the original source image.
+
+        ``coordinate_scale`` is the uniform enlargement applied by the HD image
+        conversion stage before OCR starts.
+        """
         if isinstance(image_input, (str, Path)):
             with Image.open(image_input) as img:
                 orig_image = img.copy()
@@ -77,11 +82,13 @@ class TesseractEngine:
             if conf < 0:
                 continue
 
-            # Invert scaling back to original coordinate system
-            orig_x = int(round(data["left"][i] / scale))
-            orig_y = int(round(data["top"][i] / scale))
-            orig_w = int(round(data["width"][i] / scale))
-            orig_h = int(round(data["height"][i] / scale))
+            # Invert OCR preprocessing and HD conversion scales so field
+            # regions remain aligned with the original form image.
+            total_scale = scale * max(coordinate_scale, 0.0001)
+            orig_x = int(round(data["left"][i] / total_scale))
+            orig_y = int(round(data["top"][i] / total_scale))
+            orig_w = int(round(data["width"][i] / total_scale))
+            orig_h = int(round(data["height"][i] / total_scale))
 
             bbox = BoundingBox(x=orig_x, y=orig_y, width=orig_w, height=orig_h)
             token = OCRToken(

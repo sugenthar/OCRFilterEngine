@@ -8,7 +8,7 @@ from pathlib import Path
 import re
 from typing import Any, Dict, List, Optional, Tuple, Union
 
-from PIL import Image
+from PIL import Image, ImageOps
 import pytesseract
 from pytesseract import Output
 
@@ -73,7 +73,7 @@ def re_ocr_region(
 
     if isinstance(image_input, (str, Path)):
         with Image.open(image_input) as img:
-            full_img = img.copy()
+            full_img = ImageOps.exif_transpose(img).copy()
     elif isinstance(image_input, Image.Image):
         full_img = image_input.copy()
     else:
@@ -141,7 +141,7 @@ def run_multi_pass_targeted_ocr(
 
     if isinstance(image_input, (str, Path)):
         with Image.open(image_input) as img:
-            full_img = img.copy()
+            full_img = ImageOps.exif_transpose(img).copy()
     elif isinstance(image_input, Image.Image):
         full_img = image_input.copy()
     else:

@@ -12,7 +12,7 @@ import time
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional, Tuple
 
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageOps
 
 from calculations import calculate_fields
 from extract_fields import extract_record
@@ -31,6 +31,7 @@ from ocr import (
     TesseractEngine,
     analyze_image_quality,
     cluster_tokens_into_rows,
+    convert_image_for_ocr,
     re_ocr_region,
     segment_rows_into_records,
 )
@@ -42,6 +43,7 @@ from validator import validate_record
 OUTPUT = Path("output")
 INBOX = Path("images/inbox")
 ARCHIVE = Path("images/archive")
+HD_ARCHIVE = ARCHIVE / "hd"
 IMAGE_TYPES = {".png", ".jpg", ".jpeg", ".bmp", ".webp", ".tif", ".tiff"}
 
 
@@ -51,6 +53,21 @@ def atomic_write_json(path: Path, payload: Dict[str, Any]) -> None:
     temporary_path = path.with_suffix(path.suffix + ".tmp")
     temporary_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
     temporary_path.replace(path)
+
+
+def write_conversion_proof(conversion: Any, source_digest: str) -> Dict[str, Any]:
+    """Write a checksum sidecar next to the archived HD image before OCR starts."""
+    converted_path = Path(conversion.output_path)
+    proof_path = converted_path.with_suffix(".json")
+    proof = {
+        "created_at": datetime.now(timezone.utc).isoformat(),
+        "source_sha256": source_digest,
+        "converted_sha256": StateStore.file_hash(converted_path),
+        "conversion": conversion.to_dict(),
+    }
+    atomic_write_json(proof_path, proof)
+    proof["proof_path"] = str(proof_path)
+    return proof
 
 
 def configure_logging() -> None:
@@ -198,7 +215,7 @@ def create_debug_image(path: Path, record: Dict[str, Any]) -> Path:
     debug_dir = OUTPUT / "debug"
     debug_dir.mkdir(parents=True, exist_ok=True)
     with Image.open(path) as source:
-        canvas = source.convert("RGB")
+        canvas = ImageOps.exif_transpose(source).convert("RGB")
     draw = ImageDraw.Draw(canvas)
 
     colors = {
@@ -323,12 +340,13 @@ def run_ocr_and_segmentation(
     path: Path,
     variant: str = "A",
     engine: Optional[TesseractEngine] = None,
+    coordinate_scale: float = 1.0,
 ) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
-    """Execute OCR preprocessing, dynamic row clustering, and record segmentation."""
+    """Execute OCR, row clustering, and segmentation with original-image coordinates."""
     if engine is None:
         engine = TesseractEngine()
 
-    tokens, _ = engine.run_ocr(path, variant=variant, psm=6)
+    tokens, _ = engine.run_ocr(path, variant=variant, psm=6, coordinate_scale=coordinate_scale)
     rows = cluster_tokens_into_rows(tokens)
     records, unassigned = segment_rows_into_records(rows)
     return [rec.to_dict() for rec in records], [un.to_dict() for un in unassigned]
@@ -337,7 +355,11 @@ def run_ocr_and_segmentation(
 def debug_ocr_image(path: Path) -> List[Path]:
     """Generate annotated OCR localization images for inspection."""
     engine = TesseractEngine()
-    records, _ = run_ocr_and_segmentation(path, variant="C", engine=engine)
+    debug_path = OUTPUT / "converted" / f"{path.stem}_debug_hd.png"
+    conversion = convert_image_for_ocr(path, debug_path)
+    records, _ = run_ocr_and_segmentation(
+        debug_path, variant="C", engine=engine, coordinate_scale=conversion.scale
+    )
     debug_images: List[Path] = []
     for raw_record in records:
         record = extract_record(raw_record, "DEBUG", 0)
@@ -363,8 +385,23 @@ def process_image(
         return {"image": str(path), "skipped_duplicate": True, "records": []}
 
     try:
-        # Step 1: Quality analysis
-        quality_report = analyze_image_quality(path)
+        # Step 1: Create and archive the HD OCR source before scanning it.
+        # OCR reads this exact archived image, while the original is retained
+        # for audit and targeted field retries.
+        converted_path = HD_ARCHIVE / f"{path.stem}_{digest[:12]}_hd.png"
+        conversion = convert_image_for_ocr(path, converted_path)
+        conversion_proof = write_conversion_proof(conversion, digest)
+        logging.info(
+            "HD ARCHIVE CREATED BEFORE OCR: %s %sx%s -> %sx%s (scale %.2fx, proof=%s)",
+            path.name,
+            conversion.original_size[0], conversion.original_size[1],
+            conversion.converted_size[0], conversion.converted_size[1],
+            conversion.scale,
+            conversion_proof["proof_path"],
+        )
+
+        # Step 2: Quality analysis of the converted OCR source.
+        quality_report = analyze_image_quality(converted_path)
         if not quality_report.is_valid:
             logging.warning("Image quality issue on %s: %s", path.name, quality_report.error)
             if quality_report.is_blank:
@@ -375,14 +412,14 @@ def process_image(
                 )
                 return {"image": str(path), "records": [], "counts": {"VALIDATED": 0, "REVIEW_REQUIRED": 0, "FAILED": 1}}
 
-        # Step 2: Multi-pass OCR evaluation
+        # Step 3: Multi-pass OCR evaluation of the archived HD copy.
         ocr_candidates = []
         variants = ["A", "B", "C"]
         if quality_report.contrast < 20:
             variants.append("D")
         for variant in variants:
             candidate_records, candidate_unassigned = run_ocr_and_segmentation(
-                path, variant=variant, engine=engine
+                converted_path, variant=variant, engine=engine, coordinate_scale=conversion.scale
             )
             confidences = [
                 word.get("confidence", 0.0)
@@ -411,7 +448,7 @@ def process_image(
             )
             return {"image": str(path), "records": [], "counts": {"VALIDATED": 0, "REVIEW_REQUIRED": 0, "FAILED": 1}}
 
-        # Step 3: Allocate unique File No (only after OCR verifies valid content)
+        # Step 4: Allocate unique File No (only after OCR verifies valid content)
         assigned_file_no = store.get_or_allocate_file_no(digest, starting_file_no=starting_file_no)
         file_no_str = str(assigned_file_no)
 
@@ -448,6 +485,9 @@ def process_image(
         result = {
             "processed_at": datetime.now(timezone.utc).isoformat(),
             "image": str(path),
+            "converted_image": str(converted_path),
+            "conversion": conversion.to_dict(),
+            "conversion_proof": conversion_proof,
             "file_no": assigned_file_no,
             "ocr_variant": selected_variant,
             "image_quality": quality_report.summary(),
@@ -468,8 +508,9 @@ def process_image(
         atomic_write_json(OUTPUT / "failed_records.json", {"image": str(path), "records": []})
         atomic_write_json(OUTPUT / f"records_file_{assigned_file_no}.json", result)
 
-        # Generate AutoHotkey v2 data-entry script (only for genuinely validated records)
-        generate_ahk(successful, OUTPUT / "data_entry.ahk", review_count=len(review))
+        # Generate F6 data-entry for every complete scanned record. Validation
+        # results remain in JSON but never suppress a scanned record from F6.
+        generate_ahk(records, OUTPUT / "data_entry.ahk", review_count=len(review))
         store.mark_image_processed(digest, assigned_file_no, path)
 
         counts = {"VALIDATED": len(successful), "REVIEW_REQUIRED": len(review), "FAILED": 0}
@@ -496,6 +537,30 @@ def archive_image(path: Path) -> None:
         shutil.move(str(path), str(destination))
     except Exception as exc:
         logging.warning("Could not archive %s: %s", path.name, exc)
+
+
+def rebuild_ahk_from_latest_output(output_dir: Path = OUTPUT) -> Tuple[int, int]:
+    """Rebuild F6 data entry from the latest successful and review JSON files."""
+    records: List[Dict[str, Any]] = []
+    review_count = 0
+    seen = set()
+    for filename in ("successful_records.json", "review.json"):
+        path = output_dir / filename
+        if not path.exists():
+            continue
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        source_records = payload.get("records", [])
+        if filename == "review.json":
+            review_count = len(source_records)
+        for record in source_records:
+            key = record.get("fingerprint") or f"{record.get('form_no')}:{record.get('record_number')}"
+            if key in seen:
+                continue
+            seen.add(key)
+            records.append(record)
+
+    generate_ahk(records, output_dir / "data_entry.ahk", review_count=review_count)
+    return len(records), review_count
 
 
 def watch_inbox(starting_file_no: int, store: StateStore, poll_interval: float = 1.0) -> None:
@@ -548,12 +613,20 @@ def main() -> None:
     parser.add_argument("--watch", action="store_true", help="Continuously process new images in images/inbox.")
     parser.add_argument("--reset", action="store_true", help="Reset state store counters to starting File No (28) and Form No (110).")
     parser.add_argument("--review", action="store_true", help="Show detailed reasons for records currently awaiting review.")
+    parser.add_argument("--rebuild-ahk", action="store_true", help="Rebuild the F6 script from the latest scanned JSON records.")
+    parser.add_argument(
+        "--continue-session", action="store_true",
+        help="Start --watch with the saved numbering state and without an interactive prompt.",
+    )
     parser.add_argument("--debug-ocr", type=Path, help="Generate annotated OCR field-localization images without allocation.")
     parser.add_argument("--interval", type=int, default=120, help="Preserved for compatibility. In watch mode, detection runs every ~1s.")
     args = parser.parse_args()
 
-    if not args.once and not args.watch and not args.reset and not args.review and not args.debug_ocr:
-        parser.error("choose --once IMAGE, --watch, --review, --debug-ocr IMAGE, or --reset")
+    if args.continue_session and not args.watch:
+        parser.error("--continue-session can only be used with --watch")
+
+    if not args.once and not args.watch and not args.reset and not args.review and not args.rebuild_ahk and not args.debug_ocr:
+        parser.error("choose --once IMAGE, --watch, --review, --rebuild-ahk, --debug-ocr IMAGE, or --reset")
 
     configure_logging()
     store = StateStore(OUTPUT / "pipeline_state.db")
@@ -584,6 +657,12 @@ def main() -> None:
                     f"| value={field.get('value')!r} | confidence={field.get('confidence')} "
                     f"| targeted={field.get('targeted_ocr', {}).get('decision', 'NOT_RUN')}"
                 )
+        return
+
+    if args.rebuild_ahk:
+        record_count, review_count = rebuild_ahk_from_latest_output()
+        print(f"F6 script rebuilt: {record_count} scanned record(s), {review_count} review warning(s).")
+        print(f"Output: {OUTPUT / 'data_entry.ahk'}")
         return
 
     if args.debug_ocr:
@@ -622,7 +701,11 @@ def main() -> None:
         return
 
     try:
-        starting_file_no = configure_daily_watch_session(store)
+        if args.continue_session:
+            starting_file_no = store.get_next_file_no()
+            logging.info("Watcher continuing saved numbering without an interactive prompt.")
+        else:
+            starting_file_no = configure_daily_watch_session(store)
         watch_inbox(starting_file_no, store, poll_interval=1.0)
     except KeyboardInterrupt:
         logging.info("Watcher stopped safely.")

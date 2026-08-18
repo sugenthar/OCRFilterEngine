@@ -2,6 +2,7 @@
 
 from ocr.consensus import merge_ocr_pass_tokens
 from ocr.field_localization import FieldRegion, attach_token_span_regions, locate_field_regions
+from ocr.image_converter import ImageConversionReport, convert_image_for_ocr
 from ocr.preprocessing import (
     preprocess_crop_adaptive_threshold,
     preprocess_crop_otsu_binarize,
@@ -23,6 +24,7 @@ __all__ = [
     "BoundingBox",
     "FieldRegion",
     "ImageQualityReport",
+    "ImageConversionReport",
     "OCRRow",
     "OCRToken",
     "RawRecord",
@@ -31,6 +33,7 @@ __all__ = [
     "attach_token_span_regions",
     "cluster_tokens_into_rows",
     "compute_dynamic_row_tolerance",
+    "convert_image_for_ocr",
     "is_record_start_row",
     "locate_field_regions",
     "merge_ocr_pass_tokens",

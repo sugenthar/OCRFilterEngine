@@ -1,5 +1,3504 @@
 {
-  "image": "images\\inbox\\Screenshot 2026-08-17 131203.png",
-  "file_no": 145,
-  "records": []
+  "image": "images\\inbox\\Screenshot 2026-08-18 172231.png",
+  "file_no": 186,
+  "records": [
+    {
+      "record_number": 1,
+      "form_no": 737,
+      "fields": {
+        "File No": {
+          "value": "186",
+          "raw_text": "",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "186",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Form No": {
+          "value": "737",
+          "raw_text": "",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "737",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Title": {
+          "value": "Ms",
+          "raw_text": "Ms.",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 15,
+              "y": 12,
+              "width": 23,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Ms.",
+              "x": 15,
+              "y": 12,
+              "width": 23,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Title",
+            "region": {
+              "x": 15,
+              "y": 12,
+              "width": 23,
+              "height": 14
+            },
+            "bbox": {
+              "x": 15,
+              "y": 12,
+              "width": 23,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 15,
+              "y": 12,
+              "width": 23,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 15,
+              "y": 12,
+              "width": 23,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Ms",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "First Name": {
+          "value": "Laura",
+          "raw_text": "Laura",
+          "confidence": 76.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 58,
+              "y": 12,
+              "width": 41,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Laura",
+              "x": 58,
+              "y": 12,
+              "width": 41,
+              "height": 14,
+              "confidence": 76.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "First Name",
+            "region": {
+              "x": 58,
+              "y": 12,
+              "width": 41,
+              "height": 14
+            },
+            "bbox": {
+              "x": 58,
+              "y": 12,
+              "width": 41,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 58,
+              "y": 12,
+              "width": 41,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 58,
+              "y": 12,
+              "width": 41,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Laura",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Last Name": {
+          "value": "Askham",
+          "raw_text": "Askham",
+          "confidence": 61.69,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 105,
+              "y": 12,
+              "width": 59,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Askham",
+              "x": 105,
+              "y": 12,
+              "width": 59,
+              "height": 14,
+              "confidence": 92.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Last Name",
+            "region": {
+              "x": 105,
+              "y": 12,
+              "width": 59,
+              "height": 14
+            },
+            "bbox": {
+              "x": 105,
+              "y": 12,
+              "width": 59,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 105,
+              "y": 12,
+              "width": 59,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 105,
+              "y": 12,
+              "width": 59,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "Askham",
+            "raw_text": "Askham",
+            "confidence": 61.69,
+            "votes": 28,
+            "tokens": [
+              {
+                "text": "Askham",
+                "x": 105,
+                "y": 12,
+                "width": 59,
+                "height": 14,
+                "confidence": 92.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018Askham",
+                "cleaned": "\u2018Askham",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 12.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018Askham",
+                "cleaned": "\u2018Askham",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 12.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018Askham",
+                "cleaned": "\u2018Askham",
+                "confidence": 5.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018Askham",
+                "cleaned": "\u2018Askham",
+                "confidence": 5.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 92.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 92.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 17.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 17.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 92.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 92.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 17.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 17.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 92.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 92.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 12.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 12.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 92.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 92.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 12.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "Askham",
+                "cleaned": "Askham",
+                "confidence": 12.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "Askham",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "Initial": {
+          "value": "MLA",
+          "raw_text": "MLA",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "MLA",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Email": {
+          "value": "laura.askham@btinternet.com",
+          "raw_text": "laura.askham@btinternet.com",
+          "confidence": 81.75,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 184,
+              "y": 12,
+              "width": 224,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "laura.askham@btinternet.com",
+              "x": 184,
+              "y": 12,
+              "width": 224,
+              "height": 18,
+              "confidence": 92.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Email",
+            "region": {
+              "x": 184,
+              "y": 12,
+              "width": 224,
+              "height": 18
+            },
+            "bbox": {
+              "x": 184,
+              "y": 12,
+              "width": 224,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 184,
+              "y": 12,
+              "width": 224,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 184,
+              "y": 12,
+              "width": 224,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "laura.askham@btinternet.com",
+            "raw_text": "laura.askham@btinternet.com",
+            "confidence": 81.75,
+            "votes": 16,
+            "tokens": [
+              {
+                "text": "laura.askham@btinternet.com",
+                "x": 184,
+                "y": 12,
+                "width": 224,
+                "height": 18,
+                "confidence": 92.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 77.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 77.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 90.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 72.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 90.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 72.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 92.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 70.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 92.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 70.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 89.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 73.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 89.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "laura.askham@btinternet.com",
+                "cleaned": "laura.askham@btinternet.com",
+                "confidence": 73.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "laura.askham@btinternet.com",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "Father Name": {
+          "value": "K. M.Askham",
+          "raw_text": "K.M.Askham",
+          "confidence": 85.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 427,
+              "y": 12,
+              "width": 95,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "K.M.Askham",
+              "x": 427,
+              "y": 12,
+              "width": 95,
+              "height": 14,
+              "confidence": 85.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Father Name",
+            "region": {
+              "x": 427,
+              "y": 12,
+              "width": 95,
+              "height": 14
+            },
+            "bbox": {
+              "x": 427,
+              "y": 12,
+              "width": 95,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 427,
+              "y": 12,
+              "width": 95,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 427,
+              "y": 12,
+              "width": 95,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "K. M.Askham",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "DOB": {
+          "value": "14/07/1970",
+          "raw_text": "14/07/1970",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 538,
+              "y": 11,
+              "width": 76,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "14/07/1970",
+              "x": 538,
+              "y": 11,
+              "width": 76,
+              "height": 18,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "DOB",
+            "region": {
+              "x": 538,
+              "y": 11,
+              "width": 76,
+              "height": 18
+            },
+            "bbox": {
+              "x": 538,
+              "y": 11,
+              "width": 76,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 538,
+              "y": 11,
+              "width": 76,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 538,
+              "y": 11,
+              "width": 76,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "14/07/1970",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Gender": {
+          "value": "Female",
+          "raw_text": "Female",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 629,
+              "y": 12,
+              "width": 54,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Female",
+              "x": 629,
+              "y": 12,
+              "width": 54,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Gender",
+            "region": {
+              "x": 629,
+              "y": 12,
+              "width": 54,
+              "height": 14
+            },
+            "bbox": {
+              "x": 629,
+              "y": 12,
+              "width": 54,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 629,
+              "y": 12,
+              "width": 54,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 629,
+              "y": 12,
+              "width": 54,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Female",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Profession": {
+          "value": "Fixed Income",
+          "raw_text": "Fixed Income",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 693,
+              "y": 12,
+              "width": 38,
+              "height": 14
+            },
+            {
+              "x": 738,
+              "y": 12,
+              "width": 53,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Fixed",
+              "x": 693,
+              "y": 12,
+              "width": 38,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Income",
+              "x": 738,
+              "y": 12,
+              "width": 53,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Profession",
+            "region": {
+              "x": 693,
+              "y": 12,
+              "width": 98,
+              "height": 14
+            },
+            "bbox": {
+              "x": 693,
+              "y": 12,
+              "width": 98,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 693,
+              "y": 12,
+              "width": 98,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 693,
+              "y": 12,
+              "width": 98,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Fixed Income",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Mailing Street": {
+          "value": "Dean House",
+          "raw_text": "Dean House,",
+          "confidence": 94.5,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 801,
+              "y": 12,
+              "width": 35,
+              "height": 14
+            },
+            {
+              "x": 843,
+              "y": 9,
+              "width": 48,
+              "height": 22
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Dean",
+              "x": 801,
+              "y": 12,
+              "width": 35,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "House,",
+              "x": 843,
+              "y": 9,
+              "width": 48,
+              "height": 22,
+              "confidence": 93.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Mailing Street",
+            "region": {
+              "x": 801,
+              "y": 9,
+              "width": 90,
+              "height": 22
+            },
+            "bbox": {
+              "x": 801,
+              "y": 9,
+              "width": 90,
+              "height": 22
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 801,
+              "y": 9,
+              "width": 90,
+              "height": 22
+            },
+            "anchor_bbox": {
+              "x": 801,
+              "y": 9,
+              "width": 90,
+              "height": 22
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Dean House",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "City": {
+          "value": "Vernham Dean, Hampshire Andover, SWT",
+          "raw_text": "Vernham Dean, Hampshire Andover, SWT",
+          "confidence": 92.6,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 899,
+              "y": 12,
+              "width": 61,
+              "height": 14
+            },
+            {
+              "x": 968,
+              "y": 12,
+              "width": 40,
+              "height": 17
+            },
+            {
+              "x": 1014,
+              "y": 12,
+              "width": 79,
+              "height": 18
+            },
+            {
+              "x": 14,
+              "y": 52,
+              "width": 64,
+              "height": 17
+            },
+            {
+              "x": 83,
+              "y": 52,
+              "width": 33,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Vernham",
+              "x": 899,
+              "y": 12,
+              "width": 61,
+              "height": 14,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "Dean,",
+              "x": 968,
+              "y": 12,
+              "width": 40,
+              "height": 17,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Hampshire",
+              "x": 1014,
+              "y": 12,
+              "width": 79,
+              "height": 18,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "Andover,",
+              "x": 14,
+              "y": 52,
+              "width": 64,
+              "height": 17,
+              "confidence": 91.0,
+              "needs_review": false
+            },
+            {
+              "text": "SWT",
+              "x": 83,
+              "y": 52,
+              "width": 33,
+              "height": 14,
+              "confidence": 89.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "City",
+            "region": {
+              "x": 14,
+              "y": 12,
+              "width": 1079,
+              "height": 57
+            },
+            "bbox": {
+              "x": 14,
+              "y": 12,
+              "width": 1079,
+              "height": 57
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 14,
+              "y": 12,
+              "width": 1079,
+              "height": 57
+            },
+            "anchor_bbox": {
+              "x": 14,
+              "y": 12,
+              "width": 1079,
+              "height": 57
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Vernham Dean, Hampshire Andover, SWT",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Postal Code": {
+          "value": "SP11 0JZ",
+          "raw_text": "SP110JZ",
+          "confidence": 66.75,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 134,
+              "y": 52,
+              "width": 65,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "SP110JZ",
+              "x": 134,
+              "y": 52,
+              "width": 65,
+              "height": 14,
+              "confidence": 86.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Postal Code",
+            "region": {
+              "x": 134,
+              "y": 52,
+              "width": 65,
+              "height": 14
+            },
+            "bbox": {
+              "x": 134,
+              "y": 52,
+              "width": 65,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 134,
+              "y": 52,
+              "width": 65,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 134,
+              "y": 52,
+              "width": 65,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_POSTCODE",
+            "value": "SP11 0JZ",
+            "raw_text": "SP110JZ",
+            "confidence": 66.75,
+            "votes": 10,
+            "tokens": [
+              {
+                "text": "SP110JZ",
+                "x": 134,
+                "y": 52,
+                "width": 65,
+                "height": 14,
+                "confidence": 86.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "SP110JZ",
+                "cleaned": "SP11 0JZ",
+                "confidence": 74.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "SPH1OJZ",
+                "cleaned": "SPH1OJZ",
+                "confidence": 1.0,
+                "is_valid": false
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "SP110JZ",
+                "cleaned": "SP11 0JZ",
+                "confidence": 74.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "SPH1OJZ",
+                "cleaned": "SPH1OJZ",
+                "confidence": 1.0,
+                "is_valid": false
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "SP110J2",
+                "cleaned": "SP11 0JZ",
+                "confidence": 72.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "SPH1OJZ",
+                "cleaned": "SPH1OJZ",
+                "confidence": 0.0,
+                "is_valid": false
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "SP110J2",
+                "cleaned": "SP11 0JZ",
+                "confidence": 72.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "SPH1OJZ",
+                "cleaned": "SPH1OJZ",
+                "confidence": 0.0,
+                "is_valid": false
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "SPI10J2",
+                "cleaned": "SP11 0JZ",
+                "confidence": 35.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "SPIITOJZ",
+                "cleaned": "SP11T 0JZ",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "SPI10J2",
+                "cleaned": "SP11 0JZ",
+                "confidence": 35.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "SPIITOJZ",
+                "cleaned": "SP11T 0JZ",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "SP110JZ",
+                "cleaned": "SP11 0JZ",
+                "confidence": 86.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "SPI10JZ",
+                "cleaned": "SP11 0JZ",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "SP110JZ",
+                "cleaned": "SP11 0JZ",
+                "confidence": 86.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "SPI10JZ",
+                "cleaned": "SP11 0JZ",
+                "confidence": 0.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "SP11 0JZ",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "Country": {
+          "value": "UK",
+          "raw_text": "UK",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 219,
+              "y": 52,
+              "width": 20,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "UK",
+              "x": 219,
+              "y": 52,
+              "width": 20,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Country",
+            "region": {
+              "x": 219,
+              "y": 52,
+              "width": 20,
+              "height": 14
+            },
+            "bbox": {
+              "x": 219,
+              "y": 52,
+              "width": 20,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 219,
+              "y": 52,
+              "width": 20,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 219,
+              "y": 52,
+              "width": 20,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "UK",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Service Provider": {
+          "value": "T-Mobile",
+          "raw_text": "T-Mobile",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 252,
+              "y": 52,
+              "width": 65,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "T-Mobile",
+              "x": 252,
+              "y": 52,
+              "width": 65,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Service Provider",
+            "region": {
+              "x": 252,
+              "y": 52,
+              "width": 65,
+              "height": 14
+            },
+            "bbox": {
+              "x": 252,
+              "y": 52,
+              "width": 65,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 252,
+              "y": 52,
+              "width": 65,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 252,
+              "y": 52,
+              "width": 65,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "T-Mobile",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "File Ref": {
+          "value": "Gama - 827304692",
+          "raw_text": "Gama - 827304692",
+          "confidence": 87.95,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 332,
+              "y": 52,
+              "width": 41,
+              "height": 14
+            },
+            {
+              "x": 379,
+              "y": 60,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "x": 396,
+              "y": 52,
+              "width": 78,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Gama",
+              "x": 332,
+              "y": 52,
+              "width": 41,
+              "height": 14,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 379,
+              "y": 60,
+              "width": 6,
+              "height": 2,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "827304692",
+              "x": 396,
+              "y": 52,
+              "width": 78,
+              "height": 14,
+              "confidence": 91.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "File Ref",
+            "region": {
+              "x": 332,
+              "y": 52,
+              "width": 142,
+              "height": 14
+            },
+            "bbox": {
+              "x": 332,
+              "y": 52,
+              "width": 142,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 332,
+              "y": 52,
+              "width": 142,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 332,
+              "y": 52,
+              "width": 142,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "Gama - 827304692",
+            "raw_text": "Gama - 827304692",
+            "confidence": 87.95,
+            "votes": 14,
+            "tokens": [
+              {
+                "text": "Gama",
+                "x": 332,
+                "y": 52,
+                "width": 41,
+                "height": 14,
+                "confidence": 92.0,
+                "needs_review": false
+              },
+              {
+                "text": "-",
+                "x": 379,
+                "y": 60,
+                "width": 6,
+                "height": 2,
+                "confidence": 89.0,
+                "needs_review": false
+              },
+              {
+                "text": "827304692",
+                "x": 396,
+                "y": 52,
+                "width": 78,
+                "height": 14,
+                "confidence": 91.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 87.33,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 87.33,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 87.33,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 87.33,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 90.33,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 86.33,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 90.33,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 86.33,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 89.67,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "Gama - 927304692",
+                "cleaned": "Gama - 927304692",
+                "confidence": 83.67,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 89.67,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "Gama - 927304692",
+                "cleaned": "Gama - 927304692",
+                "confidence": 83.67,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 90.67,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 84.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 90.67,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "Gama - 827304692",
+                "cleaned": "Gama - 827304692",
+                "confidence": 84.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "Gama - 827304692",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "Reference No": {
+          "value": "T-M95ez|&1#&$U8376",
+          "raw_text": "T-M95ez|&1#&$U8376",
+          "confidence": 20.5,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 498,
+              "y": 51,
+              "width": 158,
+              "height": 17
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "T-M95ez|&1#&$U8376",
+              "x": 498,
+              "y": 51,
+              "width": 158,
+              "height": 17,
+              "confidence": 39.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Reference No",
+            "region": {
+              "x": 498,
+              "y": 51,
+              "width": 158,
+              "height": 18
+            },
+            "bbox": {
+              "x": 498,
+              "y": 51,
+              "width": 158,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 498,
+              "y": 51,
+              "width": 158,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 498,
+              "y": 51,
+              "width": 158,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "T-M95ez|&1#&$U8376",
+            "raw_text": "T-M95ez|&1#&$U8376",
+            "confidence": 20.5,
+            "votes": 8,
+            "tokens": [
+              {
+                "text": "T-M95ez|&1#&$U8376",
+                "x": 498,
+                "y": 51,
+                "width": 158,
+                "height": 17,
+                "confidence": 39.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "T-M95ez|&1#&$U8376",
+                "cleaned": "T-M95ez|&1#&$U8376",
+                "confidence": 39.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018T-M95ez|&1#6$U8376",
+                "cleaned": "\u2018T-M95ez|&1#6$U8376",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "T-M95ez|&1#&$U8376",
+                "cleaned": "T-M95ez|&1#&$U8376",
+                "confidence": 39.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018T-M95ez|&1#6$U8376",
+                "cleaned": "\u2018T-M95ez|&1#6$U8376",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "T-M95ez|&1#&$U8376",
+                "cleaned": "T-M95ez|&1#&$U8376",
+                "confidence": 2.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018T-M95ez|&1#6$U8376",
+                "cleaned": "\u2018T-M95ez|&1#6$U8376",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "T-M95ez|&1#&$U8376",
+                "cleaned": "T-M95ez|&1#&$U8376",
+                "confidence": 2.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018T-M95ez|&1#6$U8376",
+                "cleaned": "\u2018T-M95ez|&1#6$U8376",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "T-M95ez|&1#&$U8376",
+                "cleaned": "T-M95ez|&1#&$U8376",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018T-M95ez|&1#6$U8376,",
+                "cleaned": "\u2018T-M95ez|&1#6$U8376,",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "T-M95ez|&1#&$U8376",
+                "cleaned": "T-M95ez|&1#&$U8376",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018T-M95ez|&1#6$U8376,",
+                "cleaned": "\u2018T-M95ez|&1#6$U8376,",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "T-M95ez|&1#&$U8376",
+                "cleaned": "T-M95ez|&1#&$U8376",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018T-M95ez|&|#8$U8376",
+                "cleaned": "\u2018T-M95ez|&|#8$U8376",
+                "confidence": 10.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "T-M95ez|&1#&$U8376",
+                "cleaned": "T-M95ez|&1#&$U8376",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018T-M95ez|&|#8$U8376",
+                "cleaned": "\u2018T-M95ez|&|#8$U8376",
+                "confidence": 10.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "T-M95ez|&1#&$U8376",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "SIM No": {
+          "value": "SEVkoX903741414SR76",
+          "raw_text": "SEVkoX903741414SR76",
+          "confidence": 74.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 681,
+              "y": 52,
+              "width": 164,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "SEVkoX903741414SR76",
+              "x": 681,
+              "y": 52,
+              "width": 164,
+              "height": 14,
+              "confidence": 74.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "SIM No",
+            "region": {
+              "x": 681,
+              "y": 52,
+              "width": 164,
+              "height": 14
+            },
+            "bbox": {
+              "x": 681,
+              "y": 52,
+              "width": 164,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 681,
+              "y": 52,
+              "width": 164,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 681,
+              "y": 52,
+              "width": 164,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "SEVkoX903741414SR76",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Network Type": {
+          "value": "\u2018CDMA+GSM",
+          "raw_text": "\u2018CDMA+GSM",
+          "confidence": 38.75,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 860,
+              "y": 52,
+              "width": 82,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "\u2018CDMA+GSM",
+              "x": 860,
+              "y": 52,
+              "width": 82,
+              "height": 14,
+              "confidence": 49.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Network Type",
+            "region": {
+              "x": 860,
+              "y": 52,
+              "width": 82,
+              "height": 14
+            },
+            "bbox": {
+              "x": 860,
+              "y": 52,
+              "width": 82,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 860,
+              "y": 52,
+              "width": 82,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 860,
+              "y": 52,
+              "width": 82,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "\u2018CDMA+GSM",
+            "raw_text": "\u2018CDMA+GSM",
+            "confidence": 38.75,
+            "votes": 8,
+            "tokens": [
+              {
+                "text": "\u2018CDMA+GSM",
+                "x": 860,
+                "y": 52,
+                "width": 82,
+                "height": 14,
+                "confidence": 49.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "COMA+GSM",
+                "cleaned": "COMA+GSM",
+                "confidence": 47.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018CDMA+GSM",
+                "cleaned": "\u2018CDMA+GSM",
+                "confidence": 41.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "COMA+GSM",
+                "cleaned": "COMA+GSM",
+                "confidence": 47.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018CDMA+GSM",
+                "cleaned": "\u2018CDMA+GSM",
+                "confidence": 41.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "CDMA+GSM",
+                "cleaned": "CDMA+GSM",
+                "confidence": 90.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018CDMA+GSM",
+                "cleaned": "\u2018CDMA+GSM",
+                "confidence": 49.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "CDMA+GSM",
+                "cleaned": "CDMA+GSM",
+                "confidence": 90.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018CDMA+GSM",
+                "cleaned": "\u2018CDMA+GSM",
+                "confidence": 49.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "CDMA+GSM",
+                "cleaned": "CDMA+GSM",
+                "confidence": 75.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018CDMA+GSM",
+                "cleaned": "\u2018CDMA+GSM",
+                "confidence": 36.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "CDMA+GSM",
+                "cleaned": "CDMA+GSM",
+                "confidence": 75.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018CDMA+GSM",
+                "cleaned": "\u2018CDMA+GSM",
+                "confidence": 36.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "COMA+GSM",
+                "cleaned": "COMA+GSM",
+                "confidence": 86.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018CDMA+GSM",
+                "cleaned": "\u2018CDMA+GSM",
+                "confidence": 29.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "COMA+GSM",
+                "cleaned": "COMA+GSM",
+                "confidence": 86.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018CDMA+GSM",
+                "cleaned": "\u2018CDMA+GSM",
+                "confidence": 29.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "\u2018CDMA+GSM",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "Mobile Model": {
+          "value": "Nokia 2260",
+          "raw_text": "Nokia 2260",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 967,
+              "y": 52,
+              "width": 41,
+              "height": 14
+            },
+            {
+              "x": 1014,
+              "y": 52,
+              "width": 33,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Nokia",
+              "x": 967,
+              "y": 52,
+              "width": 41,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "2260",
+              "x": 1014,
+              "y": 52,
+              "width": 33,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Mobile Model",
+            "region": {
+              "x": 967,
+              "y": 52,
+              "width": 80,
+              "height": 14
+            },
+            "bbox": {
+              "x": 967,
+              "y": 52,
+              "width": 80,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 967,
+              "y": 52,
+              "width": 80,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 967,
+              "y": 52,
+              "width": 80,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Nokia 2260",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "IMEI 1": {
+          "value": "099917149005542",
+          "raw_text": "099917 - 14 - 900554 - 2",
+          "confidence": 88.71,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 15,
+              "y": 91,
+              "width": 48,
+              "height": 14
+            },
+            {
+              "x": 69,
+              "y": 99,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "x": 81,
+              "y": 91,
+              "width": 14,
+              "height": 14
+            },
+            {
+              "x": 101,
+              "y": 99,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "x": 114,
+              "y": 91,
+              "width": 53,
+              "height": 14
+            },
+            {
+              "x": 173,
+              "y": 99,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "x": 186,
+              "y": 91,
+              "width": 8,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "099917",
+              "x": 15,
+              "y": 91,
+              "width": 48,
+              "height": 14,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 69,
+              "y": 99,
+              "width": 6,
+              "height": 2,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "14",
+              "x": 81,
+              "y": 91,
+              "width": 14,
+              "height": 14,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 101,
+              "y": 99,
+              "width": 6,
+              "height": 2,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "900554",
+              "x": 114,
+              "y": 91,
+              "width": 53,
+              "height": 14,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 173,
+              "y": 99,
+              "width": 6,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "2",
+              "x": 186,
+              "y": 91,
+              "width": 8,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "IMEI 1",
+            "region": {
+              "x": 15,
+              "y": 91,
+              "width": 179,
+              "height": 14
+            },
+            "bbox": {
+              "x": 15,
+              "y": 91,
+              "width": 179,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 15,
+              "y": 91,
+              "width": 179,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 15,
+              "y": 91,
+              "width": 179,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_STRICT_IMEI",
+            "value": "099917149005542",
+            "raw_text": "099917 - 14 - 900554 - 2",
+            "confidence": 88.71,
+            "votes": 32,
+            "tokens": [
+              {
+                "text": "099917",
+                "x": 15,
+                "y": 91,
+                "width": 48,
+                "height": 14,
+                "confidence": 93.0,
+                "needs_review": false
+              },
+              {
+                "text": "-",
+                "x": 69,
+                "y": 99,
+                "width": 6,
+                "height": 2,
+                "confidence": 93.0,
+                "needs_review": false
+              },
+              {
+                "text": "14",
+                "x": 81,
+                "y": 91,
+                "width": 14,
+                "height": 14,
+                "confidence": 89.0,
+                "needs_review": false
+              },
+              {
+                "text": "-",
+                "x": 101,
+                "y": 99,
+                "width": 6,
+                "height": 2,
+                "confidence": 89.0,
+                "needs_review": false
+              },
+              {
+                "text": "900554",
+                "x": 114,
+                "y": 91,
+                "width": 53,
+                "height": 14,
+                "confidence": 92.0,
+                "needs_review": false
+              },
+              {
+                "text": "-",
+                "x": 173,
+                "y": 99,
+                "width": 6,
+                "height": 2,
+                "confidence": 92.0,
+                "needs_review": false
+              },
+              {
+                "text": "2",
+                "x": 186,
+                "y": 91,
+                "width": 8,
+                "height": 14,
+                "confidence": 96.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 92.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 86.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 92.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 86.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 90.86,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 86.43,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 90.86,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 86.43,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 89.71,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 86.86,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 89.71,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 86.86,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 90.71,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 87.14,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 90.71,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "099917 - 14 - 900554 - 2",
+                "cleaned": "099917149005542",
+                "confidence": 87.14,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "099917-14-900554-2",
+                "cleaned": "099917149005542",
+                "confidence": 0.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "099917149005542",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "IMEI 2": {
+          "value": "%S++*% - && - 259583 -6",
+          "raw_text": "%S++*% - && - 259583 -6",
+          "confidence": 65.83,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 217,
+              "y": 90,
+              "width": 56,
+              "height": 18
+            },
+            {
+              "x": 279,
+              "y": 99,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "x": 292,
+              "y": 91,
+              "width": 21,
+              "height": 14
+            },
+            {
+              "x": 318,
+              "y": 99,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "x": 331,
+              "y": 91,
+              "width": 52,
+              "height": 14
+            },
+            {
+              "x": 389,
+              "y": 91,
+              "width": 15,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "%S++*%",
+              "x": 217,
+              "y": 90,
+              "width": 56,
+              "height": 18,
+              "confidence": 19.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 279,
+              "y": 99,
+              "width": 6,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "&&",
+              "x": 292,
+              "y": 91,
+              "width": 21,
+              "height": 14,
+              "confidence": 77.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 318,
+              "y": 99,
+              "width": 6,
+              "height": 2,
+              "confidence": 77.0,
+              "needs_review": false
+            },
+            {
+              "text": "259583",
+              "x": 331,
+              "y": 91,
+              "width": 52,
+              "height": 14,
+              "confidence": 65.0,
+              "needs_review": false
+            },
+            {
+              "text": "-6",
+              "x": 389,
+              "y": 91,
+              "width": 15,
+              "height": 14,
+              "confidence": 65.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "IMEI 2",
+            "region": {
+              "x": 217,
+              "y": 90,
+              "width": 187,
+              "height": 18
+            },
+            "bbox": {
+              "x": 217,
+              "y": 90,
+              "width": 187,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 217,
+              "y": 90,
+              "width": 187,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 217,
+              "y": 90,
+              "width": 187,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "%S++*% - && - 259583 -6",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Plan Type": {
+          "value": "AlacartePack",
+          "raw_text": "AlacartePack",
+          "confidence": 88.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 423,
+              "y": 91,
+              "width": 113,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "AlacartePack",
+              "x": 423,
+              "y": 91,
+              "width": 113,
+              "height": 14,
+              "confidence": 88.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Plan Type",
+            "region": {
+              "x": 423,
+              "y": 91,
+              "width": 113,
+              "height": 14
+            },
+            "bbox": {
+              "x": 423,
+              "y": 91,
+              "width": 113,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 423,
+              "y": 91,
+              "width": 113,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 423,
+              "y": 91,
+              "width": 113,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "AlacartePack",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Card Type": {
+          "value": "Master Card Silver",
+          "raw_text": "Master Card Silver",
+          "confidence": 79.33,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 555,
+              "y": 91,
+              "width": 51,
+              "height": 14
+            },
+            {
+              "x": 611,
+              "y": 91,
+              "width": 33,
+              "height": 14
+            },
+            {
+              "x": 651,
+              "y": 91,
+              "width": 43,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Master",
+              "x": 555,
+              "y": 91,
+              "width": 51,
+              "height": 14,
+              "confidence": 74.0,
+              "needs_review": false
+            },
+            {
+              "text": "Card",
+              "x": 611,
+              "y": 91,
+              "width": 33,
+              "height": 14,
+              "confidence": 74.0,
+              "needs_review": false
+            },
+            {
+              "text": "Silver",
+              "x": 651,
+              "y": 91,
+              "width": 43,
+              "height": 14,
+              "confidence": 90.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Card Type",
+            "region": {
+              "x": 651,
+              "y": 90,
+              "width": 281,
+              "height": 18
+            },
+            "bbox": {
+              "x": 651,
+              "y": 90,
+              "width": 281,
+              "height": 18
+            },
+            "anchor_label": "Card",
+            "anchor_coordinates": {
+              "x": 611,
+              "y": 91,
+              "width": 33,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 611,
+              "y": 91,
+              "width": 33,
+              "height": 14
+            },
+            "confidence": 0.95,
+            "source": "label_right"
+          },
+          "normalized_value": "Master Card Silver",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Contact": {
+          "value": "774",
+          "raw_text": "\u00a3774",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 707,
+              "y": 91,
+              "width": 35,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "\u00a3774",
+              "x": 707,
+              "y": 91,
+              "width": 35,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Contact",
+            "region": {
+              "x": 707,
+              "y": 91,
+              "width": 35,
+              "height": 14
+            },
+            "bbox": {
+              "x": 707,
+              "y": 91,
+              "width": 35,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 707,
+              "y": 91,
+              "width": 35,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 707,
+              "y": 91,
+              "width": 35,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "774",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Issue Date": {
+          "value": "06/03/2020",
+          "raw_text": "06/03/2020",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 757,
+              "y": 90,
+              "width": 83,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "06/03/2020",
+              "x": 757,
+              "y": 90,
+              "width": 83,
+              "height": 18,
+              "confidence": 95.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Issue Date",
+            "region": {
+              "x": 757,
+              "y": 90,
+              "width": 83,
+              "height": 18
+            },
+            "bbox": {
+              "x": 757,
+              "y": 90,
+              "width": 83,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 757,
+              "y": 90,
+              "width": 83,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 757,
+              "y": 90,
+              "width": 83,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "06/03/2020",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Renewal Date": {
+          "value": "06/11/2023",
+          "raw_text": "06/11/2023",
+          "confidence": 94.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 855,
+              "y": 90,
+              "width": 77,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "06/11/2023",
+              "x": 855,
+              "y": 90,
+              "width": 77,
+              "height": 18,
+              "confidence": 94.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Renewal Date",
+            "region": {
+              "x": 855,
+              "y": 90,
+              "width": 77,
+              "height": 18
+            },
+            "bbox": {
+              "x": 855,
+              "y": 90,
+              "width": 77,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 855,
+              "y": 90,
+              "width": 77,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 855,
+              "y": 90,
+              "width": 77,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "06/11/2023",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Installments": {
+          "value": "31.83",
+          "raw_text": "31.83",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "31.83",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Amount in Words": {
+          "value": "Thirty One Point Eight Three",
+          "raw_text": "Thirty One Point Eight Three",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "Thirty One Point Eight Three",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Remarks": {
+          "value": "Not Applicable",
+          "raw_text": "",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "Not Applicable",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        }
+      },
+      "MY": 36,
+      "issues": [],
+      "status": "VALIDATED",
+      "fingerprint": "eaf192e5aed91c0c1707a64920949014d0c8b1ad3ab7ae384956b587460478a4"
+    }
+  ]
 }

@@ -192,14 +192,15 @@ class TestMasterPipeline(unittest.TestCase):
             out_img = create_debug_image(img_path, record)
             self.assertTrue(out_img.exists())
 
-    def test_H_f6_excluding_review_records(self):
+    def test_H_f6_including_review_records(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             ahk_path = Path(temp_dir) / "data_entry.ahk"
-            review_rec = {"record_number": 1, "status": "REVIEW_REQUIRED", "fields": {}}
+            fields = {name: {"value": f"review_{i}"} for i, name in enumerate(FIELD_ORDER)}
+            review_rec = {"record_number": 1, "status": "REVIEW_REQUIRED", "fields": fields}
             generate_ahk([review_rec], ahk_path, review_count=1)
             content = ahk_path.read_text(encoding="utf-8")
             self.assertIn("review_required_count := 1", content)
-            self.assertNotIn("validated_records[1] :=", content)
+            self.assertIn("scanned_records[1] :=", content)
 
     def test_15_f6_accepting_validated_records(self):
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -208,7 +209,7 @@ class TestMasterPipeline(unittest.TestCase):
             val_rec = {"record_number": 1, "status": "VALIDATED", "fields": fields}
             generate_ahk([val_rec], ahk_path, review_count=0)
             content = ahk_path.read_text(encoding="utf-8")
-            self.assertIn("validated_records[1] :=", content)
+            self.assertIn("scanned_records[1] :=", content)
             self.assertIn("val_0", content)
 
     def test_16_no_form_increment_during_retry(self):
