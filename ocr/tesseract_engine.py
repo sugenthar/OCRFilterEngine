@@ -2,6 +2,7 @@
 
 import os
 from pathlib import Path
+import shutil
 from typing import List, Optional, Tuple, Union
 
 from PIL import Image
@@ -17,13 +18,15 @@ from ocr.preprocessing import (
 from ocr.tokens import BoundingBox, OCRToken
 
 DEFAULT_TESSERACT_PATH = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+TESSERACT_ENVIRONMENT_VARIABLE = "TESSERACT_CMD"
 LOW_CONFIDENCE_THRESHOLD = 50.0
 
 
 class TesseractEngine:
     def __init__(self, tesseract_cmd: Optional[str] = None) -> None:
-        if tesseract_cmd and os.path.exists(tesseract_cmd):
-            self.tesseract_cmd = tesseract_cmd
+        configured_command = tesseract_cmd or os.environ.get(TESSERACT_ENVIRONMENT_VARIABLE)
+        if configured_command and (os.path.exists(configured_command) or shutil.which(configured_command)):
+            self.tesseract_cmd = configured_command
         elif os.path.exists(DEFAULT_TESSERACT_PATH):
             self.tesseract_cmd = DEFAULT_TESSERACT_PATH
         else:
