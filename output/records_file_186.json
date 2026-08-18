@@ -1,15 +1,64 @@
 {
-  "processed_at": "2026-08-18T11:53:03.605981+00:00",
-  "image": "images\\inbox\\Screenshot 2026-08-18 172231.png",
+  "processed_at": "2026-08-18T13:01:44.977526+00:00",
+  "image": "images\\inbox\\Screenshot 2026-08-18 183127.png",
+  "converted_image": "images\\archive\\hd\\Screenshot 2026-08-18 183127_3f58cc12d47a_hd.png",
+  "conversion": {
+    "source_path": "images\\inbox\\Screenshot 2026-08-18 183127.png",
+    "output_path": "images\\archive\\hd\\Screenshot 2026-08-18 183127_3f58cc12d47a_hd.png",
+    "original_size": {
+      "width": 1129,
+      "height": 140
+    },
+    "converted_size": {
+      "width": 3600,
+      "height": 446
+    },
+    "scale": 3.1887,
+    "operations": [
+      "EXIF orientation correction",
+      "Lanczos HD upscale",
+      "median noise reduction",
+      "auto contrast normalization",
+      "contrast boost",
+      "unsharp text enhancement"
+    ]
+  },
+  "conversion_proof": {
+    "created_at": "2026-08-18T13:01:28.580102+00:00",
+    "source_sha256": "3f58cc12d47a487100417539285c22bd74f5db116e02958ced656d5d887a5a5e",
+    "converted_sha256": "0e813869aebba4cd739bad9e22301e5bd7f7023df3aef90c82a7ad4f4fbab807",
+    "conversion": {
+      "source_path": "images\\inbox\\Screenshot 2026-08-18 183127.png",
+      "output_path": "images\\archive\\hd\\Screenshot 2026-08-18 183127_3f58cc12d47a_hd.png",
+      "original_size": {
+        "width": 1129,
+        "height": 140
+      },
+      "converted_size": {
+        "width": 3600,
+        "height": 446
+      },
+      "scale": 3.1887,
+      "operations": [
+        "EXIF orientation correction",
+        "Lanczos HD upscale",
+        "median noise reduction",
+        "auto contrast normalization",
+        "contrast boost",
+        "unsharp text enhancement"
+      ]
+    },
+    "proof_path": "images\\archive\\hd\\Screenshot 2026-08-18 183127_3f58cc12d47a_hd.json"
+  },
   "file_no": 186,
-  "ocr_variant": "C",
-  "image_quality": "Dimensions: 1102x134 | Brightness: 230.1 | Contrast: 70.8 | Blank: False",
+  "ocr_variant": "A",
+  "image_quality": "Dimensions: 3600x446 | Brightness: 230.3 | Contrast: 72.2 | Blank: False",
   "record_count": 1,
   "unassigned_rows": [],
   "records": [
     {
       "record_number": 1,
-      "form_no": 737,
+      "form_no": 738,
       "fields": {
         "File No": {
           "value": "186",
@@ -28,14 +77,14 @@
           }
         },
         "Form No": {
-          "value": "737",
+          "value": "738",
           "raw_text": "",
           "confidence": 100.0,
           "needs_review": false,
           "coordinates": [],
           "source_tokens": [],
           "variant": "standard",
-          "normalized_value": "737",
+          "normalized_value": "738",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -44,24 +93,24 @@
           }
         },
         "Title": {
-          "value": "Ms",
-          "raw_text": "Ms.",
+          "value": "Mr",
+          "raw_text": "Mr",
           "confidence": 96.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 15,
-              "y": 12,
-              "width": 23,
+              "x": 18,
+              "y": 25,
+              "width": 19,
               "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "Ms.",
-              "x": 15,
-              "y": 12,
-              "width": 23,
+              "text": "Mr",
+              "x": 18,
+              "y": 25,
+              "width": 19,
               "height": 14,
               "confidence": 96.0,
               "needs_review": false
@@ -71,34 +120,34 @@
           "field_region": {
             "field_name": "Title",
             "region": {
-              "x": 15,
-              "y": 12,
-              "width": 23,
+              "x": 18,
+              "y": 25,
+              "width": 19,
               "height": 14
             },
             "bbox": {
-              "x": 15,
-              "y": 12,
-              "width": 23,
+              "x": 18,
+              "y": 25,
+              "width": 19,
               "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 15,
-              "y": 12,
-              "width": 23,
+              "x": 18,
+              "y": 25,
+              "width": 19,
               "height": 14
             },
             "anchor_bbox": {
-              "x": 15,
-              "y": 12,
-              "width": 23,
+              "x": 18,
+              "y": 25,
+              "width": 19,
               "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "Ms",
+          "normalized_value": "Mr",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -107,26 +156,26 @@
           }
         },
         "First Name": {
-          "value": "Laura",
-          "raw_text": "Laura",
-          "confidence": 76.0,
+          "value": "Clare",
+          "raw_text": "Clare",
+          "confidence": 95.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 58,
-              "y": 12,
-              "width": 41,
+              "x": 52,
+              "y": 25,
+              "width": 38,
               "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "Laura",
-              "x": 58,
-              "y": 12,
-              "width": 41,
+              "text": "Clare",
+              "x": 52,
+              "y": 25,
+              "width": 38,
               "height": 14,
-              "confidence": 76.0,
+              "confidence": 95.0,
               "needs_review": false
             }
           ],
@@ -134,34 +183,34 @@
           "field_region": {
             "field_name": "First Name",
             "region": {
-              "x": 58,
-              "y": 12,
-              "width": 41,
+              "x": 52,
+              "y": 25,
+              "width": 38,
               "height": 14
             },
             "bbox": {
-              "x": 58,
-              "y": 12,
-              "width": 41,
+              "x": 52,
+              "y": 25,
+              "width": 38,
               "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 58,
-              "y": 12,
-              "width": 41,
+              "x": 52,
+              "y": 25,
+              "width": 38,
               "height": 14
             },
             "anchor_bbox": {
-              "x": 58,
-              "y": 12,
-              "width": 41,
+              "x": 52,
+              "y": 25,
+              "width": 38,
               "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "Laura",
+          "normalized_value": "Clare",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -170,26 +219,26 @@
           }
         },
         "Last Name": {
-          "value": "Askham",
-          "raw_text": "Askham",
-          "confidence": 61.69,
+          "value": "Wilde",
+          "raw_text": "Wilde",
+          "confidence": 80.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 105,
-              "y": 12,
-              "width": 59,
+              "x": 104,
+              "y": 25,
+              "width": 41,
               "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "Askham",
-              "x": 105,
-              "y": 12,
-              "width": 59,
+              "text": "Wilde",
+              "x": 104,
+              "y": 25,
+              "width": 41,
               "height": 14,
-              "confidence": 92.0,
+              "confidence": 80.0,
               "needs_review": false
             }
           ],
@@ -197,355 +246,50 @@
           "field_region": {
             "field_name": "Last Name",
             "region": {
-              "x": 105,
-              "y": 12,
-              "width": 59,
+              "x": 104,
+              "y": 25,
+              "width": 41,
               "height": 14
             },
             "bbox": {
-              "x": 105,
-              "y": 12,
-              "width": 59,
+              "x": 104,
+              "y": 25,
+              "width": 41,
               "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 105,
-              "y": 12,
-              "width": 59,
+              "x": 104,
+              "y": 25,
+              "width": 41,
               "height": 14
             },
             "anchor_bbox": {
-              "x": 105,
-              "y": 12,
-              "width": 59,
+              "x": 104,
+              "y": 25,
+              "width": 41,
               "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "targeted_ocr": {
-            "attempted": true,
-            "decision": "ACCEPTED_CONSENSUS",
-            "value": "Askham",
-            "raw_text": "Askham",
-            "confidence": 61.69,
-            "votes": 28,
-            "tokens": [
-              {
-                "text": "Askham",
-                "x": 105,
-                "y": 12,
-                "width": 59,
-                "height": 14,
-                "confidence": 92.0,
-                "needs_review": false
-              }
-            ],
-            "runs": [
-              {
-                "variant": "3x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 91.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 7,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 91.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "\u2018Askham",
-                "cleaned": "\u2018Askham",
-                "confidence": 0.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 8,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 12.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 91.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 6,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 91.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "\u2018Askham",
-                "cleaned": "\u2018Askham",
-                "confidence": 0.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 13,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 12.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 91.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 7,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 91.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "\u2018Askham",
-                "cleaned": "\u2018Askham",
-                "confidence": 5.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 8,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 0.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 91.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 6,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 91.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "\u2018Askham",
-                "cleaned": "\u2018Askham",
-                "confidence": 5.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 13,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 0.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 92.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 7,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 92.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 17.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 8,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 17.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 92.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 6,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 92.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 17.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 13,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 17.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 92.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 7,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 92.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 12.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 8,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 12.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 92.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 6,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 92.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 12.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 13,
-                "whitelist": true,
-                "raw_text": "Askham",
-                "cleaned": "Askham",
-                "confidence": 12.0,
-                "is_valid": true
-              }
-            ]
-          },
-          "normalized_value": "Askham",
+          "normalized_value": "Wilde",
           "validation": "PASS",
-          "failure_reasons": []
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
         },
         "Initial": {
-          "value": "MLA",
-          "raw_text": "MLA",
+          "value": "MCW",
+          "raw_text": "MCW",
           "confidence": 100.0,
           "needs_review": false,
           "coordinates": [],
           "source_tokens": [],
           "variant": "standard",
-          "normalized_value": "MLA",
+          "normalized_value": "MCW",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -554,26 +298,26 @@
           }
         },
         "Email": {
-          "value": "laura.askham@btinternet.com",
-          "raw_text": "laura.askham@btinternet.com",
-          "confidence": 81.75,
+          "value": "clarewilde@ancoris.com",
+          "raw_text": "clarewilde@ancoris.com",
+          "confidence": 80.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 184,
-              "y": 12,
-              "width": 224,
+              "x": 164,
+              "y": 25,
+              "width": 184,
               "height": 18
             }
           ],
           "source_tokens": [
             {
-              "text": "laura.askham@btinternet.com",
-              "x": 184,
-              "y": 12,
-              "width": 224,
+              "text": "clarewilde@ancoris.com",
+              "x": 164,
+              "y": 25,
+              "width": 184,
               "height": 18,
-              "confidence": 92.0,
+              "confidence": 80.0,
               "needs_review": false
             }
           ],
@@ -581,223 +325,587 @@
           "field_region": {
             "field_name": "Email",
             "region": {
-              "x": 184,
-              "y": 12,
-              "width": 224,
+              "x": 164,
+              "y": 25,
+              "width": 184,
               "height": 18
             },
             "bbox": {
-              "x": 184,
-              "y": 12,
-              "width": 224,
+              "x": 164,
+              "y": 25,
+              "width": 184,
               "height": 18
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 184,
-              "y": 12,
-              "width": 224,
+              "x": 164,
+              "y": 25,
+              "width": 184,
               "height": 18
             },
             "anchor_bbox": {
-              "x": 184,
-              "y": 12,
-              "width": 224,
+              "x": 164,
+              "y": 25,
+              "width": 184,
               "height": 18
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "targeted_ocr": {
-            "attempted": true,
-            "decision": "ACCEPTED_CONSENSUS",
-            "value": "laura.askham@btinternet.com",
-            "raw_text": "laura.askham@btinternet.com",
-            "confidence": 81.75,
-            "votes": 16,
-            "tokens": [
-              {
-                "text": "laura.askham@btinternet.com",
-                "x": 184,
-                "y": 12,
-                "width": 224,
-                "height": 18,
-                "confidence": 92.0,
-                "needs_review": false
-              }
-            ],
-            "runs": [
-              {
-                "variant": "3x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 91.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 77.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 91.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 77.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 90.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 72.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 90.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 72.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 92.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 70.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 92.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 70.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 89.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 73.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 89.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "laura.askham@btinternet.com",
-                "cleaned": "laura.askham@btinternet.com",
-                "confidence": 73.0,
-                "is_valid": true
-              }
-            ]
-          },
-          "normalized_value": "laura.askham@btinternet.com",
+          "normalized_value": "clarewilde@ancoris.com",
           "validation": "PASS",
-          "failure_reasons": []
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
         },
         "Father Name": {
-          "value": "K. M.Askham",
-          "raw_text": "K.M.Askham",
-          "confidence": 85.0,
+          "value": "Dalton Wilde 17/10//1989 Male Service Unit 10 Beacon Road Walton Industrial Estate Stone, SWT STI5QLT UK Orange Bravo 6326362 ORN69jl+:!+P709118 LSWsx V149660418NP90 GSM Nokia 7200 9803511 14 031844 0 S@&S@? 937347-1 CALLPLUS Master Card Premium Gold \u00a3966",
+          "raw_text": "Dalton Wilde 17/10//1989 Male Service Unit 10 Beacon Road Walton Industrial Estate Stone, SWT STI5QLT UK Orange Bravo 6326362 ORN69jl+:!+P709118 LSWsxV149660418NP90 GSM Nokia 7200 9803511 14 031844 0 S@&S@? 937347-1 CALLPLUS Master Card Premium Gold \u00a3966",
+          "confidence": 83.2,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 427,
-              "y": 12,
-              "width": 95,
+              "x": 364,
+              "y": 25,
+              "width": 46,
+              "height": 14
+            },
+            {
+              "x": 415,
+              "y": 25,
+              "width": 40,
+              "height": 14
+            },
+            {
+              "x": 474,
+              "y": 24,
+              "width": 80,
+              "height": 18
+            },
+            {
+              "x": 574,
+              "y": 25,
+              "width": 34,
+              "height": 14
+            },
+            {
+              "x": 623,
+              "y": 25,
+              "width": 55,
+              "height": 14
+            },
+            {
+              "x": 688,
+              "y": 25,
+              "width": 28,
+              "height": 14
+            },
+            {
+              "x": 722,
+              "y": 25,
+              "width": 13,
+              "height": 14
+            },
+            {
+              "x": 742,
+              "y": 25,
+              "width": 53,
+              "height": 14
+            },
+            {
+              "x": 801,
+              "y": 25,
+              "width": 35,
+              "height": 14
+            },
+            {
+              "x": 842,
+              "y": 25,
+              "width": 50,
+              "height": 14
+            },
+            {
+              "x": 898,
+              "y": 25,
+              "width": 70,
+              "height": 14
+            },
+            {
+              "x": 974,
+              "y": 25,
+              "width": 45,
+              "height": 14
+            },
+            {
+              "x": 1038,
+              "y": 25,
+              "width": 46,
+              "height": 17
+            },
+            {
+              "x": 1089,
+              "y": 25,
+              "width": 32,
+              "height": 14
+            },
+            {
+              "x": 18,
+              "y": 64,
+              "width": 62,
+              "height": 14
+            },
+            {
+              "x": 95,
+              "y": 64,
+              "width": 19,
+              "height": 14
+            },
+            {
+              "x": 128,
+              "y": 64,
+              "width": 53,
+              "height": 18
+            },
+            {
+              "x": 196,
+              "y": 64,
+              "width": 42,
+              "height": 14
+            },
+            {
+              "x": 256,
+              "y": 64,
+              "width": 59,
+              "height": 14
+            },
+            {
+              "x": 335,
+              "y": 64,
+              "width": 139,
+              "height": 19
+            },
+            {
+              "x": 490,
+              "y": 64,
+              "width": 170,
+              "height": 14
+            },
+            {
+              "x": 675,
+              "y": 64,
+              "width": 30,
+              "height": 14
+            },
+            {
+              "x": 726,
+              "y": 64,
+              "width": 40,
+              "height": 14
+            },
+            {
+              "x": 772,
+              "y": 64,
+              "width": 34,
+              "height": 14
+            },
+            {
+              "x": 826,
+              "y": 64,
+              "width": 46,
+              "height": 14
+            },
+            {
+              "x": 891,
+              "y": 64,
+              "width": 14,
+              "height": 14
+            },
+            {
+              "x": 924,
+              "y": 64,
+              "width": 51,
+              "height": 14
+            },
+            {
+              "x": 993,
+              "y": 64,
+              "width": 7,
+              "height": 14
+            },
+            {
+              "x": 18,
+              "y": 102,
+              "width": 66,
+              "height": 20
+            },
+            {
+              "x": 144,
+              "y": 104,
+              "width": 74,
+              "height": 14
+            },
+            {
+              "x": 238,
+              "y": 104,
+              "width": 80,
+              "height": 14
+            },
+            {
+              "x": 342,
+              "y": 104,
+              "width": 50,
+              "height": 14
+            },
+            {
+              "x": 399,
+              "y": 104,
+              "width": 33,
+              "height": 14
+            },
+            {
+              "x": 438,
+              "y": 104,
+              "width": 65,
+              "height": 14
+            },
+            {
+              "x": 510,
+              "y": 104,
+              "width": 32,
+              "height": 14
+            },
+            {
+              "x": 564,
+              "y": 104,
+              "width": 34,
               "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "K.M.Askham",
-              "x": 427,
-              "y": 12,
-              "width": 95,
+              "text": "Dalton",
+              "x": 364,
+              "y": 25,
+              "width": 46,
               "height": 14,
+              "confidence": 86.0,
+              "needs_review": false
+            },
+            {
+              "text": "Wilde",
+              "x": 415,
+              "y": 25,
+              "width": 40,
+              "height": 14,
+              "confidence": 76.0,
+              "needs_review": false
+            },
+            {
+              "text": "17/10//1989",
+              "x": 474,
+              "y": 24,
+              "width": 80,
+              "height": 18,
+              "confidence": 76.0,
+              "needs_review": false
+            },
+            {
+              "text": "Male",
+              "x": 574,
+              "y": 25,
+              "width": 34,
+              "height": 14,
+              "confidence": 94.0,
+              "needs_review": false
+            },
+            {
+              "text": "Service",
+              "x": 623,
+              "y": 25,
+              "width": 55,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Unit",
+              "x": 688,
+              "y": 25,
+              "width": 28,
+              "height": 14,
+              "confidence": 87.0,
+              "needs_review": false
+            },
+            {
+              "text": "10",
+              "x": 722,
+              "y": 25,
+              "width": 13,
+              "height": 14,
+              "confidence": 87.0,
+              "needs_review": false
+            },
+            {
+              "text": "Beacon",
+              "x": 742,
+              "y": 25,
+              "width": 53,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "Road",
+              "x": 801,
+              "y": 25,
+              "width": 35,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Walton",
+              "x": 842,
+              "y": 25,
+              "width": 50,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Industrial",
+              "x": 898,
+              "y": 25,
+              "width": 70,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "Estate",
+              "x": 974,
+              "y": 25,
+              "width": 45,
+              "height": 14,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "Stone,",
+              "x": 1038,
+              "y": 25,
+              "width": 46,
+              "height": 17,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "SWT",
+              "x": 1089,
+              "y": 25,
+              "width": 32,
+              "height": 14,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "STI5QLT",
+              "x": 18,
+              "y": 64,
+              "width": 62,
+              "height": 14,
+              "confidence": 35.0,
+              "needs_review": true
+            },
+            {
+              "text": "UK",
+              "x": 95,
+              "y": 64,
+              "width": 19,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Orange",
+              "x": 128,
+              "y": 64,
+              "width": 53,
+              "height": 18,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Bravo",
+              "x": 196,
+              "y": 64,
+              "width": 42,
+              "height": 14,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "6326362",
+              "x": 256,
+              "y": 64,
+              "width": 59,
+              "height": 14,
+              "confidence": 90.0,
+              "needs_review": false
+            },
+            {
+              "text": "ORN69jl+:!+P709118",
+              "x": 335,
+              "y": 64,
+              "width": 139,
+              "height": 19,
+              "confidence": 0.0,
+              "needs_review": true
+            },
+            {
+              "text": "LSWsxV149660418NP90",
+              "x": 490,
+              "y": 64,
+              "width": 170,
+              "height": 14,
+              "confidence": 82.0,
+              "needs_review": false
+            },
+            {
+              "text": "GSM",
+              "x": 675,
+              "y": 64,
+              "width": 30,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "Nokia",
+              "x": 726,
+              "y": 64,
+              "width": 40,
+              "height": 14,
+              "confidence": 55.0,
+              "needs_review": false
+            },
+            {
+              "text": "7200",
+              "x": 772,
+              "y": 64,
+              "width": 34,
+              "height": 14,
+              "confidence": 55.0,
+              "needs_review": false
+            },
+            {
+              "text": "9803511",
+              "x": 826,
+              "y": 64,
+              "width": 46,
+              "height": 14,
+              "confidence": 88.0,
+              "needs_review": false
+            },
+            {
+              "text": "14",
+              "x": 891,
+              "y": 64,
+              "width": 14,
+              "height": 14,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "031844",
+              "x": 924,
+              "y": 64,
+              "width": 51,
+              "height": 14,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "0",
+              "x": 993,
+              "y": 64,
+              "width": 7,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "S@&S@?",
+              "x": 18,
+              "y": 102,
+              "width": 66,
+              "height": 20,
               "confidence": 85.0,
+              "needs_review": false
+            },
+            {
+              "text": "937347-1",
+              "x": 144,
+              "y": 104,
+              "width": 74,
+              "height": 14,
+              "confidence": 83.0,
+              "needs_review": false
+            },
+            {
+              "text": "CALLPLUS",
+              "x": 238,
+              "y": 104,
+              "width": 80,
+              "height": 14,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "Master",
+              "x": 342,
+              "y": 104,
+              "width": 50,
+              "height": 14,
+              "confidence": 67.0,
+              "needs_review": false
+            },
+            {
+              "text": "Card",
+              "x": 399,
+              "y": 104,
+              "width": 33,
+              "height": 14,
+              "confidence": 48.0,
+              "needs_review": true
+            },
+            {
+              "text": "Premium",
+              "x": 438,
+              "y": 104,
+              "width": 65,
+              "height": 14,
+              "confidence": 48.0,
+              "needs_review": true
+            },
+            {
+              "text": "Gold",
+              "x": 510,
+              "y": 104,
+              "width": 32,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "\u00a3966",
+              "x": 564,
+              "y": 104,
+              "width": 34,
+              "height": 14,
+              "confidence": 78.0,
               "needs_review": false
             }
           ],
@@ -805,34 +913,34 @@
           "field_region": {
             "field_name": "Father Name",
             "region": {
-              "x": 427,
-              "y": 12,
-              "width": 95,
-              "height": 14
+              "x": 18,
+              "y": 24,
+              "width": 1103,
+              "height": 98
             },
             "bbox": {
-              "x": 427,
-              "y": 12,
-              "width": 95,
-              "height": 14
+              "x": 18,
+              "y": 24,
+              "width": 1103,
+              "height": 98
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 427,
-              "y": 12,
-              "width": 95,
-              "height": 14
+              "x": 18,
+              "y": 24,
+              "width": 1103,
+              "height": 98
             },
             "anchor_bbox": {
-              "x": 427,
-              "y": 12,
-              "width": 95,
-              "height": 14
+              "x": 18,
+              "y": 24,
+              "width": 1103,
+              "height": 98
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "K. M.Askham",
+          "normalized_value": "Dalton Wilde 17/10//1989 Male Service Unit 10 Beacon Road Walton Industrial Estate Stone, SWT STI5QLT UK Orange Bravo 6326362 ORN69jl+:!+P709118 LSWsx V149660418NP90 GSM Nokia 7200 9803511 14 031844 0 S@&S@? 937347-1 CALLPLUS Master Card Premium Gold \u00a3966",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -841,25 +949,25 @@
           }
         },
         "DOB": {
-          "value": "14/07/1970",
-          "raw_text": "14/07/1970",
-          "confidence": 96.0,
+          "value": "10/07/2023",
+          "raw_text": "10/07/2023",
+          "confidence": 86.38,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 538,
-              "y": 11,
-              "width": 76,
-              "height": 18
+              "x": 623,
+              "y": 103,
+              "width": 79,
+              "height": 17
             }
           ],
           "source_tokens": [
             {
-              "text": "14/07/1970",
-              "x": 538,
-              "y": 11,
-              "width": 76,
-              "height": 18,
+              "text": "10/07/2023",
+              "x": 623,
+              "y": 103,
+              "width": 79,
+              "height": 17,
               "confidence": 96.0,
               "needs_review": false
             }
@@ -868,62 +976,369 @@
           "field_region": {
             "field_name": "DOB",
             "region": {
-              "x": 538,
-              "y": 11,
-              "width": 76,
+              "x": 623,
+              "y": 103,
+              "width": 80,
               "height": 18
             },
             "bbox": {
-              "x": 538,
-              "y": 11,
-              "width": 76,
+              "x": 623,
+              "y": 103,
+              "width": 80,
               "height": 18
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 538,
-              "y": 11,
-              "width": 76,
+              "x": 623,
+              "y": 103,
+              "width": 80,
               "height": 18
             },
             "anchor_bbox": {
-              "x": 538,
-              "y": 11,
-              "width": 76,
+              "x": 623,
+              "y": 103,
+              "width": 80,
               "height": 18
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "14/07/1970",
-          "validation": "PASS",
-          "failure_reasons": [],
           "targeted_ocr": {
-            "attempted": false,
-            "decision": "NOT_REQUIRED"
-          }
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "10/07/2023",
+            "raw_text": "10/07/2023",
+            "confidence": 86.38,
+            "votes": 32,
+            "tokens": [
+              {
+                "text": "10/07/2023",
+                "x": 623,
+                "y": 103,
+                "width": 79,
+                "height": 17,
+                "confidence": 96.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 81.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 81.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 81.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 81.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 80.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 80.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 80.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 80.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 64.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 64.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 64.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 64.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 82.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 82.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 82.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "10/07/2023",
+                "cleaned": "10/07/2023",
+                "confidence": 82.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "10/07/2023",
+          "validation": "REVIEW",
+          "failure_reasons": [
+            "DOB_AFTER_ISSUE_DATE"
+          ]
         },
         "Gender": {
-          "value": "Female",
-          "raw_text": "Female",
-          "confidence": 96.0,
+          "value": "Male",
+          "raw_text": "Male",
+          "confidence": 94.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 629,
-              "y": 12,
-              "width": 54,
+              "x": 574,
+              "y": 25,
+              "width": 34,
               "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "Female",
-              "x": 629,
-              "y": 12,
-              "width": 54,
+              "text": "Male",
+              "x": 574,
+              "y": 25,
+              "width": 34,
               "height": 14,
-              "confidence": 96.0,
+              "confidence": 94.0,
               "needs_review": false
             }
           ],
@@ -931,34 +1346,34 @@
           "field_region": {
             "field_name": "Gender",
             "region": {
-              "x": 629,
-              "y": 12,
-              "width": 54,
+              "x": 574,
+              "y": 25,
+              "width": 34,
               "height": 14
             },
             "bbox": {
-              "x": 629,
-              "y": 12,
-              "width": 54,
+              "x": 574,
+              "y": 25,
+              "width": 34,
               "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 629,
-              "y": 12,
-              "width": 54,
+              "x": 574,
+              "y": 25,
+              "width": 34,
               "height": 14
             },
             "anchor_bbox": {
-              "x": 629,
-              "y": 12,
-              "width": 54,
+              "x": 574,
+              "y": 25,
+              "width": 34,
               "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "Female",
+          "normalized_value": "Male",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -967,39 +1382,24 @@
           }
         },
         "Profession": {
-          "value": "Fixed Income",
-          "raw_text": "Fixed Income",
+          "value": "Service",
+          "raw_text": "Service",
           "confidence": 96.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 693,
-              "y": 12,
-              "width": 38,
-              "height": 14
-            },
-            {
-              "x": 738,
-              "y": 12,
-              "width": 53,
+              "x": 623,
+              "y": 25,
+              "width": 55,
               "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "Fixed",
-              "x": 693,
-              "y": 12,
-              "width": 38,
-              "height": 14,
-              "confidence": 96.0,
-              "needs_review": false
-            },
-            {
-              "text": "Income",
-              "x": 738,
-              "y": 12,
-              "width": 53,
+              "text": "Service",
+              "x": 623,
+              "y": 25,
+              "width": 55,
               "height": 14,
               "confidence": 96.0,
               "needs_review": false
@@ -1009,34 +1409,34 @@
           "field_region": {
             "field_name": "Profession",
             "region": {
-              "x": 693,
-              "y": 12,
-              "width": 98,
+              "x": 623,
+              "y": 25,
+              "width": 55,
               "height": 14
             },
             "bbox": {
-              "x": 693,
-              "y": 12,
-              "width": 98,
+              "x": 623,
+              "y": 25,
+              "width": 55,
               "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 693,
-              "y": 12,
-              "width": 98,
+              "x": 623,
+              "y": 25,
+              "width": 55,
               "height": 14
             },
             "anchor_bbox": {
-              "x": 693,
-              "y": 12,
-              "width": 98,
+              "x": 623,
+              "y": 25,
+              "width": 55,
               "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "Fixed Income",
+          "normalized_value": "Service",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -1045,41 +1445,71 @@
           }
         },
         "Mailing Street": {
-          "value": "Dean House",
-          "raw_text": "Dean House,",
-          "confidence": 94.5,
+          "value": "Unit 10 Beacon Road",
+          "raw_text": "Unit 10 Beacon Road",
+          "confidence": 91.25,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 801,
-              "y": 12,
-              "width": 35,
+              "x": 688,
+              "y": 25,
+              "width": 28,
               "height": 14
             },
             {
-              "x": 843,
-              "y": 9,
-              "width": 48,
-              "height": 22
+              "x": 722,
+              "y": 25,
+              "width": 13,
+              "height": 14
+            },
+            {
+              "x": 742,
+              "y": 25,
+              "width": 53,
+              "height": 14
+            },
+            {
+              "x": 801,
+              "y": 25,
+              "width": 35,
+              "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "Dean",
-              "x": 801,
-              "y": 12,
-              "width": 35,
+              "text": "Unit",
+              "x": 688,
+              "y": 25,
+              "width": 28,
               "height": 14,
-              "confidence": 96.0,
+              "confidence": 87.0,
               "needs_review": false
             },
             {
-              "text": "House,",
-              "x": 843,
-              "y": 9,
-              "width": 48,
-              "height": 22,
-              "confidence": 93.0,
+              "text": "10",
+              "x": 722,
+              "y": 25,
+              "width": 13,
+              "height": 14,
+              "confidence": 87.0,
+              "needs_review": false
+            },
+            {
+              "text": "Beacon",
+              "x": 742,
+              "y": 25,
+              "width": 53,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "Road",
+              "x": 801,
+              "y": 25,
+              "width": 35,
+              "height": 14,
+              "confidence": 96.0,
               "needs_review": false
             }
           ],
@@ -1087,34 +1517,34 @@
           "field_region": {
             "field_name": "Mailing Street",
             "region": {
-              "x": 801,
-              "y": 9,
-              "width": 90,
-              "height": 22
+              "x": 688,
+              "y": 25,
+              "width": 148,
+              "height": 14
             },
             "bbox": {
-              "x": 801,
-              "y": 9,
-              "width": 90,
-              "height": 22
+              "x": 688,
+              "y": 25,
+              "width": 148,
+              "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 801,
-              "y": 9,
-              "width": 90,
-              "height": 22
+              "x": 688,
+              "y": 25,
+              "width": 148,
+              "height": 14
             },
             "anchor_bbox": {
-              "x": 801,
-              "y": 9,
-              "width": 90,
-              "height": 22
+              "x": 688,
+              "y": 25,
+              "width": 148,
+              "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "Dean House",
+          "normalized_value": "Unit 10 Beacon Road",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -1123,121 +1553,136 @@
           }
         },
         "City": {
-          "value": "Vernham Dean, Hampshire Andover, SWT",
-          "raw_text": "Vernham Dean, Hampshire Andover, SWT",
-          "confidence": 92.6,
+          "value": "Walton Industrial Estate Stone, SWT STI5QLT",
+          "raw_text": "Walton Industrial Estate Stone, SWT STI5QLT",
+          "confidence": 82.67,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 899,
-              "y": 12,
-              "width": 61,
+              "x": 842,
+              "y": 25,
+              "width": 50,
               "height": 14
             },
             {
-              "x": 968,
-              "y": 12,
-              "width": 40,
+              "x": 898,
+              "y": 25,
+              "width": 70,
+              "height": 14
+            },
+            {
+              "x": 974,
+              "y": 25,
+              "width": 45,
+              "height": 14
+            },
+            {
+              "x": 1038,
+              "y": 25,
+              "width": 46,
               "height": 17
             },
             {
-              "x": 1014,
-              "y": 12,
-              "width": 79,
-              "height": 18
+              "x": 1089,
+              "y": 25,
+              "width": 32,
+              "height": 14
             },
             {
-              "x": 14,
-              "y": 52,
-              "width": 64,
-              "height": 17
-            },
-            {
-              "x": 83,
-              "y": 52,
-              "width": 33,
+              "x": 18,
+              "y": 64,
+              "width": 62,
               "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "Vernham",
-              "x": 899,
-              "y": 12,
-              "width": 61,
+              "text": "Walton",
+              "x": 842,
+              "y": 25,
+              "width": 50,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Industrial",
+              "x": 898,
+              "y": 25,
+              "width": 70,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "Estate",
+              "x": 974,
+              "y": 25,
+              "width": 45,
+              "height": 14,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "Stone,",
+              "x": 1038,
+              "y": 25,
+              "width": 46,
+              "height": 17,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "SWT",
+              "x": 1089,
+              "y": 25,
+              "width": 32,
               "height": 14,
               "confidence": 92.0,
               "needs_review": false
             },
             {
-              "text": "Dean,",
-              "x": 968,
-              "y": 12,
-              "width": 40,
-              "height": 17,
-              "confidence": 96.0,
-              "needs_review": false
-            },
-            {
-              "text": "Hampshire",
-              "x": 1014,
-              "y": 12,
-              "width": 79,
-              "height": 18,
-              "confidence": 95.0,
-              "needs_review": false
-            },
-            {
-              "text": "Andover,",
-              "x": 14,
-              "y": 52,
-              "width": 64,
-              "height": 17,
-              "confidence": 91.0,
-              "needs_review": false
-            },
-            {
-              "text": "SWT",
-              "x": 83,
-              "y": 52,
-              "width": 33,
+              "text": "STI5QLT",
+              "x": 18,
+              "y": 64,
+              "width": 62,
               "height": 14,
-              "confidence": 89.0,
-              "needs_review": false
+              "confidence": 35.0,
+              "needs_review": true
             }
           ],
           "variant": "standard",
           "field_region": {
             "field_name": "City",
             "region": {
-              "x": 14,
-              "y": 12,
-              "width": 1079,
-              "height": 57
+              "x": 18,
+              "y": 25,
+              "width": 1103,
+              "height": 53
             },
             "bbox": {
-              "x": 14,
-              "y": 12,
-              "width": 1079,
-              "height": 57
+              "x": 18,
+              "y": 25,
+              "width": 1103,
+              "height": 53
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 14,
-              "y": 12,
-              "width": 1079,
-              "height": 57
+              "x": 18,
+              "y": 25,
+              "width": 1103,
+              "height": 53
             },
             "anchor_bbox": {
-              "x": 14,
-              "y": 12,
-              "width": 1079,
-              "height": 57
+              "x": 18,
+              "y": 25,
+              "width": 1103,
+              "height": 53
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "Vernham Dean, Hampshire Andover, SWT",
+          "normalized_value": "Walton Industrial Estate Stone, SWT STI5QLT",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -1246,250 +1691,45 @@
           }
         },
         "Postal Code": {
-          "value": "SP11 0JZ",
-          "raw_text": "SP110JZ",
-          "confidence": 66.75,
-          "needs_review": false,
-          "coordinates": [
-            {
-              "x": 134,
-              "y": 52,
-              "width": 65,
-              "height": 14
-            }
-          ],
-          "source_tokens": [
-            {
-              "text": "SP110JZ",
-              "x": 134,
-              "y": 52,
-              "width": 65,
-              "height": 14,
-              "confidence": 86.0,
-              "needs_review": false
-            }
-          ],
+          "value": "",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": [],
+          "source_tokens": [],
           "variant": "standard",
-          "field_region": {
-            "field_name": "Postal Code",
-            "region": {
-              "x": 134,
-              "y": 52,
-              "width": 65,
-              "height": 14
-            },
-            "bbox": {
-              "x": 134,
-              "y": 52,
-              "width": 65,
-              "height": 14
-            },
-            "anchor_label": "",
-            "anchor_coordinates": {
-              "x": 134,
-              "y": 52,
-              "width": 65,
-              "height": 14
-            },
-            "anchor_bbox": {
-              "x": 134,
-              "y": 52,
-              "width": 65,
-              "height": 14
-            },
-            "confidence": 0.7,
-            "source": "token_span"
-          },
           "targeted_ocr": {
-            "attempted": true,
-            "decision": "ACCEPTED_POSTCODE",
-            "value": "SP11 0JZ",
-            "raw_text": "SP110JZ",
-            "confidence": 66.75,
-            "votes": 10,
-            "tokens": [
-              {
-                "text": "SP110JZ",
-                "x": 134,
-                "y": 52,
-                "width": 65,
-                "height": 14,
-                "confidence": 86.0,
-                "needs_review": false
-              }
-            ],
-            "runs": [
-              {
-                "variant": "3x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "SP110JZ",
-                "cleaned": "SP11 0JZ",
-                "confidence": 74.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "SPH1OJZ",
-                "cleaned": "SPH1OJZ",
-                "confidence": 1.0,
-                "is_valid": false
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "SP110JZ",
-                "cleaned": "SP11 0JZ",
-                "confidence": 74.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "SPH1OJZ",
-                "cleaned": "SPH1OJZ",
-                "confidence": 1.0,
-                "is_valid": false
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "SP110J2",
-                "cleaned": "SP11 0JZ",
-                "confidence": 72.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "SPH1OJZ",
-                "cleaned": "SPH1OJZ",
-                "confidence": 0.0,
-                "is_valid": false
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "SP110J2",
-                "cleaned": "SP11 0JZ",
-                "confidence": 72.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "SPH1OJZ",
-                "cleaned": "SPH1OJZ",
-                "confidence": 0.0,
-                "is_valid": false
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "SPI10J2",
-                "cleaned": "SP11 0JZ",
-                "confidence": 35.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "SPIITOJZ",
-                "cleaned": "SP11T 0JZ",
-                "confidence": 0.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "SPI10J2",
-                "cleaned": "SP11 0JZ",
-                "confidence": 35.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "SPIITOJZ",
-                "cleaned": "SP11T 0JZ",
-                "confidence": 0.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "SP110JZ",
-                "cleaned": "SP11 0JZ",
-                "confidence": 86.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "SPI10JZ",
-                "cleaned": "SP11 0JZ",
-                "confidence": 0.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "SP110JZ",
-                "cleaned": "SP11 0JZ",
-                "confidence": 86.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "SPI10JZ",
-                "cleaned": "SP11 0JZ",
-                "confidence": 0.0,
-                "is_valid": true
-              }
-            ]
+            "attempted": false,
+            "decision": "FIELD_REGION_NOT_LOCATED"
           },
-          "normalized_value": "SP11 0JZ",
-          "validation": "PASS",
-          "failure_reasons": []
+          "normalized_value": "",
+          "validation": "REVIEW",
+          "failure_reasons": [
+            "MISSING_REQUIRED_FIELD",
+            "FIELD_REGION_NOT_LOCATED"
+          ]
         },
         "Country": {
           "value": "UK",
           "raw_text": "UK",
-          "confidence": 95.0,
+          "confidence": 96.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 219,
-              "y": 52,
-              "width": 20,
+              "x": 95,
+              "y": 64,
+              "width": 19,
               "height": 14
             }
           ],
           "source_tokens": [
             {
               "text": "UK",
-              "x": 219,
-              "y": 52,
-              "width": 20,
+              "x": 95,
+              "y": 64,
+              "width": 19,
               "height": 14,
-              "confidence": 95.0,
+              "confidence": 96.0,
               "needs_review": false
             }
           ],
@@ -1497,28 +1737,28 @@
           "field_region": {
             "field_name": "Country",
             "region": {
-              "x": 219,
-              "y": 52,
-              "width": 20,
+              "x": 95,
+              "y": 64,
+              "width": 19,
               "height": 14
             },
             "bbox": {
-              "x": 219,
-              "y": 52,
-              "width": 20,
+              "x": 95,
+              "y": 64,
+              "width": 19,
               "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 219,
-              "y": 52,
-              "width": 20,
+              "x": 95,
+              "y": 64,
+              "width": 19,
               "height": 14
             },
             "anchor_bbox": {
-              "x": 219,
-              "y": 52,
-              "width": 20,
+              "x": 95,
+              "y": 64,
+              "width": 19,
               "height": 14
             },
             "confidence": 0.7,
@@ -1533,25 +1773,25 @@
           }
         },
         "Service Provider": {
-          "value": "T-Mobile",
-          "raw_text": "T-Mobile",
+          "value": "Orange",
+          "raw_text": "Orange",
           "confidence": 96.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 252,
-              "y": 52,
-              "width": 65,
-              "height": 14
+              "x": 128,
+              "y": 64,
+              "width": 53,
+              "height": 18
             }
           ],
           "source_tokens": [
             {
-              "text": "T-Mobile",
-              "x": 252,
-              "y": 52,
-              "width": 65,
-              "height": 14,
+              "text": "Orange",
+              "x": 128,
+              "y": 64,
+              "width": 53,
+              "height": 18,
               "confidence": 96.0,
               "needs_review": false
             }
@@ -1560,34 +1800,34 @@
           "field_region": {
             "field_name": "Service Provider",
             "region": {
-              "x": 252,
-              "y": 52,
-              "width": 65,
-              "height": 14
+              "x": 128,
+              "y": 64,
+              "width": 53,
+              "height": 18
             },
             "bbox": {
-              "x": 252,
-              "y": 52,
-              "width": 65,
-              "height": 14
+              "x": 128,
+              "y": 64,
+              "width": 53,
+              "height": 18
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 252,
-              "y": 52,
-              "width": 65,
-              "height": 14
+              "x": 128,
+              "y": 64,
+              "width": 53,
+              "height": 18
             },
             "anchor_bbox": {
-              "x": 252,
-              "y": 52,
-              "width": 65,
-              "height": 14
+              "x": 128,
+              "y": 64,
+              "width": 53,
+              "height": 18
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "T-Mobile",
+          "normalized_value": "Orange",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -1596,56 +1836,41 @@
           }
         },
         "File Ref": {
-          "value": "Gama - 827304692",
-          "raw_text": "Gama - 827304692",
-          "confidence": 87.95,
+          "value": "Bravo - 6326362",
+          "raw_text": "Bravo 6326362",
+          "confidence": 91.5,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 332,
-              "y": 52,
-              "width": 41,
+              "x": 196,
+              "y": 64,
+              "width": 42,
               "height": 14
             },
             {
-              "x": 379,
-              "y": 60,
-              "width": 6,
-              "height": 2
-            },
-            {
-              "x": 396,
-              "y": 52,
-              "width": 78,
+              "x": 256,
+              "y": 64,
+              "width": 59,
               "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "Gama",
-              "x": 332,
-              "y": 52,
-              "width": 41,
+              "text": "Bravo",
+              "x": 196,
+              "y": 64,
+              "width": 42,
               "height": 14,
-              "confidence": 92.0,
+              "confidence": 93.0,
               "needs_review": false
             },
             {
-              "text": "-",
-              "x": 379,
-              "y": 60,
-              "width": 6,
-              "height": 2,
-              "confidence": 89.0,
-              "needs_review": false
-            },
-            {
-              "text": "827304692",
-              "x": 396,
-              "y": 52,
-              "width": 78,
+              "text": "6326362",
+              "x": 256,
+              "y": 64,
+              "width": 59,
               "height": 14,
-              "confidence": 91.0,
+              "confidence": 90.0,
               "needs_review": false
             }
           ],
@@ -1653,241 +1878,62 @@
           "field_region": {
             "field_name": "File Ref",
             "region": {
-              "x": 332,
-              "y": 52,
-              "width": 142,
+              "x": 196,
+              "y": 64,
+              "width": 119,
               "height": 14
             },
             "bbox": {
-              "x": 332,
-              "y": 52,
-              "width": 142,
+              "x": 196,
+              "y": 64,
+              "width": 119,
               "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 332,
-              "y": 52,
-              "width": 142,
+              "x": 196,
+              "y": 64,
+              "width": 119,
               "height": 14
             },
             "anchor_bbox": {
-              "x": 332,
-              "y": 52,
-              "width": 142,
+              "x": 196,
+              "y": 64,
+              "width": 119,
               "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "targeted_ocr": {
-            "attempted": true,
-            "decision": "ACCEPTED_CONSENSUS",
-            "value": "Gama - 827304692",
-            "raw_text": "Gama - 827304692",
-            "confidence": 87.95,
-            "votes": 14,
-            "tokens": [
-              {
-                "text": "Gama",
-                "x": 332,
-                "y": 52,
-                "width": 41,
-                "height": 14,
-                "confidence": 92.0,
-                "needs_review": false
-              },
-              {
-                "text": "-",
-                "x": 379,
-                "y": 60,
-                "width": 6,
-                "height": 2,
-                "confidence": 89.0,
-                "needs_review": false
-              },
-              {
-                "text": "827304692",
-                "x": 396,
-                "y": 52,
-                "width": 78,
-                "height": 14,
-                "confidence": 91.0,
-                "needs_review": false
-              }
-            ],
-            "runs": [
-              {
-                "variant": "3x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 87.33,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 87.33,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 87.33,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 87.33,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 90.33,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 86.33,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 90.33,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 86.33,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 89.67,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "Gama - 927304692",
-                "cleaned": "Gama - 927304692",
-                "confidence": 83.67,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 89.67,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "Gama - 927304692",
-                "cleaned": "Gama - 927304692",
-                "confidence": 83.67,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 90.67,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 84.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 90.67,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "Gama - 827304692",
-                "cleaned": "Gama - 827304692",
-                "confidence": 84.0,
-                "is_valid": true
-              }
-            ]
-          },
-          "normalized_value": "Gama - 827304692",
+          "normalized_value": "Bravo - 6326362",
           "validation": "PASS",
-          "failure_reasons": []
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
         },
         "Reference No": {
-          "value": "T-M95ez|&1#&$U8376",
-          "raw_text": "T-M95ez|&1#&$U8376",
-          "confidence": 20.5,
+          "value": "ORN69j1+;!+P709118",
+          "raw_text": "ORN69j1+;!+P709118",
+          "confidence": 61.75,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 498,
-              "y": 51,
-              "width": 158,
-              "height": 17
+              "x": 335,
+              "y": 64,
+              "width": 139,
+              "height": 18
             }
           ],
           "source_tokens": [
             {
-              "text": "T-M95ez|&1#&$U8376",
-              "x": 498,
-              "y": 51,
-              "width": 158,
-              "height": 17,
-              "confidence": 39.0,
+              "text": "ORN69j1+;!+P709118",
+              "x": 335,
+              "y": 64,
+              "width": 139,
+              "height": 18,
+              "confidence": 74.0,
               "needs_review": false
             }
           ],
@@ -1895,29 +1941,29 @@
           "field_region": {
             "field_name": "Reference No",
             "region": {
-              "x": 498,
-              "y": 51,
-              "width": 158,
-              "height": 18
+              "x": 335,
+              "y": 64,
+              "width": 139,
+              "height": 19
             },
             "bbox": {
-              "x": 498,
-              "y": 51,
-              "width": 158,
-              "height": 18
+              "x": 335,
+              "y": 64,
+              "width": 139,
+              "height": 19
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 498,
-              "y": 51,
-              "width": 158,
-              "height": 18
+              "x": 335,
+              "y": 64,
+              "width": 139,
+              "height": 19
             },
             "anchor_bbox": {
-              "x": 498,
-              "y": 51,
-              "width": 158,
-              "height": 18
+              "x": 335,
+              "y": 64,
+              "width": 139,
+              "height": 19
             },
             "confidence": 0.7,
             "source": "token_span"
@@ -1925,18 +1971,18 @@
           "targeted_ocr": {
             "attempted": true,
             "decision": "ACCEPTED_CONSENSUS",
-            "value": "T-M95ez|&1#&$U8376",
-            "raw_text": "T-M95ez|&1#&$U8376",
-            "confidence": 20.5,
+            "value": "ORN69j1+;!+P709118",
+            "raw_text": "ORN69j1+;!+P709118",
+            "confidence": 61.75,
             "votes": 8,
             "tokens": [
               {
-                "text": "T-M95ez|&1#&$U8376",
-                "x": 498,
-                "y": 51,
-                "width": 158,
-                "height": 17,
-                "confidence": 39.0,
+                "text": "ORN69j1+;!+P709118",
+                "x": 335,
+                "y": 64,
+                "width": 139,
+                "height": 18,
+                "confidence": 74.0,
                 "needs_review": false
               }
             ],
@@ -1945,17 +1991,17 @@
                 "variant": "3x_contrast",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "T-M95ez|&1#&$U8376",
-                "cleaned": "T-M95ez|&1#&$U8376",
-                "confidence": 39.0,
+                "raw_text": "ORN69j1+;!+P709118",
+                "cleaned": "ORN69j1+;!+P709118",
+                "confidence": 54.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_contrast",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "\u2018T-M95ez|&1#6$U8376",
-                "cleaned": "\u2018T-M95ez|&1#6$U8376",
+                "raw_text": "ORNG9j1+;!+P 709118",
+                "cleaned": "ORNG9j1+;!+P 709118",
                 "confidence": 0.0,
                 "is_valid": true
               },
@@ -1963,17 +2009,17 @@
                 "variant": "3x_contrast",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "T-M95ez|&1#&$U8376",
-                "cleaned": "T-M95ez|&1#&$U8376",
-                "confidence": 39.0,
+                "raw_text": "ORN69j1+;!+P709118",
+                "cleaned": "ORN69j1+;!+P709118",
+                "confidence": 54.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_contrast",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "\u2018T-M95ez|&1#6$U8376",
-                "cleaned": "\u2018T-M95ez|&1#6$U8376",
+                "raw_text": "ORNG9j1+;!+P 709118",
+                "cleaned": "ORNG9j1+;!+P 709118",
                 "confidence": 0.0,
                 "is_valid": true
               },
@@ -1981,17 +2027,17 @@
                 "variant": "4x_contrast",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "T-M95ez|&1#&$U8376",
-                "cleaned": "T-M95ez|&1#&$U8376",
-                "confidence": 2.0,
+                "raw_text": "ORN69j1+;!+P709118",
+                "cleaned": "ORN69j1+;!+P709118",
+                "confidence": 72.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "\u2018T-M95ez|&1#6$U8376",
-                "cleaned": "\u2018T-M95ez|&1#6$U8376",
+                "raw_text": "ORNG9j1+;!+P 709118",
+                "cleaned": "ORNG9j1+;!+P 709118",
                 "confidence": 0.0,
                 "is_valid": true
               },
@@ -1999,17 +2045,17 @@
                 "variant": "4x_contrast",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "T-M95ez|&1#&$U8376",
-                "cleaned": "T-M95ez|&1#&$U8376",
-                "confidence": 2.0,
+                "raw_text": "ORN69j1+;!+P709118",
+                "cleaned": "ORN69j1+;!+P709118",
+                "confidence": 72.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "\u2018T-M95ez|&1#6$U8376",
-                "cleaned": "\u2018T-M95ez|&1#6$U8376",
+                "raw_text": "ORNG9j1+;!+P 709118",
+                "cleaned": "ORNG9j1+;!+P 709118",
                 "confidence": 0.0,
                 "is_valid": true
               },
@@ -2017,101 +2063,101 @@
                 "variant": "4x_otsu",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "T-M95ez|&1#&$U8376",
-                "cleaned": "T-M95ez|&1#&$U8376",
-                "confidence": 0.0,
+                "raw_text": "ORN69j1+;!+P709118",
+                "cleaned": "ORN69j1+;!+P709118",
+                "confidence": 74.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_otsu",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "\u2018T-M95ez|&1#6$U8376,",
-                "cleaned": "\u2018T-M95ez|&1#6$U8376,",
-                "confidence": 0.0,
+                "raw_text": "ORNG9{1+;!+P 709118",
+                "cleaned": "ORNG9{1+;!+P 709118",
+                "confidence": 4.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_otsu",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "T-M95ez|&1#&$U8376",
-                "cleaned": "T-M95ez|&1#&$U8376",
-                "confidence": 0.0,
+                "raw_text": "ORN69j1+;!+P709118",
+                "cleaned": "ORN69j1+;!+P709118",
+                "confidence": 74.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_otsu",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "\u2018T-M95ez|&1#6$U8376,",
-                "cleaned": "\u2018T-M95ez|&1#6$U8376,",
-                "confidence": 0.0,
+                "raw_text": "ORNG9{1+;!+P 709118",
+                "cleaned": "ORNG9{1+;!+P 709118",
+                "confidence": 4.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "T-M95ez|&1#&$U8376",
-                "cleaned": "T-M95ez|&1#&$U8376",
-                "confidence": 0.0,
+                "raw_text": "ORN69j1+;!+P709118",
+                "cleaned": "ORN69j1+;!+P709118",
+                "confidence": 47.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "\u2018T-M95ez|&|#8$U8376",
-                "cleaned": "\u2018T-M95ez|&|#8$U8376",
-                "confidence": 10.0,
+                "raw_text": "ORNG9{1+;!4P 709118",
+                "cleaned": "ORNG9{1+;!4P 709118",
+                "confidence": 0.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "T-M95ez|&1#&$U8376",
-                "cleaned": "T-M95ez|&1#&$U8376",
-                "confidence": 0.0,
+                "raw_text": "ORN69j1+;!+P709118",
+                "cleaned": "ORN69j1+;!+P709118",
+                "confidence": 47.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "\u2018T-M95ez|&|#8$U8376",
-                "cleaned": "\u2018T-M95ez|&|#8$U8376",
-                "confidence": 10.0,
+                "raw_text": "ORNG9{1+;!4P 709118",
+                "cleaned": "ORNG9{1+;!4P 709118",
+                "confidence": 0.0,
                 "is_valid": true
               }
             ]
           },
-          "normalized_value": "T-M95ez|&1#&$U8376",
+          "normalized_value": "ORN69j1+;!+P709118",
           "validation": "PASS",
           "failure_reasons": []
         },
         "SIM No": {
-          "value": "SEVkoX903741414SR76",
-          "raw_text": "SEVkoX903741414SR76",
-          "confidence": 74.0,
+          "value": "LSWsxV149660418NP90",
+          "raw_text": "LSWsxV149660418NP90",
+          "confidence": 82.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 681,
-              "y": 52,
-              "width": 164,
+              "x": 490,
+              "y": 64,
+              "width": 170,
               "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "SEVkoX903741414SR76",
-              "x": 681,
-              "y": 52,
-              "width": 164,
+              "text": "LSWsxV149660418NP90",
+              "x": 490,
+              "y": 64,
+              "width": 170,
               "height": 14,
-              "confidence": 74.0,
+              "confidence": 82.0,
               "needs_review": false
             }
           ],
@@ -2119,34 +2165,34 @@
           "field_region": {
             "field_name": "SIM No",
             "region": {
-              "x": 681,
-              "y": 52,
-              "width": 164,
+              "x": 490,
+              "y": 64,
+              "width": 170,
               "height": 14
             },
             "bbox": {
-              "x": 681,
-              "y": 52,
-              "width": 164,
+              "x": 490,
+              "y": 64,
+              "width": 170,
               "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 681,
-              "y": 52,
-              "width": 164,
+              "x": 490,
+              "y": 64,
+              "width": 170,
               "height": 14
             },
             "anchor_bbox": {
-              "x": 681,
-              "y": 52,
-              "width": 164,
+              "x": 490,
+              "y": 64,
+              "width": 170,
               "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "SEVkoX903741414SR76",
+          "normalized_value": "LSWsxV149660418NP90",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -2155,26 +2201,26 @@
           }
         },
         "Network Type": {
-          "value": "\u2018CDMA+GSM",
-          "raw_text": "\u2018CDMA+GSM",
-          "confidence": 38.75,
+          "value": "GSM",
+          "raw_text": "GSM",
+          "confidence": 95.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 860,
-              "y": 52,
-              "width": 82,
+              "x": 675,
+              "y": 64,
+              "width": 30,
               "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "\u2018CDMA+GSM",
-              "x": 860,
-              "y": 52,
-              "width": 82,
+              "text": "GSM",
+              "x": 675,
+              "y": 64,
+              "width": 30,
               "height": 14,
-              "confidence": 49.0,
+              "confidence": 95.0,
               "needs_review": false
             }
           ],
@@ -2182,28 +2228,106 @@
           "field_region": {
             "field_name": "Network Type",
             "region": {
-              "x": 860,
-              "y": 52,
-              "width": 82,
+              "x": 675,
+              "y": 64,
+              "width": 30,
               "height": 14
             },
             "bbox": {
-              "x": 860,
-              "y": 52,
-              "width": 82,
+              "x": 675,
+              "y": 64,
+              "width": 30,
               "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 860,
-              "y": 52,
-              "width": 82,
+              "x": 675,
+              "y": 64,
+              "width": 30,
               "height": 14
             },
             "anchor_bbox": {
-              "x": 860,
-              "y": 52,
-              "width": 82,
+              "x": 675,
+              "y": 64,
+              "width": 30,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "GSM",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Mobile Model": {
+          "value": "Nokia 7200",
+          "raw_text": "Nokia 7200",
+          "confidence": 91.94,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 726,
+              "y": 64,
+              "width": 40,
+              "height": 14
+            },
+            {
+              "x": 772,
+              "y": 64,
+              "width": 34,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Nokia",
+              "x": 726,
+              "y": 64,
+              "width": 40,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "7200",
+              "x": 772,
+              "y": 64,
+              "width": 34,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Mobile Model",
+            "region": {
+              "x": 726,
+              "y": 64,
+              "width": 80,
+              "height": 14
+            },
+            "bbox": {
+              "x": 726,
+              "y": 64,
+              "width": 80,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 726,
+              "y": 64,
+              "width": 80,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 726,
+              "y": 64,
+              "width": 80,
               "height": 14
             },
             "confidence": 0.7,
@@ -2212,462 +2336,25 @@
           "targeted_ocr": {
             "attempted": true,
             "decision": "ACCEPTED_CONSENSUS",
-            "value": "\u2018CDMA+GSM",
-            "raw_text": "\u2018CDMA+GSM",
-            "confidence": 38.75,
-            "votes": 8,
+            "value": "Nokia 7200",
+            "raw_text": "Nokia 7200",
+            "confidence": 91.94,
+            "votes": 16,
             "tokens": [
               {
-                "text": "\u2018CDMA+GSM",
-                "x": 860,
-                "y": 52,
-                "width": 82,
+                "text": "Nokia",
+                "x": 726,
+                "y": 64,
+                "width": 40,
                 "height": 14,
-                "confidence": 49.0,
-                "needs_review": false
-              }
-            ],
-            "runs": [
-              {
-                "variant": "3x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "COMA+GSM",
-                "cleaned": "COMA+GSM",
-                "confidence": 47.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "\u2018CDMA+GSM",
-                "cleaned": "\u2018CDMA+GSM",
-                "confidence": 41.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "COMA+GSM",
-                "cleaned": "COMA+GSM",
-                "confidence": 47.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "\u2018CDMA+GSM",
-                "cleaned": "\u2018CDMA+GSM",
-                "confidence": 41.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "CDMA+GSM",
-                "cleaned": "CDMA+GSM",
-                "confidence": 90.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "\u2018CDMA+GSM",
-                "cleaned": "\u2018CDMA+GSM",
-                "confidence": 49.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "CDMA+GSM",
-                "cleaned": "CDMA+GSM",
-                "confidence": 90.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "\u2018CDMA+GSM",
-                "cleaned": "\u2018CDMA+GSM",
-                "confidence": 49.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "CDMA+GSM",
-                "cleaned": "CDMA+GSM",
-                "confidence": 75.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "\u2018CDMA+GSM",
-                "cleaned": "\u2018CDMA+GSM",
-                "confidence": 36.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "CDMA+GSM",
-                "cleaned": "CDMA+GSM",
-                "confidence": 75.0,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "\u2018CDMA+GSM",
-                "cleaned": "\u2018CDMA+GSM",
-                "confidence": 36.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 7,
-                "whitelist": false,
-                "raw_text": "COMA+GSM",
-                "cleaned": "COMA+GSM",
-                "confidence": 86.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 8,
-                "whitelist": false,
-                "raw_text": "\u2018CDMA+GSM",
-                "cleaned": "\u2018CDMA+GSM",
-                "confidence": 29.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 6,
-                "whitelist": false,
-                "raw_text": "COMA+GSM",
-                "cleaned": "COMA+GSM",
-                "confidence": 86.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 13,
-                "whitelist": false,
-                "raw_text": "\u2018CDMA+GSM",
-                "cleaned": "\u2018CDMA+GSM",
-                "confidence": 29.0,
-                "is_valid": true
-              }
-            ]
-          },
-          "normalized_value": "\u2018CDMA+GSM",
-          "validation": "PASS",
-          "failure_reasons": []
-        },
-        "Mobile Model": {
-          "value": "Nokia 2260",
-          "raw_text": "Nokia 2260",
-          "confidence": 95.0,
-          "needs_review": false,
-          "coordinates": [
-            {
-              "x": 967,
-              "y": 52,
-              "width": 41,
-              "height": 14
-            },
-            {
-              "x": 1014,
-              "y": 52,
-              "width": 33,
-              "height": 14
-            }
-          ],
-          "source_tokens": [
-            {
-              "text": "Nokia",
-              "x": 967,
-              "y": 52,
-              "width": 41,
-              "height": 14,
-              "confidence": 95.0,
-              "needs_review": false
-            },
-            {
-              "text": "2260",
-              "x": 1014,
-              "y": 52,
-              "width": 33,
-              "height": 14,
-              "confidence": 95.0,
-              "needs_review": false
-            }
-          ],
-          "variant": "standard",
-          "field_region": {
-            "field_name": "Mobile Model",
-            "region": {
-              "x": 967,
-              "y": 52,
-              "width": 80,
-              "height": 14
-            },
-            "bbox": {
-              "x": 967,
-              "y": 52,
-              "width": 80,
-              "height": 14
-            },
-            "anchor_label": "",
-            "anchor_coordinates": {
-              "x": 967,
-              "y": 52,
-              "width": 80,
-              "height": 14
-            },
-            "anchor_bbox": {
-              "x": 967,
-              "y": 52,
-              "width": 80,
-              "height": 14
-            },
-            "confidence": 0.7,
-            "source": "token_span"
-          },
-          "normalized_value": "Nokia 2260",
-          "validation": "PASS",
-          "failure_reasons": [],
-          "targeted_ocr": {
-            "attempted": false,
-            "decision": "NOT_REQUIRED"
-          }
-        },
-        "IMEI 1": {
-          "value": "099917149005542",
-          "raw_text": "099917 - 14 - 900554 - 2",
-          "confidence": 88.71,
-          "needs_review": false,
-          "coordinates": [
-            {
-              "x": 15,
-              "y": 91,
-              "width": 48,
-              "height": 14
-            },
-            {
-              "x": 69,
-              "y": 99,
-              "width": 6,
-              "height": 2
-            },
-            {
-              "x": 81,
-              "y": 91,
-              "width": 14,
-              "height": 14
-            },
-            {
-              "x": 101,
-              "y": 99,
-              "width": 6,
-              "height": 2
-            },
-            {
-              "x": 114,
-              "y": 91,
-              "width": 53,
-              "height": 14
-            },
-            {
-              "x": 173,
-              "y": 99,
-              "width": 6,
-              "height": 2
-            },
-            {
-              "x": 186,
-              "y": 91,
-              "width": 8,
-              "height": 14
-            }
-          ],
-          "source_tokens": [
-            {
-              "text": "099917",
-              "x": 15,
-              "y": 91,
-              "width": 48,
-              "height": 14,
-              "confidence": 93.0,
-              "needs_review": false
-            },
-            {
-              "text": "-",
-              "x": 69,
-              "y": 99,
-              "width": 6,
-              "height": 2,
-              "confidence": 93.0,
-              "needs_review": false
-            },
-            {
-              "text": "14",
-              "x": 81,
-              "y": 91,
-              "width": 14,
-              "height": 14,
-              "confidence": 89.0,
-              "needs_review": false
-            },
-            {
-              "text": "-",
-              "x": 101,
-              "y": 99,
-              "width": 6,
-              "height": 2,
-              "confidence": 89.0,
-              "needs_review": false
-            },
-            {
-              "text": "900554",
-              "x": 114,
-              "y": 91,
-              "width": 53,
-              "height": 14,
-              "confidence": 92.0,
-              "needs_review": false
-            },
-            {
-              "text": "-",
-              "x": 173,
-              "y": 99,
-              "width": 6,
-              "height": 2,
-              "confidence": 92.0,
-              "needs_review": false
-            },
-            {
-              "text": "2",
-              "x": 186,
-              "y": 91,
-              "width": 8,
-              "height": 14,
-              "confidence": 96.0,
-              "needs_review": false
-            }
-          ],
-          "variant": "standard",
-          "field_region": {
-            "field_name": "IMEI 1",
-            "region": {
-              "x": 15,
-              "y": 91,
-              "width": 179,
-              "height": 14
-            },
-            "bbox": {
-              "x": 15,
-              "y": 91,
-              "width": 179,
-              "height": 14
-            },
-            "anchor_label": "",
-            "anchor_coordinates": {
-              "x": 15,
-              "y": 91,
-              "width": 179,
-              "height": 14
-            },
-            "anchor_bbox": {
-              "x": 15,
-              "y": 91,
-              "width": 179,
-              "height": 14
-            },
-            "confidence": 0.7,
-            "source": "token_span"
-          },
-          "targeted_ocr": {
-            "attempted": true,
-            "decision": "ACCEPTED_STRICT_IMEI",
-            "value": "099917149005542",
-            "raw_text": "099917 - 14 - 900554 - 2",
-            "confidence": 88.71,
-            "votes": 32,
-            "tokens": [
-              {
-                "text": "099917",
-                "x": 15,
-                "y": 91,
-                "width": 48,
-                "height": 14,
-                "confidence": 93.0,
+                "confidence": 96.0,
                 "needs_review": false
               },
               {
-                "text": "-",
-                "x": 69,
-                "y": 99,
-                "width": 6,
-                "height": 2,
-                "confidence": 93.0,
-                "needs_review": false
-              },
-              {
-                "text": "14",
-                "x": 81,
-                "y": 91,
-                "width": 14,
-                "height": 14,
-                "confidence": 89.0,
-                "needs_review": false
-              },
-              {
-                "text": "-",
-                "x": 101,
-                "y": 99,
-                "width": 6,
-                "height": 2,
-                "confidence": 89.0,
-                "needs_review": false
-              },
-              {
-                "text": "900554",
-                "x": 114,
-                "y": 91,
-                "width": 53,
-                "height": 14,
-                "confidence": 92.0,
-                "needs_review": false
-              },
-              {
-                "text": "-",
-                "x": 173,
-                "y": 99,
-                "width": 6,
-                "height": 2,
-                "confidence": 92.0,
-                "needs_review": false
-              },
-              {
-                "text": "2",
-                "x": 186,
-                "y": 91,
-                "width": 8,
+                "text": "7200",
+                "x": 772,
+                "y": 64,
+                "width": 34,
                 "height": 14,
                 "confidence": 96.0,
                 "needs_review": false
@@ -2678,392 +2365,745 @@
                 "variant": "3x_contrast",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 92.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 7,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_contrast",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 86.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 8,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 89.5,
                 "is_valid": true
               },
               {
                 "variant": "3x_contrast",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 92.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 6,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_contrast",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 86.0,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_contrast",
-                "psm": 13,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 89.5,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 90.86,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 7,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 95.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 86.43,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 8,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 87.5,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 90.86,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 6,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 95.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_contrast",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 86.43,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_contrast",
-                "psm": 13,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 87.5,
                 "is_valid": true
               },
               {
                 "variant": "4x_otsu",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 89.71,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 7,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_otsu",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 86.86,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 8,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 88.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_otsu",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 89.71,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 6,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 96.0,
                 "is_valid": true
               },
               {
                 "variant": "4x_otsu",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 86.86,
-                "is_valid": true
-              },
-              {
-                "variant": "4x_otsu",
-                "psm": 13,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 88.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 7,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 90.71,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 7,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 95.5,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 8,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 87.14,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 8,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 88.0,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 6,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 90.71,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 6,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 95.5,
                 "is_valid": true
               },
               {
                 "variant": "3x_adaptive",
                 "psm": 13,
                 "whitelist": false,
-                "raw_text": "099917 - 14 - 900554 - 2",
-                "cleaned": "099917149005542",
-                "confidence": 87.14,
-                "is_valid": true
-              },
-              {
-                "variant": "3x_adaptive",
-                "psm": 13,
-                "whitelist": true,
-                "raw_text": "099917-14-900554-2",
-                "cleaned": "099917149005542",
-                "confidence": 0.0,
+                "raw_text": "Nokia 7200",
+                "cleaned": "Nokia 7200",
+                "confidence": 88.0,
                 "is_valid": true
               }
             ]
           },
-          "normalized_value": "099917149005542",
+          "normalized_value": "Nokia 7200",
           "validation": "PASS",
           "failure_reasons": []
         },
-        "IMEI 2": {
-          "value": "%S++*% - && - 259583 -6",
-          "raw_text": "%S++*% - && - 259583 -6",
-          "confidence": 65.83,
+        "IMEI 1": {
+          "value": "803511140318440",
+          "raw_text": "803511 - 14 - 031844 - 0",
+          "confidence": 84.43,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 217,
-              "y": 90,
-              "width": 56,
-              "height": 18
+              "x": 826,
+              "y": 64,
+              "width": 46,
+              "height": 14
             },
             {
-              "x": 279,
-              "y": 99,
+              "x": 879,
+              "y": 72,
               "width": 6,
               "height": 2
             },
             {
-              "x": 292,
-              "y": 91,
-              "width": 21,
+              "x": 891,
+              "y": 64,
+              "width": 14,
               "height": 14
             },
             {
-              "x": 318,
-              "y": 99,
+              "x": 911,
+              "y": 72,
               "width": 6,
               "height": 2
             },
             {
-              "x": 331,
-              "y": 91,
-              "width": 52,
+              "x": 924,
+              "y": 64,
+              "width": 51,
               "height": 14
             },
             {
-              "x": 389,
-              "y": 91,
-              "width": 15,
+              "x": 981,
+              "y": 72,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "x": 993,
+              "y": 64,
+              "width": 7,
               "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "%S++*%",
-              "x": 217,
-              "y": 90,
-              "width": 56,
-              "height": 18,
-              "confidence": 19.0,
-              "needs_review": true
+              "text": "803511",
+              "x": 826,
+              "y": 64,
+              "width": 46,
+              "height": 14,
+              "confidence": 75.0,
+              "needs_review": false
             },
             {
               "text": "-",
-              "x": 279,
-              "y": 99,
+              "x": 879,
+              "y": 72,
               "width": 6,
               "height": 2,
               "confidence": 92.0,
               "needs_review": false
             },
             {
-              "text": "&&",
-              "x": 292,
-              "y": 91,
-              "width": 21,
+              "text": "14",
+              "x": 891,
+              "y": 64,
+              "width": 14,
               "height": 14,
-              "confidence": 77.0,
+              "confidence": 92.0,
               "needs_review": false
             },
             {
               "text": "-",
-              "x": 318,
-              "y": 99,
+              "x": 911,
+              "y": 72,
               "width": 6,
               "height": 2,
-              "confidence": 77.0,
+              "confidence": 92.0,
               "needs_review": false
             },
             {
-              "text": "259583",
-              "x": 331,
-              "y": 91,
-              "width": 52,
+              "text": "031844",
+              "x": 924,
+              "y": 64,
+              "width": 51,
               "height": 14,
-              "confidence": 65.0,
+              "confidence": 91.0,
               "needs_review": false
             },
             {
-              "text": "-6",
-              "x": 389,
-              "y": 91,
-              "width": 15,
+              "text": "-",
+              "x": 981,
+              "y": 72,
+              "width": 6,
+              "height": 2,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "0",
+              "x": 993,
+              "y": 64,
+              "width": 7,
               "height": 14,
-              "confidence": 65.0,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "IMEI 1",
+            "region": {
+              "x": 826,
+              "y": 64,
+              "width": 174,
+              "height": 14
+            },
+            "bbox": {
+              "x": 826,
+              "y": 64,
+              "width": 174,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 826,
+              "y": 64,
+              "width": 174,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 826,
+              "y": 64,
+              "width": 174,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_STRICT_IMEI",
+            "value": "803511140318440",
+            "raw_text": "803511 - 14 - 031844 - 0",
+            "confidence": 84.43,
+            "votes": 32,
+            "tokens": [
+              {
+                "text": "803511",
+                "x": 826,
+                "y": 64,
+                "width": 46,
+                "height": 14,
+                "confidence": 75.0,
+                "needs_review": false
+              },
+              {
+                "text": "-",
+                "x": 879,
+                "y": 72,
+                "width": 6,
+                "height": 2,
+                "confidence": 92.0,
+                "needs_review": false
+              },
+              {
+                "text": "14",
+                "x": 891,
+                "y": 64,
+                "width": 14,
+                "height": 14,
+                "confidence": 92.0,
+                "needs_review": false
+              },
+              {
+                "text": "-",
+                "x": 911,
+                "y": 72,
+                "width": 6,
+                "height": 2,
+                "confidence": 92.0,
+                "needs_review": false
+              },
+              {
+                "text": "031844",
+                "x": 924,
+                "y": 64,
+                "width": 51,
+                "height": 14,
+                "confidence": 91.0,
+                "needs_review": false
+              },
+              {
+                "text": "-",
+                "x": 981,
+                "y": 72,
+                "width": 6,
+                "height": 2,
+                "confidence": 93.0,
+                "needs_review": false
+              },
+              {
+                "text": "0",
+                "x": 993,
+                "y": 64,
+                "width": 7,
+                "height": 14,
+                "confidence": 96.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 89.71,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 79.14,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 89.71,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 79.14,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 90.14,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 78.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 90.14,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 78.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 88.86,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 79.71,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 88.86,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 79.71,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 89.29,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 80.57,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 89.29,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "803511 - 14 - 031844 - 0",
+                "cleaned": "803511140318440",
+                "confidence": 80.57,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "803511-14-031844-0",
+                "cleaned": "803511140318440",
+                "confidence": 0.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "803511140318440",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "IMEI 2": {
+          "value": "S@&S@? - %% - 937347-1",
+          "raw_text": "S@&S@? - %% - 937347-1",
+          "confidence": 86.2,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 18,
+              "y": 102,
+              "width": 66,
+              "height": 20
+            },
+            {
+              "x": 90,
+              "y": 112,
+              "width": 6,
+              "height": 3
+            },
+            {
+              "x": 103,
+              "y": 104,
+              "width": 23,
+              "height": 14
+            },
+            {
+              "x": 132,
+              "y": 112,
+              "width": 6,
+              "height": 3
+            },
+            {
+              "x": 144,
+              "y": 104,
+              "width": 74,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "S@&S@?",
+              "x": 18,
+              "y": 102,
+              "width": 66,
+              "height": 20,
+              "confidence": 85.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 90,
+              "y": 112,
+              "width": 6,
+              "height": 3,
+              "confidence": 91.0,
+              "needs_review": false
+            },
+            {
+              "text": "%%",
+              "x": 103,
+              "y": 104,
+              "width": 23,
+              "height": 14,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 132,
+              "y": 112,
+              "width": 6,
+              "height": 3,
+              "confidence": 83.0,
+              "needs_review": false
+            },
+            {
+              "text": "937347-1",
+              "x": 144,
+              "y": 104,
+              "width": 74,
+              "height": 14,
+              "confidence": 83.0,
               "needs_review": false
             }
           ],
@@ -3071,34 +3111,34 @@
           "field_region": {
             "field_name": "IMEI 2",
             "region": {
-              "x": 217,
-              "y": 90,
-              "width": 187,
-              "height": 18
+              "x": 18,
+              "y": 102,
+              "width": 200,
+              "height": 20
             },
             "bbox": {
-              "x": 217,
-              "y": 90,
-              "width": 187,
-              "height": 18
+              "x": 18,
+              "y": 102,
+              "width": 200,
+              "height": 20
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 217,
-              "y": 90,
-              "width": 187,
-              "height": 18
+              "x": 18,
+              "y": 102,
+              "width": 200,
+              "height": 20
             },
             "anchor_bbox": {
-              "x": 217,
-              "y": 90,
-              "width": 187,
-              "height": 18
+              "x": 18,
+              "y": 102,
+              "width": 200,
+              "height": 20
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "%S++*% - && - 259583 -6",
+          "normalized_value": "S@&S@? - %% - 937347-1",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -3107,26 +3147,26 @@
           }
         },
         "Plan Type": {
-          "value": "AlacartePack",
-          "raw_text": "AlacartePack",
-          "confidence": 88.0,
+          "value": "CALLPLUS",
+          "raw_text": "CALLPLUS",
+          "confidence": 92.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 423,
-              "y": 91,
-              "width": 113,
+              "x": 238,
+              "y": 104,
+              "width": 80,
               "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "AlacartePack",
-              "x": 423,
-              "y": 91,
-              "width": 113,
+              "text": "CALLPLUS",
+              "x": 238,
+              "y": 104,
+              "width": 80,
               "height": 14,
-              "confidence": 88.0,
+              "confidence": 92.0,
               "needs_review": false
             }
           ],
@@ -3134,34 +3174,34 @@
           "field_region": {
             "field_name": "Plan Type",
             "region": {
-              "x": 423,
-              "y": 91,
-              "width": 113,
+              "x": 238,
+              "y": 104,
+              "width": 80,
               "height": 14
             },
             "bbox": {
-              "x": 423,
-              "y": 91,
-              "width": 113,
+              "x": 238,
+              "y": 104,
+              "width": 80,
               "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 423,
-              "y": 91,
-              "width": 113,
+              "x": 238,
+              "y": 104,
+              "width": 80,
               "height": 14
             },
             "anchor_bbox": {
-              "x": 423,
-              "y": 91,
-              "width": 113,
+              "x": 238,
+              "y": 104,
+              "width": 80,
               "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "AlacartePack",
+          "normalized_value": "CALLPLUS",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -3170,56 +3210,71 @@
           }
         },
         "Card Type": {
-          "value": "Master Card Silver",
-          "raw_text": "Master Card Silver",
-          "confidence": 79.33,
+          "value": "Master Card Premium Gold",
+          "raw_text": "Master Card Premium Gold",
+          "confidence": 64.5,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 555,
-              "y": 91,
-              "width": 51,
+              "x": 342,
+              "y": 104,
+              "width": 50,
               "height": 14
             },
             {
-              "x": 611,
-              "y": 91,
+              "x": 399,
+              "y": 104,
               "width": 33,
               "height": 14
             },
             {
-              "x": 651,
-              "y": 91,
-              "width": 43,
+              "x": 438,
+              "y": 104,
+              "width": 65,
+              "height": 14
+            },
+            {
+              "x": 510,
+              "y": 104,
+              "width": 32,
               "height": 14
             }
           ],
           "source_tokens": [
             {
               "text": "Master",
-              "x": 555,
-              "y": 91,
-              "width": 51,
+              "x": 342,
+              "y": 104,
+              "width": 50,
               "height": 14,
-              "confidence": 74.0,
+              "confidence": 67.0,
               "needs_review": false
             },
             {
               "text": "Card",
-              "x": 611,
-              "y": 91,
+              "x": 399,
+              "y": 104,
               "width": 33,
               "height": 14,
-              "confidence": 74.0,
-              "needs_review": false
+              "confidence": 48.0,
+              "needs_review": true
             },
             {
-              "text": "Silver",
-              "x": 651,
-              "y": 91,
-              "width": 43,
+              "text": "Premium",
+              "x": 438,
+              "y": 104,
+              "width": 65,
               "height": 14,
-              "confidence": 90.0,
+              "confidence": 48.0,
+              "needs_review": true
+            },
+            {
+              "text": "Gold",
+              "x": 510,
+              "y": 104,
+              "width": 32,
+              "height": 14,
+              "confidence": 95.0,
               "needs_review": false
             }
           ],
@@ -3227,34 +3282,34 @@
           "field_region": {
             "field_name": "Card Type",
             "region": {
-              "x": 651,
-              "y": 90,
-              "width": 281,
+              "x": 438,
+              "y": 103,
+              "width": 362,
               "height": 18
             },
             "bbox": {
-              "x": 651,
-              "y": 90,
-              "width": 281,
+              "x": 438,
+              "y": 103,
+              "width": 362,
               "height": 18
             },
             "anchor_label": "Card",
             "anchor_coordinates": {
-              "x": 611,
-              "y": 91,
+              "x": 399,
+              "y": 104,
               "width": 33,
               "height": 14
             },
             "anchor_bbox": {
-              "x": 611,
-              "y": 91,
+              "x": 399,
+              "y": 104,
               "width": 33,
               "height": 14
             },
             "confidence": 0.95,
             "source": "label_right"
           },
-          "normalized_value": "Master Card Silver",
+          "normalized_value": "Master Card Premium Gold",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -3263,26 +3318,26 @@
           }
         },
         "Contact": {
-          "value": "774",
-          "raw_text": "\u00a3774",
-          "confidence": 95.0,
+          "value": "966",
+          "raw_text": "\u00a3966",
+          "confidence": 78.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 707,
-              "y": 91,
-              "width": 35,
+              "x": 564,
+              "y": 104,
+              "width": 34,
               "height": 14
             }
           ],
           "source_tokens": [
             {
-              "text": "\u00a3774",
-              "x": 707,
-              "y": 91,
-              "width": 35,
+              "text": "\u00a3966",
+              "x": 564,
+              "y": 104,
+              "width": 34,
               "height": 14,
-              "confidence": 95.0,
+              "confidence": 78.0,
               "needs_review": false
             }
           ],
@@ -3290,34 +3345,34 @@
           "field_region": {
             "field_name": "Contact",
             "region": {
-              "x": 707,
-              "y": 91,
-              "width": 35,
+              "x": 564,
+              "y": 104,
+              "width": 34,
               "height": 14
             },
             "bbox": {
-              "x": 707,
-              "y": 91,
-              "width": 35,
+              "x": 564,
+              "y": 104,
+              "width": 34,
               "height": 14
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 707,
-              "y": 91,
-              "width": 35,
+              "x": 564,
+              "y": 104,
+              "width": 34,
               "height": 14
             },
             "anchor_bbox": {
-              "x": 707,
-              "y": 91,
-              "width": 35,
+              "x": 564,
+              "y": 104,
+              "width": 34,
               "height": 14
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "774",
+          "normalized_value": "966",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -3326,26 +3381,26 @@
           }
         },
         "Issue Date": {
-          "value": "06/03/2020",
-          "raw_text": "06/03/2020",
-          "confidence": 95.0,
+          "value": "10/07/2023",
+          "raw_text": "10/07/2023",
+          "confidence": 72.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 757,
-              "y": 90,
-              "width": 83,
+              "x": 623,
+              "y": 103,
+              "width": 80,
               "height": 18
             }
           ],
           "source_tokens": [
             {
-              "text": "06/03/2020",
-              "x": 757,
-              "y": 90,
-              "width": 83,
+              "text": "10/07/2023",
+              "x": 623,
+              "y": 103,
+              "width": 80,
               "height": 18,
-              "confidence": 95.0,
+              "confidence": 72.0,
               "needs_review": false
             }
           ],
@@ -3353,34 +3408,34 @@
           "field_region": {
             "field_name": "Issue Date",
             "region": {
-              "x": 757,
-              "y": 90,
-              "width": 83,
+              "x": 623,
+              "y": 103,
+              "width": 80,
               "height": 18
             },
             "bbox": {
-              "x": 757,
-              "y": 90,
-              "width": 83,
+              "x": 623,
+              "y": 103,
+              "width": 80,
               "height": 18
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 757,
-              "y": 90,
-              "width": 83,
+              "x": 623,
+              "y": 103,
+              "width": 80,
               "height": 18
             },
             "anchor_bbox": {
-              "x": 757,
-              "y": 90,
-              "width": 83,
+              "x": 623,
+              "y": 103,
+              "width": 80,
               "height": 18
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "06/03/2020",
+          "normalized_value": "10/07/2023",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -3389,26 +3444,26 @@
           }
         },
         "Renewal Date": {
-          "value": "06/11/2023",
-          "raw_text": "06/11/2023",
-          "confidence": 94.0,
+          "value": "10/07/2025",
+          "raw_text": "10/07/2025",
+          "confidence": 92.0,
           "needs_review": false,
           "coordinates": [
             {
-              "x": 855,
-              "y": 90,
-              "width": 77,
+              "x": 720,
+              "y": 103,
+              "width": 80,
               "height": 18
             }
           ],
           "source_tokens": [
             {
-              "text": "06/11/2023",
-              "x": 855,
-              "y": 90,
-              "width": 77,
+              "text": "10/07/2025",
+              "x": 720,
+              "y": 103,
+              "width": 80,
               "height": 18,
-              "confidence": 94.0,
+              "confidence": 92.0,
               "needs_review": false
             }
           ],
@@ -3416,34 +3471,34 @@
           "field_region": {
             "field_name": "Renewal Date",
             "region": {
-              "x": 855,
-              "y": 90,
-              "width": 77,
+              "x": 720,
+              "y": 103,
+              "width": 80,
               "height": 18
             },
             "bbox": {
-              "x": 855,
-              "y": 90,
-              "width": 77,
+              "x": 720,
+              "y": 103,
+              "width": 80,
               "height": 18
             },
             "anchor_label": "",
             "anchor_coordinates": {
-              "x": 855,
-              "y": 90,
-              "width": 77,
+              "x": 720,
+              "y": 103,
+              "width": 80,
               "height": 18
             },
             "anchor_bbox": {
-              "x": 855,
-              "y": 90,
-              "width": 77,
+              "x": 720,
+              "y": 103,
+              "width": 80,
               "height": 18
             },
             "confidence": 0.7,
             "source": "token_span"
           },
-          "normalized_value": "06/11/2023",
+          "normalized_value": "10/07/2025",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -3452,14 +3507,14 @@
           }
         },
         "Installments": {
-          "value": "31.83",
-          "raw_text": "31.83",
+          "value": "50.58",
+          "raw_text": "50.58",
           "confidence": 100.0,
           "needs_review": false,
           "coordinates": [],
           "source_tokens": [],
           "variant": "standard",
-          "normalized_value": "31.83",
+          "normalized_value": "50.58",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -3468,14 +3523,14 @@
           }
         },
         "Amount in Words": {
-          "value": "Thirty One Point Eight Three",
-          "raw_text": "Thirty One Point Eight Three",
+          "value": "Fifty Point Five Eight",
+          "raw_text": "Fifty Point Five Eight",
           "confidence": 100.0,
           "needs_review": false,
           "coordinates": [],
           "source_tokens": [],
           "variant": "standard",
-          "normalized_value": "Thirty One Point Eight Three",
+          "normalized_value": "Fifty Point Five Eight",
           "validation": "PASS",
           "failure_reasons": [],
           "targeted_ocr": {
@@ -3500,10 +3555,28 @@
           }
         }
       },
-      "MY": 36,
-      "issues": [],
-      "status": "VALIDATED",
-      "fingerprint": "eaf192e5aed91c0c1707a64920949014d0c8b1ad3ab7ae384956b587460478a4"
+      "MY": 24,
+      "issues": [
+        {
+          "field": "Postal Code",
+          "reason": "MISSING_REQUIRED_FIELD",
+          "severity": "FATAL",
+          "detail": "Postal Code is empty"
+        },
+        {
+          "field": "DOB",
+          "reason": "DOB_AFTER_ISSUE_DATE",
+          "severity": "FATAL",
+          "detail": "DOB must be before Issue Date"
+        },
+        {
+          "field": "Postal Code",
+          "reason": "FIELD_REGION_NOT_LOCATED",
+          "detail": "No field region was located for Postal Code; broad scanning is forbidden."
+        }
+      ],
+      "status": "REVIEW_REQUIRED",
+      "fingerprint": "6c7ec5c883e737e7756b36714057f19639e90a2416f9e07859cffa42f8fd1fc3"
     }
   ]
 }

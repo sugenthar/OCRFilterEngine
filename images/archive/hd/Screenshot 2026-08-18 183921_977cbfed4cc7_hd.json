@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-08-18T13:09:23.154651+00:00",
+  "source_sha256": "977cbfed4cc7a28a5e7806ab9bda96862dc320077723f12f8d4c86d474c9268c",
+  "converted_sha256": "085fabb460411c2fe57d710b146189f68f0f7fb44fe400f24fdd5a0b9c93cf0f",
+  "conversion": {
+    "source_path": "images\\inbox\\Screenshot 2026-08-18 183921.png",
+    "output_path": "images\\archive\\hd\\Screenshot 2026-08-18 183921_977cbfed4cc7_hd.png",
+    "original_size": {
+      "width": 1097,
+      "height": 118
+    },
+    "converted_size": {
+      "width": 3600,
+      "height": 387
+    },
+    "scale": 3.2817,
+    "operations": [
+      "EXIF orientation correction",
+      "Lanczos HD upscale",
+      "median noise reduction",
+      "auto contrast normalization",
+      "contrast boost",
+      "unsharp text enhancement"
+    ]
+  }
+}

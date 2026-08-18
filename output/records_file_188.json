@@ -1,0 +1,3155 @@
+{
+  "processed_at": "2026-08-18T13:34:13.208770+00:00",
+  "image": "images\\inbox\\Screenshot 2026-08-18 190351.png",
+  "converted_image": "images\\archive\\hd\\Screenshot 2026-08-18 190351_05459739178b_hd.png",
+  "conversion": {
+    "source_path": "images\\inbox\\Screenshot 2026-08-18 190351.png",
+    "output_path": "images\\archive\\hd\\Screenshot 2026-08-18 190351_05459739178b_hd.png",
+    "original_size": {
+      "width": 1102,
+      "height": 131
+    },
+    "converted_size": {
+      "width": 3600,
+      "height": 428
+    },
+    "scale": 3.2668,
+    "operations": [
+      "EXIF orientation correction",
+      "Lanczos HD upscale",
+      "median noise reduction",
+      "auto contrast normalization",
+      "contrast boost",
+      "unsharp text enhancement"
+    ]
+  },
+  "conversion_proof": {
+    "created_at": "2026-08-18T13:33:52.657697+00:00",
+    "source_sha256": "05459739178b3ab10cb3036fca2fa83b352a7b0b98d5b26f2c4de5e1760a2e0a",
+    "converted_sha256": "92220a2dad933f4339af1e1084d8812756a4906f74c07cc6d0554f6564917a23",
+    "conversion": {
+      "source_path": "images\\inbox\\Screenshot 2026-08-18 190351.png",
+      "output_path": "images\\archive\\hd\\Screenshot 2026-08-18 190351_05459739178b_hd.png",
+      "original_size": {
+        "width": 1102,
+        "height": 131
+      },
+      "converted_size": {
+        "width": 3600,
+        "height": 428
+      },
+      "scale": 3.2668,
+      "operations": [
+        "EXIF orientation correction",
+        "Lanczos HD upscale",
+        "median noise reduction",
+        "auto contrast normalization",
+        "contrast boost",
+        "unsharp text enhancement"
+      ]
+    },
+    "proof_path": "images\\archive\\hd\\Screenshot 2026-08-18 190351_05459739178b_hd.json"
+  },
+  "file_no": 188,
+  "ocr_variant": "B",
+  "image_quality": "Dimensions: 3600x428 | Brightness: 230.5 | Contrast: 72.0 | Blank: False",
+  "record_count": 1,
+  "unassigned_rows": [],
+  "records": [
+    {
+      "record_number": 1,
+      "form_no": 746,
+      "fields": {
+        "File No": {
+          "value": "188",
+          "raw_text": "",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "188",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Form No": {
+          "value": "746",
+          "raw_text": "",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "746",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Title": {
+          "value": "Mr",
+          "raw_text": "MR",
+          "confidence": 63.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 21,
+              "y": 21,
+              "width": 21,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "MR",
+              "x": 21,
+              "y": 21,
+              "width": 21,
+              "height": 14,
+              "confidence": 63.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Title",
+            "region": {
+              "x": 21,
+              "y": 21,
+              "width": 21,
+              "height": 14
+            },
+            "bbox": {
+              "x": 21,
+              "y": 21,
+              "width": 21,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 21,
+              "y": 21,
+              "width": 21,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 21,
+              "y": 21,
+              "width": 21,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Mr",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "First Name": {
+          "value": "Kashiv",
+          "raw_text": "Kashiv",
+          "confidence": 63.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 62,
+              "y": 21,
+              "width": 49,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Kashiv",
+              "x": 62,
+              "y": 21,
+              "width": 49,
+              "height": 14,
+              "confidence": 63.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "First Name",
+            "region": {
+              "x": 62,
+              "y": 21,
+              "width": 49,
+              "height": 14
+            },
+            "bbox": {
+              "x": 62,
+              "y": 21,
+              "width": 49,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 62,
+              "y": 21,
+              "width": 49,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 62,
+              "y": 21,
+              "width": 49,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Kashiv",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Last Name": {
+          "value": "Smith",
+          "raw_text": "Smith",
+          "confidence": 53.09,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 110,
+              "y": 21,
+              "width": 49,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Smith",
+              "x": 110,
+              "y": 21,
+              "width": 49,
+              "height": 14,
+              "confidence": 64.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Last Name",
+            "region": {
+              "x": 116,
+              "y": 21,
+              "width": 43,
+              "height": 14
+            },
+            "bbox": {
+              "x": 116,
+              "y": 21,
+              "width": 43,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 116,
+              "y": 21,
+              "width": 43,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 116,
+              "y": 21,
+              "width": 43,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "Smith",
+            "raw_text": "Smith",
+            "confidence": 53.09,
+            "votes": 22,
+            "tokens": [
+              {
+                "text": "Smith",
+                "x": 110,
+                "y": 21,
+                "width": 49,
+                "height": 14,
+                "confidence": 64.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 56.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 56.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018Smith",
+                "cleaned": "\u2018Smith",
+                "confidence": 76.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 59.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 56.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 56.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018Smith",
+                "cleaned": "\u2018Smith",
+                "confidence": 76.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 59.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "\u201cSmith",
+                "cleaned": "\u201cSmith",
+                "confidence": 44.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 32.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018Smith",
+                "cleaned": "\u2018Smith",
+                "confidence": 81.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 48.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "\u201cSmith",
+                "cleaned": "\u201cSmith",
+                "confidence": 44.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 32.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018Smith",
+                "cleaned": "\u2018Smith",
+                "confidence": 81.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 48.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 57.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 57.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018Smith",
+                "cleaned": "\u2018Smith",
+                "confidence": 76.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 41.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 57.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 57.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018Smith",
+                "cleaned": "\u2018Smith",
+                "confidence": 76.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 41.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 57.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 57.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018Smith",
+                "cleaned": "\u2018Smith",
+                "confidence": 72.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 64.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 57.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 57.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018Smith",
+                "cleaned": "\u2018Smith",
+                "confidence": 72.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": "Smith",
+                "cleaned": "Smith",
+                "confidence": 64.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "Smith",
+          "validation": "REVIEW",
+          "failure_reasons": [
+            "LOW_OCR_CONFIDENCE"
+          ]
+        },
+        "Initial": {
+          "value": "MKS",
+          "raw_text": "MKS",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "MKS",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Email": {
+          "value": "info@live.com",
+          "raw_text": "info@live.com",
+          "confidence": 90.25,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 183,
+              "y": 21,
+              "width": 102,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "info@live.com",
+              "x": 183,
+              "y": 21,
+              "width": 102,
+              "height": 18,
+              "confidence": 91.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Email",
+            "region": {
+              "x": 183,
+              "y": 21,
+              "width": 102,
+              "height": 18
+            },
+            "bbox": {
+              "x": 183,
+              "y": 21,
+              "width": 102,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 183,
+              "y": 21,
+              "width": 102,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 183,
+              "y": 21,
+              "width": 102,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "info@live.com",
+            "raw_text": "info@live.com",
+            "confidence": 90.25,
+            "votes": 8,
+            "tokens": [
+              {
+                "text": "info@live.com",
+                "x": 183,
+                "y": 21,
+                "width": 102,
+                "height": 18,
+                "confidence": 91.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "info@live.com",
+                "cleaned": "info@live.com",
+                "confidence": 90.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018info@live.com",
+                "cleaned": "\u2018info@live.com",
+                "confidence": 39.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "info@live.com",
+                "cleaned": "info@live.com",
+                "confidence": 90.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018info@live.com",
+                "cleaned": "\u2018info@live.com",
+                "confidence": 39.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "info@live.com",
+                "cleaned": "info@live.com",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018info@live.com",
+                "cleaned": "\u2018info@live.com",
+                "confidence": 40.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "info@live.com",
+                "cleaned": "info@live.com",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018info@live.com",
+                "cleaned": "\u2018info@live.com",
+                "confidence": 40.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "info@live.com",
+                "cleaned": "info@live.com",
+                "confidence": 89.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018info@live.com",
+                "cleaned": "\u2018info@live.com",
+                "confidence": 61.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "info@live.com",
+                "cleaned": "info@live.com",
+                "confidence": 89.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018info@live.com",
+                "cleaned": "\u2018info@live.com",
+                "confidence": 61.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "info@live.com",
+                "cleaned": "info@live.com",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018info@live.com",
+                "cleaned": "\u2018info@live.com",
+                "confidence": 53.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "info@live.com",
+                "cleaned": "info@live.com",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018info@live.com",
+                "cleaned": "\u2018info@live.com",
+                "confidence": 53.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "info@live.com",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "Father Name": {
+          "value": "Maximilian Smith",
+          "raw_text": "Maximilian Smith",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 305,
+              "y": 21,
+              "width": 79,
+              "height": 14
+            },
+            {
+              "x": 390,
+              "y": 21,
+              "width": 42,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Maximilian",
+              "x": 305,
+              "y": 21,
+              "width": 79,
+              "height": 14,
+              "confidence": 94.0,
+              "needs_review": false
+            },
+            {
+              "text": "Smith",
+              "x": 390,
+              "y": 21,
+              "width": 42,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Father Name",
+            "region": {
+              "x": 305,
+              "y": 21,
+              "width": 127,
+              "height": 14
+            },
+            "bbox": {
+              "x": 305,
+              "y": 21,
+              "width": 127,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 305,
+              "y": 21,
+              "width": 127,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 305,
+              "y": 21,
+              "width": 127,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Maximilian Smith",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "DOB": {
+          "value": "15/08/1986",
+          "raw_text": "15/08/1986",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 447,
+              "y": 20,
+              "width": 79,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "15/08/1986",
+              "x": 447,
+              "y": 20,
+              "width": 79,
+              "height": 18,
+              "confidence": 95.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "DOB",
+            "region": {
+              "x": 447,
+              "y": 20,
+              "width": 79,
+              "height": 18
+            },
+            "bbox": {
+              "x": 447,
+              "y": 20,
+              "width": 79,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 447,
+              "y": 20,
+              "width": 79,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 447,
+              "y": 20,
+              "width": 79,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "15/08/1986",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Gender": {
+          "value": "Male",
+          "raw_text": "Male",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 537,
+              "y": 21,
+              "width": 33,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Male",
+              "x": 537,
+              "y": 21,
+              "width": 33,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Gender",
+            "region": {
+              "x": 537,
+              "y": 21,
+              "width": 33,
+              "height": 14
+            },
+            "bbox": {
+              "x": 537,
+              "y": 21,
+              "width": 33,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 537,
+              "y": 21,
+              "width": 33,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 537,
+              "y": 21,
+              "width": 33,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Male",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Profession": {
+          "value": "Service",
+          "raw_text": "Service",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 581,
+              "y": 21,
+              "width": 55,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Service",
+              "x": 581,
+              "y": 21,
+              "width": 55,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Profession",
+            "region": {
+              "x": 581,
+              "y": 21,
+              "width": 55,
+              "height": 14
+            },
+            "bbox": {
+              "x": 581,
+              "y": 21,
+              "width": 55,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 581,
+              "y": 21,
+              "width": 55,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 581,
+              "y": 21,
+              "width": 55,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Service",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Mailing Street": {
+          "value": "Po Box",
+          "raw_text": "Po Box",
+          "confidence": 89.5,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 651,
+              "y": 21,
+              "width": 17,
+              "height": 14
+            },
+            {
+              "x": 674,
+              "y": 21,
+              "width": 26,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Po",
+              "x": 651,
+              "y": 21,
+              "width": 17,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            },
+            {
+              "text": "Box",
+              "x": 674,
+              "y": 21,
+              "width": 26,
+              "height": 14,
+              "confidence": 84.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Mailing Street",
+            "region": {
+              "x": 651,
+              "y": 21,
+              "width": 49,
+              "height": 14
+            },
+            "bbox": {
+              "x": 651,
+              "y": 21,
+              "width": 49,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 651,
+              "y": 21,
+              "width": 49,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 651,
+              "y": 21,
+              "width": 49,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Po Box",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "City": {
+          "value": "15, Chandlers Ford Eastleigh S053 42D",
+          "raw_text": "15, Chandlers Ford Eastleigh S053 42D",
+          "confidence": 79.17,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 699,
+              "y": 21,
+              "width": 24,
+              "height": 17
+            },
+            {
+              "x": 729,
+              "y": 21,
+              "width": 79,
+              "height": 14
+            },
+            {
+              "x": 814,
+              "y": 21,
+              "width": 31,
+              "height": 14
+            },
+            {
+              "x": 861,
+              "y": 21,
+              "width": 67,
+              "height": 18
+            },
+            {
+              "x": 948,
+              "y": 21,
+              "width": 36,
+              "height": 14
+            },
+            {
+              "x": 991,
+              "y": 21,
+              "width": 26,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "15,",
+              "x": 699,
+              "y": 21,
+              "width": 24,
+              "height": 17,
+              "confidence": 79.0,
+              "needs_review": false
+            },
+            {
+              "text": "Chandlers",
+              "x": 729,
+              "y": 21,
+              "width": 79,
+              "height": 14,
+              "confidence": 84.0,
+              "needs_review": false
+            },
+            {
+              "text": "Ford",
+              "x": 814,
+              "y": 21,
+              "width": 31,
+              "height": 14,
+              "confidence": 94.0,
+              "needs_review": false
+            },
+            {
+              "text": "Eastleigh",
+              "x": 861,
+              "y": 21,
+              "width": 67,
+              "height": 18,
+              "confidence": 94.0,
+              "needs_review": false
+            },
+            {
+              "text": "S053",
+              "x": 948,
+              "y": 21,
+              "width": 36,
+              "height": 14,
+              "confidence": 77.0,
+              "needs_review": false
+            },
+            {
+              "text": "42D",
+              "x": 991,
+              "y": 21,
+              "width": 26,
+              "height": 14,
+              "confidence": 86.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "City",
+            "region": {
+              "x": 705,
+              "y": 21,
+              "width": 312,
+              "height": 18
+            },
+            "bbox": {
+              "x": 705,
+              "y": 21,
+              "width": 312,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 705,
+              "y": 21,
+              "width": 312,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 705,
+              "y": 21,
+              "width": 312,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "15, Chandlers Ford Eastleigh S053 42D",
+            "raw_text": "15, Chandlers Ford Eastleigh S053 42D",
+            "confidence": 79.17,
+            "votes": 6,
+            "tokens": [
+              {
+                "text": "15,",
+                "x": 699,
+                "y": 21,
+                "width": 24,
+                "height": 17,
+                "confidence": 79.0,
+                "needs_review": false
+              },
+              {
+                "text": "Chandlers",
+                "x": 729,
+                "y": 21,
+                "width": 79,
+                "height": 14,
+                "confidence": 84.0,
+                "needs_review": false
+              },
+              {
+                "text": "Ford",
+                "x": 814,
+                "y": 21,
+                "width": 31,
+                "height": 14,
+                "confidence": 94.0,
+                "needs_review": false
+              },
+              {
+                "text": "Eastleigh",
+                "x": 861,
+                "y": 21,
+                "width": 67,
+                "height": 18,
+                "confidence": 94.0,
+                "needs_review": false
+              },
+              {
+                "text": "S053",
+                "x": 948,
+                "y": 21,
+                "width": 36,
+                "height": 14,
+                "confidence": 77.0,
+                "needs_review": false
+              },
+              {
+                "text": "42D",
+                "x": 991,
+                "y": 21,
+                "width": 26,
+                "height": 14,
+                "confidence": 86.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "15, Chandlers Ford Eastleigh $053 42D",
+                "cleaned": "15, Chandlers Ford Eastleigh $053 42D",
+                "confidence": 88.67,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "I,ChandlersFordEastleighSOSZD",
+                "cleaned": "I,ChandlersFordEastleighSOSZD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "15, Chandlers Ford Eastleigh S053 42D",
+                "cleaned": "15, Chandlers Ford Eastleigh S053 42D",
+                "confidence": 67.67,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": ",ChandlersFordEastleighSOSD",
+                "cleaned": "ChandlersFordEastleighSOSD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "15, Chandlers Ford Eastleigh $053 42D",
+                "cleaned": "15, Chandlers Ford Eastleigh $053 42D",
+                "confidence": 88.67,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "I,ChandlersFordEastleighSOSZD",
+                "cleaned": "I,ChandlersFordEastleighSOSZD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "15, Chandlers Ford Eastleigh S053 42D",
+                "cleaned": "15, Chandlers Ford Eastleigh S053 42D",
+                "confidence": 67.67,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": ",ChandlersFordEastleighSOSD",
+                "cleaned": "ChandlersFordEastleighSOSD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "15, Chandler s Ford Eastleigh S053 42D",
+                "cleaned": "15, Chandler s Ford Eastleigh S053 42D",
+                "confidence": 83.43,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": "I,ChandlersFordEastleighSOSZD",
+                "cleaned": "I,ChandlersFordEastleighSOSZD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "15, Chandler s Ford Eastleigh SO53 42D",
+                "cleaned": "15, Chandler s Ford Eastleigh SO53 42D",
+                "confidence": 68.86,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": ",ChandlersFordEastleighSOSZD",
+                "cleaned": "ChandlersFordEastleighSOSZD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "15, Chandler s Ford Eastleigh S053 42D",
+                "cleaned": "15, Chandler s Ford Eastleigh S053 42D",
+                "confidence": 83.43,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": "I,ChandlersFordEastleighSOSZD",
+                "cleaned": "I,ChandlersFordEastleighSOSZD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "15, Chandler s Ford Eastleigh SO53 42D",
+                "cleaned": "15, Chandler s Ford Eastleigh SO53 42D",
+                "confidence": 68.86,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": ",ChandlersFordEastleighSOSZD",
+                "cleaned": "ChandlersFordEastleighSOSZD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "15, Chandlers Ford Eastleigh S053 42D",
+                "cleaned": "15, Chandlers Ford Eastleigh S053 42D",
+                "confidence": 84.17,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": ",ChandlersFordEastleighSOZD",
+                "cleaned": "ChandlersFordEastleighSOZD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "15, Chandler s Ford Eastleigh SO53 42D",
+                "cleaned": "15, Chandler s Ford Eastleigh SO53 42D",
+                "confidence": 65.14,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": ",ChandlersFordEastleighSOSD",
+                "cleaned": "ChandlersFordEastleighSOSD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "15, Chandlers Ford Eastleigh S053 42D",
+                "cleaned": "15, Chandlers Ford Eastleigh S053 42D",
+                "confidence": 84.17,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": ",ChandlersFordEastleighSOZD",
+                "cleaned": "ChandlersFordEastleighSOZD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "15, Chandler s Ford Eastleigh SO53 42D",
+                "cleaned": "15, Chandler s Ford Eastleigh SO53 42D",
+                "confidence": 65.14,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": ",ChandlersFordEastleighSOSD",
+                "cleaned": "ChandlersFordEastleighSOSD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "15, Chandlers Ford Eastleigh S053 42D",
+                "cleaned": "15, Chandlers Ford Eastleigh S053 42D",
+                "confidence": 85.67,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": true,
+                "raw_text": ",ChandlersFordEastleighSOSZD",
+                "cleaned": "ChandlersFordEastleighSOSZD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "15, Chandler s Ford Eastleigh S053 42D",
+                "cleaned": "15, Chandler s Ford Eastleigh S053 42D",
+                "confidence": 69.29,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": true,
+                "raw_text": ",ChandlersFordEastleighSOSZD",
+                "cleaned": "ChandlersFordEastleighSOSZD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "15, Chandlers Ford Eastleigh S053 42D",
+                "cleaned": "15, Chandlers Ford Eastleigh S053 42D",
+                "confidence": 85.67,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": true,
+                "raw_text": ",ChandlersFordEastleighSOSZD",
+                "cleaned": "ChandlersFordEastleighSOSZD",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "15, Chandler s Ford Eastleigh S053 42D",
+                "cleaned": "15, Chandler s Ford Eastleigh S053 42D",
+                "confidence": 69.29,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": true,
+                "raw_text": ",ChandlersFordEastleighSOSZD",
+                "cleaned": "ChandlersFordEastleighSOSZD",
+                "confidence": 0.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "15, Chandlers Ford Eastleigh S053 42D",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "Postal Code": {
+          "value": "",
+          "raw_text": "",
+          "confidence": 0.0,
+          "needs_review": true,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "FIELD_REGION_NOT_LOCATED"
+          },
+          "normalized_value": "",
+          "validation": "REVIEW",
+          "failure_reasons": [
+            "MISSING_REQUIRED_FIELD",
+            "FIELD_REGION_NOT_LOCATED"
+          ]
+        },
+        "Country": {
+          "value": "UK",
+          "raw_text": "UK",
+          "confidence": 94.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1042,
+              "y": 21,
+              "width": 19,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "UK",
+              "x": 1042,
+              "y": 21,
+              "width": 19,
+              "height": 14,
+              "confidence": 94.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Country",
+            "region": {
+              "x": 1042,
+              "y": 21,
+              "width": 19,
+              "height": 14
+            },
+            "bbox": {
+              "x": 1042,
+              "y": 21,
+              "width": 19,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 1042,
+              "y": 21,
+              "width": 19,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 1042,
+              "y": 21,
+              "width": 19,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "UK",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Service Provider": {
+          "value": "Virgin",
+          "raw_text": "Virgin",
+          "confidence": 78.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 20,
+              "y": 60,
+              "width": 43,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Virgin",
+              "x": 20,
+              "y": 60,
+              "width": 43,
+              "height": 18,
+              "confidence": 78.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Service Provider",
+            "region": {
+              "x": 20,
+              "y": 60,
+              "width": 43,
+              "height": 18
+            },
+            "bbox": {
+              "x": 20,
+              "y": 60,
+              "width": 43,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 20,
+              "y": 60,
+              "width": 43,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 20,
+              "y": 60,
+              "width": 43,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Virgin",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "File Ref": {
+          "value": "Gama - 777862623",
+          "raw_text": "Gama 777862623",
+          "confidence": 76.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 82,
+              "y": 60,
+              "width": 41,
+              "height": 14
+            },
+            {
+              "x": 142,
+              "y": 60,
+              "width": 77,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Gama",
+              "x": 82,
+              "y": 60,
+              "width": 41,
+              "height": 14,
+              "confidence": 86.0,
+              "needs_review": false
+            },
+            {
+              "text": "777862623",
+              "x": 142,
+              "y": 60,
+              "width": 77,
+              "height": 14,
+              "confidence": 66.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "File Ref",
+            "region": {
+              "x": 82,
+              "y": 60,
+              "width": 137,
+              "height": 14
+            },
+            "bbox": {
+              "x": 82,
+              "y": 60,
+              "width": 137,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 82,
+              "y": 60,
+              "width": 137,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 82,
+              "y": 60,
+              "width": 137,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Gama - 777862623",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Reference No": {
+          "value": "Vir67jS%?;6+P419",
+          "raw_text": "Vir67jS%?;6+P419",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 237,
+              "y": 59,
+              "width": 124,
+              "height": 19
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Vir67jS%?;6+P419",
+              "x": 237,
+              "y": 59,
+              "width": 124,
+              "height": 19,
+              "confidence": 0.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Reference No",
+            "region": {
+              "x": 237,
+              "y": 58,
+              "width": 124,
+              "height": 20
+            },
+            "bbox": {
+              "x": 237,
+              "y": 58,
+              "width": 124,
+              "height": 20
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 237,
+              "y": 58,
+              "width": 124,
+              "height": 20
+            },
+            "anchor_bbox": {
+              "x": 237,
+              "y": 58,
+              "width": 124,
+              "height": 20
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "Vir67jS%?;6+P419",
+            "raw_text": "Vir67jS%?;6+P419",
+            "confidence": 0.0,
+            "votes": 2,
+            "tokens": [
+              {
+                "text": "Vir67jS%?;6+P419",
+                "x": 237,
+                "y": 59,
+                "width": 124,
+                "height": 19,
+                "confidence": 0.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Vir67jS%?;6+P419",
+                "cleaned": "Vir67jS%?;6+P419",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "Vir\u00e97)s%?$4P419",
+                "cleaned": "Vir\u00e97)s%?$4P419",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Vir67jS%?;6+P419",
+                "cleaned": "Vir67jS%?;6+P419",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "Vir\u00e97)s%?$4P419",
+                "cleaned": "Vir\u00e97)s%?$4P419",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Vir67j5%?-$+P419",
+                "cleaned": "Vir67j5%?-$+P419",
+                "confidence": 37.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "Vir\u00e97)s%?$4P419-",
+                "cleaned": "Vir\u00e97)s%?$4P419-",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Vir67j5%?-$+P419",
+                "cleaned": "Vir67j5%?-$+P419",
+                "confidence": 37.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "Vir\u00e97)s%?$4P419-",
+                "cleaned": "Vir\u00e97)s%?$4P419-",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Vir67js%?-S+P419",
+                "cleaned": "Vir67js%?-S+P419",
+                "confidence": 25.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "Vir67)s%7S+P419",
+                "cleaned": "Vir67)s%7S+P419",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Vir67js%?-S+P419",
+                "cleaned": "Vir67js%?-S+P419",
+                "confidence": 25.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "Vir67)s%7S+P419",
+                "cleaned": "Vir67)s%7S+P419",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "Vir67js%?;$+P419",
+                "cleaned": "Vir67js%?;$+P419",
+                "confidence": 13.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "Vir67)s%?$+P419-",
+                "cleaned": "Vir67)s%?$+P419-",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "Vir67js%?;$+P419",
+                "cleaned": "Vir67js%?;$+P419",
+                "confidence": 13.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "Vir67)s%?$+P419-",
+                "cleaned": "Vir67)s%?$+P419-",
+                "confidence": 0.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "Vir67jS%?;6+P419",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "SIM No": {
+          "value": "HMKwj\u00a5156974141BF90",
+          "raw_text": "HMKwj\u00a5156974141BF90",
+          "confidence": 55.5,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 377,
+              "y": 60,
+              "width": 163,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "HMKwj\u00a5156974141BF90",
+              "x": 377,
+              "y": 60,
+              "width": 163,
+              "height": 18,
+              "confidence": 79.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "SIM No",
+            "region": {
+              "x": 377,
+              "y": 60,
+              "width": 163,
+              "height": 18
+            },
+            "bbox": {
+              "x": 377,
+              "y": 60,
+              "width": 163,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 377,
+              "y": 60,
+              "width": 163,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 377,
+              "y": 60,
+              "width": 163,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "HMKwj\u00a5156974141BF90",
+            "raw_text": "HMKwj\u00a5156974141BF90",
+            "confidence": 55.5,
+            "votes": 8,
+            "tokens": [
+              {
+                "text": "HMKwj\u00a5156974141BF90",
+                "x": 377,
+                "y": 60,
+                "width": 163,
+                "height": 18,
+                "confidence": 79.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90",
+                "cleaned": "HMKwj\u00a5156974141BF90",
+                "confidence": 78.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90_",
+                "cleaned": "HMKwj\u00a5156974141BF90_",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90",
+                "cleaned": "HMKwj\u00a5156974141BF90",
+                "confidence": 78.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90_",
+                "cleaned": "HMKwj\u00a5156974141BF90_",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90",
+                "cleaned": "HMKwj\u00a5156974141BF90",
+                "confidence": 79.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90_",
+                "cleaned": "HMKwj\u00a5156974141BF90_",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90",
+                "cleaned": "HMKwj\u00a5156974141BF90",
+                "confidence": 79.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90_",
+                "cleaned": "HMKwj\u00a5156974141BF90_",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90",
+                "cleaned": "HMKwj\u00a5156974141BF90",
+                "confidence": 2.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90_",
+                "cleaned": "HMKwj\u00a5156974141BF90_",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90",
+                "cleaned": "HMKwj\u00a5156974141BF90",
+                "confidence": 2.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90_",
+                "cleaned": "HMKwj\u00a5156974141BF90_",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90",
+                "cleaned": "HMKwj\u00a5156974141BF90",
+                "confidence": 63.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "HMKwjY156974141BF90_",
+                "cleaned": "HMKwjY156974141BF90_",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "HMKwj\u00a5156974141BF90",
+                "cleaned": "HMKwj\u00a5156974141BF90",
+                "confidence": 63.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "HMKwjY156974141BF90_",
+                "cleaned": "HMKwjY156974141BF90_",
+                "confidence": 0.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "HMKwj\u00a5156974141BF90",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "Network Type": {
+          "value": "GSM",
+          "raw_text": "GSM",
+          "confidence": 92.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 560,
+              "y": 60,
+              "width": 30,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "GSM",
+              "x": 560,
+              "y": 60,
+              "width": 30,
+              "height": 14,
+              "confidence": 92.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Network Type",
+            "region": {
+              "x": 560,
+              "y": 60,
+              "width": 30,
+              "height": 14
+            },
+            "bbox": {
+              "x": 560,
+              "y": 60,
+              "width": 30,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 560,
+              "y": 60,
+              "width": 30,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 560,
+              "y": 60,
+              "width": 30,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "GSM",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Mobile Model": {
+          "value": "Nokia 6630",
+          "raw_text": "Nokia 6630",
+          "confidence": 95.5,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 606,
+              "y": 60,
+              "width": 40,
+              "height": 14
+            },
+            {
+              "x": 652,
+              "y": 60,
+              "width": 35,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Nokia",
+              "x": 606,
+              "y": 60,
+              "width": 40,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "6630",
+              "x": 652,
+              "y": 60,
+              "width": 35,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Mobile Model",
+            "region": {
+              "x": 606,
+              "y": 60,
+              "width": 81,
+              "height": 14
+            },
+            "bbox": {
+              "x": 606,
+              "y": 60,
+              "width": 81,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 606,
+              "y": 60,
+              "width": 81,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 606,
+              "y": 60,
+              "width": 81,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Nokia 6630",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "IMEI 1": {
+          "value": "789412 - 25 - 221095-7",
+          "raw_text": "789412 - 25 - 221095-7",
+          "confidence": 83.4,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 701,
+              "y": 60,
+              "width": 49,
+              "height": 14
+            },
+            {
+              "x": 756,
+              "y": 68,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "x": 768,
+              "y": 60,
+              "width": 17,
+              "height": 14
+            },
+            {
+              "x": 790,
+              "y": 68,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "x": 803,
+              "y": 60,
+              "width": 75,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "789412",
+              "x": 701,
+              "y": 60,
+              "width": 49,
+              "height": 14,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 756,
+              "y": 68,
+              "width": 6,
+              "height": 2,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "25",
+              "x": 768,
+              "y": 60,
+              "width": 17,
+              "height": 14,
+              "confidence": 74.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 790,
+              "y": 68,
+              "width": 6,
+              "height": 2,
+              "confidence": 74.0,
+              "needs_review": false
+            },
+            {
+              "text": "221095-7",
+              "x": 803,
+              "y": 60,
+              "width": 75,
+              "height": 14,
+              "confidence": 85.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "IMEI 1",
+            "region": {
+              "x": 701,
+              "y": 60,
+              "width": 177,
+              "height": 14
+            },
+            "bbox": {
+              "x": 701,
+              "y": 60,
+              "width": 177,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 701,
+              "y": 60,
+              "width": 177,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 701,
+              "y": 60,
+              "width": 177,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "789412 - 25 - 221095-7",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "IMEI 2": {
+          "value": "@!S!+%-*@ - 945614 - 0",
+          "raw_text": "@!S!+%-*@ - 945614 - 0",
+          "confidence": 88.6,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 893,
+              "y": 58,
+              "width": 82,
+              "height": 20
+            },
+            {
+              "x": 982,
+              "y": 68,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "x": 994,
+              "y": 60,
+              "width": 50,
+              "height": 14
+            },
+            {
+              "x": 1049,
+              "y": 68,
+              "width": 6,
+              "height": 2
+            },
+            {
+              "x": 1062,
+              "y": 60,
+              "width": 7,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "@!S!+%-*@",
+              "x": 893,
+              "y": 58,
+              "width": 82,
+              "height": 20,
+              "confidence": 73.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 982,
+              "y": 68,
+              "width": 6,
+              "height": 2,
+              "confidence": 91.0,
+              "needs_review": false
+            },
+            {
+              "text": "945614",
+              "x": 994,
+              "y": 60,
+              "width": 50,
+              "height": 14,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 1049,
+              "y": 68,
+              "width": 6,
+              "height": 2,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "0",
+              "x": 1062,
+              "y": 60,
+              "width": 7,
+              "height": 14,
+              "confidence": 93.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "IMEI 2",
+            "region": {
+              "x": 893,
+              "y": 58,
+              "width": 176,
+              "height": 20
+            },
+            "bbox": {
+              "x": 893,
+              "y": 58,
+              "width": 176,
+              "height": 20
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 893,
+              "y": 58,
+              "width": 176,
+              "height": 20
+            },
+            "anchor_bbox": {
+              "x": 893,
+              "y": 58,
+              "width": 176,
+              "height": 20
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "@!S!+%-*@ - 945614 - 0",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Plan Type": {
+          "value": "Ultra Plus",
+          "raw_text": "Ultra Plus",
+          "confidence": 70.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 21,
+              "y": 100,
+              "width": 35,
+              "height": 14
+            },
+            {
+              "x": 62,
+              "y": 100,
+              "width": 31,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Ultra",
+              "x": 21,
+              "y": 100,
+              "width": 35,
+              "height": 14,
+              "confidence": 70.0,
+              "needs_review": false
+            },
+            {
+              "text": "Plus",
+              "x": 62,
+              "y": 100,
+              "width": 31,
+              "height": 14,
+              "confidence": 70.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Plan Type",
+            "region": {
+              "x": 21,
+              "y": 100,
+              "width": 72,
+              "height": 14
+            },
+            "bbox": {
+              "x": 21,
+              "y": 100,
+              "width": 72,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 21,
+              "y": 100,
+              "width": 72,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 21,
+              "y": 100,
+              "width": 72,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Ultra Plus",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Card Type": {
+          "value": "Master Card PremiumGold",
+          "raw_text": "Master Card PremiumGold",
+          "confidence": 83.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 118,
+              "y": 100,
+              "width": 50,
+              "height": 14
+            },
+            {
+              "x": 174,
+              "y": 100,
+              "width": 33,
+              "height": 14
+            },
+            {
+              "x": 214,
+              "y": 100,
+              "width": 99,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Master",
+              "x": 118,
+              "y": 100,
+              "width": 50,
+              "height": 14,
+              "confidence": 87.0,
+              "needs_review": false
+            },
+            {
+              "text": "Card",
+              "x": 174,
+              "y": 100,
+              "width": 33,
+              "height": 14,
+              "confidence": 81.0,
+              "needs_review": false
+            },
+            {
+              "text": "PremiumGold",
+              "x": 214,
+              "y": 100,
+              "width": 99,
+              "height": 14,
+              "confidence": 81.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Card Type",
+            "region": {
+              "x": 214,
+              "y": 99,
+              "width": 349,
+              "height": 18
+            },
+            "bbox": {
+              "x": 214,
+              "y": 99,
+              "width": 349,
+              "height": 18
+            },
+            "anchor_label": "Card",
+            "anchor_coordinates": {
+              "x": 174,
+              "y": 100,
+              "width": 33,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 174,
+              "y": 100,
+              "width": 33,
+              "height": 14
+            },
+            "confidence": 0.95,
+            "source": "label_right"
+          },
+          "normalized_value": "Master Card PremiumGold",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Contact": {
+          "value": "770",
+          "raw_text": "\u00a3770",
+          "confidence": 94.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 335,
+              "y": 100,
+              "width": 35,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "\u00a3770",
+              "x": 335,
+              "y": 100,
+              "width": 35,
+              "height": 14,
+              "confidence": 94.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Contact",
+            "region": {
+              "x": 335,
+              "y": 100,
+              "width": 35,
+              "height": 14
+            },
+            "bbox": {
+              "x": 335,
+              "y": 100,
+              "width": 35,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 335,
+              "y": 100,
+              "width": 35,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 335,
+              "y": 100,
+              "width": 35,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "770",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Issue Date": {
+          "value": "21/09/2024",
+          "raw_text": "21/09/2024",
+          "confidence": 91.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 390,
+              "y": 99,
+              "width": 80,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "21/09/2024",
+              "x": 390,
+              "y": 99,
+              "width": 80,
+              "height": 18,
+              "confidence": 91.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Issue Date",
+            "region": {
+              "x": 390,
+              "y": 99,
+              "width": 80,
+              "height": 18
+            },
+            "bbox": {
+              "x": 390,
+              "y": 99,
+              "width": 80,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 390,
+              "y": 99,
+              "width": 80,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 390,
+              "y": 99,
+              "width": 80,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "21/09/2024",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Renewal Date": {
+          "value": "21/09/2025",
+          "raw_text": "21/09/2025",
+          "confidence": 93.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 485,
+              "y": 99,
+              "width": 78,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "21/09/2025",
+              "x": 485,
+              "y": 99,
+              "width": 78,
+              "height": 18,
+              "confidence": 93.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Renewal Date",
+            "region": {
+              "x": 485,
+              "y": 99,
+              "width": 78,
+              "height": 18
+            },
+            "bbox": {
+              "x": 485,
+              "y": 99,
+              "width": 78,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 485,
+              "y": 99,
+              "width": 78,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 485,
+              "y": 99,
+              "width": 78,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "21/09/2025",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Installments": {
+          "value": "74.49",
+          "raw_text": "74.49",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "74.49",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Amount in Words": {
+          "value": "Seventy Four Point Four Nine",
+          "raw_text": "Seventy Four Point Four Nine",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "Seventy Four Point Four Nine",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Remarks": {
+          "value": "Not Applicable",
+          "raw_text": "",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "Not Applicable",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        }
+      },
+      "MY": 12,
+      "issues": [
+        {
+          "field": "Last Name",
+          "reason": "LOW_OCR_CONFIDENCE",
+          "severity": "REVIEW",
+          "detail": "OCR confidence 53.09 is below the automatic-acceptance threshold"
+        },
+        {
+          "field": "Postal Code",
+          "reason": "MISSING_REQUIRED_FIELD",
+          "severity": "FATAL",
+          "detail": "Postal Code is empty"
+        },
+        {
+          "field": "Postal Code",
+          "reason": "FIELD_REGION_NOT_LOCATED",
+          "detail": "No field region was located for Postal Code; broad scanning is forbidden."
+        }
+      ],
+      "status": "REVIEW_REQUIRED",
+      "fingerprint": "1fdaa5e80a523980e3fc62f371e4b2bd096ed6f7107958b585dd1711f9bcdee5"
+    }
+  ]
+}

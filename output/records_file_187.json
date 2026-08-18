@@ -1,0 +1,2619 @@
+{
+  "processed_at": "2026-08-18T13:19:42.471079+00:00",
+  "image": "images\\inbox\\Screenshot 2026-08-18 184927.png",
+  "converted_image": "images\\archive\\hd\\Screenshot 2026-08-18 184927_b46a24655e97_hd.png",
+  "conversion": {
+    "source_path": "images\\inbox\\Screenshot 2026-08-18 184927.png",
+    "output_path": "images\\archive\\hd\\Screenshot 2026-08-18 184927_b46a24655e97_hd.png",
+    "original_size": {
+      "width": 1119,
+      "height": 126
+    },
+    "converted_size": {
+      "width": 3600,
+      "height": 405
+    },
+    "scale": 3.2172,
+    "operations": [
+      "EXIF orientation correction",
+      "Lanczos HD upscale",
+      "median noise reduction",
+      "auto contrast normalization",
+      "contrast boost",
+      "unsharp text enhancement"
+    ]
+  },
+  "conversion_proof": {
+    "created_at": "2026-08-18T13:19:29.528499+00:00",
+    "source_sha256": "b46a24655e9700854897f204687e1c93461538b081a43fe7267bc6754e3a1f38",
+    "converted_sha256": "e4f8c5606cfef26923cbc1b8be41451f32d50d88bdcdab368065ede1bbd4af11",
+    "conversion": {
+      "source_path": "images\\inbox\\Screenshot 2026-08-18 184927.png",
+      "output_path": "images\\archive\\hd\\Screenshot 2026-08-18 184927_b46a24655e97_hd.png",
+      "original_size": {
+        "width": 1119,
+        "height": 126
+      },
+      "converted_size": {
+        "width": 3600,
+        "height": 405
+      },
+      "scale": 3.2172,
+      "operations": [
+        "EXIF orientation correction",
+        "Lanczos HD upscale",
+        "median noise reduction",
+        "auto contrast normalization",
+        "contrast boost",
+        "unsharp text enhancement"
+      ]
+    },
+    "proof_path": "images\\archive\\hd\\Screenshot 2026-08-18 184927_b46a24655e97_hd.json"
+  },
+  "file_no": 187,
+  "ocr_variant": "A",
+  "image_quality": "Dimensions: 3600x405 | Brightness: 225.5 | Contrast: 78.1 | Blank: False",
+  "record_count": 1,
+  "unassigned_rows": [],
+  "records": [
+    {
+      "record_number": 1,
+      "form_no": 742,
+      "fields": {
+        "File No": {
+          "value": "187",
+          "raw_text": "",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "187",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Form No": {
+          "value": "742",
+          "raw_text": "",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "742",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Title": {
+          "value": "Mrs",
+          "raw_text": "Mrs",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 18,
+              "y": 14,
+              "width": 26,
+              "height": 15
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Mrs",
+              "x": 18,
+              "y": 14,
+              "width": 26,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Title",
+            "region": {
+              "x": 18,
+              "y": 14,
+              "width": 26,
+              "height": 15
+            },
+            "bbox": {
+              "x": 18,
+              "y": 14,
+              "width": 26,
+              "height": 15
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 18,
+              "y": 14,
+              "width": 26,
+              "height": 15
+            },
+            "anchor_bbox": {
+              "x": 18,
+              "y": 14,
+              "width": 26,
+              "height": 15
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Mrs",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "First Name": {
+          "value": "Samantha",
+          "raw_text": "Samantha",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 60,
+              "y": 14,
+              "width": 73,
+              "height": 15
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Samantha",
+              "x": 60,
+              "y": 14,
+              "width": 73,
+              "height": 15,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "First Name",
+            "region": {
+              "x": 60,
+              "y": 14,
+              "width": 73,
+              "height": 15
+            },
+            "bbox": {
+              "x": 60,
+              "y": 14,
+              "width": 73,
+              "height": 15
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 60,
+              "y": 14,
+              "width": 73,
+              "height": 15
+            },
+            "anchor_bbox": {
+              "x": 60,
+              "y": 14,
+              "width": 73,
+              "height": 15
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Samantha",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Last Name": {
+          "value": "Armstrong",
+          "raw_text": "Armstrong",
+          "confidence": 87.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 149,
+              "y": 14,
+              "width": 79,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Armstrong",
+              "x": 149,
+              "y": 14,
+              "width": 79,
+              "height": 18,
+              "confidence": 87.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Last Name",
+            "region": {
+              "x": 149,
+              "y": 14,
+              "width": 79,
+              "height": 18
+            },
+            "bbox": {
+              "x": 149,
+              "y": 14,
+              "width": 79,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 149,
+              "y": 14,
+              "width": 79,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 149,
+              "y": 14,
+              "width": 79,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Armstrong",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Initial": {
+          "value": "MSA",
+          "raw_text": "MSA",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "MSA",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Email": {
+          "value": "samantha.armstrong@eu.astella.com",
+          "raw_text": "samantha.armstrong@eu.astella.com",
+          "confidence": 57.14,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 247,
+              "y": 14,
+              "width": 277,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "samantha.armstrong@eu.astella.com",
+              "x": 247,
+              "y": 14,
+              "width": 277,
+              "height": 18,
+              "confidence": 91.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Email",
+            "region": {
+              "x": 246,
+              "y": 14,
+              "width": 277,
+              "height": 18
+            },
+            "bbox": {
+              "x": 246,
+              "y": 14,
+              "width": 277,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 246,
+              "y": 14,
+              "width": 277,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 246,
+              "y": 14,
+              "width": 277,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "samantha.armstrong@eu.astella.com",
+            "raw_text": "samantha.armstrong@eu.astella.com",
+            "confidence": 57.14,
+            "votes": 14,
+            "tokens": [
+              {
+                "text": "samantha.armstrong@eu.astella.com",
+                "x": 247,
+                "y": 14,
+                "width": 277,
+                "height": 18,
+                "confidence": 91.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "-samantha.armstrong@eu.astella.com",
+                "cleaned": "-samantha.armstrong@eu.astella.com",
+                "confidence": 14.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "-samantha.armstrong@eu.astella.com",
+                "cleaned": "-samantha.armstrong@eu.astella.com",
+                "confidence": 14.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 20.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 20.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 90.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 13.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 90.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 13.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 4.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 91.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "samantha.armstrong@eu.astella.com",
+                "cleaned": "samantha.armstrong@eu.astella.com",
+                "confidence": 4.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "samantha.armstrong@eu.astella.com",
+          "validation": "REVIEW",
+          "failure_reasons": [
+            "LOW_OCR_CONFIDENCE"
+          ]
+        },
+        "Father Name": {
+          "value": "Huan Armstrong",
+          "raw_text": "Huan Armstrong",
+          "confidence": 89.5,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 543,
+              "y": 14,
+              "width": 36,
+              "height": 15
+            },
+            {
+              "x": 587,
+              "y": 14,
+              "width": 77,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Huan",
+              "x": 543,
+              "y": 14,
+              "width": 36,
+              "height": 15,
+              "confidence": 86.0,
+              "needs_review": false
+            },
+            {
+              "text": "Armstrong",
+              "x": 587,
+              "y": 14,
+              "width": 77,
+              "height": 18,
+              "confidence": 93.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Father Name",
+            "region": {
+              "x": 543,
+              "y": 14,
+              "width": 121,
+              "height": 18
+            },
+            "bbox": {
+              "x": 543,
+              "y": 14,
+              "width": 121,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 543,
+              "y": 14,
+              "width": 121,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 543,
+              "y": 14,
+              "width": 121,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Huan Armstrong",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "DOB": {
+          "value": "10/01/1993",
+          "raw_text": "10/01/1993",
+          "confidence": 94.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 679,
+              "y": 13,
+              "width": 75,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "10/01/1993",
+              "x": 679,
+              "y": 13,
+              "width": 75,
+              "height": 18,
+              "confidence": 94.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "DOB",
+            "region": {
+              "x": 679,
+              "y": 13,
+              "width": 75,
+              "height": 18
+            },
+            "bbox": {
+              "x": 679,
+              "y": 13,
+              "width": 75,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 679,
+              "y": 13,
+              "width": 75,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 679,
+              "y": 13,
+              "width": 75,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "10/01/1993",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Gender": {
+          "value": "Female",
+          "raw_text": "Female",
+          "confidence": 90.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 773,
+              "y": 14,
+              "width": 54,
+              "height": 15
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Female",
+              "x": 773,
+              "y": 14,
+              "width": 54,
+              "height": 15,
+              "confidence": 90.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Gender",
+            "region": {
+              "x": 773,
+              "y": 14,
+              "width": 54,
+              "height": 15
+            },
+            "bbox": {
+              "x": 773,
+              "y": 14,
+              "width": 54,
+              "height": 15
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 773,
+              "y": 14,
+              "width": 54,
+              "height": 15
+            },
+            "anchor_bbox": {
+              "x": 773,
+              "y": 14,
+              "width": 54,
+              "height": 15
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Female",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Profession": {
+          "value": "Services",
+          "raw_text": "Services",
+          "confidence": 78.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 842,
+              "y": 14,
+              "width": 63,
+              "height": 15
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Services",
+              "x": 842,
+              "y": 14,
+              "width": 63,
+              "height": 15,
+              "confidence": 78.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Profession",
+            "region": {
+              "x": 842,
+              "y": 14,
+              "width": 63,
+              "height": 15
+            },
+            "bbox": {
+              "x": 842,
+              "y": 14,
+              "width": 63,
+              "height": 15
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 842,
+              "y": 14,
+              "width": 63,
+              "height": 15
+            },
+            "anchor_bbox": {
+              "x": 842,
+              "y": 14,
+              "width": 63,
+              "height": 15
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Services",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Mailing Street": {
+          "value": "Forston Clinic",
+          "raw_text": "Forston Clinic",
+          "confidence": 87.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 924,
+              "y": 14,
+              "width": 55,
+              "height": 15
+            },
+            {
+              "x": 986,
+              "y": 14,
+              "width": 39,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Forston",
+              "x": 924,
+              "y": 14,
+              "width": 55,
+              "height": 15,
+              "confidence": 78.0,
+              "needs_review": false
+            },
+            {
+              "text": "Clinic",
+              "x": 986,
+              "y": 14,
+              "width": 39,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Mailing Street",
+            "region": {
+              "x": 924,
+              "y": 14,
+              "width": 101,
+              "height": 15
+            },
+            "bbox": {
+              "x": 924,
+              "y": 14,
+              "width": 101,
+              "height": 15
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 924,
+              "y": 14,
+              "width": 101,
+              "height": 15
+            },
+            "anchor_bbox": {
+              "x": 924,
+              "y": 14,
+              "width": 101,
+              "height": 15
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Forston Clinic",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "City": {
+          "value": "Charminster, Dorset. Dorchester, SWT",
+          "raw_text": "Charminster, Dorset. Dorchester, SWT",
+          "confidence": 92.5,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 18,
+              "y": 53,
+              "width": 94,
+              "height": 17
+            },
+            {
+              "x": 118,
+              "y": 53,
+              "width": 52,
+              "height": 14
+            },
+            {
+              "x": 180,
+              "y": 53,
+              "width": 83,
+              "height": 17
+            },
+            {
+              "x": 270,
+              "y": 53,
+              "width": 32,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Charminster,",
+              "x": 18,
+              "y": 53,
+              "width": 94,
+              "height": 17,
+              "confidence": 93.0,
+              "needs_review": false
+            },
+            {
+              "text": "Dorset.",
+              "x": 118,
+              "y": 53,
+              "width": 52,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            },
+            {
+              "text": "Dorchester,",
+              "x": 180,
+              "y": 53,
+              "width": 83,
+              "height": 17,
+              "confidence": 91.0,
+              "needs_review": false
+            },
+            {
+              "text": "SWT",
+              "x": 270,
+              "y": 53,
+              "width": 32,
+              "height": 14,
+              "confidence": 90.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "City",
+            "region": {
+              "x": 18,
+              "y": 53,
+              "width": 284,
+              "height": 17
+            },
+            "bbox": {
+              "x": 18,
+              "y": 53,
+              "width": 284,
+              "height": 17
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 18,
+              "y": 53,
+              "width": 284,
+              "height": 17
+            },
+            "anchor_bbox": {
+              "x": 18,
+              "y": 53,
+              "width": 284,
+              "height": 17
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Charminster, Dorset. Dorchester, SWT",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Postal Code": {
+          "value": "DT2 9TB",
+          "raw_text": "DT29TB",
+          "confidence": 86.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 320,
+              "y": 53,
+              "width": 58,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "DT29TB",
+              "x": 320,
+              "y": 53,
+              "width": 58,
+              "height": 14,
+              "confidence": 86.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Postal Code",
+            "region": {
+              "x": 320,
+              "y": 53,
+              "width": 58,
+              "height": 14
+            },
+            "bbox": {
+              "x": 320,
+              "y": 53,
+              "width": 58,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 320,
+              "y": 53,
+              "width": 58,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 320,
+              "y": 53,
+              "width": 58,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "DT2 9TB",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Country": {
+          "value": "UK",
+          "raw_text": "UK",
+          "confidence": 95.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 393,
+              "y": 53,
+              "width": 20,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "UK",
+              "x": 393,
+              "y": 53,
+              "width": 20,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Country",
+            "region": {
+              "x": 393,
+              "y": 53,
+              "width": 20,
+              "height": 14
+            },
+            "bbox": {
+              "x": 393,
+              "y": 53,
+              "width": 20,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 393,
+              "y": 53,
+              "width": 20,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 393,
+              "y": 53,
+              "width": 20,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "UK",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Service Provider": {
+          "value": "02",
+          "raw_text": "02",
+          "confidence": 86.12,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 426,
+              "y": 53,
+              "width": 18,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "02",
+              "x": 426,
+              "y": 53,
+              "width": 18,
+              "height": 14,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Service Provider",
+            "region": {
+              "x": 426,
+              "y": 53,
+              "width": 18,
+              "height": 14
+            },
+            "bbox": {
+              "x": 426,
+              "y": 53,
+              "width": 18,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 426,
+              "y": 53,
+              "width": 18,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 426,
+              "y": 53,
+              "width": 18,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "02",
+            "raw_text": "02",
+            "confidence": 86.12,
+            "votes": 16,
+            "tokens": [
+              {
+                "text": "02",
+                "x": 426,
+                "y": 53,
+                "width": 18,
+                "height": 14,
+                "confidence": 96.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 78.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 96.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 78.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 94.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 85.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 94.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 85.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 94.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 75.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 94.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 75.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 94.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 73.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 94.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "02",
+                "cleaned": "02",
+                "confidence": 73.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "02",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "File Ref": {
+          "value": "Alpha - 2410252",
+          "raw_text": "Alpha 2410252",
+          "confidence": 91.5,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 458,
+              "y": 53,
+              "width": 120,
+              "height": 18
+            },
+            {
+              "x": 520,
+              "y": 53,
+              "width": 58,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Alpha",
+              "x": 458,
+              "y": 53,
+              "width": 120,
+              "height": 18,
+              "confidence": 92.0,
+              "needs_review": false
+            },
+            {
+              "text": "2410252",
+              "x": 520,
+              "y": 53,
+              "width": 58,
+              "height": 18,
+              "confidence": 91.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "File Ref",
+            "region": {
+              "x": 458,
+              "y": 53,
+              "width": 120,
+              "height": 18
+            },
+            "bbox": {
+              "x": 458,
+              "y": 53,
+              "width": 120,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 458,
+              "y": 53,
+              "width": 120,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 458,
+              "y": 53,
+              "width": 120,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Alpha - 2410252",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Reference No": {
+          "value": "\u2018O256YN&:S!+09986",
+          "raw_text": "\u2018O256YN&:S!+09986",
+          "confidence": 0.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 593,
+              "y": 52,
+              "width": 138,
+              "height": 17
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "\u2018O256YN&:S!+09986",
+              "x": 593,
+              "y": 52,
+              "width": 138,
+              "height": 17,
+              "confidence": 0.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Reference No",
+            "region": {
+              "x": 593,
+              "y": 52,
+              "width": 138,
+              "height": 17
+            },
+            "bbox": {
+              "x": 593,
+              "y": 52,
+              "width": 138,
+              "height": 17
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 593,
+              "y": 52,
+              "width": 138,
+              "height": 17
+            },
+            "anchor_bbox": {
+              "x": 593,
+              "y": 52,
+              "width": 138,
+              "height": 17
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "\u2018O256YN&:S!+09986",
+            "raw_text": "\u2018O256YN&:S!+09986",
+            "confidence": 0.0,
+            "votes": 4,
+            "tokens": [
+              {
+                "text": "\u2018O256YN&:S!+09986",
+                "x": 593,
+                "y": 52,
+                "width": 138,
+                "height": 17,
+                "confidence": 0.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "0256\u00a5N&:$!+09986",
+                "cleaned": "0256\u00a5N&:$!+09986",
+                "confidence": 34.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018O256YN&:S!+09986",
+                "cleaned": "\u2018O256YN&:S!+09986",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "0256\u00a5N&:$!+09986",
+                "cleaned": "0256\u00a5N&:$!+09986",
+                "confidence": 34.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018O256YN&:S!+09986",
+                "cleaned": "\u2018O256YN&:S!+09986",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "O256\u00a5N&S!+09986",
+                "cleaned": "O256\u00a5N&S!+09986",
+                "confidence": 43.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "\u2018O256YN&:S!+09986",
+                "cleaned": "\u2018O256YN&:S!+09986",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "O256\u00a5N&S!+09986",
+                "cleaned": "O256\u00a5N&S!+09986",
+                "confidence": 43.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "\u2018O256YN&:S!+09986",
+                "cleaned": "\u2018O256YN&:S!+09986",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "0256YN&:S!+09986",
+                "cleaned": "0256YN&:S!+09986",
+                "confidence": 67.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "O256YN&:S!+09986.",
+                "cleaned": "O256YN&:S!+09986.",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "0256YN&:S!+09986",
+                "cleaned": "0256YN&:S!+09986",
+                "confidence": 67.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "O256YN&:S!+09986.",
+                "cleaned": "O256YN&:S!+09986.",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "0256YN&S!+09986",
+                "cleaned": "0256YN&S!+09986",
+                "confidence": 42.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "O256YN&:S!+09986",
+                "cleaned": "O256YN&:S!+09986",
+                "confidence": 10.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "0256YN&S!+09986",
+                "cleaned": "0256YN&S!+09986",
+                "confidence": 42.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "O256YN&:S!+09986",
+                "cleaned": "O256YN&:S!+09986",
+                "confidence": 10.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "\u2018O256YN&:S!+09986",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "SIM No": {
+          "value": "EXQfbS297293054UA82",
+          "raw_text": "EXQfbS297293054UA82",
+          "confidence": 66.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 745,
+              "y": 53,
+              "width": 170,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "EXQfbS297293054UA82",
+              "x": 745,
+              "y": 53,
+              "width": 170,
+              "height": 14,
+              "confidence": 82.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "SIM No",
+            "region": {
+              "x": 745,
+              "y": 53,
+              "width": 170,
+              "height": 14
+            },
+            "bbox": {
+              "x": 745,
+              "y": 53,
+              "width": 170,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 745,
+              "y": 53,
+              "width": 170,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 745,
+              "y": 53,
+              "width": 170,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "targeted_ocr": {
+            "attempted": true,
+            "decision": "ACCEPTED_CONSENSUS",
+            "value": "EXQfbS297293054UA82",
+            "raw_text": "EXQfbS297293054UA82",
+            "confidence": 66.0,
+            "votes": 6,
+            "tokens": [
+              {
+                "text": "EXQfbS297293054UA82",
+                "x": 745,
+                "y": 53,
+                "width": 170,
+                "height": 14,
+                "confidence": 82.0,
+                "needs_review": false
+              }
+            ],
+            "runs": [
+              {
+                "variant": "3x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "EXQfbS297293054UA82",
+                "cleaned": "EXQfbS297293054UA82",
+                "confidence": 82.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "EXQ#bS297293054UA82_",
+                "cleaned": "EXQ#bS297293054UA82_",
+                "confidence": 13.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "EXQfbS297293054UA82",
+                "cleaned": "EXQfbS297293054UA82",
+                "confidence": 82.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "EXQ#bS297293054UA82_",
+                "cleaned": "EXQ#bS297293054UA82_",
+                "confidence": 13.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "EXQfbS297293054UA82",
+                "cleaned": "EXQfbS297293054UA82",
+                "confidence": 36.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "EXQtbS297293054UA82_",
+                "cleaned": "EXQtbS297293054UA82_",
+                "confidence": 7.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "EXQfbS297293054UA82",
+                "cleaned": "EXQfbS297293054UA82",
+                "confidence": 36.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_contrast",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "EXQtbS297293054UA82_",
+                "cleaned": "EXQtbS297293054UA82_",
+                "confidence": 7.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "EXOfbS297293054UA82",
+                "cleaned": "EXOfbS297293054UA82",
+                "confidence": 69.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "EXQ#bS297293054UA82_",
+                "cleaned": "EXQ#bS297293054UA82_",
+                "confidence": 3.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "EXOfbS297293054UA82",
+                "cleaned": "EXOfbS297293054UA82",
+                "confidence": 69.0,
+                "is_valid": true
+              },
+              {
+                "variant": "4x_otsu",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "EXQ#bS297293054UA82_",
+                "cleaned": "EXQ#bS297293054UA82_",
+                "confidence": 3.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 7,
+                "whitelist": false,
+                "raw_text": "EXQfbS297293054UA82",
+                "cleaned": "EXQfbS297293054UA82",
+                "confidence": 80.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 8,
+                "whitelist": false,
+                "raw_text": "EXQtbS297293054UA82_",
+                "cleaned": "EXQtbS297293054UA82_",
+                "confidence": 0.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 6,
+                "whitelist": false,
+                "raw_text": "EXQfbS297293054UA82",
+                "cleaned": "EXQfbS297293054UA82",
+                "confidence": 80.0,
+                "is_valid": true
+              },
+              {
+                "variant": "3x_adaptive",
+                "psm": 13,
+                "whitelist": false,
+                "raw_text": "EXQtbS297293054UA82_",
+                "cleaned": "EXQtbS297293054UA82_",
+                "confidence": 0.0,
+                "is_valid": true
+              }
+            ]
+          },
+          "normalized_value": "EXQfbS297293054UA82",
+          "validation": "PASS",
+          "failure_reasons": []
+        },
+        "Network Type": {
+          "value": "CDMA+GSM",
+          "raw_text": "CDMA+GSM",
+          "confidence": 87.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 930,
+              "y": 53,
+              "width": 82,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "CDMA+GSM",
+              "x": 930,
+              "y": 53,
+              "width": 82,
+              "height": 14,
+              "confidence": 87.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Network Type",
+            "region": {
+              "x": 930,
+              "y": 53,
+              "width": 82,
+              "height": 14
+            },
+            "bbox": {
+              "x": 930,
+              "y": 53,
+              "width": 82,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 930,
+              "y": 53,
+              "width": 82,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 930,
+              "y": 53,
+              "width": 82,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "CDMA+GSM",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Mobile Model": {
+          "value": "Nokia 7510",
+          "raw_text": "Nokia 7510",
+          "confidence": 88.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 1033,
+              "y": 53,
+              "width": 40,
+              "height": 14
+            },
+            {
+              "x": 1079,
+              "y": 53,
+              "width": 31,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "Nokia",
+              "x": 1033,
+              "y": 53,
+              "width": 40,
+              "height": 14,
+              "confidence": 81.0,
+              "needs_review": false
+            },
+            {
+              "text": "7510",
+              "x": 1079,
+              "y": 53,
+              "width": 31,
+              "height": 14,
+              "confidence": 95.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Mobile Model",
+            "region": {
+              "x": 1033,
+              "y": 53,
+              "width": 77,
+              "height": 14
+            },
+            "bbox": {
+              "x": 1033,
+              "y": 53,
+              "width": 77,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 1033,
+              "y": 53,
+              "width": 77,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 1033,
+              "y": 53,
+              "width": 77,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "Nokia 7510",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "IMEI 1": {
+          "value": "886311 - 53 - 735364-9",
+          "raw_text": "886311 - 53 - 735364-9",
+          "confidence": 78.6,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 116,
+              "y": 93,
+              "width": 177,
+              "height": 15
+            },
+            {
+              "x": 169,
+              "y": 90,
+              "width": 6,
+              "height": 22
+            },
+            {
+              "x": 182,
+              "y": 90,
+              "width": 15,
+              "height": 22
+            },
+            {
+              "x": 205,
+              "y": 90,
+              "width": 6,
+              "height": 22
+            },
+            {
+              "x": 218,
+              "y": 93,
+              "width": 75,
+              "height": 15
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "886311",
+              "x": 116,
+              "y": 93,
+              "width": 177,
+              "height": 15,
+              "confidence": 58.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 169,
+              "y": 90,
+              "width": 6,
+              "height": 22,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "53",
+              "x": 182,
+              "y": 90,
+              "width": 15,
+              "height": 22,
+              "confidence": 79.0,
+              "needs_review": false
+            },
+            {
+              "text": "-",
+              "x": 205,
+              "y": 90,
+              "width": 6,
+              "height": 22,
+              "confidence": 79.0,
+              "needs_review": false
+            },
+            {
+              "text": "735364-9",
+              "x": 218,
+              "y": 93,
+              "width": 75,
+              "height": 15,
+              "confidence": 88.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "IMEI 1",
+            "region": {
+              "x": 116,
+              "y": 90,
+              "width": 177,
+              "height": 22
+            },
+            "bbox": {
+              "x": 116,
+              "y": 90,
+              "width": 177,
+              "height": 22
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 116,
+              "y": 90,
+              "width": 177,
+              "height": 22
+            },
+            "anchor_bbox": {
+              "x": 116,
+              "y": 90,
+              "width": 177,
+              "height": 22
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "886311 - 53 - 735364-9",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "IMEI 2": {
+          "value": "@S$*I&! - $&- 335643-0",
+          "raw_text": "@S$*I&! - $&- 335643-0",
+          "confidence": 70.25,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 309,
+              "y": 91,
+              "width": 185,
+              "height": 20
+            },
+            {
+              "x": 363,
+              "y": 90,
+              "width": 9,
+              "height": 22
+            },
+            {
+              "x": 380,
+              "y": 90,
+              "width": 28,
+              "height": 22
+            },
+            {
+              "x": 416,
+              "y": 91,
+              "width": 78,
+              "height": 20
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "@S$*I&!",
+              "x": 309,
+              "y": 91,
+              "width": 185,
+              "height": 20,
+              "confidence": 42.0,
+              "needs_review": true
+            },
+            {
+              "text": "-",
+              "x": 363,
+              "y": 90,
+              "width": 9,
+              "height": 22,
+              "confidence": 89.0,
+              "needs_review": false
+            },
+            {
+              "text": "$&-",
+              "x": 380,
+              "y": 90,
+              "width": 28,
+              "height": 22,
+              "confidence": 75.0,
+              "needs_review": false
+            },
+            {
+              "text": "335643-0",
+              "x": 416,
+              "y": 91,
+              "width": 78,
+              "height": 20,
+              "confidence": 75.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "IMEI 2",
+            "region": {
+              "x": 309,
+              "y": 90,
+              "width": 185,
+              "height": 22
+            },
+            "bbox": {
+              "x": 309,
+              "y": 90,
+              "width": 185,
+              "height": 22
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 309,
+              "y": 90,
+              "width": 185,
+              "height": 22
+            },
+            "anchor_bbox": {
+              "x": 309,
+              "y": 90,
+              "width": 185,
+              "height": 22
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "@S$*I&! - $&- 335643-0",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Plan Type": {
+          "value": "SMSPro",
+          "raw_text": "SMSPro",
+          "confidence": 89.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 509,
+              "y": 93,
+              "width": 61,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "SMSPro",
+              "x": 509,
+              "y": 93,
+              "width": 61,
+              "height": 14,
+              "confidence": 89.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Plan Type",
+            "region": {
+              "x": 509,
+              "y": 93,
+              "width": 61,
+              "height": 14
+            },
+            "bbox": {
+              "x": 509,
+              "y": 93,
+              "width": 61,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 509,
+              "y": 93,
+              "width": 61,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 509,
+              "y": 93,
+              "width": 61,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "SMSPro",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Card Type": {
+          "value": "MasterCard Gold",
+          "raw_text": "MasterCard Gold",
+          "confidence": 86.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 589,
+              "y": 93,
+              "width": 89,
+              "height": 15
+            },
+            {
+              "x": 685,
+              "y": 93,
+              "width": 31,
+              "height": 15
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "MasterCard",
+              "x": 589,
+              "y": 93,
+              "width": 89,
+              "height": 15,
+              "confidence": 86.0,
+              "needs_review": false
+            },
+            {
+              "text": "Gold",
+              "x": 685,
+              "y": 93,
+              "width": 31,
+              "height": 15,
+              "confidence": 86.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Card Type",
+            "region": {
+              "x": 589,
+              "y": 93,
+              "width": 127,
+              "height": 15
+            },
+            "bbox": {
+              "x": 589,
+              "y": 93,
+              "width": 127,
+              "height": 15
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 589,
+              "y": 93,
+              "width": 127,
+              "height": 15
+            },
+            "anchor_bbox": {
+              "x": 589,
+              "y": 93,
+              "width": 127,
+              "height": 15
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "MasterCard Gold",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Contact": {
+          "value": "606",
+          "raw_text": "\u00a3606",
+          "confidence": 85.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 731,
+              "y": 93,
+              "width": 36,
+              "height": 14
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "\u00a3606",
+              "x": 731,
+              "y": 93,
+              "width": 36,
+              "height": 14,
+              "confidence": 85.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Contact",
+            "region": {
+              "x": 731,
+              "y": 93,
+              "width": 36,
+              "height": 14
+            },
+            "bbox": {
+              "x": 731,
+              "y": 93,
+              "width": 36,
+              "height": 14
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 731,
+              "y": 93,
+              "width": 36,
+              "height": 14
+            },
+            "anchor_bbox": {
+              "x": 731,
+              "y": 93,
+              "width": 36,
+              "height": 14
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "606",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Issue Date": {
+          "value": "09/08/2022",
+          "raw_text": "09/08/2022",
+          "confidence": 96.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 782,
+              "y": 92,
+              "width": 83,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "09/08/2022",
+              "x": 782,
+              "y": 92,
+              "width": 83,
+              "height": 18,
+              "confidence": 96.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Issue Date",
+            "region": {
+              "x": 782,
+              "y": 92,
+              "width": 83,
+              "height": 18
+            },
+            "bbox": {
+              "x": 782,
+              "y": 92,
+              "width": 83,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 782,
+              "y": 92,
+              "width": 83,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 782,
+              "y": 92,
+              "width": 83,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "09/08/2022",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Renewal Date": {
+          "value": "09/08/2023",
+          "raw_text": "09/08/2023",
+          "confidence": 87.0,
+          "needs_review": false,
+          "coordinates": [
+            {
+              "x": 889,
+              "y": 92,
+              "width": 82,
+              "height": 18
+            }
+          ],
+          "source_tokens": [
+            {
+              "text": "09/08/2023",
+              "x": 889,
+              "y": 92,
+              "width": 82,
+              "height": 18,
+              "confidence": 87.0,
+              "needs_review": false
+            }
+          ],
+          "variant": "standard",
+          "field_region": {
+            "field_name": "Renewal Date",
+            "region": {
+              "x": 889,
+              "y": 92,
+              "width": 82,
+              "height": 18
+            },
+            "bbox": {
+              "x": 889,
+              "y": 92,
+              "width": 82,
+              "height": 18
+            },
+            "anchor_label": "",
+            "anchor_coordinates": {
+              "x": 889,
+              "y": 92,
+              "width": 82,
+              "height": 18
+            },
+            "anchor_bbox": {
+              "x": 889,
+              "y": 92,
+              "width": 82,
+              "height": 18
+            },
+            "confidence": 0.7,
+            "source": "token_span"
+          },
+          "normalized_value": "09/08/2023",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Installments": {
+          "value": "60.83",
+          "raw_text": "60.83",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "60.83",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Amount in Words": {
+          "value": "Sixty Point Eight Three",
+          "raw_text": "Sixty Point Eight Three",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "Sixty Point Eight Three",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        },
+        "Remarks": {
+          "value": "Not Applicable",
+          "raw_text": "",
+          "confidence": 100.0,
+          "needs_review": false,
+          "coordinates": [],
+          "source_tokens": [],
+          "variant": "standard",
+          "normalized_value": "Not Applicable",
+          "validation": "PASS",
+          "failure_reasons": [],
+          "targeted_ocr": {
+            "attempted": false,
+            "decision": "NOT_REQUIRED"
+          }
+        }
+      },
+      "MY": 12,
+      "issues": [
+        {
+          "field": "Email",
+          "reason": "LOW_OCR_CONFIDENCE",
+          "severity": "REVIEW",
+          "detail": "OCR confidence 57.14 is below the automatic-acceptance threshold"
+        }
+      ],
+      "status": "REVIEW_REQUIRED",
+      "fingerprint": "ec1820085fe6b53967c1e1c0dbc6472f21b8f869ab2d6f582c4da166f320d037"
+    }
+  ]
+}

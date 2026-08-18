@@ -17,7 +17,7 @@ is_entering := false
 ; Scanned record 1 (VALIDATED)
 scanned_records[1] := {
     field_names: ["File No", "Form No", "Title", "First Name", "Last Name", "Initial", "Email", "Father Name", "DOB", "Gender", "Profession", "Mailing Street", "City", "Postal Code", "Country", "Service Provider", "File Ref", "Reference No", "SIM No", "Network Type", "Mobile Model", "IMEI 1", "IMEI 2", "Plan Type", "Card Type", "Contact", "Issue Date", "Renewal Date", "Installments", "Amount in Words", "Remarks"],
-    values: ["186", "737", "Ms", "Laura", "Askham", "MLA", "laura.askham@btinternet.com", "K. M.Askham", "14/07/1970", "Female", "Fixed Income", "Dean House", "Vernham Dean, Hampshire Andover, SWT", "SP11 0JZ", "UK", "T-Mobile", "Gama - 827304692", "T-M95ez|&1#&$U8376", "SEVkoX903741414SR76", "‘CDMA+GSM", "Nokia 2260", "099917149005542", "%S++*% - && - 259583 -6", "AlacartePack", "Master Card Silver", "774", "06/03/2020", "06/11/2023", "31.83", "Thirty One Point Eight Three", "Not Applicable"],
+    values: ["190", "754", "Prof", "Bal", "Garcha", "PBG", "bal.garcha@kepplestonemanor.com", "Rory Garcha", "27/04/1991", "Male", "Unemployed", "Kings Mills", "Derby, Derbyshire", "DE74 2RR", "England", "Vodafone", "Alpha-057964860", "Vfonel7iy!`"#&%:10", "TVOtgX855138352RE88", "GSM", "Siemens UI0", "540206 - 69 - 321695 - 0", "S#SS&@ -!+ - 914406-1", "SMS Value ++", "Master Card Premium Gold", "473", "09/05/2024", "09/05/2026", "30.03", "Thirty Point Zero Three", "Not Applicable"],
     status: "VALIDATED"
 }
 
